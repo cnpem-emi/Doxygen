@@ -10,7 +10,9 @@
 
 6. Substitua os diretórios locais do logo e arquivo .css (doxygen-awesome, desse mesmo repositório do github) caso deseje maior personalização (encontre no arquivo: PROJECT_LOGO e HTML_STYLESHEET, no doxyfile.txt).
 
-7. Edite outras configurações do doxifile.txt conforme suas preferências. 
+7. Edite outras configurações do doxifile.txt conforme suas preferências.
+   
+9. Acesse a documentação em html/index no diretório de saída definido por você. 
 
 
 Outros tutoriais para que o leitor possa buscar mais formas de adquirir conhecimento sobre esta ferramenta podem ser encontrados abaixo: 
