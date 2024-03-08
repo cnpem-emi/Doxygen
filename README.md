@@ -1,6 +1,6 @@
-Download do Doxygen: https://www.doxygen.nl/download.html 
+1. Download do Doxygen: https://www.doxygen.nl/download.html 
 
-Download do GraphViz:  https://graphviz.org/download/ 
+2. Download do GraphViz:  https://graphviz.org/download/ 
 
 
 
