@@ -1,0 +1,33 @@
+<map id="bin/spi/common.h" name="bin/spi/common.h">
+<area shape="rect" id="Node000001" title="Common declarations for SPI operations." alt="" coords="694,5,818,32"/>
+<area shape="rect" id="Node000002" href="$i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="427,80,551,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="696,39,537,82,535,77,694,34"/>
+<area shape="rect" id="Node000012" href="$fan_8c.html" title="Main starting point for fan RPM sensor module." alt="" coords="575,80,678,107"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="721,42,650,82,648,77,719,38"/>
+<area shape="rect" id="Node000013" href="$leak_8c.html" title="Main starting point for fan RPM sensor module." alt="" coords="701,80,810,107"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="758,48,758,80,753,80,753,48"/>
+<area shape="rect" id="Node000014" href="$volt_8c.html" title="Main starting point for AC board module." alt="" coords="834,80,939,107"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="793,38,865,77,862,82,790,42"/>
+<area shape="rect" id="Node000015" href="$spi_2common_8c.html" title="Common functions for SPI operations." alt="" coords="963,80,1087,107"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="818,34,978,77,977,82,816,39"/>
+<area shape="rect" id="Node000003" href="$bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="196,155,403,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="443,115,334,157,332,152,441,110"/>
+<area shape="rect" id="Node000007" href="$i2c_2common_8c.html" title="Common functions for I2C operations." alt="" coords="427,155,551,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="492,122,492,154,486,154,486,122"/>
+<area shape="rect" id="Node000008" href="$sht3x_8h.html" title="Sensirion SHT driver interface." alt="" coords="575,155,696,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="529,111,611,152,609,156,527,116"/>
+<area shape="rect" id="Node000004" href="$bme280_2common_2common_8c.html" title="Common functions for BMx device operation on AM335x." alt="" coords="5,229,213,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="253,190,143,231,142,226,251,185"/>
+<area shape="rect" id="Node000005" href="$bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="399,229,510,256"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="342,186,428,226,426,231,339,191"/>
+<area shape="rect" id="Node000006" href="$wireless_8c.html" title="Main starting point for wireless SIMAR." alt="" coords="236,229,369,256"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="303,197,305,229,299,229,298,197"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="591,190,487,231,485,226,589,185"/>
+<area shape="rect" id="Node000009" href="$sht3x_2common_2common_8h.html" title=" " alt="" coords="538,229,731,256"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="638,197,637,229,632,229,632,197"/>
+<area shape="rect" id="Node000011" href="$sht3x_8c.html" title="Sensirion SHT3x driver implementation." alt="" coords="708,304,830,331"/>
+<area shape="poly" id="edge12_Node000008_Node000011" title=" " alt="" coords="689,186,719,203,746,228,757,247,765,267,771,303,766,304,759,269,752,249,742,231,716,208,686,190"/>
+<area shape="rect" id="Node000010" href="$sht3x_2common_2common_8c.html" title=" " alt="" coords="491,304,684,331"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="620,271,598,305,593,302,616,268"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="672,261,747,301,744,306,670,266"/>
+</map>

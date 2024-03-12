@@ -1,0 +1,19 @@
+<map id="bmp2_get_regs" name="bmp2_get_regs">
+<area shape="rect" id="Node000001" title="This API reads the data from the given register address of the sensor." alt="" coords="338,107,448,133"/>
+<area shape="rect" id="Node000002" href="$bmp2_8c.html#a73193f9bbf43c9382387ee2f015ec249" title="This API reads the data from the ctrl_meas register and config register. It gives the currently set t..." alt="" coords="151,5,271,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="363,98,329,71,289,46,262,35,264,30,291,42,332,67,367,94"/>
+<area shape="rect" id="Node000004" href="$bmp2_8c.html#afe41fceea8a9ab4f6e42cecc4aaf1012" title="This API reads the power mode." alt="" coords="132,56,290,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="327,104,261,86,262,81,328,99"/>
+<area shape="rect" id="Node000005" href="$bmp2_8c.html#ae2d2b6da40da3fa026f1bbb35fc03af8" title="This API reads the pressure and temperature data from the sensor, compensates the data and store it i..." alt="" coords="133,157,289,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="328,141,262,159,261,154,327,136"/>
+<area shape="rect" id="Node000007" href="$bmp2_8c.html#ad63ef55fdf01fdcaa8fffebbc6976b7a" title="This API reads the status register." alt="" coords="150,208,272,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="367,146,332,173,291,198,264,210,262,205,289,194,329,169,363,142"/>
+<area shape="rect" id="Node000008" href="$bmp2_8c.html#a6d7f2b136c16014c6564a78e24507c81" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="172,107,250,133"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="322,123,250,123,250,117,322,117"/>
+<area shape="rect" id="Node000003" href="$utils_2_b_m_p280_2common_2common_8c.html#ad8891d2db76c9957ba85df5220de463a" title="Initializes and configures sensor." alt="" coords="9,95,80,121"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,40,133,46,94,71,63,96,60,92,91,67,130,42,143,36"/>
+<area shape="rect" id="Node000006" href="$utils_2_b_m_p280_2common_2common_8c.html#a9e90f5cde057a32a982156e59815475a" title="Reads temperature/pressure data." alt="" coords="5,171,84,197"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="118,181,84,184,84,178,117,175"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="135,207,84,195,85,190,136,202"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="156,119,80,113,80,108,156,113"/>
+</map>

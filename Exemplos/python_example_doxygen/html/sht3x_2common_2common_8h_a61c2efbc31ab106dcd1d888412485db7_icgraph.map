@@ -1,0 +1,22 @@
+<map id="sensirion_i2c_read_words" name="sensirion_i2c_read_words">
+<area shape="rect" id="Node000001" title="Read data words from sensor." alt="" coords="755,99,884,141"/>
+<area shape="rect" id="Node000002" href="$sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa" title="Send a command, wait for the sensor to process and read data back." alt="" coords="557,59,707,101"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="739,106,707,99,708,93,740,100"/>
+<area shape="rect" id="Node000009" href="$group__sht3x_sensor_data.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="589,136,675,163"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="740,135,675,145,675,140,739,130"/>
+<area shape="rect" id="Node000003" href="$sht3x_2common_2common_8c.html#ade8479d9748d07974f8e7e88c166e381" title="Reads data words from the sensor after a command is issued." alt="" coords="348,5,509,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="544,56,475,35,477,30,545,51"/>
+<area shape="rect" id="Node000005" href="$sht3x_8c.html#a4aae0d3756e7554f9ee2921e52fcdaac" title="Read the sensor status word." alt="" coords="368,56,489,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="542,78,490,75,490,70,542,73"/>
+<area shape="rect" id="Node000006" href="$group__sht3x_init.html#ga76f706a73188d8e19e2ba03ca1e1dba2" title="Detects if a sensor is connected by reading out the ID register." alt="" coords="383,107,475,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="543,100,476,114,474,108,542,95"/>
+<area shape="rect" id="Node000004" href="$group__sht3x_sensor_settings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="134,5,269,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="332,21,270,21,270,16,332,16"/>
+<area shape="rect" id="Node000007" href="$group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="163,107,240,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="367,123,241,123,241,117,367,117"/>
+<area shape="rect" id="Node000008" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,132,55,159"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="148,131,55,144,55,139,147,125"/>
+<area shape="rect" id="Node000010" href="$group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="103,157,300,184"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="574,155,300,168,300,163,574,149"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="92,157,55,152,56,146,93,152"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="parse_device_settings" name="parse_device_settings">
+<area shape="rect" id="Node000001" title="This internal API parse the oversampling(pressure, temperature and humidity), filter and standby dura..." alt="" coords="700,31,849,57"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#af3bef90d33942197a98715ea8657211f" title="This API gets the oversampling, filter and standby duration (normal mode) settings from the sensor." alt="" coords="460,5,652,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="684,36,652,32,652,27,685,31"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#ae471e9fce32acbe04f6fa20d7d80a50f" title="This internal API puts the device to sleep mode." alt="" coords="487,56,625,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="685,57,626,64,625,59,684,52"/>
+<area shape="rect" id="Node000004" href="$bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="228,31,405,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="471,63,405,56,406,51,471,58"/>
+<area shape="rect" id="Node000007" href="$bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="221,81,412,108"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="472,81,413,87,412,82,471,76"/>
+<area shape="rect" id="Node000005" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,56,173,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="213,61,174,67,173,62,212,56"/>
+<area shape="rect" id="Node000006" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="205,81,173,77,174,72,206,76"/>
+</map>

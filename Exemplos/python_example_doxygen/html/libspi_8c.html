@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/utils/SPIxxCONPy3/spixxcon_library/libspi.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_a9cf92d56779a2f9b16a27b78cbf8852.html">SPIxxCONPy3</a></li><li class="navelem"><a class="el" href="dir_f1e8b24a127144b132c874bea113f75c.html">spixxcon_library</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo libspi.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;Python.h&gt;</code><br />
+<code>#include &lt;fcntl.h&gt;</code><br />
+<code>#include &lt;getopt.h&gt;</code><br />
+<code>#include &lt;linux/spi/spidev.h&gt;</code><br />
+<code>#include &lt;linux/types.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;sys/ioctl.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para libspi.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="libspi_8c__incl.png" border="0" usemap="#abin_2utils_2_s_p_ixx_c_o_n_py3_2spixxcon__library_2libspi_8c" alt=""/></div>
+<map name="abin_2utils_2_s_p_ixx_c_o_n_py3_2spixxcon__library_2libspi_8c" id="abin_2utils_2_s_p_ixx_c_o_n_py3_2spixxcon__library_2libspi_8c">
+<area shape="rect" title=" " alt="" coords="439,5,603,48"/>
+<area shape="rect" title=" " alt="" coords="5,96,79,123"/>
+<area shape="poly" title=" " alt="" coords="438,42,283,65,94,98,93,93,282,60,438,36"/>
+<area shape="rect" title=" " alt="" coords="103,96,160,123"/>
+<area shape="poly" title=" " alt="" coords="438,44,318,67,175,98,174,93,317,62,437,39"/>
+<area shape="rect" title=" " alt="" coords="184,96,252,123"/>
+<area shape="poly" title=" " alt="" coords="443,51,268,98,266,92,442,46"/>
+<area shape="rect" title=" " alt="" coords="277,96,397,123"/>
+<area shape="poly" title=" " alt="" coords="474,51,380,92,378,87,472,46"/>
+<area shape="rect" title=" " alt="" coords="421,96,516,123"/>
+<area shape="poly" title=" " alt="" coords="510,50,487,84,483,81,505,47"/>
+<area shape="rect" title=" " alt="" coords="541,96,605,123"/>
+<area shape="poly" title=" " alt="" coords="536,47,558,81,554,84,532,50"/>
+<area shape="rect" title=" " alt="" coords="629,96,690,123"/>
+<area shape="poly" title=" " alt="" coords="558,46,626,86,623,90,555,51"/>
+<area shape="rect" title=" " alt="" coords="713,96,776,123"/>
+<area shape="poly" title=" " alt="" coords="579,46,700,89,698,94,577,51"/>
+<area shape="rect" title=" " alt="" coords="800,96,881,123"/>
+<area shape="poly" title=" " alt="" coords="604,46,785,91,784,97,602,51"/>
+<area shape="rect" title=" " alt="" coords="906,96,973,123"/>
+<area shape="poly" title=" " alt="" coords="604,39,735,61,891,93,890,98,734,67,603,44"/>
+</map>
+</div>
+</div>
+<p><a href="libspi_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a33a4f6baf6a745f56c74eb921c25e1db" id="r_a33a4f6baf6a745f56c74eb921c25e1db"><td class="memItemLeft" align="right" valign="top">PyMODINIT_FUNC&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33a4f6baf6a745f56c74eb921c25e1db">PyInit_spicon</a> (void)</td></tr>
+<tr class="separator:a33a4f6baf6a745f56c74eb921c25e1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="a33a4f6baf6a745f56c74eb921c25e1db" name="a33a4f6baf6a745f56c74eb921c25e1db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a4f6baf6a745f56c74eb921c25e1db">&#9670;&#160;</a></span>PyInit_spicon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PyMODINIT_FUNC PyInit_spicon </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="libspi_8c_source.html#l00085">85</a> do arquivo <a class="el" href="libspi_8c_source.html">libspi.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   85</span>                                   {</div>
+<div class="line"><span class="lineno">   86</span>  <span class="keywordflow">return</span> PyModule_Create(&amp;spicon);</div>
+<div class="line"><span class="lineno">   87</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<map id="sensirion_bytes_to_uint32_t" name="sensirion_bytes_to_uint32_t">
+<area shape="rect" id="Node000001" title="Convert an array of bytes to an uint32_t." alt="" coords="184,35,314,77"/>
+<area shape="rect" id="Node000002" href="$sht3x_2common_2common_8c.html#a01192172544da8fde336393e674f1cbf" title="Convert an array of bytes to a float." alt="" coords="5,5,136,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,45,136,40,137,35,169,40"/>
+<area shape="rect" id="Node000003" href="$sht3x_8c.html#af90d87bffcb72c50d35776f03f2277dd" title="Read out the serial number." alt="" coords="9,72,132,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,72,133,78,132,73,168,67"/>
+</map>

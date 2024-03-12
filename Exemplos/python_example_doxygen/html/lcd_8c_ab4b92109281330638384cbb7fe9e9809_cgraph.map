@@ -1,0 +1,11 @@
+<map id="lcd_print_char" name="lcd_print_char">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,108,83"/>
+<area shape="rect" id="Node000002" href="$lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="156,56,228,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,67,140,67,140,72,108,72"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="276,5,385,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,54,277,35,279,40,230,59"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="279,56,383,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="229,67,263,67,263,72,229,72"/>
+<area shape="rect" id="Node000005" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="287,107,375,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="230,80,279,98,277,103,228,85"/>
+</map>

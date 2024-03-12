@@ -1,0 +1,13 @@
+<map id="bin/utils/BMP280/common/common.h" name="bin/utils/BMP280/common/common.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="46,5,220,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,135,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,50,91,85,87,82,114,47"/>
+<area shape="rect" id="Node000003" href="$bmp2_8h.html" title="Sensor driver for BMP2 sensor." alt="" coords="159,96,235,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,47,179,82,175,85,147,50"/>
+<area shape="rect" id="Node000004" href="$bmp2__defs_8h.html" title="Sensor driver for BMP2 sensor." alt="" coords="149,171,244,197"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="199,123,199,155,194,155,194,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="119,245,186,272"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="191,199,170,233,166,231,187,196"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="210,245,274,272"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="207,196,228,231,224,233,202,199"/>
+</map>

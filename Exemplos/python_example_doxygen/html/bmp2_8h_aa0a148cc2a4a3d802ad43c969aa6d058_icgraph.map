@@ -1,0 +1,7 @@
+<map id="bmp2_compensate_data" name="bmp2_compensate_data">
+<area shape="rect" id="Node000001" title="This API is used to compensate the pressure and temperature data." alt="" coords="336,5,499,32"/>
+<area shape="rect" id="Node000002" href="$bmp2_8c.html#ae2d2b6da40da3fa026f1bbb35fc03af8" title="This API reads the pressure and temperature data from the sensor, compensates the data and store it i..." alt="" coords="132,5,288,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="321,21,288,21,288,16,321,16"/>
+<area shape="rect" id="Node000003" href="$utils_2_b_m_p280_2common_2common_8c.html#a9e90f5cde057a32a982156e59815475a" title="Reads temperature/pressure data." alt="" coords="5,5,84,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,21,84,21,84,16,116,16"/>
+</map>

@@ -1,0 +1,43 @@
+<map id="sht3x_read_serial" name="sht3x_read_serial">
+<area shape="rect" id="Node000001" title="Read out the serial number." alt="" coords="5,187,129,213"/>
+<area shape="rect" id="Node000002" href="$i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073" title="Delays execution for n us." alt="" coords="450,5,523,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,184,121,148,175,110,243,79,313,55,434,25,435,30,314,60,245,84,178,114,124,152,84,188"/>
+<area shape="rect" id="Node000003" href="$sht3x_2common_2common_8c.html#a0b4b0315d1dccbc6f4bfa597efdc9db6" title="Convert an array of bytes to an uint32_t." alt="" coords="193,267,324,309"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,211,178,252,190,258,188,263,176,257,93,216"/>
+<area shape="rect" id="Node000004" href="$sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f" title="Read data words as byte&#45;stream from sensor." alt="" coords="194,124,323,167"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,184,178,165,180,171,117,189"/>
+<area shape="rect" id="Node000016" href="$sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21" title="writes a command to the sensor" alt="" coords="177,216,340,243"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="129,207,162,212,161,217,129,212"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="280,121,326,81,387,42,434,25,435,30,389,46,330,85,283,126"/>
+<area shape="rect" id="Node000005" href="$group__i2cMux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="432,107,542,133"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="323,136,416,125,416,130,323,141"/>
+<area shape="rect" id="Node000012" href="$group__i2cMux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="908,157,993,184"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="323,145,892,166,892,171,323,150"/>
+<area shape="rect" id="Node000013" href="$group__i2cComm.html#ga6ba6684ba5f02aa62901972aa6fd3258" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="452,56,522,83"/>
+<area shape="poly" id="edge15_Node000004_Node000013" title=" " alt="" coords="310,121,387,92,436,78,438,83,389,97,312,126"/>
+<area shape="rect" id="Node000014" href="$sht3x_2common_2common_8c.html#a11043f668d9df89dc698a0edcdeb3efe" title=" " alt="" coords="388,208,585,235"/>
+<area shape="poly" id="edge16_Node000004_Node000014" title=" " alt="" coords="324,165,389,187,429,200,427,205,387,192,322,170"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="687,56,792,83"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="542,106,671,80,672,85,543,112"/>
+<area shape="rect" id="Node000011" href="$group__spiComm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="695,107,784,133"/>
+<area shape="poly" id="edge11_Node000005_Node000011" title=" " alt="" coords="542,117,680,117,680,123,542,123"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="894,56,1007,83"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="793,67,879,67,879,72,793,72"/>
+<area shape="rect" id="Node000008" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="894,107,1007,133"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="793,79,846,92,879,100,878,105,845,97,792,84"/>
+<area shape="rect" id="Node000009" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="1055,157,1164,184"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="996,131,1052,150,1050,155,994,137"/>
+<area shape="rect" id="Node000010" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="1058,107,1162,133"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="1007,117,1042,117,1042,123,1007,123"/>
+<area shape="poly" id="edge13_Node000012_Node000009" title=" " alt="" coords="994,168,1039,168,1039,173,994,173"/>
+<area shape="poly" id="edge14_Node000012_Node000010" title=" " alt="" coords="993,155,1050,136,1052,141,994,160"/>
+<area shape="rect" id="Node000015" href="$sht3x_2common_2common_8c.html#a28a16b2a8660de84fbad96f237a6dabf" title=" " alt="" coords="633,237,846,264"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="586,230,618,234,618,239,585,235"/>
+<area shape="poly" id="edge19_Node000016_Node000005" title=" " alt="" coords="287,213,442,138,444,143,289,218"/>
+<area shape="poly" id="edge20_Node000016_Node000012" title=" " alt="" coords="319,241,342,253,357,268,365,284,374,299,389,311,416,322,440,327,483,327,528,319,585,311,660,309,720,309,777,300,808,290,844,274,870,257,893,237,929,195,933,199,897,241,873,262,847,278,810,295,778,306,720,314,661,314,586,316,529,324,484,332,440,333,415,327,387,316,370,302,361,287,353,271,338,257,317,246"/>
+<area shape="rect" id="Node000017" href="$group__i2cComm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="451,376,523,403"/>
+<area shape="poly" id="edge21_Node000016_Node000017" title=" " alt="" coords="324,241,342,253,354,266,361,279,367,305,372,331,379,343,390,355,412,369,436,379,434,384,409,374,386,359,374,346,367,333,361,307,356,281,349,269,338,257,321,245"/>
+<area shape="rect" id="Node000018" href="$sht3x_2common_2common_8c.html#a9a2b5bc64139a84b4011ba94873e47b8" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="425,259,549,301"/>
+<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="323,241,410,260,409,265,321,246"/>
+<area shape="poly" id="edge23_Node000018_Node000015" title=" " alt="" coords="549,270,617,262,618,267,550,275"/>
+</map>

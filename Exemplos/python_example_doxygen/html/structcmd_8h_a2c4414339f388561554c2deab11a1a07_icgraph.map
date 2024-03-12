@@ -1,0 +1,63 @@
+<map id="open" name="open">
+<area shape="rect" id="Node000001" title="Opens a file descriptor." alt="" coords="602,208,651,235"/>
+<area shape="rect" id="Node000002" href="$bbb__dac_8c.html#ab8bce0a58e0f4fa9e5a894b2cb09046a" title=" " alt="" coords="469,5,529,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="618,193,597,121,578,81,552,46,527,30,530,25,556,42,582,78,601,119,623,192"/>
+<area shape="rect" id="Node000004" href="$fan_8c.html#a04e958e4f09a5b709be1b2605c2e3085" title=" " alt="" coords="465,157,533,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="586,209,533,187,535,182,588,204"/>
+<area shape="rect" id="Node000006" href="$volt_8c.html#a1f2829e8ec43eeb4838ce9cd1db322ce" title="Gets glitch count, frequency and duty cycle information from the PRU." alt="" coords="448,208,550,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="587,224,551,224,551,219,587,219"/>
+<area shape="rect" id="Node000008" href="$group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a" title="Opens communication with the I2C bus at a given address." alt="" coords="462,487,536,513"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="615,250,509,487,504,485,610,248"/>
+<area shape="rect" id="Node000010" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,473,55,500"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="628,250,625,305,615,377,593,455,577,492,556,527,522,568,488,595,449,613,397,629,314,653,278,660,243,663,210,661,176,653,140,638,101,615,74,590,54,558,32,502,37,500,58,556,78,586,104,611,143,634,178,648,211,656,243,658,277,655,312,648,396,624,447,608,486,590,518,565,551,524,572,490,588,453,609,376,619,305,623,250"/>
+<area shape="rect" id="Node000014" href="$spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="444,323,554,349"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="603,248,555,293,519,324,515,320,552,289,599,244"/>
+<area shape="rect" id="Node000021" href="$group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="276,233,349,260"/>
+<area shape="poly" id="edge35_Node000001_Node000021" title=" " alt="" coords="588,240,554,249,498,256,442,257,349,253,349,248,442,252,498,250,553,244,586,235"/>
+<area shape="rect" id="Node000025" href="$bbb__dac_8c.html#a950c527a1a2c3b7a365f8f2927b38f39" title=" " alt="" coords="463,56,535,83"/>
+<area shape="poly" id="edge31_Node000001_Node000025" title=" " alt="" coords="613,194,589,145,572,119,552,97,534,84,537,80,555,93,576,116,594,142,617,192"/>
+<area shape="rect" id="Node000026" href="$bbb__dac_8c.html#a37fb5f77b399f3f5d847b62d0005f276" title=" " alt="" coords="458,107,540,133"/>
+<area shape="poly" id="edge33_Node000001_Node000026" title=" " alt="" coords="603,198,580,172,552,147,533,136,536,132,555,143,584,168,607,194"/>
+<area shape="rect" id="Node000003" href="$bbb__dac_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="288,56,337,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="455,33,338,65,337,60,454,28"/>
+<area shape="rect" id="Node000005" href="$fan_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="288,132,337,159"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="449,167,337,151,338,146,450,161"/>
+<area shape="rect" id="Node000007" href="$volt_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="288,183,337,209"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="432,215,337,202,338,197,433,210"/>
+<area shape="rect" id="Node000009" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="106,448,177,475"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="447,488,396,477,276,466,177,464,177,458,276,461,397,472,448,483"/>
+<area shape="rect" id="Node000011" href="$utils_2_b_m_p280_2common_2common_8c.html#a199e01b1f976b8ad36284d3c4ef89e08" title="Function to select the interface between SPI and I2C." alt="" coords="228,588,396,615"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="470,525,398,572,356,590,354,585,395,567,467,520"/>
+<area shape="rect" id="Node000013" href="$group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="103,499,180,525"/>
+<area shape="poly" id="edge12_Node000008_Node000013" title=" " alt="" coords="448,518,397,528,312,534,228,528,180,522,181,517,228,523,312,528,396,523,447,513"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="91,475,56,484,55,479,90,470"/>
+<area shape="rect" id="Node000012" href="$utils_2_b_m_p280_2common_2common_8c.html#ad8891d2db76c9957ba85df5220de463a" title="Initializes and configures sensor." alt="" coords="106,575,177,601"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="212,596,177,593,177,588,213,591"/>
+<area shape="poly" id="edge13_Node000013_Node000010" title=" " alt="" coords="87,502,55,495,56,490,88,497"/>
+<area shape="rect" id="Node000015" href="$dht_8c.html#ab90bbb546cb27122d1e381c020dcbf17" title=" " alt="" coords="263,335,362,361"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="429,343,362,348,362,342,429,338"/>
+<area shape="rect" id="Node000017" href="$group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605" title="Configures pins for the digital interface board multiplexing function." alt="" coords="260,487,365,513"/>
+<area shape="poly" id="edge18_Node000014_Node000017" title=" " alt="" coords="473,362,331,488,327,484,469,358"/>
+<area shape="rect" id="Node000018" href="$lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD." alt="" coords="110,284,173,311"/>
+<area shape="poly" id="edge22_Node000014_Node000018" title=" " alt="" coords="429,329,396,325,173,303,173,297,397,320,429,324"/>
+<area shape="rect" id="Node000020" href="$wireless_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="288,385,337,412"/>
+<area shape="poly" id="edge24_Node000014_Node000020" title=" " alt="" coords="448,358,397,376,338,394,336,389,395,371,446,353"/>
+<area shape="poly" id="edge25_Node000014_Node000021" title=" " alt="" coords="461,317,395,281,348,262,350,257,397,276,464,312"/>
+<area shape="rect" id="Node000016" href="$_d_h_t_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="117,385,166,412"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="251,369,167,394,166,389,249,364"/>
+<area shape="poly" id="edge19_Node000017_Node000009" title=" " alt="" coords="244,487,176,472,178,467,245,482"/>
+<area shape="poly" id="edge20_Node000017_Node000012" title=" " alt="" coords="272,523,170,576,168,572,269,519"/>
+<area shape="poly" id="edge21_Node000017_Node000013" title=" " alt="" coords="244,507,180,512,180,507,244,502"/>
+<area shape="rect" id="Node000019" href="$_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,284,55,311"/>
+<area shape="poly" id="edge23_Node000018_Node000019" title=" " alt="" coords="94,300,55,300,55,295,94,295"/>
+<area shape="poly" id="edge30_Node000021_Node000010" title=" " alt="" coords="275,270,174,330,104,375,83,400,65,427,40,474,35,471,60,424,79,397,101,371,171,326,272,266"/>
+<area shape="poly" id="edge29_Node000021_Node000018" title=" " alt="" coords="262,264,173,291,172,286,260,259"/>
+<area shape="rect" id="Node000022" href="$adc_8c.html#a25a40b6614565f755233080a384c35f1" title=" " alt="" coords="107,183,176,209"/>
+<area shape="poly" id="edge26_Node000021_Node000022" title=" " alt="" coords="260,234,175,209,177,203,261,229"/>
+<area shape="rect" id="Node000024" href="$dac_8c.html#aabaf12ceced11b357899dd7c580ee4c1" title=" " alt="" coords="107,233,176,260"/>
+<area shape="poly" id="edge28_Node000021_Node000024" title=" " alt="" coords="260,249,176,249,176,244,260,244"/>
+<area shape="rect" id="Node000023" href="$adc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,183,55,209"/>
+<area shape="poly" id="edge27_Node000022_Node000023" title=" " alt="" coords="92,199,55,199,55,193,92,193"/>
+<area shape="poly" id="edge32_Node000025_Node000003" title=" " alt="" coords="448,72,337,72,337,67,448,67"/>
+<area shape="poly" id="edge34_Node000026_Node000003" title=" " alt="" coords="442,108,336,78,338,73,444,102"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="command_listener" name="command_listener">
+<area shape="rect" id="Node000001" title="Listens for commands sent to the Redis key on the main server." alt="" coords="5,81,133,108"/>
+<area shape="rect" id="Node000002" href="$volt_8c.html#a2bfbe66ec6ac66ff12e9bb015aaaf5f6" title="Connects to remote Redis server (or exits, in case none are available)" alt="" coords="181,56,295,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,82,165,78,166,83,134,88"/>
+<area shape="rect" id="Node000003" href="$group__spi_module.html#gaae72590a50e1e0f2724816e414aa4299" title="Writes digital data at given address." alt="" coords="198,107,278,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,102,183,109,182,114,133,107"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="658,5,767,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="269,104,294,92,342,67,417,35,451,25,496,16,571,10,642,10,642,16,572,15,497,21,452,30,419,40,344,72,296,97,272,109"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="660,81,765,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="278,120,424,126,517,125,609,117,650,110,651,115,610,123,517,130,424,132,278,126"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="343,81,448,108"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="278,111,328,103,329,108,279,116"/>
+<area shape="rect" id="Node000009" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="372,183,420,209"/>
+<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="269,132,359,176,357,180,266,136"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="497,81,609,108"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="449,92,481,92,481,97,449,97"/>
+<area shape="rect" id="Node000008" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="496,31,610,57"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="439,78,494,60,496,65,441,83"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="610,32,642,27,643,32,610,38"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="598,55,654,74,653,79,597,61"/>
+</map>

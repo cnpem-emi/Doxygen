@@ -1,0 +1,9 @@
+<map id="transfer_module" name="transfer_module">
+<area shape="rect" id="Node000001" title="Writes data directly to SPI (module selection)" alt="" coords="5,31,119,57"/>
+<area shape="rect" id="Node000002" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="167,31,280,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,41,151,41,151,47,119,47"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="328,5,437,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="280,32,312,27,313,32,281,38"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="331,56,435,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="281,50,316,56,315,61,280,56"/>
+</map>

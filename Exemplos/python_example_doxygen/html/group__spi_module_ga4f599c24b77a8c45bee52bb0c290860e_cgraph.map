@@ -1,0 +1,17 @@
+<map id="read_data" name="read_data">
+<area shape="rect" id="Node000001" title="Reads digital data at given address." alt="" coords="5,56,84,83"/>
+<area shape="rect" id="Node000002" href="$structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="161,5,208,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,53,146,30,148,35,85,58"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="132,56,237,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="84,67,116,67,116,72,84,72"/>
+<area shape="rect" id="Node000008" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="140,107,229,133"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="85,81,132,98,130,103,83,86"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="286,31,398,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="237,58,270,53,271,58,238,63"/>
+<area shape="rect" id="Node000005" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="285,81,398,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="238,75,270,80,269,86,237,80"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="446,56,556,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="398,83,430,78,431,83,399,88"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="449,107,553,133"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="399,101,434,107,433,112,398,106"/>
+</map>

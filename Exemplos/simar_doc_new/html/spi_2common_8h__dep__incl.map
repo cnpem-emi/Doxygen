@@ -1,0 +1,33 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/spi/common.h" name="C:/Users/eric.abbade/Downloads/simar_new/spi/common.h">
+<area shape="rect" id="Node000001" title="Common declarations for SPI operations." alt="" coords="771,5,926,64"/>
+<area shape="rect" id="Node000002" href="$i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="414,112,568,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="757,64,581,115,569,118,568,113,580,109,756,59"/>
+<area shape="rect" id="Node000012" href="$fan_8c.html" title="Main starting point for fan RPM sensor module." alt="" coords="593,112,747,171"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="788,74,720,114,717,109,786,70"/>
+<area shape="rect" id="Node000013" href="$leak_8c.html" title="Main starting point for fan RPM sensor module." alt="" coords="771,112,926,171"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="851,80,851,112,846,112,846,80"/>
+<area shape="rect" id="Node000014" href="$volt_8c.html" title="Main starting point for AC board module." alt="" coords="950,112,1104,171"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="911,70,980,109,977,114,909,74"/>
+<area shape="rect" id="Node000015" href="$spi_2common_8c.html" title="Common functions for SPI operations." alt="" coords="1129,112,1283,171"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="941,59,1117,109,1129,113,1128,118,1116,115,940,64"/>
+<area shape="rect" id="Node000003" href="$bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="200,219,390,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="426,180,350,220,348,216,423,176"/>
+<area shape="rect" id="Node000007" href="$i2c_2common_8c.html" title="Common functions for I2C operations." alt="" coords="414,219,568,277"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="494,186,494,218,489,218,489,186"/>
+<area shape="rect" id="Node000008" href="$sht3x_8h.html" title="Sensirion SHT driver interface." alt="" coords="593,219,747,277"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="554,176,622,216,620,221,551,181"/>
+<area shape="rect" id="Node000004" href="$bme280_2common_2common_8c.html" title="Common functions for BMx device operation on AM335x." alt="" coords="5,325,196,384"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,287,155,327,153,322,228,282"/>
+<area shape="rect" id="Node000005" href="$bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="401,325,555,384"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="359,283,429,323,427,327,357,288"/>
+<area shape="rect" id="Node000006" href="$wireless_8c.html" title="Main starting point for wireless SIMAR." alt="" coords="219,325,374,384"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="298,293,299,325,293,325,293,293"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="605,287,532,327,529,322,603,283"/>
+<area shape="rect" id="Node000009" href="$sht3x_2common_2common_8h.html" title=" " alt="" coords="580,325,757,384"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="672,293,672,325,666,325,667,293"/>
+<area shape="rect" id="Node000011" href="$sht3x_8c.html" title="Sensirion SHT3x driver implementation." alt="" coords="717,432,871,491"/>
+<area shape="poly" id="edge12_Node000008_Node000011" title=" " alt="" coords="735,285,754,303,771,324,783,351,791,379,797,431,792,432,786,380,778,353,766,327,750,306,731,289"/>
+<area shape="rect" id="Node000010" href="$sht3x_2common_2common_8c.html" title=" " alt="" coords="516,432,693,491"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="645,399,624,433,620,430,641,396"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="716,392,761,430,758,434,713,396"/>
+</map>

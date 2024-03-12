@@ -1,0 +1,19 @@
+<map id="command_listener" name="command_listener">
+<area shape="rect" id="Node000001" title="Listens for commands sent to the Redis key on the main server." alt="" coords="5,31,133,57"/>
+<area shape="rect" id="Node000002" href="$volt_8c.html#a2bfbe66ec6ac66ff12e9bb015aaaf5f6" title="Connects to remote Redis server (or exits, in case none are available)" alt="" coords="181,5,295,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,32,165,27,166,32,134,37"/>
+<area shape="rect" id="Node000003" href="$group__spiModule.html#gaae72590a50e1e0f2724816e414aa4299" title="Writes digital data at given address." alt="" coords="198,56,278,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,51,183,58,182,64,133,56"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="658,5,767,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="278,56,342,41,419,26,496,16,572,13,642,13,642,18,572,18,497,21,420,31,344,47,279,62"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="660,81,765,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="279,79,342,95,425,111,517,120,563,121,609,117,650,110,651,115,610,123,564,126,516,126,424,116,341,100,278,84"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="343,56,448,83"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="278,67,328,67,328,72,278,72"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="497,81,609,108"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="449,75,482,81,481,86,449,80"/>
+<area shape="rect" id="Node000008" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="496,31,610,57"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="449,58,480,53,481,58,449,63"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="610,32,642,27,643,32,610,38"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="598,55,654,74,653,79,597,61"/>
+</map>

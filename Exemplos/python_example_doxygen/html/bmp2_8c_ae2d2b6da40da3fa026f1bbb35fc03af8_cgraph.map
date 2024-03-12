@@ -1,0 +1,7 @@
+<map id="bmp2_get_sensor_data" name="bmp2_get_sensor_data">
+<area shape="rect" id="Node000001" title="This API reads the pressure and temperature data from the sensor, compensates the data and store it i..." alt="" coords="5,31,162,57"/>
+<area shape="rect" id="Node000002" href="$bmp2_8c.html#aa0a148cc2a4a3d802ad43c969aa6d058" title="This API is used to compensate the pressure and temperature data." alt="" coords="210,5,373,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,32,194,28,194,33,162,37"/>
+<area shape="rect" id="Node000003" href="$bmp2_8c.html#a6a79faabbc906ff3a27f62bf018c93a6" title="This API reads the data from the given register address of the sensor." alt="" coords="236,56,347,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,51,221,58,221,63,161,56"/>
+</map>

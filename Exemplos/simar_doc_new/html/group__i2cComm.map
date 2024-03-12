@@ -1,0 +1,4 @@
+<map id="Communication" name="Communication">
+<area shape="rect" id="Node000002" href="$group__i2c.html" title="I2C communication." alt="" coords="5,5,46,32"/>
+<area shape="rect" id="Node000001" title="Communication methods." alt="" coords="94,5,205,32"/>
+</map>

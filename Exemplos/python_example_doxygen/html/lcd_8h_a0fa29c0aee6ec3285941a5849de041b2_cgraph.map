@@ -1,0 +1,14 @@
+<map id="lcd_line" name="lcd_line">
+<area shape="rect" id="Node000001" title="Prints straight horizontal line." alt="" coords="5,56,71,83"/>
+<area shape="rect" id="Node000002" href="$lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33" title="Sets LCD cursor position." alt="" coords="119,31,225,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,61,103,54,104,60,72,66"/>
+<area shape="rect" id="Node000003" href="$lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="273,56,345,83"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="71,67,257,67,257,72,71,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="226,51,258,57,257,63,225,56"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="393,5,503,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="345,54,395,35,396,40,347,59"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="396,56,500,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="346,67,381,67,381,72,346,72"/>
+<area shape="rect" id="Node000006" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="404,107,492,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="347,80,396,98,395,103,345,85"/>
+</map>

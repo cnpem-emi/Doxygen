@@ -1,0 +1,11 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/sht3x/common/common.h" name="C:/Users/eric.abbade/Downloads/simar_new/sht3x/common/common.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,182,64"/>
+<area shape="rect" id="Node000002" href="$sht3x_8h.html" title="Sensirion SHT driver interface." alt="" coords="55,112,132,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,64,96,96,91,96,91,64"/>
+<area shape="rect" id="Node000003" href="$i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="36,187,151,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,139,96,171,91,171,91,139"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="36,261,151,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,214,96,246,91,246,91,214"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="61,336,126,363"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="96,289,96,320,91,320,91,289"/>
+</map>

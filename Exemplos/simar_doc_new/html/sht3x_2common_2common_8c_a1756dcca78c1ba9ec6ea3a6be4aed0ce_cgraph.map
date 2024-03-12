@@ -1,0 +1,23 @@
+<map id="sensirion_i2c_general_call_reset" name="sensirion_i2c_general_call_reset">
+<area shape="rect" id="Node000001" title="Send a general call reset." alt="" coords="5,48,152,91"/>
+<area shape="rect" id="Node000002" href="$group__i2cMux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="200,56,310,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,67,184,67,184,72,152,72"/>
+<area shape="rect" id="Node000009" href="$group__i2cMux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="525,5,611,32"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="151,50,199,41,369,25,510,17,510,23,369,30,200,47,152,55"/>
+<area shape="rect" id="Node000010" href="$group__i2cComm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="219,107,291,133"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="153,88,204,103,203,108,151,93"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="358,107,463,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="299,81,354,99,352,104,298,86"/>
+<area shape="rect" id="Node000008" href="$group__spiComm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="367,56,455,83"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="311,67,351,67,351,72,311,72"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="512,56,624,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="454,103,509,85,511,90,456,109"/>
+<area shape="rect" id="Node000005" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="511,107,625,133"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="464,117,496,117,496,123,464,123"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="673,19,782,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="600,104,623,92,691,52,694,56,626,97,602,109"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="675,81,780,108"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="625,108,659,103,660,108,625,114"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="612,20,657,23,657,29,611,25"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="601,30,626,42,687,72,685,77,624,46,599,35"/>
+</map>

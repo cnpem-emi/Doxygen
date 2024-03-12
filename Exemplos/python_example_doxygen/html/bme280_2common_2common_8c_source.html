@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Código-Fonte de bin/bme280/common/common.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_5fb8b88357a1f33b05f49ba062609588.html">bme280</a></li><li class="navelem"><a class="el" href="dir_632440cfad942f633559e68bff053096.html">common</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">common.c</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="bme280_2common_2common_8c.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;syslog.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="bme280_2common_2common_8h.html">common.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="bme280_2common_2common_8c.html#a689d9bb5188d675f3296c29fb625e764">   10</a></span>int8_t <a class="code hl_variable" href="bme280_2common_2common_8c.html#a689d9bb5188d675f3296c29fb625e764">fd_76</a> = 0;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="bme280_2common_2common_8c.html#acd9042daf29a7dfd84e5b3b7eba8ef50">   11</a></span>int8_t <a class="code hl_variable" href="bme280_2common_2common_8c.html#acd9042daf29a7dfd84e5b3b7eba8ef50">fd_77</a> = 0;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="}">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">   21</a></span>int8_t <a class="code hl_function" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">bme_init</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="structbme280__dev.html">bme280_dev</a>* dev, <span class="keyword">struct</span> <a class="code hl_struct" href="structidentifier.html">identifier</a>* <span class="keywordtype">id</span>, uint8_t addr) {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  int8_t rslt = <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  uint8_t settings_sel = 0;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605">configure_mux</a>()) {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    syslog(LOG_CRIT, <span class="stringliteral">&quot;Failed to configure demux switching.\n&quot;</span>);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  }</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  int8_t* <a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a> = addr == 0x76 ? &amp;<a class="code hl_variable" href="bme280_2common_2common_8c.html#a689d9bb5188d675f3296c29fb625e764">fd_76</a> : &amp;<a class="code hl_variable" href="bme280_2common_2common_8c.html#acd9042daf29a7dfd84e5b3b7eba8ef50">fd_77</a>;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a">i2c_open</a>(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, addr)) {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    syslog(LOG_CRIT, <span class="stringliteral">&quot;Failed to open bus&quot;</span>);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>  <span class="keywordtype">id</span>-&gt;fd = *<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>  dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a84536d76c03d6f59f77a06c1965c384f">intf</a> = <a class="code hl_enumvalue" href="bme2__defs_8h.html#a142fcd9cb1e99b793488e9b3b1e6766eaae41ddfd32babefbce48e7b7671f46a2">BME280_I2C_INTF</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>  dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#af51c6be628d23914246f66e71ac91ab3">read</a> = <a class="code hl_function" href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258">i2c_read</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>  dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a05cd9a6306d24772602c771c253ca59e">write</a> = <a class="code hl_function" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe">i2c_write</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a46c411ed85be103a2462af6316f67a5f">delay_us</a> = <a class="code hl_function" href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073">delay_us</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">intf_ptr</a> = id;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <a class="code hl_function" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd">direct_mux</a>(id-&gt;<a class="code hl_variable" href="structidentifier.html#ade5862e7d955b2d0109f6c292405f0b1">mux_id</a>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>  <span class="keywordflow">if</span> (id-&gt;<a class="code hl_variable" href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">ext_mux_id</a> &gt;= 0)</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_function" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400">direct_ext_mux</a>(id-&gt;<a class="code hl_variable" href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">ext_mux_id</a>);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>  rslt = <a class="code hl_function" href="bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85">bme280_init</a>(dev);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>  <span class="keywordflow">if</span> (rslt != <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>)</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>  settings_sel =</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>      <a class="code hl_define" href="bme2__defs_8h.html#ae22bd3e6b1bb71fe30633f4d84168750">BME280_OSR_PRESS_SEL</a> | <a class="code hl_define" href="bme2__defs_8h.html#a407647f6182e1bd2338e226ea0ef93af">BME280_OSR_TEMP_SEL</a> | <a class="code hl_define" href="bme2__defs_8h.html#acdab9f807404ce931f3ec87b680986ba">BME280_OSR_HUM_SEL</a> | <a class="code hl_define" href="bme2__defs_8h.html#a9d10214add03956eb741957acb90083e">BME280_FILTER_SEL</a>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>  rslt = <a class="code hl_function" href="bme2_8c.html#afd93f268d8109802cffa06b89f868922">bme280_set_sensor_settings</a>(settings_sel, dev);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  rslt = <a class="code hl_function" href="bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f">bme280_set_sensor_mode</a>(<a class="code hl_define" href="bme2__defs_8h.html#a8a9c2aa9289d646803badb7d7fdbd5cb">BME280_NORMAL_MODE</a>, dev);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  <span class="keywordflow">if</span> (rslt != <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>)</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
+</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">   72</a></span>int8_t <a class="code hl_function" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="structbme280__dev.html">bme280_dev</a>* dev, <span class="keyword">struct</span> <a class="code hl_struct" href="structbme280__data.html">bme280_data</a>* comp_data) {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  int8_t rslt = <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>;</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <span class="keyword">struct </span><a class="code hl_struct" href="structidentifier.html">identifier</a> id;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>  <span class="keywordtype">id</span> = *((<span class="keyword">struct </span><a class="code hl_struct" href="structidentifier.html">identifier</a>*)dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">intf_ptr</a>);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <a class="code hl_function" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd">direct_mux</a>(<span class="keywordtype">id</span>.<a class="code hl_variable" href="structidentifier.html#ade5862e7d955b2d0109f6c292405f0b1">mux_id</a>);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>  <span class="keywordflow">if</span> (<span class="keywordtype">id</span>.<a class="code hl_variable" href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">ext_mux_id</a> &gt;= 0)</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <a class="code hl_function" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400">direct_ext_mux</a>(<span class="keywordtype">id</span>.<a class="code hl_variable" href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">ext_mux_id</a>);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  rslt = <a class="code hl_function" href="bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d">bme280_get_sensor_data</a>(<a class="code hl_define" href="bme2__defs_8h.html#a8b1cf23a873282113bb8218e615855e3">BME280_ALL</a>, comp_data, dev);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>  comp_data-&gt;<a class="code hl_variable" href="structbme280__data.html#aee1c5d07ac79c5c036195858afe33405">pressure</a> *= 0.01;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>}</div>
+</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="foldopen" id="foldopen00089" data-start="{" data-end="}">
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb">   89</a></span>int8_t <a class="code hl_function" href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb">check_alteration</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="structbme__sensor__data.html">bme_sensor_data</a> sensor) {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  <span class="keywordflow">return</span> sensor.data.pressure &gt; 800 &amp;&amp; sensor.data.pressure &lt; 1000 &amp;&amp;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                 (sensor.past_pres == 0 ||</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                  (fabs(sensor.past_pres - sensor.data.pressure) &lt; sensor.past_pres / 7 &amp;&amp;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                   sensor.data.humidity != 100))</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>             ? 0</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>             : -1;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}</div>
+</div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a3e502594f97be65d769480bce36c3706"><div class="ttname"><a href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">bme_init</a></div><div class="ttdeci">int8_t bme_init(struct bme280_dev *dev, struct identifier *id, uint8_t addr)</div><div class="ttdoc">Initializes sensor communication.</div><div class="ttdef"><b>Definição</b> <a href="#l00021">common.c:21</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a4c840b82055c8e4dad841d25cb520ee5"><div class="ttname"><a href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a></div><div class="ttdeci">int8_t bme_read(struct bme280_dev *dev, struct bme280_data *comp_data)</div><div class="ttdoc">Reads sensor data.</div><div class="ttdef"><b>Definição</b> <a href="#l00072">common.c:72</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a4efac5cc7de570b579555a87cdaf53bb"><div class="ttname"><a href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb">check_alteration</a></div><div class="ttdeci">int8_t check_alteration(struct bme_sensor_data sensor)</div><div class="ttdoc">Checks if the alteration in pressure over one measurement is realistic.</div><div class="ttdef"><b>Definição</b> <a href="#l00089">common.c:89</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a689d9bb5188d675f3296c29fb625e764"><div class="ttname"><a href="bme280_2common_2common_8c.html#a689d9bb5188d675f3296c29fb625e764">fd_76</a></div><div class="ttdeci">int8_t fd_76</div><div class="ttdef"><b>Definição</b> <a href="#l00010">common.c:10</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_acd9042daf29a7dfd84e5b3b7eba8ef50"><div class="ttname"><a href="bme280_2common_2common_8c.html#acd9042daf29a7dfd84e5b3b7eba8ef50">fd_77</a></div><div class="ttdeci">int8_t fd_77</div><div class="ttdef"><b>Definição</b> <a href="#l00011">common.c:11</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8h_html"><div class="ttname"><a href="bme280_2common_2common_8h.html">common.h</a></div><div class="ttdoc">Common declarations for BME280 operation on AM335x.</div></div>
+<div class="ttc" id="abme2_8c_html_a6373385e51038a9b982c42e0dce4ba9f"><div class="ttname"><a href="bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f">bme280_set_sensor_mode</a></div><div class="ttdeci">int8_t bme280_set_sensor_mode(uint8_t sensor_mode, struct bme280_dev *dev)</div><div class="ttdoc">This API sets the power mode of the sensor.</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00612">bme2.c:612</a></div></div>
+<div class="ttc" id="abme2_8c_html_a6671fea2c1e01f40029a653b9ab4410d"><div class="ttname"><a href="bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d">bme280_get_sensor_data</a></div><div class="ttdeci">int8_t bme280_get_sensor_data(uint8_t sensor_comp, struct bme280_data *comp_data, struct bme280_dev *dev)</div><div class="ttdoc">This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ...</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00703">bme2.c:703</a></div></div>
+<div class="ttc" id="abme2_8c_html_af0b7d7a19bb48ec9eb3651b79f0c3e85"><div class="ttname"><a href="bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85">bme280_init</a></div><div class="ttdeci">int8_t bme280_init(struct bme280_dev *dev)</div><div class="ttdoc">This API is the entry point. It reads the chip-id and calibration data from the sensor.</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00412">bme2.c:412</a></div></div>
+<div class="ttc" id="abme2_8c_html_afd93f268d8109802cffa06b89f868922"><div class="ttname"><a href="bme2_8c.html#afd93f268d8109802cffa06b89f868922">bme280_set_sensor_settings</a></div><div class="ttdeci">int8_t bme280_set_sensor_settings(uint8_t desired_settings, struct bme280_dev *dev)</div><div class="ttdoc">This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor.</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00551">bme2.c:551</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a142fcd9cb1e99b793488e9b3b1e6766eaae41ddfd32babefbce48e7b7671f46a2"><div class="ttname"><a href="bme2__defs_8h.html#a142fcd9cb1e99b793488e9b3b1e6766eaae41ddfd32babefbce48e7b7671f46a2">BME280_I2C_INTF</a></div><div class="ttdeci">@ BME280_I2C_INTF</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00255">bme2_defs.h:254</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a407647f6182e1bd2338e226ea0ef93af"><div class="ttname"><a href="bme2__defs_8h.html#a407647f6182e1bd2338e226ea0ef93af">BME280_OSR_TEMP_SEL</a></div><div class="ttdeci">#define BME280_OSR_TEMP_SEL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00206">bme2_defs.h:206</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a8a9c2aa9289d646803badb7d7fdbd5cb"><div class="ttname"><a href="bme2__defs_8h.html#a8a9c2aa9289d646803badb7d7fdbd5cb">BME280_NORMAL_MODE</a></div><div class="ttdeci">#define BME280_NORMAL_MODE</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00163">bme2_defs.h:163</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a8b1cf23a873282113bb8218e615855e3"><div class="ttname"><a href="bme2__defs_8h.html#a8b1cf23a873282113bb8218e615855e3">BME280_ALL</a></div><div class="ttdeci">#define BME280_ALL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00202">bme2_defs.h:202</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a9d10214add03956eb741957acb90083e"><div class="ttname"><a href="bme2__defs_8h.html#a9d10214add03956eb741957acb90083e">BME280_FILTER_SEL</a></div><div class="ttdeci">#define BME280_FILTER_SEL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00208">bme2_defs.h:208</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_abfe3dd12ee6f5f5d51fbb340a22ff678"><div class="ttname"><a href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a></div><div class="ttdeci">#define BME280_OK</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00142">bme2_defs.h:142</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_acdab9f807404ce931f3ec87b680986ba"><div class="ttname"><a href="bme2__defs_8h.html#acdab9f807404ce931f3ec87b680986ba">BME280_OSR_HUM_SEL</a></div><div class="ttdeci">#define BME280_OSR_HUM_SEL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00207">bme2_defs.h:207</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_ae22bd3e6b1bb71fe30633f4d84168750"><div class="ttname"><a href="bme2__defs_8h.html#ae22bd3e6b1bb71fe30633f4d84168750">BME280_OSR_PRESS_SEL</a></div><div class="ttdeci">#define BME280_OSR_PRESS_SEL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00205">bme2_defs.h:205</a></div></div>
+<div class="ttc" id="agroup__i2c_comm_html_ga546237630a67ed460e6399f8183ba15a"><div class="ttname"><a href="group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a">i2c_open</a></div><div class="ttdeci">int8_t i2c_open(int8_t *fd, uint8_t addr)</div><div class="ttdoc">Opens communication with the I2C bus at a given address.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00117">common.c:117</a></div></div>
+<div class="ttc" id="agroup__i2c_comm_html_ga6ba6684ba5f02aa62901972aa6fd3258"><div class="ttname"><a href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258">i2c_read</a></div><div class="ttdeci">int8_t i2c_read(uint8_t reg_addr, uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for reading the sensor's registers through I2C bus.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00054">common.c:54</a></div></div>
+<div class="ttc" id="agroup__i2c_comm_html_ga82d15977313cbe9512ca2b907eb176fe"><div class="ttname"><a href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe">i2c_write</a></div><div class="ttdeci">int8_t i2c_write(uint8_t reg_addr, const uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for writing the sensor's registers through I2C bus.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00064">common.c:64</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga151ede3a3f257b072260f424e1a21400"><div class="ttname"><a href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400">direct_ext_mux</a></div><div class="ttdeci">void direct_ext_mux(uint8_t id)</div><div class="ttdoc">Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00035">common.c:35</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga61698283ae91cc7210ed8598aad96605"><div class="ttname"><a href="group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605">configure_mux</a></div><div class="ttdeci">int8_t configure_mux()</div><div class="ttdoc">Configures pins for the digital interface board multiplexing function.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00098">common.c:98</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga638412d4e040a7fbee04a70b711547dd"><div class="ttname"><a href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd">direct_mux</a></div><div class="ttdeci">void direct_mux(uint8_t id)</div><div class="ttdoc">Selects an available I2C channel through the digital interface board (0 to 4)</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00023">common.c:23</a></div></div>
+<div class="ttc" id="ai2c_2common_8c_html_a720879d69fe216a6f53c2d0de74d4073"><div class="ttname"><a href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073">delay_us</a></div><div class="ttdeci">void delay_us(uint32_t period, void *intf_ptr)</div><div class="ttdoc">Delays execution for n us.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00113">common.c:113</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html_a36204fafbdf35d038195e0681cee640f"><div class="ttname"><a href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a></div><div class="ttdeci">#define BUS_FAIL</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00034">common.h:34</a></div></div>
+<div class="ttc" id="astructbme280__data_html"><div class="ttname"><a href="structbme280__data.html">bme280_data</a></div><div class="ttdoc">bme280 sensor structure which comprises of temperature, pressure and humidity data</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00378">bme2_defs.h:378</a></div></div>
+<div class="ttc" id="astructbme280__data_html_aee1c5d07ac79c5c036195858afe33405"><div class="ttname"><a href="structbme280__data.html#aee1c5d07ac79c5c036195858afe33405">bme280_data::pressure</a></div><div class="ttdeci">double pressure</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00380">bme2_defs.h:380</a></div></div>
+<div class="ttc" id="astructbme280__dev_html"><div class="ttname"><a href="structbme280__dev.html">bme280_dev</a></div><div class="ttdoc">bme280 device structure</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00440">bme2_defs.h:440</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a05cd9a6306d24772602c771c253ca59e"><div class="ttname"><a href="structbme280__dev.html#a05cd9a6306d24772602c771c253ca59e">bme280_dev::write</a></div><div class="ttdeci">bme280_write_fptr_t write</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00458">bme2_defs.h:458</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a0f8f25ad3939886263e8c995db718d64"><div class="ttname"><a href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">bme280_dev::intf_ptr</a></div><div class="ttdeci">void * intf_ptr</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00446">bme2_defs.h:446</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a46c411ed85be103a2462af6316f67a5f"><div class="ttname"><a href="structbme280__dev.html#a46c411ed85be103a2462af6316f67a5f">bme280_dev::delay_us</a></div><div class="ttdeci">bme280_delay_us_fptr_t delay_us</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00461">bme2_defs.h:461</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a84536d76c03d6f59f77a06c1965c384f"><div class="ttname"><a href="structbme280__dev.html#a84536d76c03d6f59f77a06c1965c384f">bme280_dev::intf</a></div><div class="ttdeci">enum bme280_intf intf</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00452">bme2_defs.h:452</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_af51c6be628d23914246f66e71ac91ab3"><div class="ttname"><a href="structbme280__dev.html#af51c6be628d23914246f66e71ac91ab3">bme280_dev::read</a></div><div class="ttdeci">bme280_read_fptr_t read</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00455">bme2_defs.h:455</a></div></div>
+<div class="ttc" id="astructbme__sensor__data_html"><div class="ttname"><a href="structbme__sensor__data.html">bme_sensor_data</a></div><div class="ttdoc">Parent struct for all valid BMx sensors, including custom values to aid in door status calibration.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8h_source.html#l00021">common.h:21</a></div></div>
+<div class="ttc" id="astructidentifier_html"><div class="ttname"><a href="structidentifier.html">identifier</a></div><div class="ttdoc">Identification/communication structure for I2C devices.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8h_source.html#l00025">common.h:25</a></div></div>
+<div class="ttc" id="astructidentifier_html_a28edbc0925a6a4cbcb8a040074438302"><div class="ttname"><a href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">identifier::ext_mux_id</a></div><div class="ttdeci">int8_t ext_mux_id</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8h_source.html#l00026">common.h:26</a></div></div>
+<div class="ttc" id="astructidentifier_html_ade5862e7d955b2d0109f6c292405f0b1"><div class="ttname"><a href="structidentifier.html#ade5862e7d955b2d0109f6c292405f0b1">identifier::mux_id</a></div><div class="ttdeci">uint8_t mux_id</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8h_source.html#l00027">common.h:27</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

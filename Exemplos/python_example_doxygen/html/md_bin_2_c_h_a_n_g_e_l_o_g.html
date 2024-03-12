@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Changelog</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Changelog</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>, and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+[1.6.1] - 2022-02-11</h1>
+<h2><a class="anchor" id="autotoc_md2"></a>
+Changed</h2>
+<ul>
+<li>Fixes unnecessary restart if a Redis key did not exist for it</li>
+<li>Fixes deadlock for invalid sensor readings on calibration</li>
+<li>Calibration has small delays to allow for the sensor to recover</li>
+<li>Leak sensor status is no longer inverted</li>
+<li>Fixes door opening false positives</li>
+<li>Restores recalibration based on offset (for long periods without readings)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+[1.6.0] - 2022-01-20</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Added</h2>
+<ul>
+<li>Leak/water presence monitor support</li>
+<li>I2C Expansion Board support</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Changed</h2>
+<ul>
+<li><code>volt</code> module does not get initialized if the system does not support it</li>
+<li>Utilizes generic service for all modules (except <code>volt</code>)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md6"></a>
+[1.5.0] - 2021-12-17</h1>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Added</h2>
+<ul>
+<li>Adds fan RPM support</li>
+<li>Rsyncs to remote folder automatically on startup</li>
+<li>Version tagging</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Changed</h2>
+<ul>
+<li>Only present modules are initialized (in conjunction with bbb-function)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md9"></a>
+[1.4.0] - 2021-11-25</h1>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Added</h2>
+<ul>
+<li>Monitors power factor, voltage glitches and frequency fully</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md11"></a>
+Changed</h2>
+<ul>
+<li>Uses only one PRU for all PRU related measurements</li>
+<li>Wireless SIMAR now utilizes hidden SSIDs instead of a WPA-EAP connection</li>
+<li>Logs are concentrated in one file</li>
+<li>Startup has started being moved towards the bbb-function standard</li>
+<li>Merged BMP280/BME280 support into one library</li>
+<li>All required startup operations are done in one file; monitoring is done in separate services (to avoid reinits)</li>
+<li>BME data is held in a single Redis key</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md12"></a>
+[1.3.0] - 2021-10-14</h1>
+<h2><a class="anchor" id="autotoc_md13"></a>
+Added</h2>
+<ul>
+<li>Wireless version can now work offline</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md14"></a>
+Changed</h2>
+<ul>
+<li>Voltage is now measured once</li>
+<li>Better installation scripts</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md15"></a>
+[1.2.1] - 2021-10-14</h1>
+<h2><a class="anchor" id="autotoc_md16"></a>
+Added</h2>
+<ul>
+<li>Preliminary support for power factor measurements</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md17"></a>
+Changed</h2>
+<ul>
+<li>Check for unnatural peaks is more restringent</li>
+<li>Small compilation tweaks</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md18"></a>
+[1.2.0] - 2021-09-21</h1>
+<h2><a class="anchor" id="autotoc_md19"></a>
+Added</h2>
+<ul>
+<li>Monitors voltage and current (up to 8 channels)</li>
+<li>Remote actuation functionalities</li>
+<li>Wireless (plug-and-play) version, capable of logging to external drives automatically</li>
+<li>BME280/BMP280 autodetection, allows different sensors on a single SIMAR</li>
+<li>More logging information</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md20"></a>
+Changed</h2>
+<ul>
+<li>Fixes false positives when restoring pressure moving averages</li>
+<li>Reduces memory usage by freeing certain unused Redis reply objects (down to 1008 kB!)</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md21"></a>
+[1.1.0] - 2021-07-28</h1>
+<h2><a class="anchor" id="autotoc_md22"></a>
+Added</h2>
+<ul>
+<li>Program now autodetects sensors; user only has to enter the desired names</li>
+<li>BMP280 functionality (fully on-par with BME280 functionalities)</li>
+<li>Automatically restarts the system if repeated failures are detected</li>
+<li>Program can now attempt to fetch external pressure data from multiple servers</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md23"></a>
+Changed</h2>
+<ul>
+<li>Fixes "permanent lock" problem with door status algorithm caused by rapidly opening and closing the door</li>
+<li>Changed moving average window size from 10 to 5</li>
+<li>Increased polling rate</li>
+<li>Added open door pressure average to autorecovery (no more "bouncing" door status values)</li>
+<li>Moved to new Bosch driver for the BMP280</li>
+<li>Restored BMP280 code</li>
+<li>Altered sensor name limit from 6 to 16 characters</li>
+<li>Changed external pressure server address</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md24"></a>
+[1.0.0] - 2021-07-22</h1>
+<h2><a class="anchor" id="autotoc_md25"></a>
+Added</h2>
+<ul>
+<li>Determines door state by comparing it with internal rack pressure moving average</li>
+<li>Reads BME280 data</li>
+<li>Capable of reading/writing memory</li>
+<li>SPI/I2C helper functions</li>
+<li>Updated <a class="el" href="namespace_s_p_ixx_c_o_n.html">SPIxxCON</a> lib</li>
+<li>Other sensors and communication methods</li>
+<li>Rapid GPIO/I2C bus management using direct register access </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

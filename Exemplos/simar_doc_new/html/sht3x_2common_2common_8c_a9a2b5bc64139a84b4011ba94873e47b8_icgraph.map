@@ -1,0 +1,32 @@
+<map id="sensirion_fill_cmd_send_buf" name="sensirion_fill_cmd_send_buf">
+<area shape="rect" id="Node000001" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="769,200,893,243"/>
+<area shape="rect" id="Node000002" href="$sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa" title="Send a command, wait for the sensor to process and read data back." alt="" coords="564,73,714,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="783,193,672,119,675,114,786,189"/>
+<area shape="rect" id="Node000009" href="$sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21" title="writes a command to the sensor" alt="" coords="557,208,721,235"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="753,224,721,224,721,219,753,219"/>
+<area shape="rect" id="Node000014" href="$sht3x_2common_2common_8c.html#a0e9acb8401c9168d321fd7eff74fbab8" title="Writes a command with arguments to the sensor." alt="" coords="573,280,705,323"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="765,251,693,282,691,277,763,246"/>
+<area shape="rect" id="Node000003" href="$sht3x_2common_2common_8c.html#ade8479d9748d07974f8e7e88c166e381" title="Reads data words from the sensor after a command is issued." alt="" coords="348,5,509,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="570,70,508,47,475,35,476,30,510,41,572,65"/>
+<area shape="rect" id="Node000005" href="$sht3x_8c.html#a4aae0d3756e7554f9ee2921e52fcdaac" title="Read the sensor status word." alt="" coords="368,56,489,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="549,86,490,79,490,74,549,81"/>
+<area shape="rect" id="Node000006" href="$group__sht3xInit.html#ga76f706a73188d8e19e2ba03ca1e1dba2" title="Detects if a sensor is connected by reading out the ID register." alt="" coords="383,107,475,133"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="549,108,475,117,475,112,548,103"/>
+<area shape="rect" id="Node000004" href="$group__sht3xSensorSettings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="134,5,269,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="332,21,270,21,270,16,332,16"/>
+<area shape="rect" id="Node000007" href="$group__sht3xInit.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="163,132,240,159"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="367,129,241,144,240,138,367,124"/>
+<area shape="rect" id="Node000008" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,169,55,196"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="148,160,56,180,54,175,147,154"/>
+<area shape="rect" id="Node000010" href="$sht3x_8c.html#ac2af42046713a88b65652976149354da" title="Clear the status register alert flags." alt="" coords="363,157,494,184"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="565,206,486,187,488,182,566,201"/>
+<area shape="rect" id="Node000011" href="$group__sht3xSensorData.html#ga535cf192fdfb60b6e220c9d8159f1edf" title="Starts a measurement in high precision mode." alt="" coords="374,208,484,235"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="542,224,484,224,484,219,542,219"/>
+<area shape="rect" id="Node000013" href="$sht3x_8c.html#af90d87bffcb72c50d35776f03f2277dd" title="Read out the serial number." alt="" coords="367,259,490,285"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="566,241,488,261,486,255,565,236"/>
+<area shape="rect" id="Node000012" href="$group__sht3xSensorData.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="103,195,300,221"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="358,220,300,216,301,211,358,215"/>
+<area shape="poly" id="edge12_Node000012_Node000008" title=" " alt="" coords="92,194,55,189,56,184,93,189"/>
+<area shape="rect" id="Node000015" href="$group__sht3xSensorSettings.html#ga4f3716965817168fbf8e5fd2ca26c3e7" title="Set target temperature and humidity alert threshold." alt="" coords="361,309,496,336"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="558,312,497,318,496,313,558,307"/>
+</map>

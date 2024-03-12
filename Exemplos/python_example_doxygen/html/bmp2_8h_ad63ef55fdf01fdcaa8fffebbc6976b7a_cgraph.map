@@ -1,0 +1,5 @@
+<map id="bmp2_get_status" name="bmp2_get_status">
+<area shape="rect" id="Node000001" title="This API reads the status register." alt="" coords="5,5,127,32"/>
+<area shape="rect" id="Node000002" href="$bmp2_8c.html#a6a79faabbc906ff3a27f62bf018c93a6" title="This API reads the data from the given register address of the sensor." alt="" coords="175,5,285,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,16,159,16,159,21,127,21"/>
+</map>

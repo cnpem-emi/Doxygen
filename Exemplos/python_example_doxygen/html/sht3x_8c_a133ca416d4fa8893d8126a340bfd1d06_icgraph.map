@@ -1,0 +1,5 @@
+<map id="humidity_to_tick" name="humidity_to_tick">
+<area shape="rect" id="Node000001" title="Converts humidity to ADC ticks." alt="" coords="189,5,305,32"/>
+<area shape="rect" id="Node000002" href="$group__sht3x_sensor_settings.html#ga4f3716965817168fbf8e5fd2ca26c3e7" title="Set target temperature and humidity alert threshold." alt="" coords="5,5,141,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,21,141,21,141,16,173,16"/>
+</map>

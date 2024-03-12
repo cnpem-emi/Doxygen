@@ -1,0 +1,981 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/main/bme.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_0e7e5b8e082842383448704bc01977c3.html">main</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo bme.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Main starting point for BME280 sensor module.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;fcntl.h&gt;</code><br />
+<code>#include &lt;hiredis/hiredis.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;syslog.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="bme280_2common_2common_8h_source.html">../bme280/common/common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sht3x_8h_source.html">../sht3x/sht3x.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="c_j_s_o_n_8h_source.html">../utils/json/cJSON.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para bme.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme_8c__incl.png" border="0" usemap="#abin_2main_2bme_8c" alt=""/></div>
+<map name="abin_2main_2bme_8c" id="abin_2main_2bme_8c">
+<area shape="rect" title="Main starting point for BME280 sensor module." alt="" coords="422,5,533,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,62,107"/>
+<area shape="poly" title=" " alt="" coords="422,28,271,48,77,82,76,77,270,42,422,23"/>
+<area shape="rect" title=" " alt="" coords="85,80,198,107"/>
+<area shape="poly" title=" " alt="" coords="423,34,214,79,212,74,421,29"/>
+<area shape="rect" title=" " alt="" coords="222,80,285,107"/>
+<area shape="poly" title=" " alt="" coords="439,35,301,80,299,75,438,30"/>
+<area shape="rect" title=" " alt="" coords="309,80,374,107"/>
+<area shape="poly" title=" " alt="" coords="455,35,380,75,377,70,453,30"/>
+<area shape="rect" title=" " alt="" coords="398,80,469,107"/>
+<area shape="poly" title=" " alt="" coords="472,34,451,68,447,65,468,31"/>
+<area shape="rect" title=" " alt="" coords="493,80,550,107"/>
+<area shape="poly" title=" " alt="" coords="487,31,508,65,504,68,483,34"/>
+<area shape="rect" title=" " alt="" coords="575,80,642,107"/>
+<area shape="poly" title=" " alt="" coords="502,30,573,70,571,74,499,35"/>
+<area shape="rect" href="bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="802,80,1001,107"/>
+<area shape="poly" title=" " alt="" coords="533,27,813,74,812,79,532,32"/>
+<area shape="rect" href="sht3x_8h.html" title="Sensirion SHT driver interface." alt="" coords="665,80,778,107"/>
+<area shape="poly" title=" " alt="" coords="521,30,665,73,664,78,519,35"/>
+<area shape="rect" href="c_j_s_o_n_8h.html" title=" " alt="" coords="966,155,1107,181"/>
+<area shape="poly" title=" " alt="" coords="533,20,808,40,941,56,987,66,1014,78,1025,91,1032,107,1039,139,1034,140,1027,108,1021,94,1011,82,986,72,940,62,807,45,533,25"/>
+<area shape="rect" href="i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="711,155,839,181"/>
+<area shape="poly" title=" " alt="" coords="881,110,811,149,809,144,878,105"/>
+<area shape="rect" href="bme2_8h.html" title=" " alt="" coords="863,155,940,181"/>
+<area shape="poly" title=" " alt="" coords="904,107,904,139,899,139,899,107"/>
+<area shape="rect" href="spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="717,229,833,256"/>
+<area shape="poly" title=" " alt="" coords="778,182,778,214,772,214,772,182"/>
+<area shape="rect" title=" " alt="" coords="816,304,880,331"/>
+<area shape="poly" title=" " alt="" coords="789,255,827,291,823,295,786,258"/>
+<area shape="rect" href="bme2__defs_8h.html" title=" " alt="" coords="857,229,952,256"/>
+<area shape="poly" title=" " alt="" coords="905,182,906,214,900,214,899,182"/>
+<area shape="poly" title=" " alt="" coords="897,258,869,293,865,290,892,255"/>
+<area shape="rect" title=" " alt="" coords="924,304,991,331"/>
+<area shape="poly" title=" " alt="" coords="916,255,941,290,937,293,911,258"/>
+<area shape="poly" title=" " alt="" coords="733,106,759,141,754,144,729,109"/>
+<area shape="poly" title=" " alt="" coords="1032,183,974,291,969,289,1027,181"/>
+</map>
+</div>
+</div>
+<p><a href="bme_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a66d6a087e218185a6331be8875bd07d0" id="r_a66d6a087e218185a6331be8875bd07d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66d6a087e218185a6331be8875bd07d0">ERROR_THRESHOLD</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:a66d6a087e218185a6331be8875bd07d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa63e2b5c35b16a21d38d57f0af451617" id="r_aa63e2b5c35b16a21d38d57f0af451617"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa63e2b5c35b16a21d38d57f0af451617">EXT_BOARD_I2C_LEN</a>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:aa63e2b5c35b16a21d38d57f0af451617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a46bd656175eb3641b823c7ac96963684" id="r_a46bd656175eb3641b823c7ac96963684"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46bd656175eb3641b823c7ac96963684">get_open_iter</a> (struct <a class="el" href="structbme__sensor__data.html">bme_sensor_data</a> *sensor)</td></tr>
+<tr class="memdesc:a46bd656175eb3641b823c7ac96963684"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates door opening status.  <br /></td></tr>
+<tr class="separator:a46bd656175eb3641b823c7ac96963684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028ad4de12126d97497460aa5d5e271d" id="r_a028ad4de12126d97497460aa5d5e271d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a028ad4de12126d97497460aa5d5e271d">update_open</a> (struct <a class="el" href="structbme__sensor__data.html">bme_sensor_data</a> *sensor)</td></tr>
+<tr class="memdesc:a028ad4de12126d97497460aa5d5e271d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates moving average, door opening status.  <br /></td></tr>
+<tr class="separator:a028ad4de12126d97497460aa5d5e271d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:af38b712935d00f87aaf3dbd16e4b829b" id="r_af38b712935d00f87aaf3dbd16e4b829b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> = 4</td></tr>
+<tr class="separator:af38b712935d00f87aaf3dbd16e4b829b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9851bcc25299ceb857952e186330ec" id="r_a8d9851bcc25299ceb857952e186330ec"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d9851bcc25299ceb857952e186330ec">servers</a> [3][32] = {&quot;10.0.38.46&quot;, &quot;10.0.38.42&quot;, &quot;10.0.38.59&quot;}</td></tr>
+<tr class="separator:a8d9851bcc25299ceb857952e186330ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Main starting point for BME280 sensor module. </p>
+
+<p class="definition">Definição no arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+</div><h2 class="groupheader">Definições e macros</h2>
+<a id="a66d6a087e218185a6331be8875bd07d0" name="a66d6a087e218185a6331be8875bd07d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66d6a087e218185a6331be8875bd07d0">&#9670;&#160;</a></span>ERROR_THRESHOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ERROR_THRESHOLD&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="bme_8c_source.html#l00018">18</a> do arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+
+</div>
+</div>
+<a id="aa63e2b5c35b16a21d38d57f0af451617" name="aa63e2b5c35b16a21d38d57f0af451617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa63e2b5c35b16a21d38d57f0af451617">&#9670;&#160;</a></span>EXT_BOARD_I2C_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXT_BOARD_I2C_LEN&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="bme_8c_source.html#l00019">19</a> do arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="a46bd656175eb3641b823c7ac96963684" name="a46bd656175eb3641b823c7ac96963684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46bd656175eb3641b823c7ac96963684">&#9670;&#160;</a></span>get_open_iter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void get_open_iter </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structbme__sensor__data.html">bme_sensor_data</a> *</td>          <td class="paramname"><span class="paramname"><em>sensor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates door opening status. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor</td><td>: Pointer to sensor</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Considering the closed server racks work under negative pressure, a sustained "significant" rise in pressure may indicate a door opening.</p>
+<p>However, a change in temperature may (albeit slowly) alter the pressure.</p>
+<p>Therefore, the best solution is to maintain a moving open/closed pressure average and listen for sudden changes.</p>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bme_8c_source.html#l00040">40</a> do arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   40</span>                                                   {</div>
+<div class="line"><span class="lineno">   41</span>  <span class="comment">// 0.23 refers to the standard deviation of the population over a period of 3 minutes</span></div>
+<div class="line"><span class="lineno">   42</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;average - <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;data.pressure &lt; -0.23 ||</div>
+<div class="line"><span class="lineno">   43</span>      (<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;open_average != 0 &amp;&amp; <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;open_average - <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;data.pressure &lt; 0.23)) {</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;strikes_closed &gt; (<a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a> - 1))</div>
+<div class="line"><span class="lineno">   45</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;is_open = 1;</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   47</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;strikes_closed++;</div>
+<div class="line"><span class="lineno">   48</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;strikes_closed &lt; 1)</div>
+<div class="line"><span class="lineno">   50</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;is_open = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;open_average = 0;</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   52</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;strikes_closed--;</div>
+<div class="line"><span class="lineno">   53</span>  }</div>
+<div class="line"><span class="lineno">   54</span>}</div>
+<div class="ttc" id="abme280_2common_2common_8h_html_ab3f68d59e815ea166f8c983bc6e85c5b"><div class="ttname"><a href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a></div><div class="ttdeci">#define WINDOW_SIZE</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8h_source.html#l00011">common.h:11</a></div></div>
+<div class="ttc" id="anamespacemagnet_html_ad2c79e7569cbb6bbd9a5632a509151f0"><div class="ttname"><a href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">magnet.sensor</a></div><div class="ttdeci">sensor</div><div class="ttdef"><b>Definição</b> <a href="magnet_8py_source.html#l00005">magnet.py:5</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme_8c_a46bd656175eb3641b823c7ac96963684_icgraph.png" border="0" usemap="#abme_8c_a46bd656175eb3641b823c7ac96963684_icgraph" alt=""/></div>
+<map name="abme_8c_a46bd656175eb3641b823c7ac96963684_icgraph" id="abme_8c_a46bd656175eb3641b823c7ac96963684_icgraph">
+<area shape="rect" title="Updates door opening status." alt="" coords="246,5,345,32"/>
+<area shape="rect" href="bme_8c.html#a028ad4de12126d97497460aa5d5e271d" title="Updates moving average, door opening status." alt="" coords="103,5,198,32"/>
+<area shape="poly" title=" " alt="" coords="231,21,198,21,198,16,231,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>argc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>argv</em>[]</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="bme_8c_source.html#l00116">116</a> do arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  116</span>                                 {</div>
+<div class="line"><span class="lineno">  117</span>  openlog(<span class="stringliteral">&quot;simar&quot;</span>, 0, LOG_LOCAL0);</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>  redisContext *<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, *<a class="code hl_variable" href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a>;</div>
+<div class="line"><span class="lineno">  120</span>  redisReply *reply, *reply_remote;</div>
+<div class="line"><span class="lineno">  121</span> </div>
+<div class="line"><span class="lineno">  122</span>  <span class="keyword">struct </span><a class="code hl_struct" href="structbme__sensor__data.html">bme_sensor_data</a> bme_sensors[16];</div>
+<div class="line"><span class="lineno">  123</span>  <span class="keyword">struct </span><a class="code hl_struct" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> sht_sensors[16];</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>  bme_sensors[0].dev.settings.osr_h = <a class="code hl_define" href="bme2__defs_8h.html#a521eb8ad23776eee8faaf58b17191a76">BME280_OVERSAMPLING_4X</a>;</div>
+<div class="line"><span class="lineno">  126</span>  bme_sensors[0].dev.settings.osr_p = <a class="code hl_define" href="bme2__defs_8h.html#ad8dc54a7a7d5bd1fd04d901561f7f646">BME280_OVERSAMPLING_16X</a>;</div>
+<div class="line"><span class="lineno">  127</span>  bme_sensors[0].dev.settings.osr_t = <a class="code hl_define" href="bme2__defs_8h.html#a521eb8ad23776eee8faaf58b17191a76">BME280_OVERSAMPLING_4X</a>;</div>
+<div class="line"><span class="lineno">  128</span>  bme_sensors[0].dev.settings.filter = <a class="code hl_define" href="bme2__defs_8h.html#ae61c58ec304b87f6f9726992af323dc3">BME280_FILTER_COEFF_OFF</a>;</div>
+<div class="line"><span class="lineno">  129</span> </div>
+<div class="line"><span class="lineno">  130</span>  uint8_t valid_bme = 0;</div>
+<div class="line"><span class="lineno">  131</span>  uint8_t valid_sht = 0;</div>
+<div class="line"><span class="lineno">  132</span>  uint8_t board_addr;</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a> = <a class="code hl_function" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07">open</a>(<span class="stringliteral">&quot;/opt/device.json&quot;</span>, O_RDONLY);</div>
+<div class="line"><span class="lineno">  135</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a> &gt; 0) {</div>
+<div class="line"><span class="lineno">  136</span>    <span class="keywordtype">int</span> len = lseek(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, 0, SEEK_END);</div>
+<div class="line"><span class="lineno">  137</span>    <span class="keywordtype">char</span>* json_buf = malloc(len + 1);</div>
+<div class="line"><span class="lineno">  138</span>    lseek(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, 0, SEEK_SET);</div>
+<div class="line"><span class="lineno">  139</span>    <a class="code hl_function" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90">read</a>(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, json_buf, len);</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* <a class="code hl_variable" href="namespace_s_p_ixx_c_o_n.html#a028f7c179a780a8fe52ea750b7f17e36">boards</a> = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno">  142</span>    <span class="keyword">const</span> <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* board = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno">  143</span>    <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* boards_json = cJSON_Parse(json_buf);</div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>    <span class="keywordflow">if</span> (json_buf != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno">  146</span>      <a class="code hl_variable" href="namespace_s_p_ixx_c_o_n.html#a028f7c179a780a8fe52ea750b7f17e36">boards</a> = <a class="code hl_function" href="c_j_s_o_n_8c.html#a02267703c3d44400abbb80ea8c91edb0">cJSON_GetObjectItemCaseSensitive</a>(boards_json, <span class="stringliteral">&quot;boards&quot;</span>);</div>
+<div class="line"><span class="lineno">  147</span>      <a class="code hl_define" href="c_j_s_o_n_8h.html#ac3d6e5782fb4bb3c7a25c7c5b1868f06">cJSON_ArrayForEach</a>(board, boards) {</div>
+<div class="line"><span class="lineno">  148</span>        <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* address = <a class="code hl_function" href="c_j_s_o_n_8c.html#a02267703c3d44400abbb80ea8c91edb0">cJSON_GetObjectItemCaseSensitive</a>(board, <span class="stringliteral">&quot;type&quot;</span>);</div>
+<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (cJSON_IsString(address) &amp;&amp; <a class="code hl_function" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a>(address-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a4d2b95f0dc1f37a46452f5ddd6963455">valuestring</a>, <span class="stringliteral">&quot;spiExpansion&quot;</span>) == 0) {</div>
+<div class="line"><span class="lineno">  150</span>          <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* board_no = <a class="code hl_function" href="c_j_s_o_n_8c.html#a02267703c3d44400abbb80ea8c91edb0">cJSON_GetObjectItemCaseSensitive</a>(board, <span class="stringliteral">&quot;address&quot;</span>);</div>
+<div class="line"><span class="lineno">  151</span>          <span class="keywordflow">if</span> (cJSON_IsNumber(board_no)) {</div>
+<div class="line"><span class="lineno">  152</span>            board_addr = board_no-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af69506d34291edd0be9fa15660ac01ec">valueint</a>;</div>
+<div class="line"><span class="lineno">  153</span>            <a class="code hl_function" href="group__i2c_mux.html#ga7cf1d9a50131494c5c77b7dbaebf6818">set_ext_addr</a>(board_addr);</div>
+<div class="line"><span class="lineno">  154</span>            <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> = 3;</div>
+<div class="line"><span class="lineno">  155</span>          }</div>
+<div class="line"><span class="lineno">  156</span>        }</div>
+<div class="line"><span class="lineno">  157</span>      }</div>
+<div class="line"><span class="lineno">  158</span>    }</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>    cJSON_Delete(boards_json);</div>
+<div class="line"><span class="lineno">  161</span>    free(json_buf);</div>
+<div class="line"><span class="lineno">  162</span>  }</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> * 2; i++) {</div>
+<div class="line"><span class="lineno">  165</span>    <span class="keyword">struct </span><a class="code hl_struct" href="structbme__sensor__data.html">bme_sensor_data</a> <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>;</div>
+<div class="line"><span class="lineno">  166</span>    <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev = bme_sensors[0].dev;</div>
+<div class="line"><span class="lineno">  167</span>    <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id.mux_id = i % <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a>;</div>
+<div class="line"><span class="lineno">  168</span>    <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id.ext_mux_id = -1;</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>    uint8_t sensor_addr = i &lt; <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> ? <a class="code hl_define" href="bme2__defs_8h.html#a34f07b8a4a9b1f48641b131f3dff720c">BME280_I2C_ADDR_PRIM</a> : <a class="code hl_define" href="bme2__defs_8h.html#ad8bc0d50730a48164ee3a882139e9959">BME280_I2C_ADDR_SEC</a>;</div>
+<div class="line"><span class="lineno">  171</span>    uint8_t sensor_status = <a class="code hl_function" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">bme_init</a>(&amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev, &amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id, sensor_addr);</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>    <span class="keywordflow">if</span> (sensor_status == <a class="code hl_define" href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a>)</div>
+<div class="line"><span class="lineno">  174</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a>;</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>    <span class="keywordflow">if</span> (sensor_status == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  177</span>      bme_sensors[valid_bme] = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>;</div>
+<div class="line"><span class="lineno">  178</span>      bme_sensors[valid_bme].dev.intf_ptr = &amp;bme_sensors[valid_bme].id;</div>
+<div class="line"><span class="lineno">  179</span>      bme_sensors[valid_bme].average = bme_sensors[valid_bme].open_average = 0;</div>
+<div class="line"><span class="lineno">  180</span>      bme_sensors[valid_bme].strikes_closed = bme_sensors[valid_bme].is_open = 0;</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>      snprintf(bme_sensors[valid_bme].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <a class="code hl_define" href="bme280_2common_2common_8h.html#afd709f201d7643c3909621f620ea648a">MAX_NAME_LEN</a>, <span class="stringliteral">&quot;sensor_%d_%x&quot;</span>, i % <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a>,</div>
+<div class="line"><span class="lineno">  183</span>               sensor_addr);</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>      syslog(LOG_INFO, <span class="stringliteral">&quot;Initialized BMx device with address 0x%x at channel %d&quot;</span>, sensor_addr,</div>
+<div class="line"><span class="lineno">  186</span>             <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id.mux_id);</div>
+<div class="line"><span class="lineno">  187</span>      valid_bme++;</div>
+<div class="line"><span class="lineno">  188</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  189</span>      <span class="keyword">struct </span><a class="code hl_struct" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> sht_sensor = {.<a class="code hl_variable" href="structsht3x__sensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">id</a>.mux_id = i % <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a>, .id.ext_mux_id = -1};</div>
+<div class="line"><span class="lineno">  190</span>      uint8_t sht_sensor_addr = i &lt; <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> ? <a class="code hl_enumvalue" href="sht3x_8h.html#a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31">SHT3X_I2C_ADDR_DFLT</a> : <a class="code hl_enumvalue" href="sht3x_8h.html#a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475">SHT3X_I2C_ADDR_ALT</a>;</div>
+<div class="line"><span class="lineno">  191</span> </div>
+<div class="line"><span class="lineno">  192</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28">sht3x_init</a>(&amp;sht_sensor, sht_sensor_addr) == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  193</span>        sht_sensors[valid_sht] = sht_sensor;</div>
+<div class="line"><span class="lineno">  194</span>        snprintf(sht_sensors[valid_sht].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <a class="code hl_define" href="bme280_2common_2common_8h.html#afd709f201d7643c3909621f620ea648a">MAX_NAME_LEN</a>, <span class="stringliteral">&quot;sensor_%d_%x&quot;</span>, i % <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a>,</div>
+<div class="line"><span class="lineno">  195</span>                 sht_sensor_addr);</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>        syslog(LOG_INFO, <span class="stringliteral">&quot;Initialized SHT3x device with address 0x%x at channel %d&quot;</span>,</div>
+<div class="line"><span class="lineno">  198</span>               sht_sensor_addr, sht_sensor.<a class="code hl_variable" href="structsht3x__sensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">id</a>.mux_id);</div>
+<div class="line"><span class="lineno">  199</span>        valid_sht++;</div>
+<div class="line"><span class="lineno">  200</span>      }</div>
+<div class="line"><span class="lineno">  201</span>    }</div>
+<div class="line"><span class="lineno">  202</span>  }</div>
+<div class="line"><span class="lineno">  203</span> </div>
+<div class="line"><span class="lineno">  204</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> == 3) {</div>
+<div class="line"><span class="lineno">  205</span>    uint32_t mode = 3;</div>
+<div class="line"><span class="lineno">  206</span>    uint8_t bpw = 8;</div>
+<div class="line"><span class="lineno">  207</span>    uint32_t speed = 1000000;</div>
+<div class="line"><span class="lineno">  208</span> </div>
+<div class="line"><span class="lineno">  209</span>    <a class="code hl_function" href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd">spi_open</a>(<span class="stringliteral">&quot;/dev/spidev0.0&quot;</span>, &amp;mode, &amp;bpw, &amp;speed);</div>
+<div class="line"><span class="lineno">  210</span> </div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; <a class="code hl_define" href="#aa63e2b5c35b16a21d38d57f0af451617">EXT_BOARD_I2C_LEN</a> + 2; i++) {</div>
+<div class="line"><span class="lineno">  212</span>      <span class="keywordflow">if</span> (i % 4 == 0)</div>
+<div class="line"><span class="lineno">  213</span>        <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>      <span class="keyword">struct </span><a class="code hl_struct" href="structbme__sensor__data.html">bme_sensor_data</a> <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>;</div>
+<div class="line"><span class="lineno">  216</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev = bme_sensors[0].dev;</div>
+<div class="line"><span class="lineno">  217</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id.mux_id = 3;</div>
+<div class="line"><span class="lineno">  218</span> </div>
+<div class="line"><span class="lineno">  219</span>      <span class="comment">/* Gets multiplexer channel ID for I2C extension board.</span></div>
+<div class="line"><span class="lineno">  220</span><span class="comment">       *  Up to the fourth channel, only the first mux is used, which</span></div>
+<div class="line"><span class="lineno">  221</span><span class="comment">       *  is selected by the first pair of bits (from LSB).</span></div>
+<div class="line"><span class="lineno">  222</span><span class="comment">       *  From the fourth channel onwards, the second mux. is used.</span></div>
+<div class="line"><span class="lineno">  223</span><span class="comment">       *  Channels xx00 and 00xx cannot be used, as they are currently</span></div>
+<div class="line"><span class="lineno">  224</span><span class="comment">       *  used for &quot;parking&quot; each multiplexer to prevent cross-communication.</span></div>
+<div class="line"><span class="lineno">  225</span><span class="comment">       */</span></div>
+<div class="line"><span class="lineno">  226</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id.ext_mux_id = i &lt; 4 ? i % 4 : (i % 4) &lt;&lt; 2;</div>
+<div class="line"><span class="lineno">  227</span> </div>
+<div class="line"><span class="lineno">  228</span>      uint8_t sensor_addr = <a class="code hl_define" href="bme2__defs_8h.html#a34f07b8a4a9b1f48641b131f3dff720c">BME280_I2C_ADDR_PRIM</a>;</div>
+<div class="line"><span class="lineno">  229</span>      uint8_t sht_sensor_addr = <a class="code hl_enumvalue" href="sht3x_8h.html#a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31">SHT3X_I2C_ADDR_DFLT</a>;</div>
+<div class="line"><span class="lineno">  230</span> </div>
+<div class="line"><span class="lineno">  231</span>      <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">  232</span>        uint8_t sensor_status = <a class="code hl_function" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">bme_init</a>(&amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev, &amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id, sensor_addr);</div>
+<div class="line"><span class="lineno">  233</span> </div>
+<div class="line"><span class="lineno">  234</span>        <span class="keywordflow">if</span> (sensor_status == <a class="code hl_define" href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a>)</div>
+<div class="line"><span class="lineno">  235</span>          <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a>;</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>        <span class="keywordflow">if</span> (sensor_status == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  238</span>          bme_sensors[valid_bme] = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>;</div>
+<div class="line"><span class="lineno">  239</span>          bme_sensors[valid_bme].dev.intf_ptr = &amp;bme_sensors[valid_bme].id;</div>
+<div class="line"><span class="lineno">  240</span>          bme_sensors[valid_bme].average = bme_sensors[valid_bme].open_average = 0;</div>
+<div class="line"><span class="lineno">  241</span>          bme_sensors[valid_bme].strikes_closed = bme_sensors[valid_bme].is_open = 0;</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>          snprintf(bme_sensors[valid_bme].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <a class="code hl_define" href="bme280_2common_2common_8h.html#afd709f201d7643c3909621f620ea648a">MAX_NAME_LEN</a>, <span class="stringliteral">&quot;sensor_%d_%x&quot;</span>,</div>
+<div class="line"><span class="lineno">  244</span>                   i + <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> + 1, sensor_addr);</div>
+<div class="line"><span class="lineno">  245</span> </div>
+<div class="line"><span class="lineno">  246</span>          syslog(LOG_INFO,</div>
+<div class="line"><span class="lineno">  247</span>                 <span class="stringliteral">&quot;Initialized BMx device on expansion board with address 0x%x at channel %d&quot;</span>,</div>
+<div class="line"><span class="lineno">  248</span>                 sensor_addr, <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id.ext_mux_id);</div>
+<div class="line"><span class="lineno">  249</span>          valid_bme++;</div>
+<div class="line"><span class="lineno">  250</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  251</span>          <span class="keyword">struct </span><a class="code hl_struct" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> sht_sensor = {.<a class="code hl_variable" href="structsht3x__sensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">id</a>.mux_id = i % <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a>,</div>
+<div class="line"><span class="lineno">  252</span>                                                 .id.ext_mux_id = -1};</div>
+<div class="line"><span class="lineno">  253</span>          <span class="keywordflow">if</span> (<a class="code hl_function" href="group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28">sht3x_init</a>(&amp;sht_sensor, sht_sensor_addr) == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  254</span>            sht_sensors[valid_sht] = sht_sensor;</div>
+<div class="line"><span class="lineno">  255</span>            snprintf(sht_sensors[valid_sht].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <a class="code hl_define" href="bme280_2common_2common_8h.html#afd709f201d7643c3909621f620ea648a">MAX_NAME_LEN</a>, <span class="stringliteral">&quot;sensor_%d_%x&quot;</span>, i % <a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a>,</div>
+<div class="line"><span class="lineno">  256</span>                     sht_sensor_addr);</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>            syslog(LOG_INFO,</div>
+<div class="line"><span class="lineno">  259</span>                   <span class="stringliteral">&quot;Initialized SHT3x on expansion board device with address 0x%x at channel %d&quot;</span>,</div>
+<div class="line"><span class="lineno">  260</span>                   sht_sensor_addr, sht_sensor.<a class="code hl_variable" href="structsht3x__sensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">id</a>.ext_mux_id);</div>
+<div class="line"><span class="lineno">  261</span>            valid_sht++;</div>
+<div class="line"><span class="lineno">  262</span>          }</div>
+<div class="line"><span class="lineno">  263</span>        }</div>
+<div class="line"><span class="lineno">  264</span>      } <span class="keywordflow">while</span> (sensor_addr++ &lt; <a class="code hl_define" href="bme2__defs_8h.html#ad8bc0d50730a48164ee3a882139e9959">BME280_I2C_ADDR_SEC</a> &amp;&amp; sht_sensor_addr++ &lt; <a class="code hl_enumvalue" href="sht3x_8h.html#a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475">SHT3X_I2C_ADDR_ALT</a>);</div>
+<div class="line"><span class="lineno">  265</span>    }</div>
+<div class="line"><span class="lineno">  266</span> </div>
+<div class="line"><span class="lineno">  267</span>    <a class="code hl_function" href="group__i2c_mux.html#ga7000e32b922e6dea26a32e405fd0a46e">unselect_i2c_extender</a>();</div>
+<div class="line"><span class="lineno">  268</span>  }</div>
+<div class="line"><span class="lineno">  269</span> </div>
+<div class="line"><span class="lineno">  270</span>  <span class="keywordflow">if</span> (valid_bme &lt; 1 &amp;&amp; valid_sht &lt; 1) {</div>
+<div class="line"><span class="lineno">  271</span>    syslog(LOG_CRIT, <span class="stringliteral">&quot;No sensors found&quot;</span>);</div>
+<div class="line"><span class="lineno">  272</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a>;</div>
+<div class="line"><span class="lineno">  273</span>  }</div>
+<div class="line"><span class="lineno">  274</span> </div>
+<div class="line"><span class="lineno">  275</span>  syslog(LOG_NOTICE, <span class="stringliteral">&quot;Starting up...&quot;</span>);</div>
+<div class="line"><span class="lineno">  276</span> </div>
+<div class="line"><span class="lineno">  277</span>  <span class="keywordtype">int</span> server_i = 0;</div>
+<div class="line"><span class="lineno">  278</span> </div>
+<div class="line"><span class="lineno">  279</span>  <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">  280</span>    <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a> = redisConnectWithTimeout(<span class="stringliteral">&quot;127.0.0.1&quot;</span>, 6379, (<span class="keyword">struct</span> timeval){1, 500000});</div>
+<div class="line"><span class="lineno">  281</span>    <a class="code hl_variable" href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a> = redisConnectWithTimeout(<a class="code hl_variable" href="#a8d9851bcc25299ceb857952e186330ec">servers</a>[server_i], 6379, (<span class="keyword">struct</span> timeval){1, 500000});</div>
+<div class="line"><span class="lineno">  282</span> </div>
+<div class="line"><span class="lineno">  283</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err) {</div>
+<div class="line"><span class="lineno">  284</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err == 1)</div>
+<div class="line"><span class="lineno">  285</span>        syslog(LOG_ERR,</div>
+<div class="line"><span class="lineno">  286</span>               <span class="stringliteral">&quot;Redis server instance not available. Have you &quot;</span></div>
+<div class="line"><span class="lineno">  287</span>               <span class="stringliteral">&quot;initialized the Redis server? (Error code 1)\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  288</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  289</span>        syslog(LOG_ERR, <span class="stringliteral">&quot;Unknown redis error (error code %d)\n&quot;</span>, <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err);</div>
+<div class="line"><span class="lineno">  290</span> </div>
+<div class="line"><span class="lineno">  291</span>      nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 700000000L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);  <span class="comment">// 700ms</span></div>
+<div class="line"><span class="lineno">  292</span>    }</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a>-&gt;err) {</div>
+<div class="line"><span class="lineno">  295</span>      <span class="keywordflow">if</span> (server_i == 0) {</div>
+<div class="line"><span class="lineno">  296</span>        syslog(LOG_ERR,</div>
+<div class="line"><span class="lineno">  297</span>               <span class="stringliteral">&quot;No remote Redis server instance for calibration is available. &quot;</span></div>
+<div class="line"><span class="lineno">  298</span>               <span class="stringliteral">&quot;Attempting to fetch local mirror.\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  299</span>        <a class="code hl_variable" href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a> = <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>;</div>
+<div class="line"><span class="lineno">  300</span>      }</div>
+<div class="line"><span class="lineno">  301</span> </div>
+<div class="line"><span class="lineno">  302</span>      syslog(LOG_ERR, <span class="stringliteral">&quot;%s remote Redis server not available, switching...\n&quot;</span>, <a class="code hl_variable" href="#a8d9851bcc25299ceb857952e186330ec">servers</a>[server_i++]);</div>
+<div class="line"><span class="lineno">  303</span>    }</div>
+<div class="line"><span class="lineno">  304</span> </div>
+<div class="line"><span class="lineno">  305</span>  } <span class="keywordflow">while</span> (<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err || <a class="code hl_variable" href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a>-&gt;err);</div>
+<div class="line"><span class="lineno">  306</span> </div>
+<div class="line"><span class="lineno">  307</span>  syslog(LOG_NOTICE, <span class="stringliteral">&quot;Redis DB connected&quot;</span>);</div>
+<div class="line"><span class="lineno">  308</span>  <span class="keywordtype">int</span> retries = 0;</div>
+<div class="line"><span class="lineno">  309</span> </div>
+<div class="line"><span class="lineno">  310</span>  <span class="comment">// Populate moving average window before anything else</span></div>
+<div class="line"><span class="lineno">  311</span> </div>
+<div class="line"><span class="lineno">  312</span>  <span class="keywordtype">double</span> pressure_delta = 0;</div>
+<div class="line"><span class="lineno">  313</span> </div>
+<div class="line"><span class="lineno">  314</span>  reply_remote = redisCommand(<a class="code hl_variable" href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a>, <span class="stringliteral">&quot;GET wgen2_pressure&quot;</span>);</div>
+<div class="line"><span class="lineno">  315</span> </div>
+<div class="line"><span class="lineno">  316</span>  <span class="keywordflow">if</span> (reply_remote-&gt;str) {</div>
+<div class="line"><span class="lineno">  317</span>    <span class="keywordtype">double</span> external_pressure = atof(reply_remote-&gt;str);</div>
+<div class="line"><span class="lineno">  318</span>    reply = redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;GET last_ext_pressure&quot;</span>);</div>
+<div class="line"><span class="lineno">  319</span> </div>
+<div class="line"><span class="lineno">  320</span>    <span class="keywordflow">if</span> (reply-&gt;str) {</div>
+<div class="line"><span class="lineno">  321</span>      <span class="keywordtype">double</span> pressure_cache = atof(reply-&gt;str);</div>
+<div class="line"><span class="lineno">  322</span>      pressure_delta = external_pressure - pressure_cache;</div>
+<div class="line"><span class="lineno">  323</span>      syslog(LOG_NOTICE,</div>
+<div class="line"><span class="lineno">  324</span>             <span class="stringliteral">&quot;Deviation detected, pressure delta is %.3f, current external &quot;</span></div>
+<div class="line"><span class="lineno">  325</span>             <span class="stringliteral">&quot;pressure is %.3f and last recorded pressure is %.3f\n&quot;</span>,</div>
+<div class="line"><span class="lineno">  326</span>             pressure_delta, external_pressure, pressure_cache);</div>
+<div class="line"><span class="lineno">  327</span>    }</div>
+<div class="line"><span class="lineno">  328</span>    freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  329</span>  }</div>
+<div class="line"><span class="lineno">  330</span> </div>
+<div class="line"><span class="lineno">  331</span>  freeReplyObject(reply_remote);</div>
+<div class="line"><span class="lineno">  332</span> </div>
+<div class="line"><span class="lineno">  333</span>  reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;DEL valid_sensors&quot;</span>);</div>
+<div class="line"><span class="lineno">  334</span>  freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  335</span> </div>
+<div class="line"><span class="lineno">  336</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; valid_bme; i++) {</div>
+<div class="line"><span class="lineno">  337</span>    reply = redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HGET %s avg&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>);</div>
+<div class="line"><span class="lineno">  338</span> </div>
+<div class="line"><span class="lineno">  339</span>    <span class="keywordflow">if</span> (!reply-&gt;str) {</div>
+<div class="line"><span class="lineno">  340</span>      bme_sensors[i].past_pres = 0;</div>
+<div class="line"><span class="lineno">  341</span> </div>
+<div class="line"><span class="lineno">  342</span>      <span class="comment">// First 3 readouts are discarded</span></div>
+<div class="line"><span class="lineno">  343</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = 0; k &lt; 3; k++) {</div>
+<div class="line"><span class="lineno">  344</span>        <a class="code hl_function" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a>(&amp;bme_sensors[i].dev, &amp;bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>);</div>
+<div class="line"><span class="lineno">  345</span>        nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 250000000L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  346</span>      }</div>
+<div class="line"><span class="lineno">  347</span> </div>
+<div class="line"><span class="lineno">  348</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>; j++) {</div>
+<div class="line"><span class="lineno">  349</span>        nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 250000000L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a>(&amp;bme_sensors[i].dev, &amp;bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>) != <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  351</span>          <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  352</span>        }</div>
+<div class="line"><span class="lineno">  353</span> </div>
+<div class="line"><span class="lineno">  354</span>        <span class="keywordflow">if</span> (bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>.pressure &gt; 850 &amp;&amp; bme_sensors[i].data.pressure &lt; 1000) {</div>
+<div class="line"><span class="lineno">  355</span>          bme_sensors[i].window[j] = bme_sensors[i].past_pres = bme_sensors[i].data.pressure;</div>
+<div class="line"><span class="lineno">  356</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  357</span>          --j;</div>
+<div class="line"><span class="lineno">  358</span>          ++retries;</div>
+<div class="line"><span class="lineno">  359</span>          <span class="keywordflow">if</span> (retries &gt; 10) {</div>
+<div class="line"><span class="lineno">  360</span>            syslog(LOG_ERR, <span class="stringliteral">&quot;Could not obtain realistic data from sensor number %d\n&quot;</span>, i);</div>
+<div class="line"><span class="lineno">  361</span>            <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a>;</div>
+<div class="line"><span class="lineno">  362</span>          }</div>
+<div class="line"><span class="lineno">  363</span>        }</div>
+<div class="line"><span class="lineno">  364</span>      }</div>
+<div class="line"><span class="lineno">  365</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  366</span>      <span class="keywordtype">double</span> avg = atof(reply-&gt;str);</div>
+<div class="line"><span class="lineno">  367</span> </div>
+<div class="line"><span class="lineno">  368</span>      syslog(LOG_NOTICE, <span class="stringliteral">&quot;Pressure moving average for %d was %.3f\n&quot;</span>, i, avg);</div>
+<div class="line"><span class="lineno">  369</span> </div>
+<div class="line"><span class="lineno">  370</span>      avg += pressure_delta;</div>
+<div class="line"><span class="lineno">  371</span>      bme_sensors[i].past_pres = avg;</div>
+<div class="line"><span class="lineno">  372</span> </div>
+<div class="line"><span class="lineno">  373</span>      <span class="keywordflow">while</span> (1) {</div>
+<div class="line"><span class="lineno">  374</span>        <a class="code hl_function" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a>(&amp;bme_sensors[i].dev, &amp;bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>);</div>
+<div class="line"><span class="lineno">  375</span>        <span class="keywordflow">if</span> (bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>.pressure &gt; 900 &amp;&amp; bme_sensors[i].data.pressure &lt; 1000)</div>
+<div class="line"><span class="lineno">  376</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  377</span>        nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 250000000L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  378</span> </div>
+<div class="line"><span class="lineno">  379</span>        ++retries;</div>
+<div class="line"><span class="lineno">  380</span>        <span class="keywordflow">if</span> (retries &gt; 10) {</div>
+<div class="line"><span class="lineno">  381</span>          syslog(LOG_ERR, <span class="stringliteral">&quot;Could not obtain realistic data from sensor number %d\n&quot;</span>, i);</div>
+<div class="line"><span class="lineno">  382</span>          <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a>;</div>
+<div class="line"><span class="lineno">  383</span>        }</div>
+<div class="line"><span class="lineno">  384</span>      }</div>
+<div class="line"><span class="lineno">  385</span> </div>
+<div class="line"><span class="lineno">  386</span>      reply = redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HGET %s open&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>);</div>
+<div class="line"><span class="lineno">  387</span>      syslog(LOG_NOTICE, <span class="stringliteral">&quot;Sensor %d had open state %s&quot;</span>, i, reply-&gt;str);</div>
+<div class="line"><span class="lineno">  388</span> </div>
+<div class="line"><span class="lineno">  389</span>      <span class="keywordflow">if</span> (!<a class="code hl_function" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a>(reply-&gt;str, <span class="stringliteral">&quot;1&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  390</span>        syslog(LOG_NOTICE, <span class="stringliteral">&quot;Sensor %d had open avg. %s&quot;</span>, i, reply-&gt;str);</div>
+<div class="line"><span class="lineno">  391</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  392</span>        reply = redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HGET %s openavg&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>);</div>
+<div class="line"><span class="lineno">  393</span> </div>
+<div class="line"><span class="lineno">  394</span>        <span class="keywordflow">if</span> (reply-&gt;str &amp;&amp; atof(reply-&gt;str)) {</div>
+<div class="line"><span class="lineno">  395</span>          bme_sensors[i].open_average = atof(reply-&gt;str) + pressure_delta;</div>
+<div class="line"><span class="lineno">  396</span>          bme_sensors[i].strikes_closed = <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>;</div>
+<div class="line"><span class="lineno">  397</span>          bme_sensors[i].average = bme_sensors[i].open_average - 0.3;</div>
+<div class="line"><span class="lineno">  398</span>          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>; j++)</div>
+<div class="line"><span class="lineno">  399</span>            bme_sensors[i].window[j] = bme_sensors[i].open_average;</div>
+<div class="line"><span class="lineno">  400</span>        }</div>
+<div class="line"><span class="lineno">  401</span>      } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  402</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>; j++)</div>
+<div class="line"><span class="lineno">  403</span>          bme_sensors[i].window[j] = avg;</div>
+<div class="line"><span class="lineno">  404</span>      }</div>
+<div class="line"><span class="lineno">  405</span>    }</div>
+<div class="line"><span class="lineno">  406</span>    freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  407</span> </div>
+<div class="line"><span class="lineno">  408</span>    reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;RPUSH valid_sensors %s&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>);</div>
+<div class="line"><span class="lineno">  409</span>    freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  410</span>    <a class="code hl_function" href="#a028ad4de12126d97497460aa5d5e271d">update_open</a>(&amp;bme_sensors[i]);</div>
+<div class="line"><span class="lineno">  411</span>  }</div>
+<div class="line"><span class="lineno">  412</span> </div>
+<div class="line"><span class="lineno">  413</span>  syslog(LOG_NOTICE, <span class="stringliteral">&quot;Calibration data obtained&quot;</span>);</div>
+<div class="line"><span class="lineno">  414</span>  <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><span class="lineno">  415</span> </div>
+<div class="line"><span class="lineno">  416</span>  reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;SET retries 0&quot;</span>);</div>
+<div class="line"><span class="lineno">  417</span>  freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  418</span> </div>
+<div class="line"><span class="lineno">  419</span>  uint8_t bme_errors = 0;</div>
+<div class="line"><span class="lineno">  420</span> </div>
+<div class="line"><span class="lineno">  421</span>  <span class="keywordflow">while</span> (1) {</div>
+<div class="line"><span class="lineno">  422</span>    <span class="keywordflow">for</span> (i = 0; i &lt; valid_bme; i++) {</div>
+<div class="line"><span class="lineno">  423</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a>(&amp;bme_sensors[i].dev, &amp;bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>) == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a> &amp;&amp;</div>
+<div class="line"><span class="lineno">  424</span>          <a class="code hl_function" href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb">check_alteration</a>(bme_sensors[i]) == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  425</span>        bme_errors = 0;</div>
+<div class="line"><span class="lineno">  426</span>        reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %.3f&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;temperature&quot;</span>,</div>
+<div class="line"><span class="lineno">  427</span>                                          bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>.temperature);</div>
+<div class="line"><span class="lineno">  428</span>        <span class="keywordflow">if</span> (reply == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><span class="lineno">  429</span>          <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ad369675948e5476d0572af3f0f1308cb">DB_FAIL</a>;</div>
+<div class="line"><span class="lineno">  430</span> </div>
+<div class="line"><span class="lineno">  431</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  432</span> </div>
+<div class="line"><span class="lineno">  433</span>        reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %.3f&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;pressure&quot;</span>,</div>
+<div class="line"><span class="lineno">  434</span>                                          bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>.pressure);</div>
+<div class="line"><span class="lineno">  435</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  436</span> </div>
+<div class="line"><span class="lineno">  437</span>        reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %.3f&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;humidity&quot;</span>,</div>
+<div class="line"><span class="lineno">  438</span>                                          bme_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>.humidity);</div>
+<div class="line"><span class="lineno">  439</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  440</span> </div>
+<div class="line"><span class="lineno">  441</span>        <a class="code hl_function" href="#a028ad4de12126d97497460aa5d5e271d">update_open</a>(&amp;bme_sensors[i]);</div>
+<div class="line"><span class="lineno">  442</span>        reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %d&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;open&quot;</span>,</div>
+<div class="line"><span class="lineno">  443</span>                                          bme_sensors[i].is_open);</div>
+<div class="line"><span class="lineno">  444</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  445</span> </div>
+<div class="line"><span class="lineno">  446</span>        reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %.3f&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;avg&quot;</span>,</div>
+<div class="line"><span class="lineno">  447</span>                                          bme_sensors[i].average);</div>
+<div class="line"><span class="lineno">  448</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  449</span> </div>
+<div class="line"><span class="lineno">  450</span>        reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %.3f&quot;</span>, bme_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;openavg&quot;</span>,</div>
+<div class="line"><span class="lineno">  451</span>                                          bme_sensors[i].open_average);</div>
+<div class="line"><span class="lineno">  452</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  453</span> </div>
+<div class="line"><span class="lineno">  454</span>        bme_sensors-&gt;past_pres = bme_sensors[i].data.pressure;</div>
+<div class="line"><span class="lineno">  455</span>      } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  456</span>        <span class="keywordflow">if</span> (bme_errors++ &gt; <a class="code hl_define" href="#a66d6a087e218185a6331be8875bd07d0">ERROR_THRESHOLD</a>)</div>
+<div class="line"><span class="lineno">  457</span>          <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a>;</div>
+<div class="line"><span class="lineno">  458</span>      }</div>
+<div class="line"><span class="lineno">  459</span>    }</div>
+<div class="line"><span class="lineno">  460</span> </div>
+<div class="line"><span class="lineno">  461</span>    <span class="keywordflow">for</span> (i = 0; i &lt; valid_sht; i++) {</div>
+<div class="line"><span class="lineno">  462</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f">sht3x_measure_blocking_read</a>(&amp;sht_sensors[i]) != <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>)</div>
+<div class="line"><span class="lineno">  463</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a>;</div>
+<div class="line"><span class="lineno">  464</span> </div>
+<div class="line"><span class="lineno">  465</span>      reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %.3f&quot;</span>, sht_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;temperature&quot;</span>,</div>
+<div class="line"><span class="lineno">  466</span>                                        sht_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>.temperature);</div>
+<div class="line"><span class="lineno">  467</span> </div>
+<div class="line"><span class="lineno">  468</span>      <span class="keywordflow">if</span> (reply == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><span class="lineno">  469</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ad369675948e5476d0572af3f0f1308cb">DB_FAIL</a>;</div>
+<div class="line"><span class="lineno">  470</span> </div>
+<div class="line"><span class="lineno">  471</span>      freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  472</span> </div>
+<div class="line"><span class="lineno">  473</span>      reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET %s %s %.3f&quot;</span>, sht_sensors[i].<a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, <span class="stringliteral">&quot;humidity&quot;</span>,</div>
+<div class="line"><span class="lineno">  474</span>                                        sht_sensors[i].<a class="code hl_variable" href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">data</a>.humidity);</div>
+<div class="line"><span class="lineno">  475</span>      freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  476</span>    }</div>
+<div class="line"><span class="lineno">  477</span> </div>
+<div class="line"><span class="lineno">  478</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a> == 3)</div>
+<div class="line"><span class="lineno">  479</span>      <a class="code hl_function" href="group__i2c_mux.html#ga7000e32b922e6dea26a32e405fd0a46e">unselect_i2c_extender</a>();</div>
+<div class="line"><span class="lineno">  480</span> </div>
+<div class="line"><span class="lineno">  481</span>    reply_remote = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a>, <span class="stringliteral">&quot;GET wgen2_pressure&quot;</span>);</div>
+<div class="line"><span class="lineno">  482</span> </div>
+<div class="line"><span class="lineno">  483</span>    <span class="keywordflow">if</span> (reply_remote-&gt;str) {</div>
+<div class="line"><span class="lineno">  484</span>      reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;SET last_ext_pressure %s&quot;</span>, reply_remote-&gt;str);</div>
+<div class="line"><span class="lineno">  485</span>      freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  486</span>    }</div>
+<div class="line"><span class="lineno">  487</span> </div>
+<div class="line"><span class="lineno">  488</span>    freeReplyObject(reply_remote);</div>
+<div class="line"><span class="lineno">  489</span>    nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 999999999L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  490</span>  }</div>
+<div class="line"><span class="lineno">  491</span> </div>
+<div class="line"><span class="lineno">  492</span>  redisFree(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>);</div>
+<div class="line"><span class="lineno">  493</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  494</span>}</div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a3e502594f97be65d769480bce36c3706"><div class="ttname"><a href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">bme_init</a></div><div class="ttdeci">int8_t bme_init(struct bme280_dev *dev, struct identifier *id, uint8_t addr)</div><div class="ttdoc">Initializes sensor communication.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8c_source.html#l00021">common.c:21</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a4c840b82055c8e4dad841d25cb520ee5"><div class="ttname"><a href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a></div><div class="ttdeci">int8_t bme_read(struct bme280_dev *dev, struct bme280_data *comp_data)</div><div class="ttdoc">Reads sensor data.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8c_source.html#l00072">common.c:72</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a4efac5cc7de570b579555a87cdaf53bb"><div class="ttname"><a href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb">check_alteration</a></div><div class="ttdeci">int8_t check_alteration(struct bme_sensor_data sensor)</div><div class="ttdoc">Checks if the alteration in pressure over one measurement is realistic.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8c_source.html#l00089">common.c:89</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8h_html_afd709f201d7643c3909621f620ea648a"><div class="ttname"><a href="bme280_2common_2common_8h.html#afd709f201d7643c3909621f620ea648a">MAX_NAME_LEN</a></div><div class="ttdeci">#define MAX_NAME_LEN</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8h_source.html#l00012">common.h:12</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a34f07b8a4a9b1f48641b131f3dff720c"><div class="ttname"><a href="bme2__defs_8h.html#a34f07b8a4a9b1f48641b131f3dff720c">BME280_I2C_ADDR_PRIM</a></div><div class="ttdeci">#define BME280_I2C_ADDR_PRIM</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00123">bme2_defs.h:123</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a521eb8ad23776eee8faaf58b17191a76"><div class="ttname"><a href="bme2__defs_8h.html#a521eb8ad23776eee8faaf58b17191a76">BME280_OVERSAMPLING_4X</a></div><div class="ttdeci">#define BME280_OVERSAMPLING_4X</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00216">bme2_defs.h:216</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_abfe3dd12ee6f5f5d51fbb340a22ff678"><div class="ttname"><a href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a></div><div class="ttdeci">#define BME280_OK</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00142">bme2_defs.h:142</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_ad8bc0d50730a48164ee3a882139e9959"><div class="ttname"><a href="bme2__defs_8h.html#ad8bc0d50730a48164ee3a882139e9959">BME280_I2C_ADDR_SEC</a></div><div class="ttdeci">#define BME280_I2C_ADDR_SEC</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00124">bme2_defs.h:124</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_ad8dc54a7a7d5bd1fd04d901561f7f646"><div class="ttname"><a href="bme2__defs_8h.html#ad8dc54a7a7d5bd1fd04d901561f7f646">BME280_OVERSAMPLING_16X</a></div><div class="ttdeci">#define BME280_OVERSAMPLING_16X</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00218">bme2_defs.h:218</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_ae61c58ec304b87f6f9726992af323dc3"><div class="ttname"><a href="bme2__defs_8h.html#ae61c58ec304b87f6f9726992af323dc3">BME280_FILTER_COEFF_OFF</a></div><div class="ttdeci">#define BME280_FILTER_COEFF_OFF</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00237">bme2_defs.h:237</a></div></div>
+<div class="ttc" id="abme_8c_html_a028ad4de12126d97497460aa5d5e271d"><div class="ttname"><a href="#a028ad4de12126d97497460aa5d5e271d">update_open</a></div><div class="ttdeci">void update_open(struct bme_sensor_data *sensor)</div><div class="ttdoc">Updates moving average, door opening status.</div><div class="ttdef"><b>Definição</b> <a href="bme_8c_source.html#l00074">bme.c:74</a></div></div>
+<div class="ttc" id="abme_8c_html_a66d6a087e218185a6331be8875bd07d0"><div class="ttname"><a href="#a66d6a087e218185a6331be8875bd07d0">ERROR_THRESHOLD</a></div><div class="ttdeci">#define ERROR_THRESHOLD</div><div class="ttdef"><b>Definição</b> <a href="bme_8c_source.html#l00018">bme.c:18</a></div></div>
+<div class="ttc" id="abme_8c_html_a8d9851bcc25299ceb857952e186330ec"><div class="ttname"><a href="#a8d9851bcc25299ceb857952e186330ec">servers</a></div><div class="ttdeci">const char servers[3][32]</div><div class="ttdef"><b>Definição</b> <a href="bme_8c_source.html#l00023">bme.c:23</a></div></div>
+<div class="ttc" id="abme_8c_html_aa63e2b5c35b16a21d38d57f0af451617"><div class="ttname"><a href="#aa63e2b5c35b16a21d38d57f0af451617">EXT_BOARD_I2C_LEN</a></div><div class="ttdeci">#define EXT_BOARD_I2C_LEN</div><div class="ttdef"><b>Definição</b> <a href="bme_8c_source.html#l00019">bme.c:19</a></div></div>
+<div class="ttc" id="abme_8c_html_af38b712935d00f87aaf3dbd16e4b829b"><div class="ttname"><a href="#af38b712935d00f87aaf3dbd16e4b829b">iface_board_len</a></div><div class="ttdeci">uint8_t iface_board_len</div><div class="ttdef"><b>Definição</b> <a href="bme_8c_source.html#l00021">bme.c:21</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8c_html_a02267703c3d44400abbb80ea8c91edb0"><div class="ttname"><a href="c_j_s_o_n_8c.html#a02267703c3d44400abbb80ea8c91edb0">cJSON_GetObjectItemCaseSensitive</a></div><div class="ttdeci">cJSON_GetObjectItemCaseSensitive(const cJSON *const object, const char *const string)</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l01670">cJSON.c:1670</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_ac3d6e5782fb4bb3c7a25c7c5b1868f06"><div class="ttname"><a href="c_j_s_o_n_8h.html#ac3d6e5782fb4bb3c7a25c7c5b1868f06">cJSON_ArrayForEach</a></div><div class="ttdeci">#define cJSON_ArrayForEach(element, array)</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00335">cJSON.h:335</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga7000e32b922e6dea26a32e405fd0a46e"><div class="ttname"><a href="group__i2c_mux.html#ga7000e32b922e6dea26a32e405fd0a46e">unselect_i2c_extender</a></div><div class="ttdeci">void unselect_i2c_extender()</div><div class="ttdoc">Unselects the I2C extender (and SPI extender, by proxy)</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00089">common.c:89</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga7cf1d9a50131494c5c77b7dbaebf6818"><div class="ttname"><a href="group__i2c_mux.html#ga7cf1d9a50131494c5c77b7dbaebf6818">set_ext_addr</a></div><div class="ttdeci">int8_t set_ext_addr(uint8_t addr)</div><div class="ttdoc">Sets the SPI extender board address.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00047">common.c:47</a></div></div>
+<div class="ttc" id="agroup__sht3x_init_html_ga646de02d627e97cc0ebdb6ef4f869c28"><div class="ttname"><a href="group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28">sht3x_init</a></div><div class="ttdeci">int8_t sht3x_init(struct sht3x_sensor_data *sht, uint8_t addr)</div><div class="ttdoc">Initializes sensor communication.</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8c_source.html#l00084">sht3x.c:84</a></div></div>
+<div class="ttc" id="agroup__sht3x_sensor_data_html_gab7581ca6d91564876c4a1aeea6b4c80f"><div class="ttname"><a href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f">sht3x_measure_blocking_read</a></div><div class="ttdeci">int16_t sht3x_measure_blocking_read(struct sht3x_sensor_data *sht)</div><div class="ttdoc">Starts a measurement and then reads out the results.</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8c_source.html#l00107">sht3x.c:107</a></div></div>
+<div class="ttc" id="agroup__spi_comm_html_ga968d98569b427752f4798f05ba8fb6bd"><div class="ttname"><a href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd">spi_open</a></div><div class="ttdeci">int spi_open(const char *device, uint32_t *mode, uint8_t *bits, uint32_t *speed)</div><div class="ttdoc">Opens SPI bus.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00075">common.c:75</a></div></div>
+<div class="ttc" id="anamespace_s_p_ixx_c_o_n_html_a028f7c179a780a8fe52ea750b7f17e36"><div class="ttname"><a href="namespace_s_p_ixx_c_o_n.html#a028f7c179a780a8fe52ea750b7f17e36">SPIxxCON.boards</a></div><div class="ttdeci">list boards</div><div class="ttdef"><b>Definição</b> <a href="_s_p_ixx_c_o_n_8py_source.html#l00049">SPIxxCON.py:49</a></div></div>
+<div class="ttc" id="arelates_8cpp_html_a7ceb7d379a52f7e26418e7a446b4a41a"><div class="ttname"><a href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a></div><div class="ttdeci">int strcmp(const String &amp;s1, const String &amp;s2)</div><div class="ttdef"><b>Definição</b> <a href="relates_8cpp_source.html#l00014">relates.cpp:14</a></div></div>
+<div class="ttc" id="asht3x_8h_html_a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31"><div class="ttname"><a href="sht3x_8h.html#a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31">SHT3X_I2C_ADDR_DFLT</a></div><div class="ttdeci">@ SHT3X_I2C_ADDR_DFLT</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00095">sht3x.h:95</a></div></div>
+<div class="ttc" id="asht3x_8h_html_a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475"><div class="ttname"><a href="sht3x_8h.html#a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475">SHT3X_I2C_ADDR_ALT</a></div><div class="ttdeci">@ SHT3X_I2C_ADDR_ALT</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00097">sht3x.h:96</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html_a36204fafbdf35d038195e0681cee640f"><div class="ttname"><a href="spi_2common_8h.html#a36204fafbdf35d038195e0681cee640f">BUS_FAIL</a></div><div class="ttdeci">#define BUS_FAIL</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00034">common.h:34</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html_ad369675948e5476d0572af3f0f1308cb"><div class="ttname"><a href="spi_2common_8h.html#ad369675948e5476d0572af3f0f1308cb">DB_FAIL</a></div><div class="ttdeci">#define DB_FAIL</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00033">common.h:33</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html_ada84c21bd9b80b6a7fdf741706029f00"><div class="ttname"><a href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a></div><div class="ttdeci">#define SENSOR_FAIL</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00032">common.h:32</a></div></div>
+<div class="ttc" id="astructbme__sensor__data_html"><div class="ttname"><a href="structbme__sensor__data.html">bme_sensor_data</a></div><div class="ttdoc">Parent struct for all valid BMx sensors, including custom values to aid in door status calibration.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8h_source.html#l00021">common.h:21</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html"><div class="ttname"><a href="structc_j_s_o_n.html">cJSON</a></div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00107">cJSON.h:107</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_a4d2b95f0dc1f37a46452f5ddd6963455"><div class="ttname"><a href="structc_j_s_o_n.html#a4d2b95f0dc1f37a46452f5ddd6963455">cJSON::valuestring</a></div><div class="ttdeci">char * valuestring</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00120">cJSON.h:120</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_af69506d34291edd0be9fa15660ac01ec"><div class="ttname"><a href="structc_j_s_o_n.html#af69506d34291edd0be9fa15660ac01ec">cJSON::valueint</a></div><div class="ttdeci">int valueint</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00122">cJSON.h:122</a></div></div>
+<div class="ttc" id="astructcmd_8h_html_a2c4414339f388561554c2deab11a1a07"><div class="ttname"><a href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07">open</a></div><div class="ttdeci">int open(const char *, int)</div><div class="ttdoc">Opens a file descriptor.</div></div>
+<div class="ttc" id="astructcmd_8h_html_a9c7b76d5266903891c803132d51ccb90"><div class="ttname"><a href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90">read</a></div><div class="ttdeci">int read(int, char *, size_t)</div><div class="ttdoc">Read bytes from a file descriptor.</div></div>
+<div class="ttc" id="astructsht3x__sensor__data_html"><div class="ttname"><a href="structsht3x__sensor__data.html">sht3x_sensor_data</a></div><div class="ttdoc">Parent struct for identification and readout data for the SHT3x.</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00084">sht3x.h:84</a></div></div>
+<div class="ttc" id="astructsht3x__sensor__data_html_ae40949680a7d73c41d17d35ef5318425"><div class="ttname"><a href="structsht3x__sensor__data.html#ae40949680a7d73c41d17d35ef5318425">sht3x_sensor_data::data</a></div><div class="ttdeci">struct sht3x_data data</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00086">sht3x.h:86</a></div></div>
+<div class="ttc" id="astructsht3x__sensor__data_html_af2849e44963fbe8f3aa29320ca01d7b6"><div class="ttname"><a href="structsht3x__sensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">sht3x_sensor_data::id</a></div><div class="ttdeci">struct identifier id</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00087">sht3x.h:87</a></div></div>
+<div class="ttc" id="avolt_8c_html_a5d56a0efcdf59b0deb6abf579be8fd2f"><div class="ttname"><a href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a></div><div class="ttdeci">char name[72]</div><div class="ttdef"><b>Definição</b> <a href="volt_8c_source.html#l00031">volt.c:31</a></div></div>
+<div class="ttc" id="avolt_8c_html_ac20bae14b0d76981d8668c6cc5bde199"><div class="ttname"><a href="volt_8c.html#ac20bae14b0d76981d8668c6cc5bde199">c_remote</a></div><div class="ttdeci">redisContext * c_remote</div><div class="ttdef"><b>Definição</b> <a href="volt_8c_source.html#l00030">volt.c:30</a></div></div>
+<div class="ttc" id="avolt_8c_html_af90d996c6169d02772757fa54c268964"><div class="ttname"><a href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a></div><div class="ttdeci">redisContext * c</div><div class="ttdef"><b>Definição</b> <a href="volt_8c_source.html#l00030">volt.c:30</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#abme_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
+<map name="abme_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="abme_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
+<area shape="rect" title=" " alt="" coords="5,1092,55,1118"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="185,518,256,545"/>
+<area shape="poly" title=" " alt="" coords="29,1091,35,999,47,860,68,717,83,659,100,617,116,596,134,578,174,551,177,555,138,582,120,600,105,620,88,661,74,718,53,860,40,1000,35,1091"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="918,1168,968,1194"/>
+<area shape="poly" title=" " alt="" coords="56,1115,104,1134,181,1155,243,1165,386,1178,506,1187,625,1190,714,1192,803,1190,903,1183,903,1188,803,1196,714,1198,625,1196,505,1193,386,1184,242,1170,180,1160,102,1140,54,1120"/>
+<area shape="rect" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="691,620,737,646"/>
+<area shape="poly" title=" " alt="" coords="33,1090,57,1022,76,979,100,938,164,845,220,774,251,744,287,717,331,690,385,663,423,648,463,637,543,626,617,623,675,626,675,632,617,629,543,631,464,642,424,653,387,667,334,694,290,721,254,748,224,778,169,848,105,941,81,982,62,1024,38,1092"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="443,265,521,292"/>
+<area shape="poly" title=" " alt="" coords="29,1091,32,981,42,808,51,716,63,630,79,557,100,505,130,460,159,426,188,399,220,378,293,342,385,301,427,286,428,291,387,306,295,347,223,382,192,403,162,430,134,464,105,508,85,559,68,631,56,717,47,808,37,981,34,1092"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb" title="Checks if the alteration in pressure over one measurement is realistic." alt="" coords="162,1193,279,1220"/>
+<area shape="poly" title=" " alt="" coords="44,1117,69,1145,104,1172,148,1190,146,1195,101,1177,66,1149,40,1121"/>
+<area shape="rect" href="c_j_s_o_n_8c.html#a02267703c3d44400abbb80ea8c91edb0" title=" " alt="" coords="103,1244,338,1270"/>
+<area shape="poly" title=" " alt="" coords="38,1118,59,1173,79,1204,104,1230,111,1234,108,1238,101,1234,75,1207,55,1176,33,1120"/>
+<area shape="rect" href="group__i2c_mux.html#ga7cf1d9a50131494c5c77b7dbaebf6818" title="Sets the SPI extender board address." alt="" coords="172,1294,269,1321"/>
+<area shape="poly" title=" " alt="" coords="35,1118,40,1152,52,1196,73,1242,87,1262,104,1280,129,1295,158,1303,156,1308,127,1300,101,1284,83,1266,68,1244,47,1197,35,1153,30,1119"/>
+<area shape="rect" href="group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="182,1041,259,1068"/>
+<area shape="poly" title=" " alt="" coords="54,1096,166,1066,167,1071,56,1101"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="122,952,319,978"/>
+<area shape="poly" title=" " alt="" coords="40,1090,66,1059,101,1027,137,1003,173,983,176,988,140,1007,104,1031,70,1063,44,1093"/>
+<area shape="rect" href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="445,1142,518,1169"/>
+<area shape="poly" title=" " alt="" coords="55,1105,338,1134,430,1146,429,1151,338,1140,55,1110"/>
+<area shape="rect" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a" title=" " alt="" coords="190,1345,251,1372"/>
+<area shape="poly" title=" " alt="" coords="34,1119,36,1160,46,1218,67,1279,83,1307,104,1331,120,1342,137,1349,175,1356,174,1362,136,1354,117,1346,101,1335,79,1310,62,1281,40,1219,31,1161,29,1119"/>
+<area shape="rect" href="group__i2c_mux.html#ga7000e32b922e6dea26a32e405fd0a46e" title="Unselects the I2C extender (and SPI extender, by proxy)" alt="" coords="1083,316,1234,342"/>
+<area shape="poly" title=" " alt="" coords="29,1091,32,965,42,761,51,652,63,550,79,462,100,399,169,250,202,186,239,131,282,85,307,67,335,51,366,39,400,30,438,24,480,22,715,22,765,20,809,15,885,4,921,3,957,9,995,23,1037,48,1066,74,1090,105,1110,139,1126,175,1147,245,1157,300,1152,301,1142,246,1121,177,1105,142,1086,108,1062,78,1033,52,993,28,955,14,920,9,885,9,809,20,765,25,715,28,480,28,438,30,401,35,367,44,337,56,310,71,286,89,243,134,207,189,174,252,105,401,85,464,68,550,56,653,47,762,37,965,34,1092"/>
+<area shape="rect" href="bme_8c.html#a028ad4de12126d97497460aa5d5e271d" title="Updates moving average, door opening status." alt="" coords="173,1396,268,1422"/>
+<area shape="poly" title=" " alt="" coords="36,1118,44,1176,58,1255,79,1333,91,1362,105,1382,129,1397,158,1405,157,1411,127,1402,101,1386,86,1365,74,1334,53,1257,38,1177,30,1119"/>
+<area shape="rect" href="bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="436,214,527,241"/>
+<area shape="poly" title=" " alt="" coords="223,517,240,467,273,395,294,356,320,317,350,282,385,251,419,234,422,239,387,255,354,285,324,321,299,358,277,397,245,469,228,519"/>
+<area shape="rect" href="bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="393,316,570,342"/>
+<area shape="poly" title=" " alt="" coords="231,516,313,424,357,377,384,352,395,346,398,351,388,356,361,381,317,428,235,520"/>
+<area shape="rect" href="bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="386,366,577,393"/>
+<area shape="poly" title=" " alt="" coords="235,516,298,465,340,436,385,409,415,396,417,401,387,414,343,440,301,469,239,520"/>
+<area shape="rect" href="group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605" title="Configures pins for the digital interface board multiplexing function." alt="" coords="429,1092,534,1118"/>
+<area shape="poly" title=" " alt="" coords="228,545,314,840,363,1003,388,1078,416,1094,413,1099,384,1081,357,1005,308,841,223,546"/>
+<area shape="rect" href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073" title="Delays execution for n us." alt="" coords="906,804,980,830"/>
+<area shape="poly" title=" " alt="" coords="229,544,247,590,279,653,301,686,326,718,355,746,387,769,428,785,484,797,625,812,773,816,891,816,891,821,773,822,625,817,483,803,426,790,385,774,351,750,322,721,296,689,274,655,242,592,224,546"/>
+<area shape="rect" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="888,468,998,494"/>
+<area shape="poly" title=" " alt="" coords="255,525,386,510,655,492,872,481,872,486,655,497,386,516,256,530"/>
+<area shape="rect" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="900,366,986,393"/>
+<area shape="poly" title=" " alt="" coords="255,526,295,520,337,509,361,497,385,485,524,445,663,416,789,395,885,383,885,388,789,401,664,421,525,451,387,490,363,502,339,514,296,525,256,531"/>
+<area shape="rect" href="group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a" title="Opens communication with the I2C bus at a given address." alt="" coords="445,1041,518,1068"/>
+<area shape="poly" title=" " alt="" coords="228,545,246,611,279,714,326,834,356,895,388,952,421,994,455,1028,451,1032,417,997,384,954,351,897,322,836,274,716,241,613,222,546"/>
+<area shape="rect" href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="447,569,517,596"/>
+<area shape="poly" title=" " alt="" coords="257,536,431,570,430,575,256,541"/>
+<area shape="rect" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="907,620,979,646"/>
+<area shape="poly" title=" " alt="" coords="256,530,397,537,578,554,751,585,892,618,891,623,750,591,577,560,397,542,256,535"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="881,214,1005,241"/>
+<area shape="poly" title=" " alt="" coords="528,225,865,225,865,230,528,230"/>
+<area shape="rect" href="bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="648,164,780,190"/>
+<area shape="poly" title=" " alt="" coords="527,215,634,192,635,197,528,220"/>
+<area shape="poly" title=" " alt="" coords="778,188,866,208,865,213,777,194"/>
+<area shape="rect" href="bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="881,164,1005,190"/>
+<area shape="poly" title=" " alt="" coords="780,174,865,174,865,180,780,180"/>
+<area shape="rect" href="bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="625,316,803,342"/>
+<area shape="poly" title=" " alt="" coords="570,326,610,326,610,332,570,332"/>
+<area shape="poly" title=" " alt="" coords="745,313,896,245,898,250,747,318"/>
+<area shape="poly" title=" " alt="" coords="546,363,634,344,635,349,547,368"/>
+<area shape="rect" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="659,1142,769,1169"/>
+<area shape="poly" title=" " alt="" coords="535,1114,645,1138,644,1143,534,1119"/>
+<area shape="rect" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="653,1092,775,1118"/>
+<area shape="poly" title=" " alt="" coords="535,1102,638,1102,638,1108,535,1108"/>
+<area shape="poly" title=" " alt="" coords="769,1159,903,1174,903,1179,769,1164"/>
+<area shape="rect" href="spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="1106,417,1211,444"/>
+<area shape="poly" title=" " alt="" coords="998,465,1090,443,1092,449,999,471"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="1115,468,1203,494"/>
+<area shape="poly" title=" " alt="" coords="999,478,1099,478,1099,484,999,484"/>
+<area shape="rect" href="spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="1283,417,1395,444"/>
+<area shape="poly" title=" " alt="" coords="1212,428,1267,428,1267,433,1212,433"/>
+<area shape="rect" href="group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="1282,316,1396,342"/>
+<area shape="poly" title=" " alt="" coords="1183,414,1299,348,1302,352,1186,419"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="1444,290,1553,317"/>
+<area shape="poly" title=" " alt="" coords="1396,317,1428,312,1429,317,1396,323"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="1446,366,1551,393"/>
+<area shape="poly" title=" " alt="" coords="1384,340,1440,359,1439,364,1383,346"/>
+<area shape="poly" title=" " alt="" coords="961,364,1013,330,1047,313,1082,301,1175,285,1269,281,1356,284,1428,291,1428,296,1356,289,1269,286,1175,291,1084,306,1049,318,1016,335,964,368"/>
+<area shape="poly" title=" " alt="" coords="986,377,1431,377,1431,382,986,382"/>
+<area shape="poly" title=" " alt="" coords="519,1048,575,1046,647,1047,726,1057,804,1077,837,1093,869,1113,919,1155,915,1159,866,1117,835,1098,802,1082,725,1062,647,1053,575,1051,519,1054"/>
+<area shape="poly" title=" " alt="" coords="518,587,676,622,675,627,517,593"/>
+<area shape="rect" href="structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="1135,594,1183,621"/>
+<area shape="poly" title=" " alt="" coords="517,581,1119,604,1119,609,517,586"/>
+<area shape="poly" title=" " alt="" coords="979,626,1119,610,1119,615,980,631"/>
+<area shape="poly" title=" " alt="" coords="522,281,550,289,579,301,594,314,604,327,613,340,627,352,688,388,754,418,873,460,872,465,752,423,686,393,624,356,609,343,600,330,591,318,576,306,549,294,520,286"/>
+<area shape="poly" title=" " alt="" coords="521,274,577,273,648,276,726,284,803,301,862,326,911,355,909,360,860,331,802,306,725,289,648,281,577,278,521,279"/>
+<area shape="rect" href="bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="629,113,799,140"/>
+<area shape="poly" title=" " alt="" coords="521,273,549,265,576,251,587,239,593,227,599,202,605,176,612,162,624,150,629,145,632,150,627,154,616,166,610,178,604,203,598,229,591,242,579,255,551,270,522,278"/>
+<area shape="poly" title=" " alt="" coords="780,138,804,149,820,162,829,176,838,188,852,200,867,208,865,212,849,205,834,192,824,179,816,166,801,154,777,143"/>
+<area shape="rect" href="bme2_8c.html#a9f2c3c8c683b434ca10447515f85c0de" title="This API is used to compensate the pressure and/or temperature and/or humidity data according to the ..." alt="" coords="854,113,1032,140"/>
+<area shape="poly" title=" " alt="" coords="800,124,839,124,839,129,800,129"/>
+<area shape="rect" href="bme2_8c.html#a84be45ccf7a3a82138ff2170123462c3" title="This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco..." alt="" coords="851,62,1035,89"/>
+<area shape="poly" title=" " alt="" coords="777,110,864,90,865,96,778,115"/>
+<area shape="poly" title=" " alt="" coords="260,1059,414,1089,413,1095,259,1064"/>
+<area shape="poly" title=" " alt="" coords="259,1052,429,1052,429,1057,259,1057"/>
+<area shape="rect" href="group__sht3x_init.html#ga76f706a73188d8e19e2ba03ca1e1dba2" title="Detects if a sensor is connected by reading out the ID register." alt="" coords="436,733,528,760"/>
+<area shape="poly" title=" " alt="" coords="258,1038,298,1018,336,988,353,967,363,948,384,901,461,772,466,774,388,904,368,950,358,970,340,992,301,1022,260,1043"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa" title="Send a command, wait for the sensor to process and read data back." alt="" coords="639,721,789,764"/>
+<area shape="poly" title=" " alt="" coords="528,743,624,741,624,747,528,748"/>
+<area shape="poly" title=" " alt="" coords="773,762,851,789,892,801,890,806,850,794,771,767"/>
+<area shape="poly" title=" " alt="" coords="786,718,801,707,820,684,828,661,835,636,848,606,884,551,919,505,923,508,889,554,853,609,840,638,833,663,824,686,805,711,789,722"/>
+<area shape="poly" title=" " alt="" coords="787,719,801,707,821,676,830,646,832,616,830,587,827,556,826,524,832,491,848,454,873,424,903,400,906,404,877,427,853,457,838,492,832,525,832,556,835,586,838,616,836,647,826,678,805,711,791,723"/>
+<area shape="poly" title=" " alt="" coords="781,718,801,707,815,694,824,682,834,669,849,656,890,639,892,644,852,661,838,672,829,685,819,698,804,711,784,723"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a9a2b5bc64139a84b4011ba94873e47b8" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="881,670,1005,713"/>
+<area shape="poly" title=" " alt="" coords="788,723,865,706,866,711,789,728"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a61c2efbc31ab106dcd1d888412485db7" title="Read data words from sensor." alt="" coords="878,737,1008,780"/>
+<area shape="poly" title=" " alt="" coords="789,745,863,750,862,755,789,750"/>
+<area shape="poly" title=" " alt="" coords="273,976,375,997,439,1006,509,1012,583,1012,658,1006,732,992,802,968,842,943,877,909,905,874,925,842,929,845,909,877,881,913,845,947,804,973,733,997,659,1012,583,1018,509,1017,438,1011,374,1002,272,982"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#ga535cf192fdfb60b6e220c9d8159f1edf" title="Starts a measurement in high precision mode." alt="" coords="427,677,537,704"/>
+<area shape="poly" title=" " alt="" coords="225,950,245,906,278,843,325,777,353,746,384,719,410,704,413,709,388,723,357,750,329,780,283,846,249,908,230,952"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="439,914,524,941"/>
+<area shape="poly" title=" " alt="" coords="318,948,423,933,424,938,319,954"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21" title="writes a command to the sensor" alt="" coords="632,670,796,697"/>
+<area shape="poly" title=" " alt="" coords="537,686,617,684,617,689,538,691"/>
+<area shape="poly" title=" " alt="" coords="779,667,801,656,854,594,921,505,925,508,858,598,804,660,782,672"/>
+<area shape="poly" title=" " alt="" coords="786,668,801,656,819,632,828,609,830,585,830,561,829,511,835,483,848,454,874,424,903,400,907,404,878,427,853,457,840,485,834,511,835,561,836,586,833,610,823,635,805,660,789,672"/>
+<area shape="poly" title=" " alt="" coords="777,667,891,642,892,647,778,672"/>
+<area shape="poly" title=" " alt="" coords="796,684,865,686,865,692,796,689"/>
+<area shape="poly" title=" " alt="" coords="525,939,585,953,657,961,695,960,733,955,768,944,801,926,816,911,823,896,827,863,829,826,835,808,849,790,863,779,866,783,853,794,840,810,834,827,832,863,828,898,820,915,804,930,771,948,734,960,696,966,657,967,584,958,524,944"/>
+<area shape="rect" href="sht3x_8c.html#a115914f750653e58c77de6c7e4dea535" title="Converts to humidity from ADC ticks." alt="" coords="656,838,772,865"/>
+<area shape="poly" title=" " alt="" coords="519,911,624,874,647,867,649,872,626,880,521,916"/>
+<area shape="rect" href="sht3x_8c.html#a474de3dbf3e88c9b91459ef48458f72d" title="converts to temperature from ADC ticks" alt="" coords="646,889,782,916"/>
+<area shape="poly" title=" " alt="" coords="524,920,630,909,631,914,525,926"/>
+<area shape="poly" title=" " alt="" coords="519,1153,643,1153,643,1158,519,1158"/>
+<area shape="poly" title=" " alt="" coords="519,1161,626,1178,779,1184,902,1181,902,1186,779,1189,625,1184,518,1166"/>
+<area shape="poly" title=" " alt="" coords="518,1145,637,1119,639,1124,519,1150"/>
+<area shape="poly" title=" " alt="" coords="1235,326,1267,326,1267,332,1235,332"/>
+<area shape="rect" href="bme_8c.html#a46bd656175eb3641b823c7ac96963684" title="Updates door opening status." alt="" coords="432,1396,531,1422"/>
+<area shape="poly" title=" " alt="" coords="269,1406,417,1406,417,1412,269,1412"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a028ad4de12126d97497460aa5d5e271d" name="a028ad4de12126d97497460aa5d5e271d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a028ad4de12126d97497460aa5d5e271d">&#9670;&#160;</a></span>update_open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void update_open </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structbme__sensor__data.html">bme_sensor_data</a> *</td>          <td class="paramname"><span class="paramname"><em>sensor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Updates moving average, door opening status. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor</td><td>: Pointer to sensor</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The "average" pressure is important to determine sudden changes, however, it'll only respond to gradual changes in order to deter statistical abnormalities.</p>
+<p>As for the "open" average, it'll get reset every time the door is closed, which is the default state.</p>
+<p>The closed door pressure moving average ignores sudden large pressure increases, but is more sensitive to pressure decreases. The opposite happens to the open door pressure moving average.</p>
+<dl class="section return"><dt>Retorna</dt><dd>void </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="bme_8c_source.html#l00074">74</a> do arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   74</span>                                                 {</div>
+<div class="line"><span class="lineno">   75</span>  <span class="comment">// Moves moving average window 1 position to the left to accomodate new value</span></div>
+<div class="line"><span class="lineno">   76</span>  <span class="keywordtype">double</span> cache[<a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>];</div>
+<div class="line"><span class="lineno">   77</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>; i++)</div>
+<div class="line"><span class="lineno">   78</span>    cache[i] = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[i];</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>  <span class="keywordtype">double</span> sum = 0;</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>  <span class="keywordtype">double</span> diff = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;average - <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;data.pressure;</div>
+<div class="line"><span class="lineno">   83</span>  <span class="keywordtype">double</span> open_diff = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;open_average - <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;data.pressure;</div>
+<div class="line"><span class="lineno">   84</span> </div>
+<div class="line"><span class="lineno">   85</span>  <span class="keywordflow">if</span> ((<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;is_open &amp;&amp; <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;strikes_closed == <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>) ||</div>
+<div class="line"><span class="lineno">   86</span>      (!<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;is_open &amp;&amp; <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;strikes_closed == 0)) {</div>
+<div class="line"><span class="lineno">   87</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;average == 0 || (diff &gt; -0.08 &amp;&amp; diff &lt; 0.1 &amp;&amp; !sensor-&gt;is_open)) {</div>
+<div class="line"><span class="lineno">   88</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a> - 1; i &gt; 0; i--)</div>
+<div class="line"><span class="lineno">   89</span>        <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[i - 1] = cache[i];</div>
+<div class="line"><span class="lineno">   90</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[<a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a> - 1] = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;data.pressure;</div>
+<div class="line"><span class="lineno">   91</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>; i++)</div>
+<div class="line"><span class="lineno">   92</span>        sum += <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[i];</div>
+<div class="line"><span class="lineno">   93</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;average = sum / <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>;</div>
+<div class="line"><span class="lineno">   94</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;is_open &amp;&amp;</div>
+<div class="line"><span class="lineno">   95</span>               (<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;open_average == 0 || (open_diff &gt; -0.1 &amp;&amp; open_diff &lt; 0.08))) {</div>
+<div class="line"><span class="lineno">   96</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a> - 1; i &gt; 0; i--)</div>
+<div class="line"><span class="lineno">   97</span>        <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[i - 1] = cache[i];</div>
+<div class="line"><span class="lineno">   98</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[<a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a> - 1] = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;data.pressure;</div>
+<div class="line"><span class="lineno">   99</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>; i++)</div>
+<div class="line"><span class="lineno">  100</span>        sum += <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[i];</div>
+<div class="line"><span class="lineno">  101</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;open_average = sum / <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>;</div>
+<div class="line"><span class="lineno">  102</span>    }</div>
+<div class="line"><span class="lineno">  103</span>  }</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>  uint8_t past_open = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;is_open;</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>  <a class="code hl_function" href="#a46bd656175eb3641b823c7ac96963684">get_open_iter</a>(sensor);</div>
+<div class="line"><span class="lineno">  108</span> </div>
+<div class="line"><span class="lineno">  109</span>  <span class="keywordflow">if</span> (past_open != <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;is_open) {</div>
+<div class="line"><span class="lineno">  110</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>; i++) {</div>
+<div class="line"><span class="lineno">  111</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;window[i] = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>-&gt;data.pressure;</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
+<div class="line"><span class="lineno">  113</span>  }</div>
+<div class="line"><span class="lineno">  114</span>}</div>
+<div class="ttc" id="abme_8c_html_a46bd656175eb3641b823c7ac96963684"><div class="ttname"><a href="#a46bd656175eb3641b823c7ac96963684">get_open_iter</a></div><div class="ttdeci">void get_open_iter(struct bme_sensor_data *sensor)</div><div class="ttdoc">Updates door opening status.</div><div class="ttdef"><b>Definição</b> <a href="bme_8c_source.html#l00040">bme.c:40</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme_8c_a028ad4de12126d97497460aa5d5e271d_cgraph.png" border="0" usemap="#abme_8c_a028ad4de12126d97497460aa5d5e271d_cgraph" alt=""/></div>
+<map name="abme_8c_a028ad4de12126d97497460aa5d5e271d_cgraph" id="abme_8c_a028ad4de12126d97497460aa5d5e271d_cgraph">
+<area shape="rect" title="Updates moving average, door opening status." alt="" coords="5,5,101,32"/>
+<area shape="rect" href="bme_8c.html#a46bd656175eb3641b823c7ac96963684" title="Updates door opening status." alt="" coords="149,5,248,32"/>
+<area shape="poly" title=" " alt="" coords="101,16,133,16,133,21,101,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme_8c_a028ad4de12126d97497460aa5d5e271d_icgraph.png" border="0" usemap="#abme_8c_a028ad4de12126d97497460aa5d5e271d_icgraph" alt=""/></div>
+<map name="abme_8c_a028ad4de12126d97497460aa5d5e271d_icgraph" id="abme_8c_a028ad4de12126d97497460aa5d5e271d_icgraph">
+<area shape="rect" title="Updates moving average, door opening status." alt="" coords="103,5,198,32"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variáveis</h2>
+<a id="af38b712935d00f87aaf3dbd16e4b829b" name="af38b712935d00f87aaf3dbd16e4b829b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38b712935d00f87aaf3dbd16e4b829b">&#9670;&#160;</a></span>iface_board_len</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t iface_board_len = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="bme_8c_source.html#l00021">21</a> do arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+
+</div>
+</div>
+<a id="a8d9851bcc25299ceb857952e186330ec" name="a8d9851bcc25299ceb857952e186330ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d9851bcc25299ceb857952e186330ec">&#9670;&#160;</a></span>servers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char servers[3][32] = {&quot;10.0.38.46&quot;, &quot;10.0.38.42&quot;, &quot;10.0.38.59&quot;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="bme_8c_source.html#l00023">23</a> do arquivo <a class="el" href="bme_8c_source.html">bme.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{<span class="stringliteral">&quot;10.0.38.46&quot;</span>, <span class="stringliteral">&quot;10.0.38.42&quot;</span>, <span class="stringliteral">&quot;10.0.38.59&quot;</span>};</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

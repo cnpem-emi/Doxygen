@@ -1,0 +1,14 @@
+<map id="i2c_open" name="i2c_open">
+<area shape="rect" id="Node000001" title="Opens communication with the I2C bus at a given address." alt="" coords="340,56,413,83"/>
+<area shape="rect" id="Node000002" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="173,5,243,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="324,57,243,32,244,27,326,52"/>
+<area shape="rect" id="Node000004" href="$utils_2_b_m_p280_2common_2common_8c.html#a199e01b1f976b8ad36284d3c4ef89e08" title="Function to select the interface between SPI and I2C." alt="" coords="124,107,292,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="326,87,256,109,254,104,325,82"/>
+<area shape="rect" id="Node000006" href="$group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="169,56,247,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="324,72,247,72,247,67,324,67"/>
+<area shape="rect" id="Node000003" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="16,31,65,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="158,29,66,43,65,38,157,24"/>
+<area shape="rect" id="Node000005" href="$utils_2_b_m_p280_2common_2common_8c.html#ad8891d2db76c9957ba85df5220de463a" title="Initializes and configures sensor." alt="" coords="5,107,76,133"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="108,123,76,123,76,117,108,117"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="153,64,65,50,66,45,154,59"/>
+</map>

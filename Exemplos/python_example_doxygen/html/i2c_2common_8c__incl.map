@@ -1,0 +1,25 @@
+<map id="bin/i2c/common.c" name="bin/i2c/common.c">
+<area shape="rect" id="Node000001" title="Common functions for I2C operations." alt="" coords="369,5,493,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,62,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="369,31,238,51,77,82,76,77,237,45,368,25"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="86,80,189,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="380,35,204,78,203,73,379,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="214,80,277,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="400,35,292,77,290,72,398,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="301,80,366,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="415,35,364,73,361,69,412,30"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="390,80,472,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="434,33,434,64,428,64,428,33"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="496,80,566,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="450,30,503,68,499,73,447,35"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="590,80,648,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="465,30,576,73,574,78,463,35"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="672,80,739,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="480,30,657,77,656,82,478,35"/>
+<area shape="rect" id="Node000010" href="$i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="763,80,845,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="494,28,749,77,748,82,493,34"/>
+<area shape="rect" id="Node000011" href="$spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="747,155,862,181"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="807,107,807,139,802,139,802,107"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="772,229,836,256"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="807,182,807,214,802,214,802,182"/>
+</map>

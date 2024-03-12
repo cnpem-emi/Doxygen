@@ -1,0 +1,7 @@
+<map id="sht3x_read" name="sht3x_read">
+<area shape="rect" id="Node000001" title="Reads out the results of a measurement." alt="" coords="348,5,433,32"/>
+<area shape="rect" id="Node000002" href="$group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="103,5,300,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,21,300,21,300,16,332,16"/>
+<area shape="rect" id="Node000003" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

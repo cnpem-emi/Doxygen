@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Contributing</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Contributing</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md26"></a></p>
+<h1><a class="anchor" id="autotoc_md27"></a>
+Code style</h1>
+<h2><a class="anchor" id="autotoc_md28"></a>
+C</h2>
+<h3><a class="anchor" id="autotoc_md29"></a>
+clang-tidy</h3>
+<p><a class="el" href="class_a.html">A</a> <code>clang-tidy</code> configuration file is made available at the root of the project. Please refer to it for coding styles and acceptable practices.</p>
+<p>You can lint your code with <code>clang-tidy --config-file=.clang-tidy *.c</code>.</p>
+<h3><a class="anchor" id="autotoc_md30"></a>
+clang-format</h3>
+<p>We're using Chromium's style, with a maximum line length of 100 columns.</p>
+<p>You can format your code with <code>clang-format -style=file -i file.c</code>.</p>
+<p>The "easy" path is to use <a href="https://github.com/eklitzke/clang-format-all">clang-format-all</a>, by downloading it, running <code>chmod +x clang-format-all</code> and then <code>./clang-format-all .</code> </p>
+<h2><a class="anchor" id="autotoc_md31"></a>
+Python</h2>
+<p>Although few Python scripts are used (in the <code>python</code> folder), they follow the described flake8 and Black configs in the folder. Use <code>flake8 .</code> and <code>black</code>.</p>
+<h1><a class="anchor" id="autotoc_md32"></a>
+Support</h1>
+<p>Maintain support for Debian &gt;9, kernel &gt;5.10 AM335X machines, other configurations are not supported. </p>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

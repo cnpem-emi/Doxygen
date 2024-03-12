@@ -1,0 +1,1051 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/sht3x/sht3x.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_05a6c330af6ebb2bbe424cb13162cb9b.html">sht3x</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Estruturas de Dados</a> &#124;
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#typedef-members">Definições de Tipos</a> &#124;
+<a href="#enum-members">Enumerações</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo sht3x.h</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Sensirion SHT driver interface.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="i2c_2common_8h_source.html">../i2c/common.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para sht3x.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h__incl.png" border="0" usemap="#abin_2sht3x_2sht3x_8h" alt=""/></div>
+<map name="abin_2sht3x_2sht3x_8h" id="abin_2sht3x_2sht3x_8h">
+<area shape="rect" title="Sensirion SHT driver interface." alt="" coords="5,5,127,32"/>
+<area shape="rect" href="i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="8,80,124,107"/>
+<area shape="poly" title=" " alt="" coords="69,33,69,64,63,64,63,33"/>
+<area shape="rect" href="spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="8,155,124,181"/>
+<area shape="poly" title=" " alt="" coords="69,107,69,139,63,139,63,107"/>
+<area shape="rect" title=" " alt="" coords="34,229,98,256"/>
+<area shape="poly" title=" " alt="" coords="69,182,69,214,63,214,63,182"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com esse arquivo:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h__dep__incl.png" border="0" usemap="#abin_2sht3x_2sht3x_8hdep" alt=""/></div>
+<map name="abin_2sht3x_2sht3x_8hdep" id="abin_2sht3x_2sht3x_8hdep">
+<area shape="rect" title="Sensirion SHT driver interface." alt="" coords="176,5,297,32"/>
+<area shape="rect" href="bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="5,80,116,107"/>
+<area shape="poly" title=" " alt="" coords="193,41,92,82,90,77,191,36"/>
+<area shape="rect" href="sht3x_2common_2common_8h.html" title=" " alt="" coords="140,80,333,107"/>
+<area shape="poly" title=" " alt="" coords="239,48,239,80,234,80,234,48"/>
+<area shape="rect" href="sht3x_8c.html" title="Sensirion SHT3x driver implementation." alt="" coords="311,155,432,181"/>
+<area shape="poly" title=" " alt="" coords="290,36,321,54,348,78,359,97,367,118,373,154,368,155,362,119,355,99,344,82,318,58,287,41"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html" title=" " alt="" coords="93,155,287,181"/>
+<area shape="poly" title=" " alt="" coords="222,121,200,156,196,153,218,118"/>
+<area shape="poly" title=" " alt="" coords="274,112,349,152,346,156,272,117"/>
+</map>
+</div>
+</div>
+<p><a href="sht3x_8h_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Estruturas de Dados</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsht3x__data.html">sht3x_data</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct for all valid SHT3x readout data.  <a href="structsht3x__data.html#details">Mais...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parent struct for identification and readout data for the SHT3x.  <a href="structsht3x__sensor__data.html#details">Mais...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a2403320c41f08e7567cb169de5db66b3" id="r_a2403320c41f08e7567cb169de5db66b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2403320c41f08e7567cb169de5db66b3">STATUS_OK</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a2403320c41f08e7567cb169de5db66b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa180f2c480b3cbe69f70136fe0ce18e0" id="r_aa180f2c480b3cbe69f70136fe0ce18e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa180f2c480b3cbe69f70136fe0ce18e0">STATUS_ERR_BAD_DATA</a>&#160;&#160;&#160;(-1)</td></tr>
+<tr class="separator:aa180f2c480b3cbe69f70136fe0ce18e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e9ad2752acfa79efa5f4cf30ce252f" id="r_a88e9ad2752acfa79efa5f4cf30ce252f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88e9ad2752acfa79efa5f4cf30ce252f">STATUS_CRC_FAIL</a>&#160;&#160;&#160;(-2)</td></tr>
+<tr class="separator:a88e9ad2752acfa79efa5f4cf30ce252f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbd69a9bc99e6db05c47d0c3c0ae039" id="r_a6bbd69a9bc99e6db05c47d0c3c0ae039"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bbd69a9bc99e6db05c47d0c3c0ae039">STATUS_UNKNOWN_DEVICE</a>&#160;&#160;&#160;(-3)</td></tr>
+<tr class="separator:a6bbd69a9bc99e6db05c47d0c3c0ae039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a838a5559cd25a02d80f11c94cad1e36d" id="r_a838a5559cd25a02d80f11c94cad1e36d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a838a5559cd25a02d80f11c94cad1e36d">STATUS_ERR_INVALID_PARAMS</a>&#160;&#160;&#160;(-4)</td></tr>
+<tr class="separator:a838a5559cd25a02d80f11c94cad1e36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1bd2a442e096f922f0245b56084baad" id="r_ac1bd2a442e096f922f0245b56084baad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1bd2a442e096f922f0245b56084baad">SHT3X_MEASUREMENT_DURATION_USEC</a>&#160;&#160;&#160;15000</td></tr>
+<tr class="separator:ac1bd2a442e096f922f0245b56084baad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac968805dc67b89b2b66291a709e7777e" id="r_ac968805dc67b89b2b66291a709e7777e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac968805dc67b89b2b66291a709e7777e">SHT3X_IS_ALRT_PENDING</a>(status)&#160;&#160;&#160;(((status)&amp;0x8000U) != 0U)</td></tr>
+<tr class="separator:ac968805dc67b89b2b66291a709e7777e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348e0281fd7d74aba168dba0a5fb95ce" id="r_a348e0281fd7d74aba168dba0a5fb95ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a348e0281fd7d74aba168dba0a5fb95ce">SHT3X_IS_ALRT_RH_TRACK</a>(status)&#160;&#160;&#160;(((status)&amp;0x0800) != 0U)</td></tr>
+<tr class="separator:a348e0281fd7d74aba168dba0a5fb95ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe90bc129b55932af727ef07d3baa466" id="r_abe90bc129b55932af727ef07d3baa466"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe90bc129b55932af727ef07d3baa466">SHT3X_IS_ALRT_T_TRACK</a>(status)&#160;&#160;&#160;(((status)&amp;0x0400U) != 0U)</td></tr>
+<tr class="separator:abe90bc129b55932af727ef07d3baa466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48154521896a5a6d99a1a7c72fb84b7d" id="r_a48154521896a5a6d99a1a7c72fb84b7d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48154521896a5a6d99a1a7c72fb84b7d">SHT3X_IS_SYSTEM_RST_DETECT</a>(status)&#160;&#160;&#160;(((status)&amp;0x0010U) != 0U)</td></tr>
+<tr class="separator:a48154521896a5a6d99a1a7c72fb84b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab480630af173c1ffcc390809916c4e57" id="r_ab480630af173c1ffcc390809916c4e57"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab480630af173c1ffcc390809916c4e57">SHT3X_IS_LAST_CRC_FAIL</a>(status)&#160;&#160;&#160;(((status)&amp;0x0001U) != 0U)</td></tr>
+<tr class="separator:ab480630af173c1ffcc390809916c4e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Definições de Tipos</h2></td></tr>
+<tr class="memitem:ad82c3adec11621b4dcc51336a49adbd3" id="r_ad82c3adec11621b4dcc51336a49adbd3"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a01199d214b306f1171147dcabd741772">_sht3x_i2c_addr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82c3adec11621b4dcc51336a49adbd3">sht3x_i2c_addr_t</a></td></tr>
+<tr class="memdesc:ad82c3adec11621b4dcc51336a49adbd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHT3x I2C 7-bit address option.  <br /></td></tr>
+<tr class="separator:ad82c3adec11621b4dcc51336a49adbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f018da6b22dbeac872589027f7b366e" id="r_a0f018da6b22dbeac872589027f7b366e"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aee2ddd4e06c6c768cbbe0ad42419a933">_sht3x_measurement_mode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f018da6b22dbeac872589027f7b366e">sht3x_measurement_mode_t</a></td></tr>
+<tr class="memdesc:a0f018da6b22dbeac872589027f7b366e"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHT3x measurment mode options (Low, Medium and High rerefresh rates)  <br /></td></tr>
+<tr class="separator:a0f018da6b22dbeac872589027f7b366e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01661d75f392bfd8a34a71d6f04f5a51" id="r_a01661d75f392bfd8a34a71d6f04f5a51"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a6793434153410ffed3a2dbffa44ddd48">_sht3x_alert_thd</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01661d75f392bfd8a34a71d6f04f5a51">sht3x_alert_thd_t</a></td></tr>
+<tr class="memdesc:a01661d75f392bfd8a34a71d6f04f5a51"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHT3x Alert Thresholds.  <br /></td></tr>
+<tr class="separator:a01661d75f392bfd8a34a71d6f04f5a51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerações</h2></td></tr>
+<tr class="memitem:a01199d214b306f1171147dcabd741772" id="r_a01199d214b306f1171147dcabd741772"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01199d214b306f1171147dcabd741772">_sht3x_i2c_addr</a> { <a class="el" href="#a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31">SHT3X_I2C_ADDR_DFLT</a> = 0x44
+, <a class="el" href="#a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475">SHT3X_I2C_ADDR_ALT</a> = 0x45
+ }</td></tr>
+<tr class="memdesc:a01199d214b306f1171147dcabd741772"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHT3x I2C 7-bit address option.  <a href="#a01199d214b306f1171147dcabd741772">Mais...</a><br /></td></tr>
+<tr class="separator:a01199d214b306f1171147dcabd741772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee2ddd4e06c6c768cbbe0ad42419a933" id="r_aee2ddd4e06c6c768cbbe0ad42419a933"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee2ddd4e06c6c768cbbe0ad42419a933">_sht3x_measurement_mode</a> { <a class="el" href="#aee2ddd4e06c6c768cbbe0ad42419a933ad8b088e58e4f5eafeea9b39969eaec3a">SHT3X_MEAS_MODE_LPM</a>
+, <a class="el" href="#aee2ddd4e06c6c768cbbe0ad42419a933afbc0dc1d4e98018008d8fea4315e18a3">SHT3X_MEAS_MODE_MPM</a>
+, <a class="el" href="#aee2ddd4e06c6c768cbbe0ad42419a933a0513e7bd71d6921097db875112f5678f">SHT3X_MEAS_MODE_HPM</a>
+ }</td></tr>
+<tr class="memdesc:aee2ddd4e06c6c768cbbe0ad42419a933"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHT3x measurment mode options (Low, Medium and High rerefresh rates)  <a href="#aee2ddd4e06c6c768cbbe0ad42419a933">Mais...</a><br /></td></tr>
+<tr class="separator:aee2ddd4e06c6c768cbbe0ad42419a933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6793434153410ffed3a2dbffa44ddd48" id="r_a6793434153410ffed3a2dbffa44ddd48"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6793434153410ffed3a2dbffa44ddd48">_sht3x_alert_thd</a> { <a class="el" href="#a6793434153410ffed3a2dbffa44ddd48a3af07b4f0bfc401d055d4abd263a5369">SHT3X_HIALRT_SET</a>
+, <a class="el" href="#a6793434153410ffed3a2dbffa44ddd48a74fbb84c9fd16aa671f7ceb63f595fe9">SHT3X_HIALRT_CLR</a>
+, <a class="el" href="#a6793434153410ffed3a2dbffa44ddd48a5e515a056dbe2de436c6efa2139a424b">SHT3X_LOALRT_CLR</a>
+, <a class="el" href="#a6793434153410ffed3a2dbffa44ddd48a4199d9ae22c1ea911bd2321630944800">SHT3X_LOALRT_SET</a>
+ }</td></tr>
+<tr class="memdesc:a6793434153410ffed3a2dbffa44ddd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">SHT3x Alert Thresholds.  <a href="#a6793434153410ffed3a2dbffa44ddd48">Mais...</a><br /></td></tr>
+<tr class="separator:a6793434153410ffed3a2dbffa44ddd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ga646de02d627e97cc0ebdb6ef4f869c28" id="r_ga646de02d627e97cc0ebdb6ef4f869c28"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28">sht3x_init</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sht, uint8_t addr)</td></tr>
+<tr class="memdesc:ga646de02d627e97cc0ebdb6ef4f869c28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes sensor communication.  <br /></td></tr>
+<tr class="separator:ga646de02d627e97cc0ebdb6ef4f869c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga76f706a73188d8e19e2ba03ca1e1dba2" id="r_ga76f706a73188d8e19e2ba03ca1e1dba2"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_init.html#ga76f706a73188d8e19e2ba03ca1e1dba2">sht3x_probe</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor)</td></tr>
+<tr class="memdesc:ga76f706a73188d8e19e2ba03ca1e1dba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects if a sensor is connected by reading out the ID register.  <br /></td></tr>
+<tr class="separator:ga76f706a73188d8e19e2ba03ca1e1dba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd85bf67df2c595f36b5df0c72921ec0" id="r_abd85bf67df2c595f36b5df0c72921ec0"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd85bf67df2c595f36b5df0c72921ec0">sht3x_get_status</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor, uint16_t *status)</td></tr>
+<tr class="memdesc:abd85bf67df2c595f36b5df0c72921ec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the sensor status word.  <br /></td></tr>
+<tr class="separator:abd85bf67df2c595f36b5df0c72921ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab02beed38899dbbd9efb1e6d6ca91557" id="r_ab02beed38899dbbd9efb1e6d6ca91557"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab02beed38899dbbd9efb1e6d6ca91557">sht3x_clear_status</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor)</td></tr>
+<tr class="memdesc:ab02beed38899dbbd9efb1e6d6ca91557"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the status register alert flags.  <br /></td></tr>
+<tr class="separator:ab02beed38899dbbd9efb1e6d6ca91557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7581ca6d91564876c4a1aeea6b4c80f" id="r_gab7581ca6d91564876c4a1aeea6b4c80f"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f">sht3x_measure_blocking_read</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor)</td></tr>
+<tr class="memdesc:gab7581ca6d91564876c4a1aeea6b4c80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a measurement and then reads out the results.  <br /></td></tr>
+<tr class="separator:gab7581ca6d91564876c4a1aeea6b4c80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga535cf192fdfb60b6e220c9d8159f1edf" id="r_ga535cf192fdfb60b6e220c9d8159f1edf"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_sensor_data.html#ga535cf192fdfb60b6e220c9d8159f1edf">sht3x_measure</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor)</td></tr>
+<tr class="memdesc:ga535cf192fdfb60b6e220c9d8159f1edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts a measurement in high precision mode.  <br /></td></tr>
+<tr class="separator:ga535cf192fdfb60b6e220c9d8159f1edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga29484dcdfe9787fccfd5eb3ef151e5cc" id="r_ga29484dcdfe9787fccfd5eb3ef151e5cc"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_sensor_data.html#ga29484dcdfe9787fccfd5eb3ef151e5cc">sht3x_read</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor)</td></tr>
+<tr class="memdesc:ga29484dcdfe9787fccfd5eb3ef151e5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads out the results of a measurement.  <br /></td></tr>
+<tr class="separator:ga29484dcdfe9787fccfd5eb3ef151e5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga532b18ca976e9d51547e1ff693323691" id="r_ga532b18ca976e9d51547e1ff693323691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_sensor_power.html#ga532b18ca976e9d51547e1ff693323691">sht3x_enable_low_power_mode</a> (uint8_t enable_low_power_mode)</td></tr>
+<tr class="memdesc:ga532b18ca976e9d51547e1ff693323691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable the SHT's low power mode.  <br /></td></tr>
+<tr class="separator:ga532b18ca976e9d51547e1ff693323691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00d7523517c7006f8ec75301b0c68957" id="r_ga00d7523517c7006f8ec75301b0c68957"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_sensor_power.html#ga00d7523517c7006f8ec75301b0c68957">sht3x_set_power_mode</a> (<a class="el" href="#a0f018da6b22dbeac872589027f7b366e">sht3x_measurement_mode_t</a> mode)</td></tr>
+<tr class="memdesc:ga00d7523517c7006f8ec75301b0c68957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the desired sensor's operating power mode.  <br /></td></tr>
+<tr class="separator:ga00d7523517c7006f8ec75301b0c68957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1901ec766079e776d57937fd077e58c1" id="r_a1901ec766079e776d57937fd077e58c1"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1901ec766079e776d57937fd077e58c1">sht3x_read_serial</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor, uint32_t *serial)</td></tr>
+<tr class="memdesc:a1901ec766079e776d57937fd077e58c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read out the serial number.  <br /></td></tr>
+<tr class="separator:a1901ec766079e776d57937fd077e58c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f3716965817168fbf8e5fd2ca26c3e7" id="r_ga4f3716965817168fbf8e5fd2ca26c3e7"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_sensor_settings.html#ga4f3716965817168fbf8e5fd2ca26c3e7">sht3x_set_alert_thd</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor, <a class="el" href="#a01661d75f392bfd8a34a71d6f04f5a51">sht3x_alert_thd_t</a> thd, uint32_t humidity, int32_t temperature)</td></tr>
+<tr class="memdesc:ga4f3716965817168fbf8e5fd2ca26c3e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set target temperature and humidity alert threshold.  <br /></td></tr>
+<tr class="separator:ga4f3716965817168fbf8e5fd2ca26c3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0872ad269a4661044d8742ff19fba5fd" id="r_ga0872ad269a4661044d8742ff19fba5fd"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sht3x_sensor_settings.html#ga0872ad269a4661044d8742ff19fba5fd">sht3x_get_alert_thd</a> (struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *sensor, <a class="el" href="#a01661d75f392bfd8a34a71d6f04f5a51">sht3x_alert_thd_t</a> thd, int32_t *humidity, int32_t *temperature)</td></tr>
+<tr class="memdesc:ga0872ad269a4661044d8742ff19fba5fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get target temperature and humidity alert threshold.  <br /></td></tr>
+<tr class="separator:ga0872ad269a4661044d8742ff19fba5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474de3dbf3e88c9b91459ef48458f72d" id="r_a474de3dbf3e88c9b91459ef48458f72d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a474de3dbf3e88c9b91459ef48458f72d">tick_to_temperature</a> (uint16_t tick, int32_t *temperature)</td></tr>
+<tr class="memdesc:a474de3dbf3e88c9b91459ef48458f72d"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts to temperature from ADC ticks  <br /></td></tr>
+<tr class="separator:a474de3dbf3e88c9b91459ef48458f72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115914f750653e58c77de6c7e4dea535" id="r_a115914f750653e58c77de6c7e4dea535"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115914f750653e58c77de6c7e4dea535">tick_to_humidity</a> (uint16_t tick, int32_t *humidity)</td></tr>
+<tr class="memdesc:a115914f750653e58c77de6c7e4dea535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts to humidity from ADC ticks.  <br /></td></tr>
+<tr class="separator:a115914f750653e58c77de6c7e4dea535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77df04ddf10850c50e5b28c1797f97b2" id="r_a77df04ddf10850c50e5b28c1797f97b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77df04ddf10850c50e5b28c1797f97b2">temperature_to_tick</a> (int32_t temperature, uint16_t *tick)</td></tr>
+<tr class="memdesc:a77df04ddf10850c50e5b28c1797f97b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts temperature to ADC ticks.  <br /></td></tr>
+<tr class="separator:a77df04ddf10850c50e5b28c1797f97b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133ca416d4fa8893d8126a340bfd1d06" id="r_a133ca416d4fa8893d8126a340bfd1d06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133ca416d4fa8893d8126a340bfd1d06">humidity_to_tick</a> (int32_t humidity, uint16_t *tick)</td></tr>
+<tr class="memdesc:a133ca416d4fa8893d8126a340bfd1d06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts humidity to ADC ticks.  <br /></td></tr>
+<tr class="separator:a133ca416d4fa8893d8126a340bfd1d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Sensirion SHT driver interface. </p>
+<p>This module provides access to the SHT functionality over a generic I2C interface. It supports measurements without clock stretching only. </p>
+
+<p class="definition">Definição no arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+</div><h2 class="groupheader">Definições e macros</h2>
+<a id="ac968805dc67b89b2b66291a709e7777e" name="ac968805dc67b89b2b66291a709e7777e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac968805dc67b89b2b66291a709e7777e">&#9670;&#160;</a></span>SHT3X_IS_ALRT_PENDING</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SHT3X_IS_ALRT_PENDING</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">status</span></td><td>)</td>
+          <td>&#160;&#160;&#160;(((status)&amp;0x8000U) != 0U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00067">67</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="a348e0281fd7d74aba168dba0a5fb95ce" name="a348e0281fd7d74aba168dba0a5fb95ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348e0281fd7d74aba168dba0a5fb95ce">&#9670;&#160;</a></span>SHT3X_IS_ALRT_RH_TRACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SHT3X_IS_ALRT_RH_TRACK</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">status</span></td><td>)</td>
+          <td>&#160;&#160;&#160;(((status)&amp;0x0800) != 0U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00068">68</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="abe90bc129b55932af727ef07d3baa466" name="abe90bc129b55932af727ef07d3baa466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe90bc129b55932af727ef07d3baa466">&#9670;&#160;</a></span>SHT3X_IS_ALRT_T_TRACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SHT3X_IS_ALRT_T_TRACK</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">status</span></td><td>)</td>
+          <td>&#160;&#160;&#160;(((status)&amp;0x0400U) != 0U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00069">69</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="ab480630af173c1ffcc390809916c4e57" name="ab480630af173c1ffcc390809916c4e57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab480630af173c1ffcc390809916c4e57">&#9670;&#160;</a></span>SHT3X_IS_LAST_CRC_FAIL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SHT3X_IS_LAST_CRC_FAIL</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">status</span></td><td>)</td>
+          <td>&#160;&#160;&#160;(((status)&amp;0x0001U) != 0U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00071">71</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="a48154521896a5a6d99a1a7c72fb84b7d" name="a48154521896a5a6d99a1a7c72fb84b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48154521896a5a6d99a1a7c72fb84b7d">&#9670;&#160;</a></span>SHT3X_IS_SYSTEM_RST_DETECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SHT3X_IS_SYSTEM_RST_DETECT</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">status</span></td><td>)</td>
+          <td>&#160;&#160;&#160;(((status)&amp;0x0010U) != 0U)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00070">70</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="ac1bd2a442e096f922f0245b56084baad" name="ac1bd2a442e096f922f0245b56084baad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1bd2a442e096f922f0245b56084baad">&#9670;&#160;</a></span>SHT3X_MEASUREMENT_DURATION_USEC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SHT3X_MEASUREMENT_DURATION_USEC&#160;&#160;&#160;15000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00064">64</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="a88e9ad2752acfa79efa5f4cf30ce252f" name="a88e9ad2752acfa79efa5f4cf30ce252f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88e9ad2752acfa79efa5f4cf30ce252f">&#9670;&#160;</a></span>STATUS_CRC_FAIL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATUS_CRC_FAIL&#160;&#160;&#160;(-2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00061">61</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="aa180f2c480b3cbe69f70136fe0ce18e0" name="aa180f2c480b3cbe69f70136fe0ce18e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa180f2c480b3cbe69f70136fe0ce18e0">&#9670;&#160;</a></span>STATUS_ERR_BAD_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATUS_ERR_BAD_DATA&#160;&#160;&#160;(-1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00060">60</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="a838a5559cd25a02d80f11c94cad1e36d" name="a838a5559cd25a02d80f11c94cad1e36d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a838a5559cd25a02d80f11c94cad1e36d">&#9670;&#160;</a></span>STATUS_ERR_INVALID_PARAMS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATUS_ERR_INVALID_PARAMS&#160;&#160;&#160;(-4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00063">63</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="a2403320c41f08e7567cb169de5db66b3" name="a2403320c41f08e7567cb169de5db66b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2403320c41f08e7567cb169de5db66b3">&#9670;&#160;</a></span>STATUS_OK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATUS_OK&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00059">59</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<a id="a6bbd69a9bc99e6db05c47d0c3c0ae039" name="a6bbd69a9bc99e6db05c47d0c3c0ae039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bbd69a9bc99e6db05c47d0c3c0ae039">&#9670;&#160;</a></span>STATUS_UNKNOWN_DEVICE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STATUS_UNKNOWN_DEVICE&#160;&#160;&#160;(-3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00062">62</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Definições dos tipos</h2>
+<a id="a01661d75f392bfd8a34a71d6f04f5a51" name="a01661d75f392bfd8a34a71d6f04f5a51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01661d75f392bfd8a34a71d6f04f5a51">&#9670;&#160;</a></span>sht3x_alert_thd_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#a6793434153410ffed3a2dbffa44ddd48">_sht3x_alert_thd</a> <a class="el" href="#a01661d75f392bfd8a34a71d6f04f5a51">sht3x_alert_thd_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SHT3x Alert Thresholds. </p>
+
+</div>
+</div>
+<a id="ad82c3adec11621b4dcc51336a49adbd3" name="ad82c3adec11621b4dcc51336a49adbd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad82c3adec11621b4dcc51336a49adbd3">&#9670;&#160;</a></span>sht3x_i2c_addr_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#a01199d214b306f1171147dcabd741772">_sht3x_i2c_addr</a> <a class="el" href="#ad82c3adec11621b4dcc51336a49adbd3">sht3x_i2c_addr_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SHT3x I2C 7-bit address option. </p>
+
+</div>
+</div>
+<a id="a0f018da6b22dbeac872589027f7b366e" name="a0f018da6b22dbeac872589027f7b366e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f018da6b22dbeac872589027f7b366e">&#9670;&#160;</a></span>sht3x_measurement_mode_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="#aee2ddd4e06c6c768cbbe0ad42419a933">_sht3x_measurement_mode</a> <a class="el" href="#a0f018da6b22dbeac872589027f7b366e">sht3x_measurement_mode_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SHT3x measurment mode options (Low, Medium and High rerefresh rates) </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumerações</h2>
+<a id="a6793434153410ffed3a2dbffa44ddd48" name="a6793434153410ffed3a2dbffa44ddd48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6793434153410ffed3a2dbffa44ddd48">&#9670;&#160;</a></span>_sht3x_alert_thd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a6793434153410ffed3a2dbffa44ddd48">_sht3x_alert_thd</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SHT3x Alert Thresholds. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="a6793434153410ffed3a2dbffa44ddd48a3af07b4f0bfc401d055d4abd263a5369" name="a6793434153410ffed3a2dbffa44ddd48a3af07b4f0bfc401d055d4abd263a5369"></a>SHT3X_HIALRT_SET&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6793434153410ffed3a2dbffa44ddd48a74fbb84c9fd16aa671f7ceb63f595fe9" name="a6793434153410ffed3a2dbffa44ddd48a74fbb84c9fd16aa671f7ceb63f595fe9"></a>SHT3X_HIALRT_CLR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6793434153410ffed3a2dbffa44ddd48a5e515a056dbe2de436c6efa2139a424b" name="a6793434153410ffed3a2dbffa44ddd48a5e515a056dbe2de436c6efa2139a424b"></a>SHT3X_LOALRT_CLR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6793434153410ffed3a2dbffa44ddd48a4199d9ae22c1ea911bd2321630944800" name="a6793434153410ffed3a2dbffa44ddd48a4199d9ae22c1ea911bd2321630944800"></a>SHT3X_LOALRT_SET&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00111">111</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  111</span>                              {</div>
+<div class="line"><span class="lineno">  112</span>  <a class="code hl_enumvalue" href="#a6793434153410ffed3a2dbffa44ddd48a3af07b4f0bfc401d055d4abd263a5369">SHT3X_HIALRT_SET</a>,</div>
+<div class="line"><span class="lineno">  113</span>  <a class="code hl_enumvalue" href="#a6793434153410ffed3a2dbffa44ddd48a74fbb84c9fd16aa671f7ceb63f595fe9">SHT3X_HIALRT_CLR</a>,</div>
+<div class="line"><span class="lineno">  114</span>  <a class="code hl_enumvalue" href="#a6793434153410ffed3a2dbffa44ddd48a5e515a056dbe2de436c6efa2139a424b">SHT3X_LOALRT_CLR</a>,</div>
+<div class="line"><span class="lineno">  115</span>  <a class="code hl_enumvalue" href="#a6793434153410ffed3a2dbffa44ddd48a4199d9ae22c1ea911bd2321630944800">SHT3X_LOALRT_SET</a>,</div>
+<div class="line"><span class="lineno">  116</span>} <a class="code hl_typedef" href="#a01661d75f392bfd8a34a71d6f04f5a51">sht3x_alert_thd_t</a>;</div>
+<div class="ttc" id="asht3x_8h_html_a01661d75f392bfd8a34a71d6f04f5a51"><div class="ttname"><a href="#a01661d75f392bfd8a34a71d6f04f5a51">sht3x_alert_thd_t</a></div><div class="ttdeci">enum _sht3x_alert_thd sht3x_alert_thd_t</div><div class="ttdoc">SHT3x Alert Thresholds.</div></div>
+<div class="ttc" id="asht3x_8h_html_a6793434153410ffed3a2dbffa44ddd48a3af07b4f0bfc401d055d4abd263a5369"><div class="ttname"><a href="#a6793434153410ffed3a2dbffa44ddd48a3af07b4f0bfc401d055d4abd263a5369">SHT3X_HIALRT_SET</a></div><div class="ttdeci">@ SHT3X_HIALRT_SET</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00112">sht3x.h:112</a></div></div>
+<div class="ttc" id="asht3x_8h_html_a6793434153410ffed3a2dbffa44ddd48a4199d9ae22c1ea911bd2321630944800"><div class="ttname"><a href="#a6793434153410ffed3a2dbffa44ddd48a4199d9ae22c1ea911bd2321630944800">SHT3X_LOALRT_SET</a></div><div class="ttdeci">@ SHT3X_LOALRT_SET</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00115">sht3x.h:115</a></div></div>
+<div class="ttc" id="asht3x_8h_html_a6793434153410ffed3a2dbffa44ddd48a5e515a056dbe2de436c6efa2139a424b"><div class="ttname"><a href="#a6793434153410ffed3a2dbffa44ddd48a5e515a056dbe2de436c6efa2139a424b">SHT3X_LOALRT_CLR</a></div><div class="ttdeci">@ SHT3X_LOALRT_CLR</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00114">sht3x.h:114</a></div></div>
+<div class="ttc" id="asht3x_8h_html_a6793434153410ffed3a2dbffa44ddd48a74fbb84c9fd16aa671f7ceb63f595fe9"><div class="ttname"><a href="#a6793434153410ffed3a2dbffa44ddd48a74fbb84c9fd16aa671f7ceb63f595fe9">SHT3X_HIALRT_CLR</a></div><div class="ttdeci">@ SHT3X_HIALRT_CLR</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00113">sht3x.h:113</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a01199d214b306f1171147dcabd741772" name="a01199d214b306f1171147dcabd741772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01199d214b306f1171147dcabd741772">&#9670;&#160;</a></span>_sht3x_i2c_addr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a01199d214b306f1171147dcabd741772">_sht3x_i2c_addr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SHT3x I2C 7-bit address option. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31" name="a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31"></a>SHT3X_I2C_ADDR_DFLT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475" name="a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475"></a>SHT3X_I2C_ADDR_ALT&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00094">94</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   94</span>                             {</div>
+<div class="line"><span class="lineno">   95</span>  <a class="code hl_enumvalue" href="#a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31">SHT3X_I2C_ADDR_DFLT</a> = 0x44,</div>
+<div class="line"><span class="lineno">   96</span>  <a class="code hl_enumvalue" href="#a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475">SHT3X_I2C_ADDR_ALT</a> = 0x45</div>
+<div class="line"><span class="lineno">   97</span>} <a class="code hl_typedef" href="#ad82c3adec11621b4dcc51336a49adbd3">sht3x_i2c_addr_t</a>;</div>
+<div class="ttc" id="asht3x_8h_html_a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31"><div class="ttname"><a href="#a01199d214b306f1171147dcabd741772a4ba5e0fa678e8f81bf226cb5e65b9c31">SHT3X_I2C_ADDR_DFLT</a></div><div class="ttdeci">@ SHT3X_I2C_ADDR_DFLT</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00095">sht3x.h:95</a></div></div>
+<div class="ttc" id="asht3x_8h_html_a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475"><div class="ttname"><a href="#a01199d214b306f1171147dcabd741772aa2d4b7d5cdb26c9444d086037e9bf475">SHT3X_I2C_ADDR_ALT</a></div><div class="ttdeci">@ SHT3X_I2C_ADDR_ALT</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00097">sht3x.h:96</a></div></div>
+<div class="ttc" id="asht3x_8h_html_ad82c3adec11621b4dcc51336a49adbd3"><div class="ttname"><a href="#ad82c3adec11621b4dcc51336a49adbd3">sht3x_i2c_addr_t</a></div><div class="ttdeci">enum _sht3x_i2c_addr sht3x_i2c_addr_t</div><div class="ttdoc">SHT3x I2C 7-bit address option.</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aee2ddd4e06c6c768cbbe0ad42419a933" name="aee2ddd4e06c6c768cbbe0ad42419a933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee2ddd4e06c6c768cbbe0ad42419a933">&#9670;&#160;</a></span>_sht3x_measurement_mode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#aee2ddd4e06c6c768cbbe0ad42419a933">_sht3x_measurement_mode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SHT3x measurment mode options (Low, Medium and High rerefresh rates) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumeradores</th></tr><tr><td class="fieldname"><a id="aee2ddd4e06c6c768cbbe0ad42419a933ad8b088e58e4f5eafeea9b39969eaec3a" name="aee2ddd4e06c6c768cbbe0ad42419a933ad8b088e58e4f5eafeea9b39969eaec3a"></a>SHT3X_MEAS_MODE_LPM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aee2ddd4e06c6c768cbbe0ad42419a933afbc0dc1d4e98018008d8fea4315e18a3" name="aee2ddd4e06c6c768cbbe0ad42419a933afbc0dc1d4e98018008d8fea4315e18a3"></a>SHT3X_MEAS_MODE_MPM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aee2ddd4e06c6c768cbbe0ad42419a933a0513e7bd71d6921097db875112f5678f" name="aee2ddd4e06c6c768cbbe0ad42419a933a0513e7bd71d6921097db875112f5678f"></a>SHT3X_MEAS_MODE_HPM&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8h_source.html#l00102">102</a> do arquivo <a class="el" href="sht3x_8h_source.html">sht3x.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  102</span>                                     {</div>
+<div class="line"><span class="lineno">  103</span>  <a class="code hl_enumvalue" href="#aee2ddd4e06c6c768cbbe0ad42419a933ad8b088e58e4f5eafeea9b39969eaec3a">SHT3X_MEAS_MODE_LPM</a>, <span class="comment">/*low power mode*/</span></div>
+<div class="line"><span class="lineno">  104</span>  <a class="code hl_enumvalue" href="#aee2ddd4e06c6c768cbbe0ad42419a933afbc0dc1d4e98018008d8fea4315e18a3">SHT3X_MEAS_MODE_MPM</a>, <span class="comment">/*medium power mode*/</span></div>
+<div class="line"><span class="lineno">  105</span>  <a class="code hl_enumvalue" href="#aee2ddd4e06c6c768cbbe0ad42419a933a0513e7bd71d6921097db875112f5678f">SHT3X_MEAS_MODE_HPM</a>  <span class="comment">/*high power mode*/</span></div>
+<div class="line"><span class="lineno">  106</span>} <a class="code hl_typedef" href="#a0f018da6b22dbeac872589027f7b366e">sht3x_measurement_mode_t</a>;</div>
+<div class="ttc" id="asht3x_8h_html_a0f018da6b22dbeac872589027f7b366e"><div class="ttname"><a href="#a0f018da6b22dbeac872589027f7b366e">sht3x_measurement_mode_t</a></div><div class="ttdeci">enum _sht3x_measurement_mode sht3x_measurement_mode_t</div><div class="ttdoc">SHT3x measurment mode options (Low, Medium and High rerefresh rates)</div></div>
+<div class="ttc" id="asht3x_8h_html_aee2ddd4e06c6c768cbbe0ad42419a933a0513e7bd71d6921097db875112f5678f"><div class="ttname"><a href="#aee2ddd4e06c6c768cbbe0ad42419a933a0513e7bd71d6921097db875112f5678f">SHT3X_MEAS_MODE_HPM</a></div><div class="ttdeci">@ SHT3X_MEAS_MODE_HPM</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00106">sht3x.h:105</a></div></div>
+<div class="ttc" id="asht3x_8h_html_aee2ddd4e06c6c768cbbe0ad42419a933ad8b088e58e4f5eafeea9b39969eaec3a"><div class="ttname"><a href="#aee2ddd4e06c6c768cbbe0ad42419a933ad8b088e58e4f5eafeea9b39969eaec3a">SHT3X_MEAS_MODE_LPM</a></div><div class="ttdeci">@ SHT3X_MEAS_MODE_LPM</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00103">sht3x.h:103</a></div></div>
+<div class="ttc" id="asht3x_8h_html_aee2ddd4e06c6c768cbbe0ad42419a933afbc0dc1d4e98018008d8fea4315e18a3"><div class="ttname"><a href="#aee2ddd4e06c6c768cbbe0ad42419a933afbc0dc1d4e98018008d8fea4315e18a3">SHT3X_MEAS_MODE_MPM</a></div><div class="ttdeci">@ SHT3X_MEAS_MODE_MPM</div><div class="ttdef"><b>Definição</b> <a href="sht3x_8h_source.html#l00104">sht3x.h:104</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="a133ca416d4fa8893d8126a340bfd1d06" name="a133ca416d4fa8893d8126a340bfd1d06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a133ca416d4fa8893d8126a340bfd1d06">&#9670;&#160;</a></span>humidity_to_tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void humidity_to_tick </td>
+          <td>(</td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>humidity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *</td>          <td class="paramname"><span class="paramname"><em>tick</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts humidity to ADC ticks. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">humidity</td><td>: Humidity value in %*1000 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">tick</td><td>: Sensor ADC ticks </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8c_source.html#l00285">285</a> do arquivo <a class="el" href="sht3x_8c_source.html">sht3x.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  285</span>                                                        {</div>
+<div class="line"><span class="lineno">  286</span>  *tick = (uint16_t)((humidity * 21474) &gt;&gt; 15);</div>
+<div class="line"><span class="lineno">  287</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h_a133ca416d4fa8893d8126a340bfd1d06_icgraph.png" border="0" usemap="#asht3x_8h_a133ca416d4fa8893d8126a340bfd1d06_icgraph" alt=""/></div>
+<map name="asht3x_8h_a133ca416d4fa8893d8126a340bfd1d06_icgraph" id="asht3x_8h_a133ca416d4fa8893d8126a340bfd1d06_icgraph">
+<area shape="rect" title="Converts humidity to ADC ticks." alt="" coords="189,5,305,32"/>
+<area shape="rect" href="group__sht3x_sensor_settings.html#ga4f3716965817168fbf8e5fd2ca26c3e7" title="Set target temperature and humidity alert threshold." alt="" coords="5,5,141,32"/>
+<area shape="poly" title=" " alt="" coords="173,21,141,21,141,16,173,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab02beed38899dbbd9efb1e6d6ca91557" name="ab02beed38899dbbd9efb1e6d6ca91557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab02beed38899dbbd9efb1e6d6ca91557">&#9670;&#160;</a></span>sht3x_clear_status()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t sht3x_clear_status </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *</td>          <td class="paramname"><span class="paramname"><em>sensor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the status register alert flags. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor</td><td>: Sensor struct</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>0 if the command was successful, else an error code </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8c_source.html#l00149">149</a> do arquivo <a class="el" href="sht3x_8c_source.html">sht3x.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  149</span>                                                          {</div>
+<div class="line"><span class="lineno">  150</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21">sensirion_i2c_write_cmd</a>(sht, SHT3X_CMD_CLR_STATUS_REG);</div>
+<div class="line"><span class="lineno">  151</span>}</div>
+<div class="ttc" id="asht3x_2common_2common_8c_html_a1fc554d0b46a85dd8dfdfd149c4bdd21"><div class="ttname"><a href="sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21">sensirion_i2c_write_cmd</a></div><div class="ttdeci">int16_t sensirion_i2c_write_cmd(struct sht3x_sensor_data *sensor, uint16_t command)</div><div class="ttdoc">writes a command to the sensor</div><div class="ttdef"><b>Definição</b> <a href="sht3x_2common_2common_8c_source.html#l00169">common.c:169</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h_ab02beed38899dbbd9efb1e6d6ca91557_cgraph.png" border="0" usemap="#asht3x_8h_ab02beed38899dbbd9efb1e6d6ca91557_cgraph" alt=""/></div>
+<map name="asht3x_8h_ab02beed38899dbbd9efb1e6d6ca91557_cgraph" id="asht3x_8h_ab02beed38899dbbd9efb1e6d6ca91557_cgraph">
+<area shape="rect" title="Clear the status register alert flags." alt="" coords="5,128,137,155"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21" title="writes a command to the sensor" alt="" coords="185,128,348,155"/>
+<area shape="poly" title=" " alt="" coords="137,139,169,139,169,144,137,144"/>
+<area shape="rect" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="403,103,513,129"/>
+<area shape="poly" title=" " alt="" coords="348,128,387,123,388,128,349,133"/>
+<area shape="rect" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="843,5,928,32"/>
+<area shape="poly" title=" " alt="" coords="299,125,395,88,480,60,568,41,707,24,827,17,827,23,708,30,569,47,482,66,397,93,301,130"/>
+<area shape="rect" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="422,153,494,180"/>
+<area shape="poly" title=" " alt="" coords="349,150,407,157,406,163,348,155"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a9a2b5bc64139a84b4011ba94873e47b8" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="396,204,520,247"/>
+<area shape="poly" title=" " alt="" coords="300,153,395,195,393,200,298,158"/>
+<area shape="rect" href="spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="622,56,727,83"/>
+<area shape="poly" title=" " alt="" coords="513,101,606,81,607,86,515,107"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="630,107,719,133"/>
+<area shape="poly" title=" " alt="" coords="514,114,615,116,615,122,514,120"/>
+<area shape="rect" href="spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="829,107,942,133"/>
+<area shape="poly" title=" " alt="" coords="728,79,781,92,814,100,813,105,780,97,727,84"/>
+<area shape="rect" href="group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="829,56,942,83"/>
+<area shape="poly" title=" " alt="" coords="728,67,813,67,813,72,728,72"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="990,5,1099,32"/>
+<area shape="poly" title=" " alt="" coords="929,53,985,35,987,40,931,58"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="993,56,1097,83"/>
+<area shape="poly" title=" " alt="" coords="942,67,977,67,977,72,942,72"/>
+<area shape="poly" title=" " alt="" coords="929,16,974,16,974,21,929,21"/>
+<area shape="poly" title=" " alt="" coords="929,30,987,48,985,53,928,35"/>
+<area shape="rect" href="structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="650,157,699,184"/>
+<area shape="poly" title=" " alt="" coords="495,165,635,167,635,173,495,170"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a28a16b2a8660de84fbad96f237a6dabf" title=" " alt="" coords="568,212,781,239"/>
+<area shape="poly" title=" " alt="" coords="521,223,553,223,553,228,521,228"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abd85bf67df2c595f36b5df0c72921ec0" name="abd85bf67df2c595f36b5df0c72921ec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd85bf67df2c595f36b5df0c72921ec0">&#9670;&#160;</a></span>sht3x_get_status()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t sht3x_get_status </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *</td>          <td class="paramname"><span class="paramname"><em>sensor</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *</td>          <td class="paramname"><span class="paramname"><em>status</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read the sensor status word. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor</td><td>: Sensor struct </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">status</td><td>: The address for the result of the status word</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>0 if the command was successful, else an error code </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8c_source.html#l00144">144</a> do arquivo <a class="el" href="sht3x_8c_source.html">sht3x.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  144</span>                                                                          {</div>
+<div class="line"><span class="lineno">  145</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa">sensirion_i2c_delayed_read_cmd</a>(sht, SHT3X_CMD_READ_STATUS_REG, SHT3X_CMD_DURATION_USEC,</div>
+<div class="line"><span class="lineno">  146</span>                                        status, 1);</div>
+<div class="line"><span class="lineno">  147</span>}</div>
+<div class="ttc" id="asht3x_2common_2common_8c_html_a5d5e6df4f5be7dfe55dd7bc61c538afa"><div class="ttname"><a href="sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa">sensirion_i2c_delayed_read_cmd</a></div><div class="ttdeci">int16_t sensirion_i2c_delayed_read_cmd(struct sht3x_sensor_data *sensor, uint16_t cmd, uint32_t delay, uint16_t *data_words, uint16_t num_words)</div><div class="ttdoc">Send a command, wait for the sensor to process and read data back.</div><div class="ttdef"><b>Definição</b> <a href="sht3x_2common_2common_8c_source.html#l00199">common.c:199</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h_abd85bf67df2c595f36b5df0c72921ec0_cgraph.png" border="0" usemap="#asht3x_8h_abd85bf67df2c595f36b5df0c72921ec0_cgraph" alt=""/></div>
+<map name="asht3x_8h_abd85bf67df2c595f36b5df0c72921ec0_cgraph" id="asht3x_8h_abd85bf67df2c595f36b5df0c72921ec0_cgraph">
+<area shape="rect" title="Read the sensor status word." alt="" coords="5,196,127,223"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa" title="Send a command, wait for the sensor to process and read data back." alt="" coords="175,188,324,231"/>
+<area shape="poly" title=" " alt="" coords="127,207,159,207,159,212,127,212"/>
+<area shape="rect" href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073" title="Delays execution for n us." alt="" coords="789,43,862,69"/>
+<area shape="poly" title=" " alt="" coords="287,185,327,165,371,147,482,114,593,89,773,60,774,65,594,94,483,119,373,152,329,170,290,190"/>
+<area shape="rect" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="770,347,881,373"/>
+<area shape="poly" title=" " alt="" coords="274,229,317,268,344,287,373,303,421,322,472,337,576,356,673,362,754,362,754,367,673,368,575,361,471,342,420,327,371,308,341,291,314,272,270,233"/>
+<area shape="rect" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="1246,132,1332,159"/>
+<area shape="poly" title=" " alt="" coords="269,186,324,135,405,74,452,47,504,24,557,8,613,3,827,3,888,6,950,16,1011,30,1070,48,1173,87,1249,122,1247,127,1171,92,1068,53,1010,35,949,21,888,12,827,8,613,8,558,14,505,29,455,51,408,79,327,139,273,189"/>
+<area shape="rect" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="401,233,473,260"/>
+<area shape="poly" title=" " alt="" coords="325,222,386,234,385,239,324,227"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a9a2b5bc64139a84b4011ba94873e47b8" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="552,288,676,331"/>
+<area shape="poly" title=" " alt="" coords="287,229,327,251,373,269,457,290,537,301,536,306,456,295,371,275,325,255,284,233"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a61c2efbc31ab106dcd1d888412485db7" title="Read data words from sensor." alt="" coords="372,161,501,204"/>
+<area shape="poly" title=" " alt="" coords="324,196,356,191,357,197,325,201"/>
+<area shape="rect" href="spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="1026,347,1131,373"/>
+<area shape="poly" title=" " alt="" coords="881,357,1010,357,1010,363,881,363"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="1034,296,1122,323"/>
+<area shape="poly" title=" " alt="" coords="880,346,1018,318,1019,324,881,352"/>
+<area shape="rect" href="spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="1233,220,1345,247"/>
+<area shape="poly" title=" " alt="" coords="1131,353,1158,345,1183,333,1199,315,1207,297,1214,277,1230,257,1235,253,1238,257,1234,261,1219,280,1212,299,1204,318,1186,337,1160,350,1132,358"/>
+<area shape="rect" href="group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="1232,271,1346,297"/>
+<area shape="poly" title=" " alt="" coords="1131,347,1183,332,1249,302,1251,307,1185,337,1132,352"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="1394,183,1503,209"/>
+<area shape="poly" title=" " alt="" coords="1321,268,1344,256,1412,216,1415,220,1347,261,1323,273"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="1396,245,1501,272"/>
+<area shape="poly" title=" " alt="" coords="1346,272,1380,267,1381,272,1346,278"/>
+<area shape="poly" title=" " alt="" coords="1333,156,1391,175,1389,180,1331,161"/>
+<area shape="poly" title=" " alt="" coords="1310,157,1395,219,1417,234,1414,239,1392,223,1307,161"/>
+<area shape="rect" href="structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="1054,195,1102,221"/>
+<area shape="poly" title=" " alt="" coords="473,245,666,244,794,240,924,231,1039,213,1039,218,924,236,794,245,666,250,473,250"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a28a16b2a8660de84fbad96f237a6dabf" title=" " alt="" coords="972,245,1184,272"/>
+<area shape="poly" title=" " alt="" coords="676,301,924,275,956,271,957,276,924,280,677,306"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f" title="Read data words as byte&#45;stream from sensor." alt="" coords="549,144,679,187"/>
+<area shape="poly" title=" " alt="" coords="501,174,534,171,534,176,502,179"/>
+<area shape="poly" title=" " alt="" coords="640,141,679,113,725,86,773,67,775,72,728,90,682,117,643,146"/>
+<area shape="poly" title=" " alt="" coords="641,185,800,334,796,338,637,189"/>
+<area shape="poly" title=" " alt="" coords="676,141,726,129,854,115,955,113,1185,129,1231,134,1231,139,1184,135,955,119,855,120,727,135,678,146"/>
+<area shape="rect" href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="790,144,861,171"/>
+<area shape="poly" title=" " alt="" coords="679,160,775,157,775,162,679,166"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a11043f668d9df89dc698a0edcdeb3efe" title=" " alt="" coords="727,195,924,221"/>
+<area shape="poly" title=" " alt="" coords="680,176,741,188,740,194,679,181"/>
+<area shape="poly" title=" " alt="" coords="861,162,1039,198,1038,203,860,167"/>
+<area shape="rect" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="1055,144,1101,171"/>
+<area shape="poly" title=" " alt="" coords="861,155,1040,155,1040,160,861,160"/>
+<area shape="poly" title=" " alt="" coords="896,219,994,239,993,244,895,225"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1901ec766079e776d57937fd077e58c1" name="a1901ec766079e776d57937fd077e58c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1901ec766079e776d57937fd077e58c1">&#9670;&#160;</a></span>sht3x_read_serial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t sht3x_read_serial </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structsht3x__sensor__data.html">sht3x_sensor_data</a> *</td>          <td class="paramname"><span class="paramname"><em>sensor</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *</td>          <td class="paramname"><span class="paramname"><em>serial</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read out the serial number. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sensor</td><td>: The sensor address </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">serial</td><td>: The address for the result of the serial number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>0 if the command was successful, else an error code. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8c_source.html#l00178">178</a> do arquivo <a class="el" href="sht3x_8c_source.html">sht3x.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  178</span>                                                                           {</div>
+<div class="line"><span class="lineno">  179</span>  int16_t ret;</div>
+<div class="line"><span class="lineno">  180</span>  uint8_t serial_bytes[4];</div>
+<div class="line"><span class="lineno">  181</span> </div>
+<div class="line"><span class="lineno">  182</span>  ret = <a class="code hl_function" href="sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21">sensirion_i2c_write_cmd</a>(sht, SHT3X_CMD_READ_SERIAL_ID);</div>
+<div class="line"><span class="lineno">  183</span>  <a class="code hl_function" href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073">delay_us</a>(SHT3X_CMD_DURATION_USEC, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>  <span class="keywordflow">if</span> (ret == <a class="code hl_define" href="sht3x_2common_2common_8h.html#a2403320c41f08e7567cb169de5db66b3">STATUS_OK</a>) {</div>
+<div class="line"><span class="lineno">  186</span>    ret = <a class="code hl_function" href="sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f">sensirion_i2c_read_words_as_bytes</a>(sht, serial_bytes, <a class="code hl_define" href="sht3x_2common_2common_8h.html#abe178babe95c5265a5b6c3353e0a4f63">SENSIRION_NUM_WORDS</a>(serial_bytes));</div>
+<div class="line"><span class="lineno">  187</span>    *serial = <a class="code hl_function" href="sht3x_2common_2common_8c.html#a0b4b0315d1dccbc6f4bfa597efdc9db6">sensirion_bytes_to_uint32_t</a>(serial_bytes);</div>
+<div class="line"><span class="lineno">  188</span>  }</div>
+<div class="line"><span class="lineno">  189</span>  <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">  190</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="ai2c_2common_8c_html_a720879d69fe216a6f53c2d0de74d4073"><div class="ttname"><a href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073">delay_us</a></div><div class="ttdeci">void delay_us(uint32_t period, void *intf_ptr)</div><div class="ttdoc">Delays execution for n us.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00113">common.c:113</a></div></div>
+<div class="ttc" id="asht3x_2common_2common_8c_html_a0b4b0315d1dccbc6f4bfa597efdc9db6"><div class="ttname"><a href="sht3x_2common_2common_8c.html#a0b4b0315d1dccbc6f4bfa597efdc9db6">sensirion_bytes_to_uint32_t</a></div><div class="ttdeci">uint32_t sensirion_bytes_to_uint32_t(const uint8_t *bytes)</div><div class="ttdoc">Convert an array of bytes to an uint32_t.</div><div class="ttdef"><b>Definição</b> <a href="sht3x_2common_2common_8c_source.html#l00047">common.c:47</a></div></div>
+<div class="ttc" id="asht3x_2common_2common_8c_html_aba9b6fbed3b9f06f891a593f17fa3e0f"><div class="ttname"><a href="sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f">sensirion_i2c_read_words_as_bytes</a></div><div class="ttdeci">int8_t sensirion_i2c_read_words_as_bytes(struct sht3x_sensor_data *sensor, uint8_t *data, uint16_t num_words)</div><div class="ttdoc">Read data words as byte-stream from sensor.</div><div class="ttdef"><b>Definição</b> <a href="sht3x_2common_2common_8c_source.html#l00118">common.c:118</a></div></div>
+<div class="ttc" id="asht3x_2common_2common_8h_html_a2403320c41f08e7567cb169de5db66b3"><div class="ttname"><a href="sht3x_2common_2common_8h.html#a2403320c41f08e7567cb169de5db66b3">STATUS_OK</a></div><div class="ttdeci">#define STATUS_OK</div><div class="ttdef"><b>Definição</b> <a href="sht3x_2common_2common_8h_source.html#l00043">common.h:43</a></div></div>
+<div class="ttc" id="asht3x_2common_2common_8h_html_abe178babe95c5265a5b6c3353e0a4f63"><div class="ttname"><a href="sht3x_2common_2common_8h.html#abe178babe95c5265a5b6c3353e0a4f63">SENSIRION_NUM_WORDS</a></div><div class="ttdeci">#define SENSIRION_NUM_WORDS(x)</div><div class="ttdef"><b>Definição</b> <a href="sht3x_2common_2common_8h_source.html#l00056">common.h:56</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h_a1901ec766079e776d57937fd077e58c1_cgraph.png" border="0" usemap="#asht3x_8h_a1901ec766079e776d57937fd077e58c1_cgraph" alt=""/></div>
+<map name="asht3x_8h_a1901ec766079e776d57937fd077e58c1_cgraph" id="asht3x_8h_a1901ec766079e776d57937fd077e58c1_cgraph">
+<area shape="rect" title="Read out the serial number." alt="" coords="5,196,129,223"/>
+<area shape="rect" href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073" title="Delays execution for n us." alt="" coords="450,5,523,32"/>
+<area shape="poly" title=" " alt="" coords="80,194,121,157,175,119,243,87,313,61,434,27,435,32,315,66,245,92,178,124,124,161,84,198"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a0b4b0315d1dccbc6f4bfa597efdc9db6" title="Convert an array of bytes to an uint32_t." alt="" coords="193,276,324,319"/>
+<area shape="poly" title=" " alt="" coords="96,221,178,262,190,267,188,272,176,266,93,226"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f" title="Read data words as byte&#45;stream from sensor." alt="" coords="194,133,323,176"/>
+<area shape="poly" title=" " alt="" coords="116,193,178,175,180,180,117,198"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21" title="writes a command to the sensor" alt="" coords="177,225,340,252"/>
+<area shape="poly" title=" " alt="" coords="129,216,162,221,161,226,129,221"/>
+<area shape="poly" title=" " alt="" coords="280,131,327,89,387,48,434,29,436,34,389,53,330,94,283,135"/>
+<area shape="rect" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="432,325,542,352"/>
+<area shape="poly" title=" " alt="" coords="299,174,321,191,342,212,358,240,364,265,371,289,390,311,418,326,415,331,386,315,367,291,359,266,353,242,338,215,318,195,296,179"/>
+<area shape="rect" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="908,351,993,377"/>
+<area shape="poly" title=" " alt="" coords="322,132,339,124,362,107,372,99,387,92,488,71,622,59,690,59,753,64,807,74,847,92,875,117,897,146,915,179,928,213,944,281,951,335,945,335,939,282,923,215,910,181,893,149,871,120,844,97,805,79,752,69,690,64,622,65,489,77,389,97,375,103,365,111,341,129,325,137"/>
+<area shape="rect" href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="452,107,522,133"/>
+<area shape="poly" title=" " alt="" coords="323,142,436,125,437,130,324,148"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a11043f668d9df89dc698a0edcdeb3efe" title=" " alt="" coords="388,157,585,184"/>
+<area shape="poly" title=" " alt="" coords="323,157,373,160,372,165,323,162"/>
+<area shape="rect" href="spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="687,427,792,453"/>
+<area shape="poly" title=" " alt="" coords="523,350,691,418,689,423,521,355"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="695,325,784,352"/>
+<area shape="poly" title=" " alt="" coords="542,336,680,336,680,341,542,341"/>
+<area shape="rect" href="spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="894,401,1007,428"/>
+<area shape="poly" title=" " alt="" coords="793,431,878,421,879,426,793,436"/>
+<area shape="rect" href="group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="894,452,1007,479"/>
+<area shape="poly" title=" " alt="" coords="793,444,879,454,878,459,793,449"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="1055,364,1164,391"/>
+<area shape="poly" title=" " alt="" coords="982,449,1006,438,1074,397,1076,402,1008,442,985,454"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="1058,427,1162,453"/>
+<area shape="poly" title=" " alt="" coords="1007,454,1042,448,1043,453,1008,459"/>
+<area shape="poly" title=" " alt="" coords="994,365,1039,369,1039,374,993,370"/>
+<area shape="poly" title=" " alt="" coords="983,375,1008,387,1069,417,1067,422,1006,392,981,380"/>
+<area shape="rect" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="716,107,763,133"/>
+<area shape="poly" title=" " alt="" coords="522,117,701,117,701,123,522,123"/>
+<area shape="rect" href="structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="715,172,764,199"/>
+<area shape="poly" title=" " alt="" coords="523,126,586,143,701,173,699,178,585,148,522,131"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a28a16b2a8660de84fbad96f237a6dabf" title=" " alt="" coords="633,252,846,279"/>
+<area shape="poly" title=" " alt="" coords="549,182,586,193,646,217,699,242,697,247,644,222,584,199,547,187"/>
+<area shape="poly" title=" " alt="" coords="317,250,341,262,357,274,366,287,375,300,389,311,418,323,416,328,387,316,371,303,362,290,353,278,339,266,315,255"/>
+<area shape="poly" title=" " alt="" coords="324,250,342,262,353,275,360,289,365,316,371,341,377,352,389,362,429,377,484,387,551,391,624,390,772,381,892,369,892,374,772,387,624,396,550,396,484,392,427,382,387,366,373,355,366,343,360,317,355,290,349,278,338,266,321,255"/>
+<area shape="rect" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="451,208,523,235"/>
+<area shape="poly" title=" " alt="" coords="340,230,435,223,436,228,341,235"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a9a2b5bc64139a84b4011ba94873e47b8" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="425,259,549,301"/>
+<area shape="poly" title=" " alt="" coords="337,250,409,263,408,269,336,255"/>
+<area shape="poly" title=" " alt="" coords="523,214,700,188,700,193,524,219"/>
+<area shape="poly" title=" " alt="" coords="549,274,617,270,618,275,549,279"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a77df04ddf10850c50e5b28c1797f97b2" name="a77df04ddf10850c50e5b28c1797f97b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77df04ddf10850c50e5b28c1797f97b2">&#9670;&#160;</a></span>temperature_to_tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void temperature_to_tick </td>
+          <td>(</td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>temperature</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t *</td>          <td class="paramname"><span class="paramname"><em>tick</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts temperature to ADC ticks. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">temperature</td><td>: Temperature value in T°C*1000 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">tick</td><td>: Sensor ADC ticks </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8c_source.html#l00281">281</a> do arquivo <a class="el" href="sht3x_8c_source.html">sht3x.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  281</span>                                                              {</div>
+<div class="line"><span class="lineno">  282</span>  *tick = (uint16_t)((temperature * 12271 + 552195000) &gt;&gt; 15);</div>
+<div class="line"><span class="lineno">  283</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h_a77df04ddf10850c50e5b28c1797f97b2_icgraph.png" border="0" usemap="#asht3x_8h_a77df04ddf10850c50e5b28c1797f97b2_icgraph" alt=""/></div>
+<map name="asht3x_8h_a77df04ddf10850c50e5b28c1797f97b2_icgraph" id="asht3x_8h_a77df04ddf10850c50e5b28c1797f97b2_icgraph">
+<area shape="rect" title="Converts temperature to ADC ticks." alt="" coords="189,5,325,32"/>
+<area shape="rect" href="group__sht3x_sensor_settings.html#ga4f3716965817168fbf8e5fd2ca26c3e7" title="Set target temperature and humidity alert threshold." alt="" coords="5,5,141,32"/>
+<area shape="poly" title=" " alt="" coords="173,21,141,21,141,16,173,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a115914f750653e58c77de6c7e4dea535" name="a115914f750653e58c77de6c7e4dea535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115914f750653e58c77de6c7e4dea535">&#9670;&#160;</a></span>tick_to_humidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tick_to_humidity </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>tick</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t *</td>          <td class="paramname"><span class="paramname"><em>humidity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts to humidity from ADC ticks. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tick</td><td>: Tick sensor ADC ticks </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">humidity</td><td>: Humidity value in %*1000 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8c_source.html#l00277">277</a> do arquivo <a class="el" href="sht3x_8c_source.html">sht3x.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  277</span>                                                        {</div>
+<div class="line"><span class="lineno">  278</span>  *humidity = ((12500 * (int32_t)tick) &gt;&gt; 13);</div>
+<div class="line"><span class="lineno">  279</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h_a115914f750653e58c77de6c7e4dea535_icgraph.png" border="0" usemap="#asht3x_8h_a115914f750653e58c77de6c7e4dea535_icgraph" alt=""/></div>
+<map name="asht3x_8h_a115914f750653e58c77de6c7e4dea535_icgraph" id="asht3x_8h_a115914f750653e58c77de6c7e4dea535_icgraph">
+<area shape="rect" title="Converts to humidity from ADC ticks." alt="" coords="531,31,648,57"/>
+<area shape="rect" href="group__sht3x_sensor_settings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="348,5,483,32"/>
+<area shape="poly" title=" " alt="" coords="515,36,483,31,484,26,516,31"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="373,56,458,83"/>
+<area shape="poly" title=" " alt="" coords="516,57,459,66,459,60,516,52"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="103,56,300,83"/>
+<area shape="poly" title=" " alt="" coords="358,72,300,72,300,67,358,67"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a474de3dbf3e88c9b91459ef48458f72d" name="a474de3dbf3e88c9b91459ef48458f72d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474de3dbf3e88c9b91459ef48458f72d">&#9670;&#160;</a></span>tick_to_temperature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tick_to_temperature </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>tick</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t *</td>          <td class="paramname"><span class="paramname"><em>temperature</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>converts to temperature from ADC ticks </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tick</td><td>: Sensor ADC ticks </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">temperature</td><td>: Temperature value in T°C*1000 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="sht3x_8c_source.html#l00273">273</a> do arquivo <a class="el" href="sht3x_8c_source.html">sht3x.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  273</span>                                                              {</div>
+<div class="line"><span class="lineno">  274</span>  *temperature = ((21875 * (int32_t)tick) &gt;&gt; 13) - 45000;</div>
+<div class="line"><span class="lineno">  275</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="sht3x_8h_a474de3dbf3e88c9b91459ef48458f72d_icgraph.png" border="0" usemap="#asht3x_8h_a474de3dbf3e88c9b91459ef48458f72d_icgraph" alt=""/></div>
+<map name="asht3x_8h_a474de3dbf3e88c9b91459ef48458f72d_icgraph" id="asht3x_8h_a474de3dbf3e88c9b91459ef48458f72d_icgraph">
+<area shape="rect" title="converts to temperature from ADC ticks" alt="" coords="531,31,668,57"/>
+<area shape="rect" href="group__sht3x_sensor_settings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="348,5,483,32"/>
+<area shape="poly" title=" " alt="" coords="515,35,484,31,484,25,516,30"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="373,56,458,83"/>
+<area shape="poly" title=" " alt="" coords="516,58,459,66,458,61,515,53"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="103,56,300,83"/>
+<area shape="poly" title=" " alt="" coords="358,72,300,72,300,67,358,67"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

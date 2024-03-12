@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/main/fan.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_0e7e5b8e082842383448704bc01977c3.html">main</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo fan.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Main starting point for fan RPM sensor module.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;fcntl.h&gt;</code><br />
+<code>#include &lt;hiredis/hiredis.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;syslog.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="spi_2common_8h_source.html">../spi/common.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para fan.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="fan_8c__incl.png" border="0" usemap="#abin_2main_2fan_8c" alt=""/></div>
+<map name="abin_2main_2fan_8c" id="abin_2main_2fan_8c">
+<area shape="rect" title="Main starting point for fan RPM sensor module." alt="" coords="293,5,395,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,62,107"/>
+<area shape="poly" title=" " alt="" coords="293,33,78,82,76,77,292,28"/>
+<area shape="rect" title=" " alt="" coords="85,80,198,107"/>
+<area shape="poly" title=" " alt="" coords="310,35,192,77,190,72,308,30"/>
+<area shape="rect" title=" " alt="" coords="222,80,285,107"/>
+<area shape="poly" title=" " alt="" coords="330,35,282,72,279,68,327,30"/>
+<area shape="rect" title=" " alt="" coords="309,80,379,107"/>
+<area shape="poly" title=" " alt="" coords="347,33,347,64,342,64,342,33"/>
+<area shape="rect" title=" " alt="" coords="404,80,461,107"/>
+<area shape="poly" title=" " alt="" coords="361,30,407,68,404,72,358,35"/>
+<area shape="rect" title=" " alt="" coords="485,80,553,107"/>
+<area shape="poly" title=" " alt="" coords="376,30,475,71,473,76,374,35"/>
+<area shape="rect" href="spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="577,80,693,107"/>
+<area shape="poly" title=" " alt="" coords="396,30,570,73,569,78,394,35"/>
+<area shape="rect" title=" " alt="" coords="603,155,667,181"/>
+<area shape="poly" title=" " alt="" coords="638,107,638,139,632,139,632,107"/>
+</map>
+</div>
+</div>
+<p><a href="fan_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a71b1de9703c7b7ab118a7ee3e3288a2a" id="r_a71b1de9703c7b7ab118a7ee3e3288a2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b1de9703c7b7ab118a7ee3e3288a2a">AI_PIN</a>&#160;&#160;&#160;&quot;/sys/bus/iio/devices/iio:device0/in_voltage1_raw&quot;</td></tr>
+<tr class="separator:a71b1de9703c7b7ab118a7ee3e3288a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a04e958e4f09a5b709be1b2605c2e3085" id="r_a04e958e4f09a5b709be1b2605c2e3085"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04e958e4f09a5b709be1b2605c2e3085">get_rpm</a> (double runtime)</td></tr>
+<tr class="separator:a04e958e4f09a5b709be1b2605c2e3085"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Main starting point for fan RPM sensor module. </p>
+
+<p class="definition">Definição no arquivo <a class="el" href="fan_8c_source.html">fan.c</a>.</p>
+</div><h2 class="groupheader">Definições e macros</h2>
+<a id="a71b1de9703c7b7ab118a7ee3e3288a2a" name="a71b1de9703c7b7ab118a7ee3e3288a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b1de9703c7b7ab118a7ee3e3288a2a">&#9670;&#160;</a></span>AI_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AI_PIN&#160;&#160;&#160;&quot;/sys/bus/iio/devices/iio:device0/in_voltage1_raw&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="fan_8c_source.html#l00013">13</a> do arquivo <a class="el" href="fan_8c_source.html">fan.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="a04e958e4f09a5b709be1b2605c2e3085" name="a04e958e4f09a5b709be1b2605c2e3085"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04e958e4f09a5b709be1b2605c2e3085">&#9670;&#160;</a></span>get_rpm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double get_rpm </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>runtime</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="fan_8c_source.html#l00015">15</a> do arquivo <a class="el" href="fan_8c_source.html">fan.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   15</span>                               {</div>
+<div class="line"><span class="lineno">   16</span>  <span class="keywordtype">char</span> adc[5] = {0};</div>
+<div class="line"><span class="lineno">   17</span> </div>
+<div class="line"><span class="lineno">   18</span>  uint32_t new_val = 0, old = 0;</div>
+<div class="line"><span class="lineno">   19</span>  <span class="keywordtype">double</span> valley_spacing = 0;</div>
+<div class="line"><span class="lineno">   20</span>  <span class="keywordtype">double</span> sum_valley_spacing = 0;</div>
+<div class="line"><span class="lineno">   21</span>  <span class="keywordtype">double</span> current_valley_spacing = 0;</div>
+<div class="line"><span class="lineno">   22</span>  <span class="keywordtype">double</span> count_valley_spacing = 0;</div>
+<div class="line"><span class="lineno">   23</span>  uint32_t valley_count = 1;</div>
+<div class="line"><span class="lineno">   24</span> </div>
+<div class="line"><span class="lineno">   25</span>  <span class="keywordflow">for</span> (uint8_t i = 0; i &lt; 100; i++) {</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a> = <a class="code hl_function" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07">open</a>(<a class="code hl_define" href="#a71b1de9703c7b7ab118a7ee3e3288a2a">AI_PIN</a>, O_RDONLY);</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90">read</a>(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, adc, 4) &lt; 1) {</div>
+<div class="line"><span class="lineno">   28</span>      syslog(LOG_ERR, <span class="stringliteral">&quot;No ADC found for fan sensor&quot;</span>);</div>
+<div class="line"><span class="lineno">   29</span>      exit(-2);</div>
+<div class="line"><span class="lineno">   30</span>    }</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_function" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a>(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>);</div>
+<div class="line"><span class="lineno">   32</span>    new_val = atoi(adc);</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">if</span> (abs(new_val - old) &gt; 50 &amp;&amp; old != 0) {</div>
+<div class="line"><span class="lineno">   34</span>      <span class="keywordflow">if</span> (new_val &gt; 500)</div>
+<div class="line"><span class="lineno">   35</span>        valley_count = 1;</div>
+<div class="line"><span class="lineno">   36</span>      <span class="keywordflow">if</span> (new_val &lt; 200 &amp;&amp; valley_count) {</div>
+<div class="line"><span class="lineno">   37</span>        valley_spacing = current_valley_spacing;</div>
+<div class="line"><span class="lineno">   38</span>        current_valley_spacing = 0;</div>
+<div class="line"><span class="lineno">   39</span>        count_valley_spacing++;</div>
+<div class="line"><span class="lineno">   40</span>        valley_count = 0;</div>
+<div class="line"><span class="lineno">   41</span>        sum_valley_spacing += valley_spacing;</div>
+<div class="line"><span class="lineno">   42</span>      }</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
+<div class="line"><span class="lineno">   44</span>    current_valley_spacing++;</div>
+<div class="line"><span class="lineno">   45</span>    old = new_val;</div>
+<div class="line"><span class="lineno">   46</span>    usleep(1000);</div>
+<div class="line"><span class="lineno">   47</span>  }</div>
+<div class="line"><span class="lineno">   48</span>  <span class="keywordflow">if</span> (count_valley_spacing &lt; 1)</div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">return</span> 0.0;</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>  <span class="keywordflow">return</span> (60 / (sum_valley_spacing / count_valley_spacing * runtime)) / 3;</div>
+<div class="line"><span class="lineno">   52</span>}</div>
+<div class="ttc" id="afan_8c_html_a71b1de9703c7b7ab118a7ee3e3288a2a"><div class="ttname"><a href="#a71b1de9703c7b7ab118a7ee3e3288a2a">AI_PIN</a></div><div class="ttdeci">#define AI_PIN</div><div class="ttdef"><b>Definição</b> <a href="fan_8c_source.html#l00013">fan.c:13</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="astructcmd_8h_html_a2c4414339f388561554c2deab11a1a07"><div class="ttname"><a href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07">open</a></div><div class="ttdeci">int open(const char *, int)</div><div class="ttdoc">Opens a file descriptor.</div></div>
+<div class="ttc" id="astructcmd_8h_html_a9c7b76d5266903891c803132d51ccb90"><div class="ttname"><a href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90">read</a></div><div class="ttdeci">int read(int, char *, size_t)</div><div class="ttdoc">Read bytes from a file descriptor.</div></div>
+<div class="ttc" id="astructcmd_8h_html_ae152484c890a24e4d9b4980e7b965be0"><div class="ttname"><a href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a></div><div class="ttdeci">int close(int)</div><div class="ttdoc">Closes the file descriptor fd.</div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="fan_8c_a04e958e4f09a5b709be1b2605c2e3085_cgraph.png" border="0" usemap="#afan_8c_a04e958e4f09a5b709be1b2605c2e3085_cgraph" alt=""/></div>
+<map name="afan_8c_a04e958e4f09a5b709be1b2605c2e3085_cgraph" id="afan_8c_a04e958e4f09a5b709be1b2605c2e3085_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,74,83"/>
+<area shape="rect" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="122,5,174,32"/>
+<area shape="poly" title=" " alt="" coords="69,53,107,35,109,40,71,58"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="123,56,173,83"/>
+<area shape="poly" title=" " alt="" coords="74,67,108,67,108,72,74,72"/>
+<area shape="rect" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="125,107,171,133"/>
+<area shape="poly" title=" " alt="" coords="71,81,112,100,109,105,69,86"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="fan_8c_a04e958e4f09a5b709be1b2605c2e3085_icgraph.png" border="0" usemap="#afan_8c_a04e958e4f09a5b709be1b2605c2e3085_icgraph" alt=""/></div>
+<map name="afan_8c_a04e958e4f09a5b709be1b2605c2e3085_icgraph" id="afan_8c_a04e958e4f09a5b709be1b2605c2e3085_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,171,32"/>
+<area shape="rect" href="fan_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>argc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>argv</em>[]</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="fan_8c_source.html#l00054">54</a> do arquivo <a class="el" href="fan_8c_source.html">fan.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   54</span>                                 {</div>
+<div class="line"><span class="lineno">   55</span>  openlog(<span class="stringliteral">&quot;simar&quot;</span>, 0, LOG_LOCAL0);</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>  clock_t t;</div>
+<div class="line"><span class="lineno">   58</span>  redisContext* <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>;</div>
+<div class="line"><span class="lineno">   59</span>  redisReply* reply;</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>  t = clock();</div>
+<div class="line"><span class="lineno">   62</span>  <a class="code hl_function" href="#a04e958e4f09a5b709be1b2605c2e3085">get_rpm</a>(0.0013);</div>
+<div class="line"><span class="lineno">   63</span>  t = clock() - t;</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>  <span class="keywordtype">double</span> runtime = ((double)t) / CLOCKS_PER_SEC / 18;</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>  <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a> = redisConnectWithTimeout(<span class="stringliteral">&quot;127.0.0.1&quot;</span>, 6379, (<span class="keyword">struct</span> timeval){1, 500000});</div>
+<div class="line"><span class="lineno">   69</span> </div>
+<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err) {</div>
+<div class="line"><span class="lineno">   71</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err == 1)</div>
+<div class="line"><span class="lineno">   72</span>        syslog(LOG_ERR,</div>
+<div class="line"><span class="lineno">   73</span>               <span class="stringliteral">&quot;Redis server instance not available. Have you &quot;</span></div>
+<div class="line"><span class="lineno">   74</span>               <span class="stringliteral">&quot;initialized the Redis server? (Error code 1)\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   75</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   76</span>        syslog(LOG_ERR, <span class="stringliteral">&quot;Unknown redis error (error code %d)\n&quot;</span>, <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err);</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>      nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 700000000L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);  <span class="comment">// 700ms</span></div>
+<div class="line"><span class="lineno">   79</span>    }</div>
+<div class="line"><span class="lineno">   80</span>  } <span class="keywordflow">while</span> (<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>-&gt;err);</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>  <span class="keywordflow">while</span> (1) {</div>
+<div class="line"><span class="lineno">   83</span>    reply = (redisReply*)redisCommand(<a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;HSET fan speed %.3f&quot;</span>, <a class="code hl_function" href="#a04e958e4f09a5b709be1b2605c2e3085">get_rpm</a>(runtime));</div>
+<div class="line"><span class="lineno">   84</span>    freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">   85</span>  }</div>
+<div class="line"><span class="lineno">   86</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="afan_8c_html_a04e958e4f09a5b709be1b2605c2e3085"><div class="ttname"><a href="#a04e958e4f09a5b709be1b2605c2e3085">get_rpm</a></div><div class="ttdeci">double get_rpm(double runtime)</div><div class="ttdef"><b>Definição</b> <a href="fan_8c_source.html#l00015">fan.c:15</a></div></div>
+<div class="ttc" id="avolt_8c_html_af90d996c6169d02772757fa54c268964"><div class="ttname"><a href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a></div><div class="ttdeci">redisContext * c</div><div class="ttdef"><b>Definição</b> <a href="volt_8c_source.html#l00030">volt.c:30</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="fan_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#afan_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
+<map name="afan_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="afan_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,55,83"/>
+<area shape="rect" href="fan_8c.html#a04e958e4f09a5b709be1b2605c2e3085" title=" " alt="" coords="103,56,171,83"/>
+<area shape="poly" title=" " alt="" coords="55,67,87,67,87,72,55,72"/>
+<area shape="rect" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="219,5,271,32"/>
+<area shape="poly" title=" " alt="" coords="166,53,204,35,206,40,168,58"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="221,56,270,83"/>
+<area shape="poly" title=" " alt="" coords="172,67,205,67,205,72,172,72"/>
+<area shape="rect" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="222,107,268,133"/>
+<area shape="poly" title=" " alt="" coords="168,81,209,100,207,105,166,86"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

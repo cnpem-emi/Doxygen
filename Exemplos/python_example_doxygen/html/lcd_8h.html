@@ -1,0 +1,855 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/utils/LCD/lcd.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_71781031496afb3e022ce930ef5573f6.html">LCD</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Estruturas de Dados</a> &#124;
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo lcd.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para lcd.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h__incl.png" border="0" usemap="#abin_2utils_2_l_c_d_2lcd_8h" alt=""/></div>
+<map name="abin_2utils_2_l_c_d_2lcd_8h" id="abin_2utils_2_l_c_d_2lcd_8h">
+<area shape="rect" title=" " alt="" coords="5,5,133,32"/>
+<area shape="rect" title=" " alt="" coords="37,80,101,107"/>
+<area shape="poly" title=" " alt="" coords="72,33,72,64,66,64,66,33"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com esse arquivo:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h__dep__incl.png" border="0" usemap="#abin_2utils_2_l_c_d_2lcd_8hdep" alt=""/></div>
+<map name="abin_2utils_2_l_c_d_2lcd_8hdep" id="abin_2utils_2_l_c_d_2lcd_8hdep">
+<area shape="rect" title=" " alt="" coords="105,5,233,32"/>
+<area shape="rect" href="_l_c_d_2example_8c.html" title=" " alt="" coords="5,80,165,107"/>
+<area shape="poly" title=" " alt="" coords="144,45,101,82,98,78,141,40"/>
+<area shape="rect" href="lcd_8c.html" title=" " alt="" coords="189,80,317,107"/>
+<area shape="poly" title=" " alt="" coords="197,40,240,78,237,82,194,45"/>
+</map>
+</div>
+</div>
+<p><a href="lcd_8h_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Estruturas de Dados</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pin.html">Pin</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a19693eac3018d3e7800fde141921b812" id="r_a19693eac3018d3e7800fde141921b812"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19693eac3018d3e7800fde141921b812">LCD_WIDTH</a>&#160;&#160;&#160;84</td></tr>
+<tr class="separator:a19693eac3018d3e7800fde141921b812"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a8b2a971de4b88047192655a48b651" id="r_a53a8b2a971de4b88047192655a48b651"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53a8b2a971de4b88047192655a48b651">LCD_HEIGHT</a>&#160;&#160;&#160;48</td></tr>
+<tr class="separator:a53a8b2a971de4b88047192655a48b651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a0fa29c0aee6ec3285941a5849de041b2" id="r_a0fa29c0aee6ec3285941a5849de041b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fa29c0aee6ec3285941a5849de041b2">lcd_line</a> (int x, int y, int len, int thickness)</td></tr>
+<tr class="memdesc:a0fa29c0aee6ec3285941a5849de041b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints straight horizontal line.  <br /></td></tr>
+<tr class="separator:a0fa29c0aee6ec3285941a5849de041b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7027d4c67c9704b73a0eafb7dd94a515" id="r_a7027d4c67c9704b73a0eafb7dd94a515"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7027d4c67c9704b73a0eafb7dd94a515">lcd_init</a> (char *vop, char *bias)</td></tr>
+<tr class="memdesc:a7027d4c67c9704b73a0eafb7dd94a515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes LCD.  <br /></td></tr>
+<tr class="separator:a7027d4c67c9704b73a0eafb7dd94a515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbee04b3dec721332759f89a137f2129" id="r_abbee04b3dec721332759f89a137f2129"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbee04b3dec721332759f89a137f2129">lcd_close</a> ()</td></tr>
+<tr class="memdesc:abbee04b3dec721332759f89a137f2129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finalizes LCD operations.  <br /></td></tr>
+<tr class="separator:abbee04b3dec721332759f89a137f2129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af67e5212f5ba68e0eadfc7817a991394" id="r_af67e5212f5ba68e0eadfc7817a991394"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a> (int mode, uint8_t const *wr, int len)</td></tr>
+<tr class="memdesc:af67e5212f5ba68e0eadfc7817a991394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfers to LCD register.  <br /></td></tr>
+<tr class="separator:af67e5212f5ba68e0eadfc7817a991394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab32a6c31d6a06782f4f1206ae6b4b039" id="r_ab32a6c31d6a06782f4f1206ae6b4b039"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab32a6c31d6a06782f4f1206ae6b4b039">lcd_set_backlight</a> (int state)</td></tr>
+<tr class="memdesc:ab32a6c31d6a06782f4f1206ae6b4b039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns on or off LCD backlight.  <br /></td></tr>
+<tr class="separator:ab32a6c31d6a06782f4f1206ae6b4b039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c08b1fa742e650f4873939707b893b" id="r_a35c08b1fa742e650f4873939707b893b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35c08b1fa742e650f4873939707b893b">lcd_clear</a> ()</td></tr>
+<tr class="memdesc:a35c08b1fa742e650f4873939707b893b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears LCD.  <br /></td></tr>
+<tr class="separator:a35c08b1fa742e650f4873939707b893b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a013af80ec99f63cf714b0749c36cbe33" id="r_a013af80ec99f63cf714b0749c36cbe33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a> (int row, int col)</td></tr>
+<tr class="memdesc:a013af80ec99f63cf714b0749c36cbe33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets LCD cursor position.  <br /></td></tr>
+<tr class="separator:a013af80ec99f63cf714b0749c36cbe33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae361d551feba598bbe0d3b7df6e654dc" id="r_ae361d551feba598bbe0d3b7df6e654dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae361d551feba598bbe0d3b7df6e654dc">lcd_print</a> (char *strn)</td></tr>
+<tr class="memdesc:ae361d551feba598bbe0d3b7df6e654dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints string to LCD screen at a previously set position.  <br /></td></tr>
+<tr class="separator:ae361d551feba598bbe0d3b7df6e654dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b92109281330638384cbb7fe9e9809" id="r_ab4b92109281330638384cbb7fe9e9809"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4b92109281330638384cbb7fe9e9809">lcd_print_char</a> (char *strn)</td></tr>
+<tr class="separator:ab4b92109281330638384cbb7fe9e9809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Definições e macros</h2>
+<a id="a53a8b2a971de4b88047192655a48b651" name="a53a8b2a971de4b88047192655a48b651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53a8b2a971de4b88047192655a48b651">&#9670;&#160;</a></span>LCD_HEIGHT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_HEIGHT&#160;&#160;&#160;48</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8h_source.html#l00005">5</a> do arquivo <a class="el" href="lcd_8h_source.html">lcd.h</a>.</p>
+
+</div>
+</div>
+<a id="a19693eac3018d3e7800fde141921b812" name="a19693eac3018d3e7800fde141921b812"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19693eac3018d3e7800fde141921b812">&#9670;&#160;</a></span>LCD_WIDTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LCD_WIDTH&#160;&#160;&#160;84</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8h_source.html#l00004">4</a> do arquivo <a class="el" href="lcd_8h_source.html">lcd.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="a35c08b1fa742e650f4873939707b893b" name="a35c08b1fa742e650f4873939707b893b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c08b1fa742e650f4873939707b893b">&#9670;&#160;</a></span>lcd_clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lcd_clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clears LCD. </p>
+<dl class="section return"><dt>Retorna</dt><dd>void. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00177">177</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  177</span>                 {</div>
+<div class="line"><span class="lineno">  178</span>  <a class="code hl_function" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a>(0, 0);</div>
+<div class="line"><span class="lineno">  179</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_define" href="#a19693eac3018d3e7800fde141921b812">LCD_WIDTH</a> * <a class="code hl_define" href="#a53a8b2a971de4b88047192655a48b651">LCD_HEIGHT</a> / 8; i++)</div>
+<div class="line"><span class="lineno">  180</span>    <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(1, <span class="stringliteral">&quot;\x00&quot;</span>, 1);</div>
+<div class="line"><span class="lineno">  181</span>}</div>
+<div class="ttc" id="alcd_8c_html_a013af80ec99f63cf714b0749c36cbe33"><div class="ttname"><a href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a></div><div class="ttdeci">int lcd_set_cursor(int row, int col)</div><div class="ttdoc">Sets LCD cursor position.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00160">lcd.c:160</a></div></div>
+<div class="ttc" id="alcd_8c_html_af67e5212f5ba68e0eadfc7817a991394"><div class="ttname"><a href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a></div><div class="ttdeci">int lcd_write(int mode, uint8_t const *wr, int len)</div><div class="ttdoc">Transfers to LCD register.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00131">lcd.c:131</a></div></div>
+<div class="ttc" id="alcd_8h_html_a19693eac3018d3e7800fde141921b812"><div class="ttname"><a href="#a19693eac3018d3e7800fde141921b812">LCD_WIDTH</a></div><div class="ttdeci">#define LCD_WIDTH</div><div class="ttdef"><b>Definição</b> <a href="lcd_8h_source.html#l00004">lcd.h:4</a></div></div>
+<div class="ttc" id="alcd_8h_html_a53a8b2a971de4b88047192655a48b651"><div class="ttname"><a href="#a53a8b2a971de4b88047192655a48b651">LCD_HEIGHT</a></div><div class="ttdeci">#define LCD_HEIGHT</div><div class="ttdef"><b>Definição</b> <a href="lcd_8h_source.html#l00005">lcd.h:5</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a35c08b1fa742e650f4873939707b893b_cgraph.png" border="0" usemap="#alcd_8h_a35c08b1fa742e650f4873939707b893b_cgraph" alt=""/></div>
+<map name="alcd_8h_a35c08b1fa742e650f4873939707b893b_cgraph" id="alcd_8h_a35c08b1fa742e650f4873939707b893b_cgraph">
+<area shape="rect" title="Clears LCD." alt="" coords="5,56,79,83"/>
+<area shape="rect" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33" title="Sets LCD cursor position." alt="" coords="127,31,233,57"/>
+<area shape="poly" title=" " alt="" coords="79,60,111,54,112,59,80,65"/>
+<area shape="rect" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="281,56,353,83"/>
+<area shape="poly" title=" " alt="" coords="79,67,266,67,266,72,79,72"/>
+<area shape="poly" title=" " alt="" coords="234,51,266,57,265,63,233,56"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="401,5,511,32"/>
+<area shape="poly" title=" " alt="" coords="353,54,403,35,404,40,355,59"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="404,56,508,83"/>
+<area shape="poly" title=" " alt="" coords="354,67,389,67,389,72,354,72"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="412,107,500,133"/>
+<area shape="poly" title=" " alt="" coords="355,80,404,98,403,103,353,85"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a35c08b1fa742e650f4873939707b893b_icgraph.png" border="0" usemap="#alcd_8h_a35c08b1fa742e650f4873939707b893b_icgraph" alt=""/></div>
+<map name="alcd_8h_a35c08b1fa742e650f4873939707b893b_icgraph" id="alcd_8h_a35c08b1fa742e650f4873939707b893b_icgraph">
+<area shape="rect" title="Clears LCD." alt="" coords="213,5,286,32"/>
+<area shape="rect" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD." alt="" coords="103,5,165,32"/>
+<area shape="poly" title=" " alt="" coords="197,21,165,21,165,16,197,16"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abbee04b3dec721332759f89a137f2129" name="abbee04b3dec721332759f89a137f2129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbee04b3dec721332759f89a137f2129">&#9670;&#160;</a></span>lcd_close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lcd_close </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finalizes LCD operations. </p>
+<dl class="section return"><dt>Retorna</dt><dd>void. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00269">269</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  269</span>                 {</div>
+<div class="line"><span class="lineno">  270</span>  <a class="code hl_function" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a>(fd);</div>
+<div class="line"><span class="lineno">  271</span>}</div>
+<div class="ttc" id="astructcmd_8h_html_ae152484c890a24e4d9b4980e7b965be0"><div class="ttname"><a href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a></div><div class="ttdeci">int close(int)</div><div class="ttdoc">Closes the file descriptor fd.</div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_abbee04b3dec721332759f89a137f2129_cgraph.png" border="0" usemap="#alcd_8h_abbee04b3dec721332759f89a137f2129_cgraph" alt=""/></div>
+<map name="alcd_8h_abbee04b3dec721332759f89a137f2129_cgraph" id="alcd_8h_abbee04b3dec721332759f89a137f2129_cgraph">
+<area shape="rect" title="Finalizes LCD operations." alt="" coords="5,5,82,32"/>
+<area shape="rect" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="130,5,182,32"/>
+<area shape="poly" title=" " alt="" coords="82,16,114,16,114,21,82,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_abbee04b3dec721332759f89a137f2129_icgraph.png" border="0" usemap="#alcd_8h_abbee04b3dec721332759f89a137f2129_icgraph" alt=""/></div>
+<map name="alcd_8h_abbee04b3dec721332759f89a137f2129_icgraph" id="alcd_8h_abbee04b3dec721332759f89a137f2129_icgraph">
+<area shape="rect" title="Finalizes LCD operations." alt="" coords="103,5,179,32"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7027d4c67c9704b73a0eafb7dd94a515" name="a7027d4c67c9704b73a0eafb7dd94a515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7027d4c67c9704b73a0eafb7dd94a515">&#9670;&#160;</a></span>lcd_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lcd_init </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>vop</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>bias</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes LCD. </p>
+<dl class="section return"><dt>Retorna</dt><dd>void. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00235">235</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  235</span>                                     {</div>
+<div class="line"><span class="lineno">  236</span>  <a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a> = <a class="code hl_function" href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd">spi_open</a>(device, &amp;spi_mode, &amp;bits, &amp;speed);</div>
+<div class="line"><span class="lineno">  237</span> </div>
+<div class="line"><span class="lineno">  238</span>  <a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;rst);</div>
+<div class="line"><span class="lineno">  239</span>  <a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;bl);</div>
+<div class="line"><span class="lineno">  240</span>  <a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;dc);</div>
+<div class="line"><span class="lineno">  241</span> </div>
+<div class="line"><span class="lineno">  242</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(rst);</div>
+<div class="line"><span class="lineno">  243</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(bl);</div>
+<div class="line"><span class="lineno">  244</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(dc);</div>
+<div class="line"><span class="lineno">  245</span> </div>
+<div class="line"><span class="lineno">  246</span>  <a class="code hl_function" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a>(rst);</div>
+<div class="line"><span class="lineno">  247</span>  nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 500000000L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  248</span>  <a class="code hl_function" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a>(rst);</div>
+<div class="line"><span class="lineno">  249</span>  nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, 500000000L}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  250</span> </div>
+<div class="line"><span class="lineno">  251</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, <span class="stringliteral">&quot;\x21&quot;</span>, 1);  <span class="comment">// Ext. cmd set</span></div>
+<div class="line"><span class="lineno">  252</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, vop, 1);     <span class="comment">// LCD contrast (VOP)</span></div>
+<div class="line"><span class="lineno">  253</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, <span class="stringliteral">&quot;\x04&quot;</span>, 1);  <span class="comment">// Temperature coefficient</span></div>
+<div class="line"><span class="lineno">  254</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, bias, 1);    <span class="comment">// Voltage Bias</span></div>
+<div class="line"><span class="lineno">  255</span> </div>
+<div class="line"><span class="lineno">  256</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, <span class="stringliteral">&quot;\x20&quot;</span>, 1);  <span class="comment">// Normal cmd set</span></div>
+<div class="line"><span class="lineno">  257</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, <span class="stringliteral">&quot;\x0c&quot;</span>, 1);  <span class="comment">// Normal display (0x0d for inverted)</span></div>
+<div class="line"><span class="lineno">  258</span> </div>
+<div class="line"><span class="lineno">  259</span>  <a class="code hl_function" href="lcd_8c.html#a35c08b1fa742e650f4873939707b893b">lcd_clear</a>();</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>  <a class="code hl_function" href="lcd_8c.html#ab32a6c31d6a06782f4f1206ae6b4b039">lcd_set_backlight</a>(0);</div>
+<div class="line"><span class="lineno">  262</span>  <a class="code hl_function" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a>(0, 0);</div>
+<div class="line"><span class="lineno">  263</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="agroup__spi_comm_html_ga968d98569b427752f4798f05ba8fb6bd"><div class="ttname"><a href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd">spi_open</a></div><div class="ttdeci">int spi_open(const char *device, uint32_t *mode, uint8_t *bits, uint32_t *speed)</div><div class="ttdoc">Opens SPI bus.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00075">common.c:75</a></div></div>
+<div class="ttc" id="alcd_8c_html_a35c08b1fa742e650f4873939707b893b"><div class="ttname"><a href="lcd_8c.html#a35c08b1fa742e650f4873939707b893b">lcd_clear</a></div><div class="ttdeci">void lcd_clear()</div><div class="ttdoc">Clears LCD.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00177">lcd.c:177</a></div></div>
+<div class="ttc" id="alcd_8c_html_ab32a6c31d6a06782f4f1206ae6b4b039"><div class="ttname"><a href="lcd_8c.html#ab32a6c31d6a06782f4f1206ae6b4b039">lcd_set_backlight</a></div><div class="ttdeci">void lcd_set_backlight(int state)</div><div class="ttdoc">Turns on or off LCD backlight.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00145">lcd.c:145</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a3dfeb486a29131f600b337889b08f34f"><div class="ttname"><a href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a></div><div class="ttdeci">void mmio_set_high(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00033">common.c:33</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a41cfe7f245de261fbb41e4591c221e14"><div class="ttname"><a href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a></div><div class="ttdeci">void mmio_set_low(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00037">common.c:37</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a43a120dc2fc182d3fe61769d34cf4285"><div class="ttname"><a href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a></div><div class="ttdeci">int mmio_get_gpio(gpio_t *gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00045">common.c:45</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_ac6a1cc04fa4fbcb29722630720f80399"><div class="ttname"><a href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a></div><div class="ttdeci">void mmio_set_output(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00025">common.c:25</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_cgraph.png" border="0" usemap="#alcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_cgraph" alt=""/></div>
+<map name="alcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_cgraph" id="alcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_cgraph">
+<area shape="rect" title="Initializes LCD." alt="" coords="5,208,68,235"/>
+<area shape="rect" href="lcd_8c.html#a35c08b1fa742e650f4873939707b893b" title="Clears LCD." alt="" coords="116,5,189,32"/>
+<area shape="poly" title=" " alt="" coords="40,207,66,136,87,92,114,49,120,41,124,44,118,52,92,94,71,138,45,208"/>
+<area shape="rect" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33" title="Sets LCD cursor position." alt="" coords="245,56,351,83"/>
+<area shape="poly" title=" " alt="" coords="40,206,65,153,87,124,114,99,141,85,171,75,229,66,229,71,172,80,143,90,117,104,91,127,70,156,45,209"/>
+<area shape="rect" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="431,107,504,133"/>
+<area shape="poly" title=" " alt="" coords="46,206,75,176,94,161,115,150,154,135,194,125,277,113,354,110,416,112,416,118,354,115,277,118,195,130,155,140,117,154,96,166,78,180,50,210"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="577,157,686,184"/>
+<area shape="poly" title=" " alt="" coords="68,210,115,200,238,185,361,176,561,169,561,174,361,181,238,191,116,205,69,215"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="579,208,684,235"/>
+<area shape="poly" title=" " alt="" coords="68,224,148,235,262,247,394,252,462,250,528,244,569,236,570,242,529,249,462,255,394,257,262,252,148,241,67,229"/>
+<area shape="rect" href="lcd_8c.html#ab32a6c31d6a06782f4f1206ae6b4b039" title="Turns on or off LCD backlight." alt="" coords="406,208,529,235"/>
+<area shape="poly" title=" " alt="" coords="68,219,390,219,390,224,68,224"/>
+<area shape="rect" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="243,309,352,336"/>
+<area shape="poly" title=" " alt="" coords="51,233,79,262,117,288,172,307,228,317,227,322,171,312,114,293,75,266,47,237"/>
+<area shape="rect" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="237,411,358,437"/>
+<area shape="poly" title=" " alt="" coords="42,235,48,269,61,313,84,359,99,379,117,397,141,410,167,420,222,427,221,432,166,425,139,415,114,401,95,383,79,362,56,315,43,270,37,236"/>
+<area shape="rect" href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="116,360,189,387"/>
+<area shape="poly" title=" " alt="" coords="47,234,76,282,118,340,125,347,121,351,114,343,72,285,43,236"/>
+<area shape="poly" title=" " alt="" coords="190,29,244,48,242,53,188,34"/>
+<area shape="poly" title=" " alt="" coords="189,15,269,20,315,28,359,42,404,66,442,94,438,98,402,70,357,46,313,33,268,26,189,21"/>
+<area shape="poly" title=" " alt="" coords="346,81,417,102,416,108,344,86"/>
+<area shape="poly" title=" " alt="" coords="505,129,572,150,570,155,503,134"/>
+<area shape="poly" title=" " alt="" coords="488,132,528,161,578,194,586,198,584,203,575,198,525,166,485,136"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="587,107,676,133"/>
+<area shape="poly" title=" " alt="" coords="504,117,572,117,572,123,504,123"/>
+<area shape="poly" title=" " alt="" coords="512,205,571,187,572,192,514,210"/>
+<area shape="poly" title=" " alt="" coords="529,219,564,219,564,224,529,224"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="443,335,492,361"/>
+<area shape="poly" title=" " alt="" coords="353,328,428,339,427,345,352,333"/>
+<area shape="poly" title=" " alt="" coords="188,358,242,339,244,344,190,363"/>
+<area shape="poly" title=" " alt="" coords="189,368,427,348,428,354,190,373"/>
+<area shape="poly" title=" " alt="" coords="190,383,244,403,242,408,188,389"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_icgraph.png" border="0" usemap="#alcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_icgraph" alt=""/></div>
+<map name="alcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_icgraph" id="alcd_8h_a7027d4c67c9704b73a0eafb7dd94a515_icgraph">
+<area shape="rect" title="Initializes LCD." alt="" coords="103,5,165,32"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0fa29c0aee6ec3285941a5849de041b2" name="a0fa29c0aee6ec3285941a5849de041b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa29c0aee6ec3285941a5849de041b2">&#9670;&#160;</a></span>lcd_line()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lcd_line </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>thickness</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints straight horizontal line. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Horizontal line starting position (x axis) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">y</td><td>Horizontal line starting position (y axis) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Line length (in pixels) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00208">208</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  208</span>                                                    {</div>
+<div class="line"><span class="lineno">  209</span>  <a class="code hl_function" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a>(y / 8, x / 6);</div>
+<div class="line"><span class="lineno">  210</span>  <span class="keywordtype">int</span> mod_x = x % 6;</div>
+<div class="line"><span class="lineno">  211</span>  <span class="keywordtype">int</span> mod_y = y % 8;</div>
+<div class="line"><span class="lineno">  212</span> </div>
+<div class="line"><span class="lineno">  213</span>  <span class="keywordtype">int</span> fix_len = len + 1;</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>  <span class="keywordtype">char</span> <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a>;</div>
+<div class="line"><span class="lineno">  216</span>  <span class="keywordtype">char</span> full_char[fix_len];</div>
+<div class="line"><span class="lineno">  217</span> </div>
+<div class="line"><span class="lineno">  218</span>  <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a> = 0x01 &lt;&lt; mod_y;</div>
+<div class="line"><span class="lineno">  219</span> </div>
+<div class="line"><span class="lineno">  220</span>  <span class="keywordflow">if</span> (thickness &gt; 1) {</div>
+<div class="line"><span class="lineno">  221</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; thickness; i++)</div>
+<div class="line"><span class="lineno">  222</span>      <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a> |= <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a> &lt;&lt; 1;</div>
+<div class="line"><span class="lineno">  223</span>  }</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; fix_len; i++)</div>
+<div class="line"><span class="lineno">  226</span>    full_char[i] = i &gt;= mod_x ? <a class="code hl_variable" href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a> : 0;</div>
+<div class="line"><span class="lineno">  227</span> </div>
+<div class="line"><span class="lineno">  228</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(1, full_char, fix_len);</div>
+<div class="line"><span class="lineno">  229</span>}</div>
+<div class="ttc" id="avolt_8c_html_af90d996c6169d02772757fa54c268964"><div class="ttname"><a href="volt_8c.html#af90d996c6169d02772757fa54c268964">c</a></div><div class="ttdeci">redisContext * c</div><div class="ttdef"><b>Definição</b> <a href="volt_8c_source.html#l00030">volt.c:30</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a0fa29c0aee6ec3285941a5849de041b2_cgraph.png" border="0" usemap="#alcd_8h_a0fa29c0aee6ec3285941a5849de041b2_cgraph" alt=""/></div>
+<map name="alcd_8h_a0fa29c0aee6ec3285941a5849de041b2_cgraph" id="alcd_8h_a0fa29c0aee6ec3285941a5849de041b2_cgraph">
+<area shape="rect" title="Prints straight horizontal line." alt="" coords="5,56,71,83"/>
+<area shape="rect" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33" title="Sets LCD cursor position." alt="" coords="119,31,225,57"/>
+<area shape="poly" title=" " alt="" coords="71,61,103,54,104,60,72,66"/>
+<area shape="rect" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="273,56,345,83"/>
+<area shape="poly" title=" " alt="" coords="71,67,257,67,257,72,71,72"/>
+<area shape="poly" title=" " alt="" coords="226,51,258,57,257,63,225,56"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="393,5,503,32"/>
+<area shape="poly" title=" " alt="" coords="345,54,395,35,396,40,347,59"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="396,56,500,83"/>
+<area shape="poly" title=" " alt="" coords="346,67,381,67,381,72,346,72"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="404,107,492,133"/>
+<area shape="poly" title=" " alt="" coords="347,80,396,98,395,103,345,85"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a0fa29c0aee6ec3285941a5849de041b2_icgraph.png" border="0" usemap="#alcd_8h_a0fa29c0aee6ec3285941a5849de041b2_icgraph" alt=""/></div>
+<map name="alcd_8h_a0fa29c0aee6ec3285941a5849de041b2_icgraph" id="alcd_8h_a0fa29c0aee6ec3285941a5849de041b2_icgraph">
+<area shape="rect" title="Prints straight horizontal line." alt="" coords="103,5,168,32"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae361d551feba598bbe0d3b7df6e654dc" name="ae361d551feba598bbe0d3b7df6e654dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae361d551feba598bbe0d3b7df6e654dc">&#9670;&#160;</a></span>lcd_print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lcd_print </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>strn</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints string to LCD screen at a previously set position. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">row</td><td><a class="el" href="class_string.html">String</a> to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>void. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00188">188</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  188</span>                           {</div>
+<div class="line"><span class="lineno">  189</span>  <span class="keywordtype">int</span> slen = strlen(strn);</div>
+<div class="line"><span class="lineno">  190</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; slen; i++) {</div>
+<div class="line"><span class="lineno">  191</span>    <span class="keywordtype">int</span> c_index = (int)strn[i] - 32;</div>
+<div class="line"><span class="lineno">  192</span> </div>
+<div class="line"><span class="lineno">  193</span>    <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(1, <a class="code hl_variable" href="lcd_8c.html#ae3fb80b06e6773dde6ac7e3e4a3d855f">lcd_table</a>[c_index], 5);</div>
+<div class="line"><span class="lineno">  194</span>    <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(1, <span class="stringliteral">&quot;\x00&quot;</span>, 1);  <span class="comment">// Blank vertical line padding</span></div>
+<div class="line"><span class="lineno">  195</span>  }</div>
+<div class="line"><span class="lineno">  196</span>}</div>
+<div class="ttc" id="alcd_8c_html_ae3fb80b06e6773dde6ac7e3e4a3d855f"><div class="ttname"><a href="lcd_8c.html#ae3fb80b06e6773dde6ac7e3e4a3d855f">lcd_table</a></div><div class="ttdeci">const char lcd_table[96][5]</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00023">lcd.c:23</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_ae361d551feba598bbe0d3b7df6e654dc_cgraph.png" border="0" usemap="#alcd_8h_ae361d551feba598bbe0d3b7df6e654dc_cgraph" alt=""/></div>
+<map name="alcd_8h_ae361d551feba598bbe0d3b7df6e654dc_cgraph" id="alcd_8h_ae361d551feba598bbe0d3b7df6e654dc_cgraph">
+<area shape="rect" title="Prints string to LCD screen at a previously set position." alt="" coords="5,56,76,83"/>
+<area shape="rect" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="124,56,196,83"/>
+<area shape="poly" title=" " alt="" coords="76,67,108,67,108,72,76,72"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="244,5,353,32"/>
+<area shape="poly" title=" " alt="" coords="196,54,245,35,247,40,198,59"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="247,56,351,83"/>
+<area shape="poly" title=" " alt="" coords="197,67,231,67,231,72,197,72"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="255,107,343,133"/>
+<area shape="poly" title=" " alt="" coords="198,80,247,98,245,103,196,85"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_ae361d551feba598bbe0d3b7df6e654dc_icgraph.png" border="0" usemap="#alcd_8h_ae361d551feba598bbe0d3b7df6e654dc_icgraph" alt=""/></div>
+<map name="alcd_8h_ae361d551feba598bbe0d3b7df6e654dc_icgraph" id="alcd_8h_ae361d551feba598bbe0d3b7df6e654dc_icgraph">
+<area shape="rect" title="Prints string to LCD screen at a previously set position." alt="" coords="103,5,173,32"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab4b92109281330638384cbb7fe9e9809" name="ab4b92109281330638384cbb7fe9e9809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4b92109281330638384cbb7fe9e9809">&#9670;&#160;</a></span>lcd_print_char()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lcd_print_char </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>strn</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00198">198</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  198</span>                                {</div>
+<div class="line"><span class="lineno">  199</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(1, strn, strlen(strn));</div>
+<div class="line"><span class="lineno">  200</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_ab4b92109281330638384cbb7fe9e9809_cgraph.png" border="0" usemap="#alcd_8h_ab4b92109281330638384cbb7fe9e9809_cgraph" alt=""/></div>
+<map name="alcd_8h_ab4b92109281330638384cbb7fe9e9809_cgraph" id="alcd_8h_ab4b92109281330638384cbb7fe9e9809_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,108,83"/>
+<area shape="rect" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="156,56,228,83"/>
+<area shape="poly" title=" " alt="" coords="108,67,140,67,140,72,108,72"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="276,5,385,32"/>
+<area shape="poly" title=" " alt="" coords="228,54,277,35,279,40,230,59"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="279,56,383,83"/>
+<area shape="poly" title=" " alt="" coords="229,67,263,67,263,72,229,72"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="287,107,375,133"/>
+<area shape="poly" title=" " alt="" coords="230,80,279,98,277,103,228,85"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab32a6c31d6a06782f4f1206ae6b4b039" name="ab32a6c31d6a06782f4f1206ae6b4b039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab32a6c31d6a06782f4f1206ae6b4b039">&#9670;&#160;</a></span>lcd_set_backlight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lcd_set_backlight </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>state</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Turns on or off LCD backlight. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>Desired backlight state (1 for on, 0 for off) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>void. </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00145">145</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  145</span>                                  {</div>
+<div class="line"><span class="lineno">  146</span>  <span class="keywordflow">if</span> (state)</div>
+<div class="line"><span class="lineno">  147</span>    <a class="code hl_function" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a>(bl);</div>
+<div class="line"><span class="lineno">  148</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  149</span>    <a class="code hl_function" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a>(bl);</div>
+<div class="line"><span class="lineno">  150</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_cgraph.png" border="0" usemap="#alcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_cgraph" alt=""/></div>
+<map name="alcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_cgraph" id="alcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_cgraph">
+<area shape="rect" title="Turns on or off LCD backlight." alt="" coords="5,31,128,57"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="176,5,285,32"/>
+<area shape="poly" title=" " alt="" coords="128,32,160,27,160,32,129,37"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="178,56,283,83"/>
+<area shape="poly" title=" " alt="" coords="129,51,163,56,162,62,128,56"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_icgraph.png" border="0" usemap="#alcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_icgraph" alt=""/></div>
+<map name="alcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_icgraph" id="alcd_8h_ab32a6c31d6a06782f4f1206ae6b4b039_icgraph">
+<area shape="rect" title="Turns on or off LCD backlight." alt="" coords="213,5,335,32"/>
+<area shape="rect" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD." alt="" coords="103,5,165,32"/>
+<area shape="poly" title=" " alt="" coords="197,21,166,21,166,16,197,16"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a013af80ec99f63cf714b0749c36cbe33" name="a013af80ec99f63cf714b0749c36cbe33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a013af80ec99f63cf714b0749c36cbe33">&#9670;&#160;</a></span>lcd_set_cursor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int lcd_set_cursor </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>row</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>col</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets LCD cursor position. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">row</td><td>Cursor Y position </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">col</td><td>Cursor X position </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Result of cursor positioning operation </dd></dl>
+<dl class="retval"><dt>Valores Retornados</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>-&gt; Success </td></tr>
+    <tr><td class="paramname">1</td><td>-&gt; X/Y position out of bounds </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00160">160</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  160</span>                                     {</div>
+<div class="line"><span class="lineno">  161</span>  <span class="keywordflow">if</span> (row &lt; 0 || row &gt; <a class="code hl_define" href="#a53a8b2a971de4b88047192655a48b651">LCD_HEIGHT</a> / 8 + 1 || col &lt; 0 || col &gt; <a class="code hl_define" href="#a19693eac3018d3e7800fde141921b812">LCD_WIDTH</a> / 6 + 1)</div>
+<div class="line"><span class="lineno">  162</span>    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">  163</span> </div>
+<div class="line"><span class="lineno">  164</span>  <span class="keywordtype">char</span> rowb[1] = {(64 | (row))};</div>
+<div class="line"><span class="lineno">  165</span>  <span class="keywordtype">char</span> colb[1] = {(128 | (col)*6)};</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, rowb, 1);</div>
+<div class="line"><span class="lineno">  168</span>  <a class="code hl_function" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(0, colb, 1);</div>
+<div class="line"><span class="lineno">  169</span> </div>
+<div class="line"><span class="lineno">  170</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  171</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a013af80ec99f63cf714b0749c36cbe33_cgraph.png" border="0" usemap="#alcd_8h_a013af80ec99f63cf714b0749c36cbe33_cgraph" alt=""/></div>
+<map name="alcd_8h_a013af80ec99f63cf714b0749c36cbe33_cgraph" id="alcd_8h_a013af80ec99f63cf714b0749c36cbe33_cgraph">
+<area shape="rect" title="Sets LCD cursor position." alt="" coords="5,56,112,83"/>
+<area shape="rect" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="160,56,232,83"/>
+<area shape="poly" title=" " alt="" coords="112,67,144,67,144,72,112,72"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="280,5,389,32"/>
+<area shape="poly" title=" " alt="" coords="232,54,281,35,283,40,234,59"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="283,56,387,83"/>
+<area shape="poly" title=" " alt="" coords="233,67,267,67,267,72,233,72"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="291,107,379,133"/>
+<area shape="poly" title=" " alt="" coords="234,80,283,98,281,103,232,85"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_a013af80ec99f63cf714b0749c36cbe33_icgraph.png" border="0" usemap="#alcd_8h_a013af80ec99f63cf714b0749c36cbe33_icgraph" alt=""/></div>
+<map name="alcd_8h_a013af80ec99f63cf714b0749c36cbe33_icgraph" id="alcd_8h_a013af80ec99f63cf714b0749c36cbe33_icgraph">
+<area shape="rect" title="Sets LCD cursor position." alt="" coords="337,81,444,108"/>
+<area shape="rect" href="lcd_8c.html#a35c08b1fa742e650f4873939707b893b" title="Clears LCD." alt="" coords="216,5,289,32"/>
+<area shape="poly" title=" " alt="" coords="350,76,277,35,280,30,353,71"/>
+<area shape="rect" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD." alt="" coords="104,56,167,83"/>
+<area shape="poly" title=" " alt="" coords="322,91,167,75,167,70,322,85"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,55,133"/>
+<area shape="poly" title=" " alt="" coords="322,102,55,121,55,116,322,97"/>
+<area shape="rect" href="lcd_8c.html#a0fa29c0aee6ec3285941a5849de041b2" title="Prints straight horizontal line." alt="" coords="103,157,168,184"/>
+<area shape="poly" title=" " alt="" coords="349,117,290,141,226,158,169,169,168,163,224,153,288,136,347,112"/>
+<area shape="poly" title=" " alt="" coords="207,41,168,58,166,54,205,36"/>
+<area shape="poly" title=" " alt="" coords="93,92,56,111,54,106,91,88"/>
+<area shape="poly" title=" " alt="" coords="91,152,54,134,56,129,93,148"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af67e5212f5ba68e0eadfc7817a991394" name="af67e5212f5ba68e0eadfc7817a991394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af67e5212f5ba68e0eadfc7817a991394">&#9670;&#160;</a></span>lcd_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int lcd_write </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>mode</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t const *</td>          <td class="paramname"><span class="paramname"><em>wr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transfers to LCD register. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>State to write to data command pin </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">wr</td><td>TX buffer </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Write operation result </dd></dl>
+<dl class="retval"><dt>Valores Retornados</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>-&gt; Success </td></tr>
+    <tr><td class="paramname">1</td><td>-&gt; Failure </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="lcd_8c_source.html#l00131">131</a> do arquivo <a class="el" href="lcd_8c_source.html">lcd.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  131</span>                                                    {</div>
+<div class="line"><span class="lineno">  132</span>  <span class="keywordflow">if</span> (mode)</div>
+<div class="line"><span class="lineno">  133</span>    <a class="code hl_function" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a>(dc);</div>
+<div class="line"><span class="lineno">  134</span>  <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  135</span>    <a class="code hl_function" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a>(dc);</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a>(wr, wr, len);</div>
+<div class="line"><span class="lineno">  138</span>}</div>
+<div class="ttc" id="agroup__spi_comm_html_ga92caafc38b2327a8d2dcdd7d5695fe88"><div class="ttname"><a href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a></div><div class="ttdeci">int spi_transfer(const char *tx, const char *rx, int len)</div><div class="ttdoc">Transfers buffer through SPI with determined length.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00104">common.c:104</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_af67e5212f5ba68e0eadfc7817a991394_cgraph.png" border="0" usemap="#alcd_8h_af67e5212f5ba68e0eadfc7817a991394_cgraph" alt=""/></div>
+<map name="alcd_8h_af67e5212f5ba68e0eadfc7817a991394_cgraph" id="alcd_8h_af67e5212f5ba68e0eadfc7817a991394_cgraph">
+<area shape="rect" title="Transfers to LCD register." alt="" coords="5,56,78,83"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="126,5,235,32"/>
+<area shape="poly" title=" " alt="" coords="77,54,127,35,129,40,79,59"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="128,56,233,83"/>
+<area shape="poly" title=" " alt="" coords="78,67,113,67,113,72,78,72"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="136,107,225,133"/>
+<area shape="poly" title=" " alt="" coords="79,80,129,98,127,103,77,85"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="lcd_8h_af67e5212f5ba68e0eadfc7817a991394_icgraph.png" border="0" usemap="#alcd_8h_af67e5212f5ba68e0eadfc7817a991394_icgraph" alt=""/></div>
+<map name="alcd_8h_af67e5212f5ba68e0eadfc7817a991394_icgraph" id="alcd_8h_af67e5212f5ba68e0eadfc7817a991394_icgraph">
+<area shape="rect" title="Transfers to LCD register." alt="" coords="497,150,569,177"/>
+<area shape="rect" href="lcd_8c.html#a35c08b1fa742e650f4873939707b893b" title="Clears LCD." alt="" coords="221,23,294,50"/>
+<area shape="poly" title=" " alt="" coords="497,144,447,115,366,79,294,51,296,46,368,74,450,110,500,139"/>
+<area shape="rect" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD." alt="" coords="107,49,169,75"/>
+<area shape="poly" title=" " alt="" coords="511,140,483,106,447,75,408,50,375,34,340,23,294,14,257,8,222,14,186,30,157,50,154,46,183,25,220,9,257,3,295,9,341,18,377,29,410,45,450,71,487,103,515,136"/>
+<area shape="rect" href="lcd_8c.html#a0fa29c0aee6ec3285941a5849de041b2" title="Prints straight horizontal line." alt="" coords="225,175,290,202"/>
+<area shape="poly" title=" " alt="" coords="482,171,291,188,291,183,481,165"/>
+<area shape="rect" href="lcd_8c.html#ae361d551feba598bbe0d3b7df6e654dc" title="Prints string to LCD screen at a previously set position." alt="" coords="103,226,173,253"/>
+<area shape="poly" title=" " alt="" coords="482,180,449,189,296,218,174,237,173,232,295,213,448,183,481,175"/>
+<area shape="rect" href="lcd_8c.html#ab4b92109281330638384cbb7fe9e9809" title=" " alt="" coords="344,277,447,303"/>
+<area shape="poly" title=" " alt="" coords="515,190,486,225,450,260,424,278,421,274,447,256,482,221,511,187"/>
+<area shape="rect" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33" title="Sets LCD cursor position." alt="" coords="342,125,449,151"/>
+<area shape="poly" title=" " alt="" coords="481,157,449,150,450,145,482,151"/>
+<area shape="poly" title=" " alt="" coords="206,50,170,58,169,53,205,45"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,150,55,177"/>
+<area shape="poly" title=" " alt="" coords="114,88,47,151,44,148,110,84"/>
+<area shape="poly" title=" " alt="" coords="209,186,54,169,55,163,210,181"/>
+<area shape="poly" title=" " alt="" coords="104,219,49,179,52,175,107,214"/>
+<area shape="poly" title=" " alt="" coords="362,117,276,53,279,48,366,113"/>
+<area shape="poly" title=" " alt="" coords="332,122,169,74,170,69,334,117"/>
+<area shape="poly" title=" " alt="" coords="327,144,103,159,55,164,55,158,102,154,327,139"/>
+<area shape="poly" title=" " alt="" coords="344,160,292,179,290,174,342,155"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

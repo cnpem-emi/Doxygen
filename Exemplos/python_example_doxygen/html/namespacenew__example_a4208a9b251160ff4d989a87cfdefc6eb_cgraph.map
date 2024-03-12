@@ -1,0 +1,9 @@
+<map id="funcao_4" name="funcao_4">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,79,32"/>
+<area shape="rect" id="Node000002" href="$namespacenew__example.html#a4fb06ac00a73d9f1b1045e6be34e9272" title=" " alt="" coords="127,5,200,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,16,111,16,111,21,79,21"/>
+<area shape="rect" id="Node000003" href="$namespacenew__example.html#a9664441e7d5a4d0fe9cbafe597b5dfb0" title=" " alt="" coords="248,5,321,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,16,232,16,232,21,200,21"/>
+<area shape="rect" id="Node000004" href="$namespacenew__example.html#aab0176ac49d386ef5c16670d05f8cf26" title=" " alt="" coords="369,5,443,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="322,16,353,16,353,21,322,21"/>
+</map>

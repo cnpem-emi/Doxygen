@@ -1,0 +1,22 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/bme280/common/common.c" name="C:/Users/eric.abbade/Downloads/simar_new/bme280/common/common.c">
+<area shape="rect" id="Node000001" title="Common functions for BMx device operation on AM335x." alt="" coords="30,5,221,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,67,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,66,61,103,58,99,95,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="90,112,161,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="128,64,128,96,123,96,123,64"/>
+<area shape="rect" id="Node000004" href="$bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="184,112,267,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="159,62,202,100,198,104,156,66"/>
+<area shape="rect" id="Node000005" href="$i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="98,187,225,213"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="216,141,184,177,181,173,212,137"/>
+<area shape="rect" id="Node000008" href="$bme2_8h.html" title=" " alt="" coords="250,187,326,213"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="238,137,269,173,265,177,234,141"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="102,261,218,288"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="164,214,163,246,158,246,158,214"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="148,336,212,363"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="166,288,175,320,170,322,161,289"/>
+<area shape="rect" id="Node000009" href="$bme2__defs_8h.html" title=" " alt="" coords="242,261,337,288"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="291,214,291,246,286,246,286,214"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="272,291,213,330,210,325,269,286"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="256,336,323,363"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="292,289,292,320,287,320,287,289"/>
+</map>

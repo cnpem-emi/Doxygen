@@ -1,0 +1,7 @@
+<map id="direct_mux" name="direct_mux">
+<area shape="rect" id="Node000001" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="5,31,91,57"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="139,5,248,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,34,123,28,124,33,91,39"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="141,56,246,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,49,126,55,126,60,91,54"/>
+</map>

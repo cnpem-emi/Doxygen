@@ -1,0 +1,7 @@
+<map id="sht3x_sensor_data" name="sht3x_sensor_data">
+<area shape="rect" id="Node000001" title="Parent struct for identification and readout data for the SHT3x." alt="" coords="33,96,164,123"/>
+<area shape="rect" id="Node000002" href="$structsht3x__data.html" title="Struct for all valid SHT3x readout data." alt="" coords="5,5,91,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,44,94,94,89,97,60,47"/>
+<area shape="rect" id="Node000003" href="$structidentifier.html" title="Identification/communication structure for I2C devices." alt="" coords="115,5,184,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,47,108,97,104,94,132,44"/>
+</map>

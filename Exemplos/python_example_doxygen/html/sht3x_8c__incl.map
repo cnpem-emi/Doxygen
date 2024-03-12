@@ -1,0 +1,29 @@
+<map id="bin/sht3x/sht3x.c" name="bin/sht3x/sht3x.c">
+<area shape="rect" id="Node000001" title="Sensirion SHT3x driver implementation." alt="" coords="231,5,353,32"/>
+<area shape="rect" id="Node000002" href="$sht3x_8h.html" title="Sensirion SHT driver interface." alt="" coords="517,155,581,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,23,148,28,65,41,34,52,14,66,9,74,8,83,12,93,20,105,44,117,90,127,226,145,378,156,501,162,501,167,378,161,225,150,90,133,42,122,17,109,7,95,3,83,4,72,10,62,31,47,64,36,147,22,231,18"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="30,80,87,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="252,35,103,81,101,76,251,30"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="110,80,178,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="267,35,185,75,182,70,265,30"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="202,80,283,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="286,34,262,69,258,66,281,31"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="307,80,378,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="303,31,327,66,323,69,299,34"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="402,80,470,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="318,30,398,70,396,75,316,35"/>
+<area shape="rect" id="Node000011" href="$arch__config_8h.html" title=" " alt="" coords="653,80,752,107"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="354,27,639,77,638,82,353,33"/>
+<area shape="rect" id="Node000013" href="$sht3x_2common_2common_8h.html" title=" " alt="" coords="493,80,629,107"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="340,30,500,73,499,78,338,35"/>
+<area shape="rect" id="Node000003" href="$i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="492,229,607,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="552,182,552,214,547,214,547,182"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="492,304,607,331"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="552,257,552,288,547,288,547,257"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="564,379,628,405"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="560,330,582,364,578,367,555,333"/>
+<area shape="poly" id="edge12_Node000011_Node000005" title=" " alt="" coords="697,108,672,156,654,204,644,243,621,331,609,365,604,363,616,330,639,241,649,202,667,154,692,106"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="682,155,745,181"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="707,107,712,139,707,140,702,108"/>
+<area shape="poly" id="edge14_Node000013_Node000002" title=" " alt="" coords="562,108,556,140,551,139,557,107"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="initialize" name="initialize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,74,108"/>
+<area shape="rect" id="Node000002" href="$group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="129,56,203,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,85,113,77,114,82,75,90"/>
+<area shape="rect" id="Node000006" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="122,107,210,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="75,99,107,105,106,111,73,104"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="264,5,373,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="202,55,261,35,263,40,204,60"/>
+<area shape="rect" id="Node000004" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="427,31,477,57"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="203,63,412,45,412,50,203,69"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="258,107,379,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="204,79,263,99,261,104,202,84"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="374,26,413,34,412,39,373,32"/>
+</map>

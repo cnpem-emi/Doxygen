@@ -1,0 +1,33 @@
+<map id="sht3x_set_alert_thd" name="sht3x_set_alert_thd">
+<area shape="rect" id="Node000001" title="Set target temperature and humidity alert threshold." alt="" coords="5,132,141,159"/>
+<area shape="rect" id="Node000002" href="$sht3x_8c.html#a133ca416d4fa8893d8126a340bfd1d06" title="Converts humidity to ADC ticks." alt="" coords="199,73,315,100"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,129,198,103,199,108,118,134"/>
+<area shape="rect" id="Node000003" href="$sht3x_2common_2common_8c.html#a0e9acb8401c9168d321fd7eff74fbab8" title="Writes a command with arguments to the sensor." alt="" coords="191,124,323,167"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,143,175,143,175,148,141,148"/>
+<area shape="rect" id="Node000015" href="$sht3x_8c.html#a77df04ddf10850c50e5b28c1797f97b2" title="Converts temperature to ADC ticks." alt="" coords="189,191,325,217"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="118,157,199,183,198,188,116,162"/>
+<area shape="rect" id="Node000004" href="$group__i2cMux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="380,56,490,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="308,121,387,87,389,92,310,126"/>
+<area shape="rect" id="Node000011" href="$group__i2cMux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="820,107,905,133"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="323,140,804,120,804,125,323,145"/>
+<area shape="rect" id="Node000012" href="$group__i2cComm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="399,157,471,184"/>
+<area shape="poly" id="edge13_Node000003_Node000012" title=" " alt="" coords="323,152,384,161,383,166,323,157"/>
+<area shape="rect" id="Node000013" href="$sht3x_2common_2common_8c.html#a9a2b5bc64139a84b4011ba94873e47b8" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="373,208,497,251"/>
+<area shape="poly" id="edge14_Node000003_Node000013" title=" " alt="" coords="305,165,376,199,374,204,303,170"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="599,5,704,32"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="490,54,583,32,584,37,492,59"/>
+<area shape="rect" id="Node000010" href="$group__spiComm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="607,56,696,83"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="491,67,592,67,592,72,491,72"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="806,56,919,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="705,29,758,41,791,50,790,55,757,47,704,34"/>
+<area shape="rect" id="Node000007" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="806,5,919,32"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="705,16,790,16,790,21,705,21"/>
+<area shape="rect" id="Node000008" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="967,19,1076,45"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="920,21,952,23,951,29,919,26"/>
+<area shape="rect" id="Node000009" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="970,81,1074,108"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="895,30,920,42,981,72,979,77,918,46,893,35"/>
+<area shape="poly" id="edge11_Node000011_Node000008" title=" " alt="" coords="894,104,918,92,986,52,988,56,920,97,897,109"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="905,111,954,103,955,108,906,116"/>
+<area shape="rect" id="Node000014" href="$sht3x_2common_2common_8c.html#a28a16b2a8660de84fbad96f237a6dabf" title=" " alt="" coords="545,216,758,243"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="498,227,530,227,530,232,498,232"/>
+</map>

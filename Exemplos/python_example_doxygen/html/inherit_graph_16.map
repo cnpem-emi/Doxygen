@@ -1,0 +1,9 @@
+<map id="Gráfico de Hierarquia de Classes" name="Gráfico de Hierarquia de Classes">
+<area shape="rect" id="Node000000" href="$struct_object.html" title=" " alt="" coords="5,31,65,57"/>
+<area shape="rect" id="Node000001" href="$struct_vehicle.html" title=" " alt="" coords="113,31,177,57"/>
+<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="80,41,112,41,112,47,80,47"/>
+<area shape="rect" id="Node000002" href="$struct_car.html" title=" " alt="" coords="231,5,272,32"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="192,30,230,21,231,26,193,35"/>
+<area shape="rect" id="Node000003" href="$struct_truck.html" title=" " alt="" coords="225,56,278,83"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="193,53,225,60,224,66,191,58"/>
+</map>

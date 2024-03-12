@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/i2c/common.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_32510ab65376276d90fe93f98441a27b.html">i2c</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo common.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Common functions for I2C operations.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;fcntl.h&gt;</code><br />
+<code>#include &lt;linux/i2c-dev.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;sys/ioctl.h&gt;</code><br />
+<code>#include &lt;syslog.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="i2c_2common_8h_source.html">common.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para common.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_2common_8c__incl.png" border="0" usemap="#abin_2i2c_2common_8c" alt=""/></div>
+<map name="abin_2i2c_2common_8c" id="abin_2i2c_2common_8c">
+<area shape="rect" title="Common functions for I2C operations." alt="" coords="369,5,493,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,62,107"/>
+<area shape="poly" title=" " alt="" coords="369,31,238,51,77,82,76,77,237,45,368,25"/>
+<area shape="rect" title=" " alt="" coords="86,80,189,107"/>
+<area shape="poly" title=" " alt="" coords="380,35,204,78,203,73,379,30"/>
+<area shape="rect" title=" " alt="" coords="214,80,277,107"/>
+<area shape="poly" title=" " alt="" coords="400,35,292,77,290,72,398,30"/>
+<area shape="rect" title=" " alt="" coords="301,80,366,107"/>
+<area shape="poly" title=" " alt="" coords="415,35,364,73,361,69,412,30"/>
+<area shape="rect" title=" " alt="" coords="390,80,472,107"/>
+<area shape="poly" title=" " alt="" coords="434,33,434,64,428,64,428,33"/>
+<area shape="rect" title=" " alt="" coords="496,80,566,107"/>
+<area shape="poly" title=" " alt="" coords="450,30,503,68,499,73,447,35"/>
+<area shape="rect" title=" " alt="" coords="590,80,648,107"/>
+<area shape="poly" title=" " alt="" coords="465,30,576,73,574,78,463,35"/>
+<area shape="rect" title=" " alt="" coords="672,80,739,107"/>
+<area shape="poly" title=" " alt="" coords="480,30,657,77,656,82,478,35"/>
+<area shape="rect" href="i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="763,80,845,107"/>
+<area shape="poly" title=" " alt="" coords="494,28,749,77,748,82,493,34"/>
+<area shape="rect" href="spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="747,155,862,181"/>
+<area shape="poly" title=" " alt="" coords="807,107,807,139,802,139,802,107"/>
+<area shape="rect" title=" " alt="" coords="772,229,836,256"/>
+<area shape="poly" title=" " alt="" coords="807,182,807,214,802,214,802,182"/>
+</map>
+</div>
+</div>
+<p><a href="i2c_2common_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ga638412d4e040a7fbee04a70b711547dd" id="r_ga638412d4e040a7fbee04a70b711547dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd">direct_mux</a> (uint8_t id)</td></tr>
+<tr class="memdesc:ga638412d4e040a7fbee04a70b711547dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects an available I2C channel through the digital interface board (0 to 4)  <br /></td></tr>
+<tr class="separator:ga638412d4e040a7fbee04a70b711547dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga151ede3a3f257b072260f424e1a21400" id="r_ga151ede3a3f257b072260f424e1a21400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400">direct_ext_mux</a> (uint8_t id)</td></tr>
+<tr class="memdesc:ga151ede3a3f257b072260f424e1a21400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)  <br /></td></tr>
+<tr class="separator:ga151ede3a3f257b072260f424e1a21400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cf1d9a50131494c5c77b7dbaebf6818" id="r_ga7cf1d9a50131494c5c77b7dbaebf6818"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_mux.html#ga7cf1d9a50131494c5c77b7dbaebf6818">set_ext_addr</a> (uint8_t addr)</td></tr>
+<tr class="memdesc:ga7cf1d9a50131494c5c77b7dbaebf6818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the SPI extender board address.  <br /></td></tr>
+<tr class="separator:ga7cf1d9a50131494c5c77b7dbaebf6818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ba6684ba5f02aa62901972aa6fd3258" id="r_ga6ba6684ba5f02aa62901972aa6fd3258"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258">i2c_read</a> (uint8_t reg_addr, uint8_t *reg_data, uint32_t length, void *intf_ptr)</td></tr>
+<tr class="memdesc:ga6ba6684ba5f02aa62901972aa6fd3258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for reading the sensor's registers through I2C bus.  <br /></td></tr>
+<tr class="separator:ga6ba6684ba5f02aa62901972aa6fd3258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga82d15977313cbe9512ca2b907eb176fe" id="r_ga82d15977313cbe9512ca2b907eb176fe"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe">i2c_write</a> (uint8_t reg_addr, const uint8_t *reg_data, uint32_t length, void *intf_ptr)</td></tr>
+<tr class="memdesc:ga82d15977313cbe9512ca2b907eb176fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for writing the sensor's registers through I2C bus.  <br /></td></tr>
+<tr class="separator:ga82d15977313cbe9512ca2b907eb176fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7000e32b922e6dea26a32e405fd0a46e" id="r_ga7000e32b922e6dea26a32e405fd0a46e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_mux.html#ga7000e32b922e6dea26a32e405fd0a46e">unselect_i2c_extender</a> ()</td></tr>
+<tr class="memdesc:ga7000e32b922e6dea26a32e405fd0a46e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unselects the I2C extender (and SPI extender, by proxy)  <br /></td></tr>
+<tr class="separator:ga7000e32b922e6dea26a32e405fd0a46e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61698283ae91cc7210ed8598aad96605" id="r_ga61698283ae91cc7210ed8598aad96605"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605">configure_mux</a> ()</td></tr>
+<tr class="memdesc:ga61698283ae91cc7210ed8598aad96605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures pins for the digital interface board multiplexing function.  <br /></td></tr>
+<tr class="separator:ga61698283ae91cc7210ed8598aad96605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720879d69fe216a6f53c2d0de74d4073" id="r_a720879d69fe216a6f53c2d0de74d4073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720879d69fe216a6f53c2d0de74d4073">delay_us</a> (uint32_t <a class="el" href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a>, void *intf_ptr)</td></tr>
+<tr class="memdesc:a720879d69fe216a6f53c2d0de74d4073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delays execution for n us.  <br /></td></tr>
+<tr class="separator:a720879d69fe216a6f53c2d0de74d4073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga546237630a67ed460e6399f8183ba15a" id="r_ga546237630a67ed460e6399f8183ba15a"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a">i2c_open</a> (int8_t *<a class="el" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, uint8_t addr)</td></tr>
+<tr class="memdesc:ga546237630a67ed460e6399f8183ba15a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens communication with the I2C bus at a given address.  <br /></td></tr>
+<tr class="separator:ga546237630a67ed460e6399f8183ba15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:ae4d32df54896fb252beaba8a33e681a9" id="r_ae4d32df54896fb252beaba8a33e681a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgpio__t.html">gpio_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4d32df54896fb252beaba8a33e681a9">mux0</a> = {.pin = <a class="el" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea030c6544b898913cb17e0b5af9f0ded5">P9_15</a>}</td></tr>
+<tr class="separator:ae4d32df54896fb252beaba8a33e681a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ddfb2374ef058d0e451aa783f630417" id="r_a2ddfb2374ef058d0e451aa783f630417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgpio__t.html">gpio_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ddfb2374ef058d0e451aa783f630417">mux1</a> = {.pin = <a class="el" href="bbb__dac_8h.html#a6f2090c8cfbe0b7a68414df9a565e9e0">P9_16</a>}</td></tr>
+<tr class="separator:a2ddfb2374ef058d0e451aa783f630417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2bce4dfbf6607393dc8fb37bed3c26" id="r_afa2bce4dfbf6607393dc8fb37bed3c26"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa2bce4dfbf6607393dc8fb37bed3c26">pins_configured</a> = 0</td></tr>
+<tr class="separator:afa2bce4dfbf6607393dc8fb37bed3c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068f97a74a6ed76ff1e6ce64d8a7fa2f" id="r_a068f97a74a6ed76ff1e6ce64d8a7fa2f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a068f97a74a6ed76ff1e6ce64d8a7fa2f">ext_addr</a> = -1</td></tr>
+<tr class="separator:a068f97a74a6ed76ff1e6ce64d8a7fa2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Common functions for I2C operations. </p>
+
+<p class="definition">Definição no arquivo <a class="el" href="i2c_2common_8c_source.html">common.c</a>.</p>
+</div><h2 class="groupheader">Funções</h2>
+<a id="a720879d69fe216a6f53c2d0de74d4073" name="a720879d69fe216a6f53c2d0de74d4073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720879d69fe216a6f53c2d0de74d4073">&#9670;&#160;</a></span>delay_us()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delay_us </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>period</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>intf_ptr</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delays execution for n us. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">period</td><td>Microsseconds to stop for </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">intf_ptr</td><td>Interface pointer, for BME driver compatibility (pass NULL) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="i2c_2common_8c_source.html#l00113">113</a> do arquivo <a class="el" href="i2c_2common_8c_source.html">common.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  113</span>                                               {</div>
+<div class="line"><span class="lineno">  114</span>  nanosleep((<span class="keyword">const</span> <span class="keyword">struct</span> timespec[]){{0, <a class="code hl_variable" href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a> * 1000}}, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  115</span>}</div>
+<div class="ttc" id="abbb__dac_8c_html_a486233493fc0e05fe1bdbe7b7e5d0f1e"><div class="ttname"><a href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a></div><div class="ttdeci">int period</div><div class="ttdef"><b>Definição</b> <a href="bbb__dac_8c_source.html#l00008">bbb_dac.c:8</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="i2c_2common_8c_a720879d69fe216a6f53c2d0de74d4073_icgraph.png" border="0" usemap="#ai2c_2common_8c_a720879d69fe216a6f53c2d0de74d4073_icgraph" alt=""/></div>
+<map name="ai2c_2common_8c_a720879d69fe216a6f53c2d0de74d4073_icgraph" id="ai2c_2common_8c_a720879d69fe216a6f53c2d0de74d4073_icgraph">
+<area shape="rect" title="Delays execution for n us." alt="" coords="1122,157,1196,184"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="571,27,641,53"/>
+<area shape="poly" title=" " alt="" coords="1143,145,1115,103,1095,83,1073,68,1016,44,956,29,894,20,834,18,723,23,642,35,641,30,722,18,834,12,895,15,957,24,1018,39,1076,63,1099,79,1119,100,1147,142"/>
+<area shape="rect" href="utils_2_b_m_p280_2common_2common_8c.html#a199e01b1f976b8ad36284d3c4ef89e08" title="Function to select the interface between SPI and I2C." alt="" coords="906,77,1074,104"/>
+<area shape="poly" title=" " alt="" coords="1121,151,1073,125,1030,107,1032,102,1075,120,1124,146"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa" title="Send a command, wait for the sensor to process and read data back." alt="" coords="531,120,681,163"/>
+<area shape="poly" title=" " alt="" coords="1107,171,681,148,681,142,1107,165"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f" title="Read data words as byte&#45;stream from sensor." alt="" coords="926,179,1055,221"/>
+<area shape="poly" title=" " alt="" coords="1108,182,1056,191,1055,186,1107,177"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="286,229,483,256"/>
+<area shape="poly" title=" " alt="" coords="1145,199,1117,237,1098,256,1076,270,1033,289,988,304,895,321,800,326,707,321,620,308,541,292,425,259,426,254,542,287,621,303,708,315,800,321,894,316,986,299,1031,284,1073,266,1094,251,1113,234,1141,196"/>
+<area shape="rect" href="sht3x_8c.html#af90d87bffcb72c50d35776f03f2277dd" title="Read out the serial number." alt="" coords="732,245,855,272"/>
+<area shape="poly" title=" " alt="" coords="1135,197,1108,218,1075,236,1019,252,960,261,904,265,855,265,855,260,904,260,959,256,1017,247,1073,231,1105,214,1132,193"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,179,55,205"/>
+<area shape="poly" title=" " alt="" coords="555,30,464,15,408,10,347,8,284,12,221,22,160,40,104,67,77,92,58,122,45,154,37,179,32,177,40,152,53,120,73,88,101,63,159,35,220,16,284,6,347,3,408,5,465,10,556,25"/>
+<area shape="rect" href="utils_2_b_m_p280_2common_2common_8c.html#ad8891d2db76c9957ba85df5220de463a" title="Initializes and configures sensor." alt="" coords="758,77,829,104"/>
+<area shape="poly" title=" " alt="" coords="890,93,829,93,829,88,890,88"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#ade8479d9748d07974f8e7e88c166e381" title="Reads data words from the sensor after a command is issued." alt="" coords="304,77,465,104"/>
+<area shape="poly" title=" " alt="" coords="516,123,446,107,447,102,517,118"/>
+<area shape="rect" href="sht3x_8c.html#a4aae0d3756e7554f9ee2921e52fcdaac" title="Read the sensor status word." alt="" coords="324,128,445,155"/>
+<area shape="poly" title=" " alt="" coords="516,144,446,144,446,139,516,139"/>
+<area shape="rect" href="group__sht3x_init.html#ga76f706a73188d8e19e2ba03ca1e1dba2" title="Detects if a sensor is connected by reading out the ID register." alt="" coords="339,179,431,205"/>
+<area shape="poly" title=" " alt="" coords="517,164,431,184,430,179,516,159"/>
+<area shape="rect" href="group__sht3x_sensor_settings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="103,77,238,104"/>
+<area shape="poly" title=" " alt="" coords="289,93,238,93,238,88,289,88"/>
+<area shape="rect" href="group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="132,179,209,205"/>
+<area shape="poly" title=" " alt="" coords="323,195,210,195,210,189,323,189"/>
+<area shape="poly" title=" " alt="" coords="116,195,55,195,55,189,116,189"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a61c2efbc31ab106dcd1d888412485db7" title="Read data words from sensor." alt="" coords="729,179,858,221"/>
+<area shape="poly" title=" " alt="" coords="910,203,858,203,858,197,910,197"/>
+<area shape="poly" title=" " alt="" coords="911,226,841,247,840,242,910,221"/>
+<area shape="poly" title=" " alt="" coords="713,178,675,166,677,161,715,173"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="563,208,649,235"/>
+<area shape="poly" title=" " alt="" coords="714,212,649,219,649,214,713,206"/>
+<area shape="poly" title=" " alt="" coords="548,229,484,236,483,230,548,224"/>
+<area shape="poly" title=" " alt="" coords="270,242,187,234,102,220,55,205,56,200,103,215,188,229,271,236"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variáveis</h2>
+<a id="a068f97a74a6ed76ff1e6ce64d8a7fa2f" name="a068f97a74a6ed76ff1e6ce64d8a7fa2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a068f97a74a6ed76ff1e6ce64d8a7fa2f">&#9670;&#160;</a></span>ext_addr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ext_addr = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="i2c_2common_8c_source.html#l00021">21</a> do arquivo <a class="el" href="i2c_2common_8c_source.html">common.c</a>.</p>
+
+</div>
+</div>
+<a id="ae4d32df54896fb252beaba8a33e681a9" name="ae4d32df54896fb252beaba8a33e681a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4d32df54896fb252beaba8a33e681a9">&#9670;&#160;</a></span>mux0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgpio__t.html">gpio_t</a> mux0 = {.pin = <a class="el" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea030c6544b898913cb17e0b5af9f0ded5">P9_15</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="i2c_2common_8c_source.html#l00016">16</a> do arquivo <a class="el" href="i2c_2common_8c_source.html">common.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   16</span>{.pin = <a class="code hl_enumvalue" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea030c6544b898913cb17e0b5af9f0ded5">P9_15</a>};  <span class="comment">// LSB</span></div>
+<div class="ttc" id="aspi_2common_8h_html_a763b7835b59e456a1a142a0478df227ea030c6544b898913cb17e0b5af9f0ded5"><div class="ttname"><a href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea030c6544b898913cb17e0b5af9f0ded5">P9_15</a></div><div class="ttdeci">@ P9_15</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00046">common.h:46</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2ddfb2374ef058d0e451aa783f630417" name="a2ddfb2374ef058d0e451aa783f630417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ddfb2374ef058d0e451aa783f630417">&#9670;&#160;</a></span>mux1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgpio__t.html">gpio_t</a> mux1 = {.pin = <a class="el" href="bbb__dac_8h.html#a6f2090c8cfbe0b7a68414df9a565e9e0">P9_16</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="i2c_2common_8c_source.html#l00017">17</a> do arquivo <a class="el" href="i2c_2common_8c_source.html">common.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   17</span>{.pin = <a class="code hl_define" href="bbb__dac_8h.html#a6f2090c8cfbe0b7a68414df9a565e9e0">P9_16</a>};  <span class="comment">// MSB</span></div>
+<div class="ttc" id="abbb__dac_8h_html_a6f2090c8cfbe0b7a68414df9a565e9e0"><div class="ttname"><a href="bbb__dac_8h.html#a6f2090c8cfbe0b7a68414df9a565e9e0">P9_16</a></div><div class="ttdeci">#define P9_16</div><div class="ttdef"><b>Definição</b> <a href="bbb__dac_8h_source.html#l00012">bbb_dac.h:12</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afa2bce4dfbf6607393dc8fb37bed3c26" name="afa2bce4dfbf6607393dc8fb37bed3c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2bce4dfbf6607393dc8fb37bed3c26">&#9670;&#160;</a></span>pins_configured</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t pins_configured = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="i2c_2common_8c_source.html#l00019">19</a> do arquivo <a class="el" href="i2c_2common_8c_source.html">common.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

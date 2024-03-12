@@ -1,0 +1,10 @@
+<map id="spi_open" name="spi_open">
+<area shape="rect" id="Node000001" title="Opens SPI bus." alt="" coords="5,56,79,83"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="133,5,242,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,54,132,35,134,40,80,59"/>
+<area shape="rect" id="Node000003" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="296,31,345,57"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="79,63,280,45,281,50,79,69"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="127,107,248,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="80,79,134,99,132,104,78,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,26,281,34,280,39,242,32"/>
+</map>

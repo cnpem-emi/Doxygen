@@ -1,0 +1,13 @@
+<map id="sensirion_i2c_write_cmd" name="sensirion_i2c_write_cmd">
+<area shape="rect" id="Node000001" title="writes a command to the sensor" alt="" coords="527,56,691,83"/>
+<area shape="rect" id="Node000002" href="$sht3x_8c.html#ac2af42046713a88b65652976149354da" title="Clear the status register alert flags." alt="" coords="348,5,479,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="539,54,467,35,469,30,541,49"/>
+<area shape="rect" id="Node000003" href="$group__sht3x_sensor_data.html#ga535cf192fdfb60b6e220c9d8159f1edf" title="Starts a measurement in high precision mode." alt="" coords="359,56,469,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="512,72,469,72,469,67,512,67"/>
+<area shape="rect" id="Node000006" href="$sht3x_8c.html#af90d87bffcb72c50d35776f03f2277dd" title="Read out the serial number." alt="" coords="352,107,475,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="541,90,469,109,467,103,539,85"/>
+<area shape="rect" id="Node000004" href="$group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="103,56,300,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="343,72,300,72,300,67,343,67"/>
+<area shape="rect" id="Node000005" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>

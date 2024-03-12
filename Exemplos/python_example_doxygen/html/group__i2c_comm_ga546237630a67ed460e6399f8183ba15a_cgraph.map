@@ -1,0 +1,5 @@
+<map id="i2c_open" name="i2c_open">
+<area shape="rect" id="Node000001" title="Opens communication with the I2C bus at a given address." alt="" coords="5,5,79,32"/>
+<area shape="rect" id="Node000002" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="127,5,176,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,16,111,16,111,21,79,21"/>
+</map>

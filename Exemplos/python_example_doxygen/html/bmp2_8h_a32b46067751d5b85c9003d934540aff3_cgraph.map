@@ -1,0 +1,5 @@
+<map id="bmp2_soft_reset" name="bmp2_soft_reset">
+<area shape="rect" id="Node000001" title="This API triggers the soft&#45;reset of the sensor." alt="" coords="5,5,123,32"/>
+<area shape="rect" id="Node000002" href="$bmp2_8c.html#aef548c2009f0c29393974818a31bdc13" title="This API writes the given data to the register addresses of the sensor." alt="" coords="171,5,281,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,16,155,16,155,21,123,21"/>
+</map>

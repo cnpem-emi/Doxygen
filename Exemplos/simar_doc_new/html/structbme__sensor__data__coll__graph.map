@@ -1,0 +1,13 @@
+<map id="bme_sensor_data" name="bme_sensor_data">
+<area shape="rect" id="Node000001" title="Parent struct for all valid BMx sensors, including custom values to aid in door status calibration." alt="" coords="113,187,237,213"/>
+<area shape="rect" id="Node000002" href="$structbme280__data.html" title="bme280 sensor structure which comprises of temperature, pressure and humidity data" alt="" coords="5,96,105,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,130,159,184,156,188,82,134"/>
+<area shape="rect" id="Node000003" href="$structbme280__dev.html" title="bme280 device structure" alt="" coords="128,96,222,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,138,178,186,172,186,172,138"/>
+<area shape="rect" id="Node000004" href="$structbme280__calib__data.html" title="Calibration data." alt="" coords="32,5,166,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,44,138,70,162,93,158,97,134,74,113,47"/>
+<area shape="rect" id="Node000005" href="$structbme280__settings.html" title="bme280 sensor settings structure which comprises of mode, oversampling and filter settings." alt="" coords="190,5,310,32"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="231,46,188,97,184,94,227,42"/>
+<area shape="rect" id="Node000006" href="$structidentifier.html" title="Identification/communication structure for I2C devices." alt="" coords="246,96,315,123"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="255,135,192,188,188,184,252,131"/>
+</map>

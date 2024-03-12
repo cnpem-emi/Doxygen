@@ -1,0 +1,9 @@
+<map id="bin/bme280/common/common.h" name="bin/bme280/common/common.h">
+<area shape="rect" id="Node000001" title="Common declarations for BME280 operation on AM335x." alt="" coords="188,5,395,32"/>
+<area shape="rect" id="Node000002" href="$bme280_2common_2common_8c.html" title="Common functions for BMx device operation on AM335x." alt="" coords="5,80,213,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,41,142,82,140,77,245,36"/>
+<area shape="rect" id="Node000003" href="$bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="237,80,347,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="294,48,294,80,289,80,289,48"/>
+<area shape="rect" id="Node000004" href="$wireless_8c.html" title="Main starting point for wireless SIMAR." alt="" coords="371,80,503,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="332,37,413,77,410,82,329,42"/>
+</map>

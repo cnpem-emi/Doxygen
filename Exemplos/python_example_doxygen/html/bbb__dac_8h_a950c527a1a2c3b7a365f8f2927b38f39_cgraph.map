@@ -1,0 +1,9 @@
+<map id="set_duty" name="set_duty">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,77,83"/>
+<area shape="rect" id="Node000002" href="$structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="125,5,177,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,53,109,35,112,40,73,58"/>
+<area shape="rect" id="Node000003" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="126,56,176,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="77,67,110,67,110,72,77,72"/>
+<area shape="rect" id="Node000004" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="127,107,175,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="73,81,113,100,111,105,70,86"/>
+</map>

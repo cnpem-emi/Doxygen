@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Nokia 5110 SPI display communication</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">Nokia 5110 SPI display communication</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="autotoc_md48"></a> Currently available:</p><ul>
+<li>void <a class="el" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD.">lcd_init()</a>;<ul>
+<li>Initializes LCD</li>
+</ul>
+</li>
+<li>char <em>lcd_write(int mode, char *wr);<ul>
+<li>Writes to LCD registers<ul>
+<li>mode: writing mode (0 for data, 1 for command)</li>
+<li>wr: data to write</li>
+</ul>
+</li>
+</ul>
+</em></li>
+<li><em>void <a class="el" href="lcd_8c.html#ab32a6c31d6a06782f4f1206ae6b4b039" title="Turns on or off LCD backlight.">lcd_set_backlight(int state)</a>;<ul>
+<li>Changes backlight state<ul>
+<li>state: 1 for on, 0 for off</li>
+</ul>
+</li>
+</ul>
+</em></li>
+<li><em>void <a class="el" href="lcd_8c.html#a35c08b1fa742e650f4873939707b893b" title="Clears LCD.">lcd_clear()</a>;<ul>
+<li>Clears LCD screen</li>
+</ul>
+</em></li>
+<li><em>int <a class="el" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33" title="Sets LCD cursor position.">lcd_set_cursor(int row, int col)</a>;<ul>
+<li>Sets cursor position</li>
+</ul>
+</em></li>
+<li><em>void lcd_print(char</em> strn);<ul>
+<li>Prints string to LCD screen<ul>
+<li>strn: string to print</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>void <a class="el" href="lcd_8c.html#a0fa29c0aee6ec3285941a5849de041b2" title="Prints straight horizontal line.">lcd_line(int x, int y, int len, int thickness)</a>;<ul>
+<li>Prints line to LCD screen<ul>
+<li>x: Starting point on the x axis</li>
+<li>y: Starting point on the y axis</li>
+<li>len: Line length</li>
+<li>thickness: Line thickness (in pixels) </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

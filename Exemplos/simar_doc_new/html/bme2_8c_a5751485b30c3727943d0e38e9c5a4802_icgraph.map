@@ -1,0 +1,69 @@
+<map id="null_ptr_check" name="null_ptr_check">
+<area shape="rect" id="Node000001" title="This internal API is used to validate the device pointer for null conditions." alt="" coords="1455,360,1560,387"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="1283,360,1407,387"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1440,376,1407,376,1407,371,1440,371"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="1054,5,1224,32"/>
+<area shape="poly" id="edge34_Node000001_Node000003" title=" " alt="" coords="1504,344,1501,282,1488,202,1476,161,1458,120,1435,84,1405,53,1364,28,1318,14,1270,9,1225,9,1225,4,1271,4,1319,9,1367,23,1409,49,1439,81,1463,118,1481,159,1493,201,1507,282,1510,344"/>
+<area shape="rect" id="Node000006" href="$bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="647,579,824,605"/>
+<area shape="poly" id="edge35_Node000001_Node000006" title=" " alt="" coords="1501,403,1468,490,1441,542,1409,590,1369,638,1334,672,1293,698,1236,721,1201,731,1165,736,1093,736,1022,724,953,704,890,679,834,653,756,608,759,603,837,648,892,674,955,699,1023,719,1093,730,1165,730,1200,725,1234,716,1290,693,1331,668,1365,634,1405,586,1437,539,1463,488,1496,401"/>
+<area shape="rect" id="Node000007" href="$bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="228,579,405,605"/>
+<area shape="poly" id="edge44_Node000001_Node000007" title=" " alt="" coords="1509,402,1504,464,1489,545,1477,588,1460,631,1437,670,1409,706,1377,736,1348,758,1319,775,1289,786,1223,796,1140,797,734,797,669,791,605,774,544,749,487,720,392,657,332,608,335,604,395,653,490,715,546,745,607,769,670,786,734,792,1140,792,1222,791,1287,781,1316,770,1345,754,1374,732,1405,702,1433,667,1455,628,1472,587,1484,544,1499,464,1503,402"/>
+<area shape="rect" id="Node000009" href="$bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="221,337,412,364"/>
+<area shape="poly" id="edge45_Node000001_Node000009" title=" " alt="" coords="1495,347,1462,272,1437,231,1405,194,1342,137,1286,100,1256,87,1223,79,1140,72,734,72,698,74,664,81,596,106,533,141,476,184,426,229,384,273,330,338,326,335,380,269,422,225,473,180,530,137,594,101,662,76,698,69,734,67,1140,67,1224,73,1258,82,1288,95,1345,133,1409,190,1441,227,1467,269,1500,344"/>
+<area shape="rect" id="Node000010" href="$bme2_8c.html#af3bef90d33942197a98715ea8657211f" title="This API gets the oversampling, filter and standby duration (normal mode) settings from the sensor." alt="" coords="1043,157,1235,184"/>
+<area shape="poly" id="edge36_Node000001_Node000010" title=" " alt="" coords="1471,354,1366,289,1233,214,1174,187,1176,182,1236,210,1369,284,1474,349"/>
+<area shape="rect" id="Node000011" href="$bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="888,211,979,237"/>
+<area shape="poly" id="edge37_Node000001_Node000011" title=" " alt="" coords="1486,349,1446,300,1388,242,1353,213,1316,186,1276,164,1234,148,1181,134,1139,129,1096,133,1044,148,1016,161,990,178,950,212,946,208,986,173,1013,156,1042,143,1095,128,1139,124,1182,129,1235,143,1278,159,1319,182,1357,208,1392,238,1450,297,1490,346"/>
+<area shape="rect" id="Node000012" href="$bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="1073,461,1205,488"/>
+<area shape="poly" id="edge46_Node000001_Node000012" title=" " alt="" coords="1442,394,1191,463,1190,458,1440,389"/>
+<area shape="rect" id="Node000021" href="$bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="1283,549,1407,576"/>
+<area shape="poly" id="edge38_Node000001_Node000021" title=" " alt="" coords="1487,400,1360,551,1356,547,1483,396"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1330,346,1290,256,1232,147,1188,83,1150,34,1154,31,1193,80,1237,144,1295,254,1335,344"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1285,394,1235,408,1139,428,1097,436,1044,452,962,484,882,520,763,580,761,576,880,515,960,479,1042,447,1096,431,1138,422,1234,403,1284,389"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="1327,347,1280,267,1255,229,1233,205,1200,187,1203,182,1236,201,1259,226,1285,264,1331,345"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="1327,348,1289,295,1264,269,1233,249,1202,236,1168,226,1099,216,1034,216,980,220,980,215,1034,210,1100,211,1169,221,1204,231,1236,244,1267,265,1293,292,1331,345"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="1314,398,1277,422,1236,445,1190,463,1188,458,1234,440,1275,418,1311,394"/>
+<area shape="rect" id="Node000013" href="$bme2_8c.html#ae471e9fce32acbe04f6fa20d7d80a50f" title="This internal API puts the device to sleep mode." alt="" coords="460,465,599,492"/>
+<area shape="poly" id="edge21_Node000002_Node000013" title=" " alt="" coords="1284,358,1163,328,1086,315,1001,306,912,303,821,309,732,325,648,354,611,378,580,409,556,441,540,466,536,464,552,438,576,405,608,374,645,350,731,320,821,303,912,298,1001,301,1086,310,1164,323,1286,353"/>
+<area shape="rect" id="Node000014" href="$bme2_8c.html#a31d4ec27645f0336d957114184731e03" title="This internal API reads the calibration data from the sensor, parse it and store in the device struct..." alt="" coords="1086,259,1192,285"/>
+<area shape="poly" id="edge19_Node000002_Node000014" title=" " alt="" coords="1311,353,1275,329,1234,306,1188,288,1190,283,1236,302,1277,325,1314,349"/>
+<area shape="rect" id="Node000015" href="$bme2_8c.html#a3282103c220c829512ad9688c48cab0b" title="This internal API sets the filter and/or standby duration settings in the sensor according to the set..." alt="" coords="872,411,995,453"/>
+<area shape="poly" id="edge22_Node000002_Node000015" title=" " alt="" coords="1267,381,1161,391,1044,408,997,418,995,413,1043,403,1160,386,1267,376"/>
+<area shape="rect" id="Node000017" href="$bme2_8c.html#a83acb06df9e358e511b5bb02840f8ab6" title="This API sets the humidity over sampling settings of the sensor." alt="" coords="1052,579,1226,605"/>
+<area shape="poly" id="edge26_Node000002_Node000017" title=" " alt="" coords="1338,402,1324,440,1303,485,1274,530,1236,569,1216,580,1214,576,1233,565,1270,527,1298,482,1319,438,1333,400"/>
+<area shape="rect" id="Node000019" href="$bme2_8c.html#ac8d16e90412abd25f1792193d05392bf" title="This API sets the pressure and/or temperature oversampling settings in the sensor according to the se..." alt="" coords="1069,512,1209,555"/>
+<area shape="poly" id="edge30_Node000002_Node000019" title=" " alt="" coords="1329,401,1291,452,1265,479,1236,502,1210,516,1208,512,1233,498,1261,475,1286,449,1325,398"/>
+<area shape="rect" id="Node000020" href="$bme2_8c.html#ad6b69d151e9eaec8338ad86ae2f215e5" title="This internal API writes the power mode in the sensor." alt="" coords="1075,680,1203,707"/>
+<area shape="poly" id="edge32_Node000002_Node000020" title=" " alt="" coords="1335,402,1289,518,1261,577,1237,619,1201,655,1165,682,1162,677,1197,651,1233,616,1256,575,1284,516,1330,400"/>
+<area shape="rect" id="Node000004" href="$bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="490,5,569,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1038,21,569,21,569,16,1038,16"/>
+<area shape="rect" id="Node000005" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,199,55,225"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="480,40,56,205,54,200,478,35"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="631,595,406,595,406,589,631,589"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="641,577,550,550,503,530,459,506,415,472,376,433,325,366,329,363,380,429,418,468,462,502,505,526,552,545,642,572"/>
+<area shape="rect" id="Node000008" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,224,173,251"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="299,566,144,252,148,250,304,563"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="87,228,55,220,56,215,88,223"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="280,331,159,253,162,249,282,326"/>
+<area shape="poly" id="edge13_Node000011_Node000008" title=" " alt="" coords="872,228,173,239,173,234,872,222"/>
+<area shape="poly" id="edge15_Node000012_Node000011" title=" " alt="" coords="1115,451,944,239,948,236,1119,447"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="1058,478,599,481,599,476,1058,473"/>
+<area shape="poly" id="edge17_Node000013_Node000007" title=" " alt="" coords="490,502,345,581,342,576,488,497"/>
+<area shape="poly" id="edge18_Node000013_Node000009" title=" " alt="" coords="481,460,459,449,389,405,335,367,338,362,392,401,462,444,483,456"/>
+<area shape="poly" id="edge20_Node000014_Node000011" title=" " alt="" coords="1071,259,979,237,980,232,1072,254"/>
+<area shape="poly" id="edge23_Node000015_Node000009" title=" " alt="" coords="856,428,646,405,398,367,399,362,647,400,857,423"/>
+<area shape="rect" id="Node000016" href="$bme2_8c.html#af10d933e592402c11b3bef03b6929cad" title="This internal API reloads the already existing device settings in the sensor after soft reset." alt="" coords="659,364,812,391"/>
+<area shape="poly" id="edge24_Node000015_Node000016" title=" " alt="" coords="856,414,786,394,787,389,858,408"/>
+<area shape="poly" id="edge25_Node000016_Node000013" title=" " alt="" coords="694,400,560,467,557,463,692,395"/>
+<area shape="rect" id="Node000018" href="$bme2_8c.html#a7a70f7e91041163181773f639dad1e51" title="This internal API sets the oversampling settings for pressure, temperature and humidity in the sensor..." alt="" coords="875,360,992,387"/>
+<area shape="poly" id="edge27_Node000017_Node000018" title=" " alt="" coords="1045,571,1041,568,1025,547,1017,526,1015,484,1014,442,1008,421,993,400,979,389,982,385,997,397,1012,419,1019,441,1021,484,1022,525,1030,545,1045,565,1048,568"/>
+<area shape="poly" id="edge28_Node000018_Node000009" title=" " alt="" coords="860,360,824,355,714,347,603,345,413,348,413,343,603,339,714,342,824,349,860,354"/>
+<area shape="poly" id="edge29_Node000018_Node000016" title=" " alt="" coords="860,377,812,378,812,373,859,372"/>
+<area shape="poly" id="edge31_Node000019_Node000018" title=" " alt="" coords="1054,512,1041,502,1023,476,1016,450,1010,425,993,401,977,389,980,385,997,397,1015,423,1022,449,1028,474,1045,498,1058,507"/>
+<area shape="poly" id="edge33_Node000020_Node000007" title=" " alt="" coords="1059,686,406,606,406,600,1060,681"/>
+<area shape="poly" id="edge39_Node000021_Node000012" title=" " alt="" coords="1309,543,1273,522,1234,502,1201,491,1202,486,1236,498,1276,517,1312,538"/>
+<area shape="poly" id="edge40_Node000021_Node000015" title=" " alt="" coords="1312,587,1276,605,1235,620,1181,634,1136,643,1092,641,1042,620,1020,604,1000,584,970,539,950,492,938,454,943,453,955,490,975,536,1004,581,1023,600,1045,615,1093,635,1135,638,1180,629,1234,615,1274,601,1310,582"/>
+<area shape="poly" id="edge41_Node000021_Node000017" title=" " alt="" coords="1268,576,1226,582,1226,577,1267,571"/>
+<area shape="poly" id="edge42_Node000021_Node000019" title=" " alt="" coords="1267,554,1209,546,1209,541,1268,549"/>
+<area shape="poly" id="edge43_Node000021_Node000020" title=" " alt="" coords="1324,589,1285,627,1236,664,1195,682,1193,677,1233,659,1281,623,1320,586"/>
+</map>

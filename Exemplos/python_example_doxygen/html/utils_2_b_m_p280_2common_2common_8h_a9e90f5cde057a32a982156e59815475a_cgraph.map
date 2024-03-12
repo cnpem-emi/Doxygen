@@ -1,0 +1,18 @@
+<map id="bmp_read" name="bmp_read">
+<area shape="rect" id="Node000001" title="Reads temperature/pressure data." alt="" coords="5,56,84,83"/>
+<area shape="rect" id="Node000002" href="$bmp2_8c.html#ae2d2b6da40da3fa026f1bbb35fc03af8" title="This API reads the pressure and temperature data from the sensor, compensates the data and store it i..." alt="" coords="132,5,288,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,55,148,35,150,40,85,60"/>
+<area shape="rect" id="Node000005" href="$bmp2_8c.html#ad63ef55fdf01fdcaa8fffebbc6976b7a" title="This API reads the status register." alt="" coords="149,56,271,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="84,67,134,67,134,72,84,72"/>
+<area shape="rect" id="Node000006" href="$group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="167,107,253,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="85,79,153,100,151,105,83,84"/>
+<area shape="rect" id="Node000003" href="$bmp2_8c.html#aa0a148cc2a4a3d802ad43c969aa6d058" title="This API is used to compensate the pressure and temperature data." alt="" coords="336,5,499,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,16,320,16,320,21,288,21"/>
+<area shape="rect" id="Node000004" href="$bmp2_8c.html#a6a79faabbc906ff3a27f62bf018c93a6" title="This API reads the data from the given register address of the sensor." alt="" coords="363,56,473,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="268,30,348,50,347,55,267,35"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="271,67,347,67,347,72,271,72"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="363,107,472,133"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="253,117,347,117,347,123,253,123"/>
+<area shape="rect" id="Node000008" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="366,157,470,184"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="253,128,351,152,350,157,252,133"/>
+</map>

@@ -1,0 +1,449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Communication</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Communication<div class="ingroups"><a class="el" href="group__spi.html">SPI</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Communication methods.  
+<a href="#details">Mais...</a></p>
+<div class="dynheader">
+Diagrama de colaboração para Communication:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__spi_comm.png" border="0" usemap="#agroup____spi__comm" alt=""/></div>
+<map name="agroup____spi__comm" id="agroup____spi__comm">
+<area shape="rect" href="group__spi.html" title="SPI and GPIO communication (including module selection)" alt="" coords="5,5,48,32"/>
+<area shape="rect" title="Communication methods." alt="" coords="96,5,207,32"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ga968d98569b427752f4798f05ba8fb6bd" id="r_ga968d98569b427752f4798f05ba8fb6bd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga968d98569b427752f4798f05ba8fb6bd">spi_open</a> (const char *device, uint32_t *mode, uint8_t *bits, uint32_t *speed)</td></tr>
+<tr class="memdesc:ga968d98569b427752f4798f05ba8fb6bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens SPI bus.  <br /></td></tr>
+<tr class="separator:ga968d98569b427752f4798f05ba8fb6bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac54b0dcdb1c3c7f2c652639ddebb58ce" id="r_gac54b0dcdb1c3c7f2c652639ddebb58ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac54b0dcdb1c3c7f2c652639ddebb58ce">spi_close</a> ()</td></tr>
+<tr class="memdesc:gac54b0dcdb1c3c7f2c652639ddebb58ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes SPI bus.  <br /></td></tr>
+<tr class="separator:gac54b0dcdb1c3c7f2c652639ddebb58ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga92caafc38b2327a8d2dcdd7d5695fe88" id="r_ga92caafc38b2327a8d2dcdd7d5695fe88"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a> (const char *tx, const char *rx, int len)</td></tr>
+<tr class="memdesc:ga92caafc38b2327a8d2dcdd7d5695fe88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transfers buffer through SPI with determined length.  <br /></td></tr>
+<tr class="separator:ga92caafc38b2327a8d2dcdd7d5695fe88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<p>Communication methods. </p>
+<h2 class="groupheader">Funções</h2>
+<a id="gac54b0dcdb1c3c7f2c652639ddebb58ce" name="gac54b0dcdb1c3c7f2c652639ddebb58ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac54b0dcdb1c3c7f2c652639ddebb58ce">&#9670;&#160;</a></span>spi_close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spi_close </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Closes SPI bus. </p>
+<dl class="section return"><dt>Retorna</dt><dd>SPI bus close operation result </dd></dl>
+<dl class="retval"><dt>Valores Retornados</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>Success </td></tr>
+    <tr><td class="paramname">-1</td><td>Failure </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="spi_2common_8c_source.html#l00100">100</a> do arquivo <a class="el" href="spi_2common_8c_source.html">common.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  100</span>                {</div>
+<div class="line"><span class="lineno">  101</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a>(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>);</div>
+<div class="line"><span class="lineno">  102</span>}</div>
+<div class="ttc" id="aspi_2common_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="astructcmd_8h_html_ae152484c890a24e4d9b4980e7b965be0"><div class="ttname"><a href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a></div><div class="ttdeci">int close(int)</div><div class="ttdoc">Closes the file descriptor fd.</div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_cgraph.png" border="0" usemap="#agroup__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_cgraph" alt=""/></div>
+<map name="agroup__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_cgraph" id="agroup__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_cgraph">
+<area shape="rect" title="Closes SPI bus." alt="" coords="5,5,82,32"/>
+<area shape="rect" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="130,5,182,32"/>
+<area shape="poly" title=" " alt="" coords="82,16,114,16,114,21,82,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_icgraph.png" border="0" usemap="#agroup__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_icgraph" alt=""/></div>
+<map name="agroup__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_icgraph" id="agroup__spi_comm_gac54b0dcdb1c3c7f2c652639ddebb58ce_icgraph">
+<area shape="rect" title="Closes SPI bus." alt="" coords="103,5,179,32"/>
+<area shape="rect" href="adc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga968d98569b427752f4798f05ba8fb6bd" name="ga968d98569b427752f4798f05ba8fb6bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga968d98569b427752f4798f05ba8fb6bd">&#9670;&#160;</a></span>spi_open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spi_open </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>device</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *</td>          <td class="paramname"><span class="paramname"><em>mode</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>bits</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t *</td>          <td class="paramname"><span class="paramname"><em>speed</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Opens SPI bus. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">device</td><td>Device location (Ex.: /dev/spidev0.0) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>SPI mode </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bits</td><td>Bits per word </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">speed</td><td>Speed (in Hz) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cs</td><td>CS <a class="el" href="struct_pin.html">Pin</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>SPI bus open operation result </dd></dl>
+<dl class="retval"><dt>Valores Retornados</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>Success </td></tr>
+    <tr><td class="paramname">-1</td><td>Failure </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="spi_2common_8c_source.html#l00075">75</a> do arquivo <a class="el" href="spi_2common_8c_source.html">common.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   75</span>                                                                                 {</div>
+<div class="line"><span class="lineno">   76</span>  <a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a> = <a class="code hl_function" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07">open</a>(device, O_RDWR);</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>  ioctl(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, SPI_IOC_WR_MODE, mode);</div>
+<div class="line"><span class="lineno">   79</span>  ioctl(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, SPI_IOC_RD_MODE, mode);</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>  ioctl(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, SPI_IOC_WR_BITS_PER_WORD, bits);</div>
+<div class="line"><span class="lineno">   82</span>  ioctl(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, SPI_IOC_RD_BITS_PER_WORD, bits);</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>  ioctl(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, SPI_IOC_WR_MAX_SPEED_HZ, speed);</div>
+<div class="line"><span class="lineno">   85</span>  ioctl(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, SPI_IOC_RD_MAX_SPEED_HZ, speed);</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>  <a class="code hl_variable" href="spi_2common_8c.html#a16e06294a117e7c9ceef9fb4364838c9">_bits</a> = *bits;</div>
+<div class="line"><span class="lineno">   88</span>  <a class="code hl_variable" href="spi_2common_8c.html#a811c4d778bf155f058f516e39bbd9db2">_speed</a> = *speed;</div>
+<div class="line"><span class="lineno">   89</span>  <a class="code hl_variable" href="spi_2common_8c.html#a4eacaff1de2b12549f9a20f81ef8d0be">_mode</a> = *mode;</div>
+<div class="line"><span class="lineno">   90</span> </div>
+<div class="line"><span class="lineno">   91</span>  <a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;<a class="code hl_variable" href="spi_2common_8c.html#a8989209f11bbdc3111093110cb77aa7a">cs_pin</a>);</div>
+<div class="line"><span class="lineno">   92</span>  <a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;<a class="code hl_variable" href="spi_2common_8c.html#a81b2024948772d960a8603ad33507d29">ds_pin</a>);</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(<a class="code hl_variable" href="spi_2common_8c.html#a8989209f11bbdc3111093110cb77aa7a">cs_pin</a>);</div>
+<div class="line"><span class="lineno">   95</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(<a class="code hl_variable" href="spi_2common_8c.html#a81b2024948772d960a8603ad33507d29">ds_pin</a>);</div>
+<div class="line"><span class="lineno">   96</span> </div>
+<div class="line"><span class="lineno">   97</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>;</div>
+<div class="line"><span class="lineno">   98</span>}</div>
+<div class="ttc" id="aspi_2common_8c_html_a16e06294a117e7c9ceef9fb4364838c9"><div class="ttname"><a href="spi_2common_8c.html#a16e06294a117e7c9ceef9fb4364838c9">_bits</a></div><div class="ttdeci">int _bits</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a43a120dc2fc182d3fe61769d34cf4285"><div class="ttname"><a href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a></div><div class="ttdeci">int mmio_get_gpio(gpio_t *gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00045">common.c:45</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a4eacaff1de2b12549f9a20f81ef8d0be"><div class="ttname"><a href="spi_2common_8c.html#a4eacaff1de2b12549f9a20f81ef8d0be">_mode</a></div><div class="ttdeci">int _mode</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a811c4d778bf155f058f516e39bbd9db2"><div class="ttname"><a href="spi_2common_8c.html#a811c4d778bf155f058f516e39bbd9db2">_speed</a></div><div class="ttdeci">int _speed</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a81b2024948772d960a8603ad33507d29"><div class="ttname"><a href="spi_2common_8c.html#a81b2024948772d960a8603ad33507d29">ds_pin</a></div><div class="ttdeci">gpio_t ds_pin</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00023">common.c:23</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a8989209f11bbdc3111093110cb77aa7a"><div class="ttname"><a href="spi_2common_8c.html#a8989209f11bbdc3111093110cb77aa7a">cs_pin</a></div><div class="ttdeci">gpio_t cs_pin</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00022">common.c:22</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_ac6a1cc04fa4fbcb29722630720f80399"><div class="ttname"><a href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a></div><div class="ttdeci">void mmio_set_output(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00025">common.c:25</a></div></div>
+<div class="ttc" id="astructcmd_8h_html_a2c4414339f388561554c2deab11a1a07"><div class="ttname"><a href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07">open</a></div><div class="ttdeci">int open(const char *, int)</div><div class="ttdoc">Opens a file descriptor.</div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_cgraph.png" border="0" usemap="#agroup__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_cgraph" alt=""/></div>
+<map name="agroup__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_cgraph" id="agroup__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_cgraph">
+<area shape="rect" title="Opens SPI bus." alt="" coords="5,56,79,83"/>
+<area shape="rect" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="133,5,242,32"/>
+<area shape="poly" title=" " alt="" coords="78,54,132,35,134,40,80,59"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="296,31,345,57"/>
+<area shape="poly" title=" " alt="" coords="79,63,280,45,281,50,79,69"/>
+<area shape="rect" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="127,107,248,133"/>
+<area shape="poly" title=" " alt="" coords="80,79,134,99,132,104,78,85"/>
+<area shape="poly" title=" " alt="" coords="243,26,281,34,280,39,242,32"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_icgraph.png" border="0" usemap="#agroup__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_icgraph" alt=""/></div>
+<map name="agroup__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_icgraph" id="agroup__spi_comm_ga968d98569b427752f4798f05ba8fb6bd_icgraph">
+<area shape="rect" title="Opens SPI bus." alt="" coords="219,81,292,108"/>
+<area shape="rect" href="adc_8c.html#a25a40b6614565f755233080a384c35f1" title=" " alt="" coords="103,5,171,32"/>
+<area shape="poly" title=" " alt="" coords="219,75,158,35,161,30,222,70"/>
+<area shape="rect" href="dac_8c.html#aabaf12ceced11b357899dd7c580ee4c1" title=" " alt="" coords="103,56,171,83"/>
+<area shape="poly" title=" " alt="" coords="204,86,171,79,172,74,205,81"/>
+<area shape="rect" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD." alt="" coords="106,107,168,133"/>
+<area shape="poly" title=" " alt="" coords="204,108,169,116,168,111,203,103"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="112,157,162,184"/>
+<area shape="poly" title=" " alt="" coords="222,119,161,159,158,155,219,115"/>
+<area shape="rect" href="adc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,55,133"/>
+<area shape="poly" title=" " alt="" coords="90,123,55,123,55,117,90,117"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga92caafc38b2327a8d2dcdd7d5695fe88" name="ga92caafc38b2327a8d2dcdd7d5695fe88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga92caafc38b2327a8d2dcdd7d5695fe88">&#9670;&#160;</a></span>spi_transfer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spi_transfer </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>tx</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>rx</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>len</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transfers buffer through SPI with determined length. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">tx</td><td>TX buffer </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">rx</td><td>RX buffer </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Buffer length </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>SPI transfer operation result </dd></dl>
+<dl class="retval"><dt>Valores Retornados</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">0</td><td>Success </td></tr>
+    <tr><td class="paramname">-1</td><td>Failure </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="spi_2common_8c_source.html#l00104">104</a> do arquivo <a class="el" href="spi_2common_8c_source.html">common.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  104</span>                                                          {</div>
+<div class="line"><span class="lineno">  105</span>  <span class="keywordtype">int</span> ret;</div>
+<div class="line"><span class="lineno">  106</span>  <span class="keyword">struct </span>spi_ioc_transfer tr = {</div>
+<div class="line"><span class="lineno">  107</span>      .tx_buf = (<span class="keywordtype">unsigned</span> long)tx,</div>
+<div class="line"><span class="lineno">  108</span>      .rx_buf = (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)rx,</div>
+<div class="line"><span class="lineno">  109</span>      .len = len,</div>
+<div class="line"><span class="lineno">  110</span>      .delay_usecs = <a class="code hl_variable" href="spi_2common_8c.html#a6f06c89283276c650d5bbdfd91efb9d6">_delay</a>,</div>
+<div class="line"><span class="lineno">  111</span>      .speed_hz = <a class="code hl_variable" href="spi_2common_8c.html#a811c4d778bf155f058f516e39bbd9db2">_speed</a>,</div>
+<div class="line"><span class="lineno">  112</span>      .bits_per_word = <a class="code hl_variable" href="spi_2common_8c.html#a16e06294a117e7c9ceef9fb4364838c9">_bits</a>,</div>
+<div class="line"><span class="lineno">  113</span>  };</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>  ret = ioctl(<a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, SPI_IOC_MESSAGE(len), &amp;tr);</div>
+<div class="line"><span class="lineno">  116</span> </div>
+<div class="line"><span class="lineno">  117</span>  <span class="keywordflow">return</span> ret &lt; 0 ? -1 : 0;</div>
+<div class="line"><span class="lineno">  118</span>}</div>
+<div class="ttc" id="aspi_2common_8c_html_a6f06c89283276c650d5bbdfd91efb9d6"><div class="ttname"><a href="spi_2common_8c.html#a6f06c89283276c650d5bbdfd91efb9d6">_delay</a></div><div class="ttdeci">int _delay</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__spi_comm_ga92caafc38b2327a8d2dcdd7d5695fe88_icgraph.png" border="0" usemap="#agroup__spi_comm_ga92caafc38b2327a8d2dcdd7d5695fe88_icgraph" alt=""/></div>
+<map name="agroup__spi_comm_ga92caafc38b2327a8d2dcdd7d5695fe88_icgraph" id="agroup__spi_comm_ga92caafc38b2327a8d2dcdd7d5695fe88_icgraph">
+<area shape="rect" title="Transfers buffer through SPI with determined length." alt="" coords="1282,569,1370,596"/>
+<area shape="rect" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="1123,249,1234,276"/>
+<area shape="poly" title=" " alt="" coords="1310,556,1184,277,1188,275,1314,554"/>
+<area shape="rect" href="adc_8c.html#a25a40b6614565f755233080a384c35f1" title=" " alt="" coords="1144,443,1213,469"/>
+<area shape="poly" title=" " alt="" coords="1304,559,1273,521,1232,483,1212,471,1214,467,1235,479,1276,517,1308,555"/>
+<area shape="rect" href="dac_8c.html#aabaf12ceced11b357899dd7c580ee4c1" title=" " alt="" coords="1144,544,1213,571"/>
+<area shape="poly" title=" " alt="" coords="1266,575,1213,566,1214,561,1267,570"/>
+<area shape="rect" href="lcd_8c.html#af67e5212f5ba68e0eadfc7817a991394" title="Transfers to LCD register." alt="" coords="1142,595,1215,621"/>
+<area shape="poly" title=" " alt="" coords="1267,595,1215,604,1214,599,1266,590"/>
+<area shape="rect" href="volt_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="1154,645,1203,672"/>
+<area shape="poly" title=" " alt="" coords="1289,606,1235,636,1205,650,1202,646,1232,631,1287,601"/>
+<area shape="rect" href="group__spi_module.html#ga4f599c24b77a8c45bee52bb0c290860e" title="Reads digital data at given address." alt="" coords="1139,747,1218,773"/>
+<area shape="poly" title=" " alt="" coords="1306,610,1193,748,1189,744,1302,606"/>
+<area shape="rect" href="adc_8c.html#af4adf7091071b9c3db5a132e2befd529" title=" " alt="" coords="1144,493,1213,520"/>
+<area shape="poly" title=" " alt="" coords="1287,564,1232,534,1209,523,1211,518,1235,530,1289,559"/>
+<area shape="rect" href="dac_8c.html#a8061cff4386a8028e5c6b0a9f3fec513" title=" " alt="" coords="1143,823,1214,849"/>
+<area shape="poly" title=" " alt="" coords="1318,612,1287,693,1264,741,1236,787,1218,808,1199,824,1196,820,1214,804,1232,784,1259,739,1282,691,1313,610"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="571,81,641,108"/>
+<area shape="poly" title=" " alt="" coords="1160,237,1125,190,1101,166,1074,148,1017,123,957,106,895,95,834,88,723,87,642,93,641,88,723,82,834,83,895,89,958,101,1019,118,1077,143,1105,162,1129,186,1164,234"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="131,389,210,416"/>
+<area shape="poly" title=" " alt="" coords="1159,290,1123,326,1101,344,1077,358,1003,390,942,404,878,408,798,408,605,408,210,406,210,400,605,403,798,403,878,403,941,399,1001,385,1074,354,1098,339,1120,322,1155,286"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa" title="Send a command, wait for the sensor to process and read data back." alt="" coords="531,279,681,321"/>
+<area shape="poly" title=" " alt="" coords="1153,288,1118,313,1076,332,1024,344,970,351,916,353,863,351,763,339,681,323,682,318,764,334,863,345,916,347,970,345,1023,339,1074,327,1115,308,1150,284"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a1756dcca78c1ba9ec6ea3a6be4aed0ce" title="Send a general call reset." alt="" coords="921,275,1067,317"/>
+<area shape="poly" title=" " alt="" coords="1109,278,1068,285,1067,280,1108,273"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f" title="Read data words as byte&#45;stream from sensor." alt="" coords="929,208,1058,251"/>
+<area shape="poly" title=" " alt="" coords="1107,253,1058,244,1059,238,1108,247"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21" title="writes a command to the sensor" alt="" coords="912,157,1075,184"/>
+<area shape="poly" title=" " alt="" coords="1145,242,1112,219,1074,198,1045,187,1047,182,1076,194,1115,215,1148,237"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a0e9acb8401c9168d321fd7eff74fbab8" title="Writes a command with arguments to the sensor." alt="" coords="928,5,1059,48"/>
+<area shape="poly" title=" " alt="" coords="1166,235,1153,199,1133,155,1107,109,1073,69,1049,51,1052,46,1077,65,1111,106,1138,152,1158,197,1171,234"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,275,55,301"/>
+<area shape="poly" title=" " alt="" coords="556,104,468,120,353,147,226,186,164,210,104,238,74,257,49,276,46,272,71,253,101,234,162,205,225,181,352,142,467,115,555,99"/>
+<area shape="poly" title=" " alt="" coords="116,387,101,378,63,340,37,303,42,300,67,337,104,374,119,383"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#ade8479d9748d07974f8e7e88c166e381" title="Reads data words from the sensor after a command is issued." alt="" coords="304,287,465,313"/>
+<area shape="poly" title=" " alt="" coords="516,303,466,303,466,297,516,297"/>
+<area shape="rect" href="sht3x_8c.html#a4aae0d3756e7554f9ee2921e52fcdaac" title="Read the sensor status word." alt="" coords="324,236,445,263"/>
+<area shape="poly" title=" " alt="" coords="516,282,445,266,446,261,517,277"/>
+<area shape="rect" href="group__sht3x_init.html#ga76f706a73188d8e19e2ba03ca1e1dba2" title="Detects if a sensor is connected by reading out the ID register." alt="" coords="339,337,431,364"/>
+<area shape="poly" title=" " alt="" coords="517,323,431,343,430,338,516,318"/>
+<area shape="rect" href="group__sht3x_sensor_settings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="103,287,238,313"/>
+<area shape="poly" title=" " alt="" coords="289,303,238,303,238,297,289,297"/>
+<area shape="rect" href="group__sht3x_init.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="132,337,209,364"/>
+<area shape="poly" title=" " alt="" coords="323,353,210,353,210,348,323,348"/>
+<area shape="poly" title=" " alt="" coords="116,334,102,328,54,304,56,299,104,323,118,329"/>
+<area shape="rect" href="sht3x_2common_2common_8c.html#a61c2efbc31ab106dcd1d888412485db7" title="Read data words from sensor." alt="" coords="732,275,861,317"/>
+<area shape="poly" title=" " alt="" coords="915,259,862,277,861,272,913,254"/>
+<area shape="rect" href="sht3x_8c.html#af90d87bffcb72c50d35776f03f2277dd" title="Read out the serial number." alt="" coords="735,224,858,251"/>
+<area shape="poly" title=" " alt="" coords="914,235,858,238,858,232,913,230"/>
+<area shape="poly" title=" " alt="" coords="716,300,681,301,681,296,716,295"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="563,207,649,233"/>
+<area shape="poly" title=" " alt="" coords="726,271,640,236,642,231,728,266"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="286,185,483,212"/>
+<area shape="poly" title=" " alt="" coords="548,217,483,211,484,206,548,212"/>
+<area shape="poly" title=" " alt="" coords="314,219,56,285,54,279,313,214"/>
+<area shape="poly" title=" " alt="" coords="934,192,913,199,836,226,834,221,911,193,932,187"/>
+<area shape="rect" href="sht3x_8c.html#ac2af42046713a88b65652976149354da" title="Clear the status register alert flags." alt="" coords="731,173,862,200"/>
+<area shape="poly" title=" " alt="" coords="897,181,863,184,862,179,896,176"/>
+<area shape="rect" href="group__sht3x_sensor_data.html#ga535cf192fdfb60b6e220c9d8159f1edf" title="Starts a measurement in high precision mode." alt="" coords="551,140,661,167"/>
+<area shape="poly" title=" " alt="" coords="896,166,864,164,661,157,662,152,864,159,896,161"/>
+<area shape="poly" title=" " alt="" coords="536,170,454,187,453,182,535,165"/>
+<area shape="rect" href="group__sht3x_sensor_settings.html#ga4f3716965817168fbf8e5fd2ca26c3e7" title="Set target temperature and humidity alert threshold." alt="" coords="729,13,864,40"/>
+<area shape="poly" title=" " alt="" coords="912,29,865,29,865,24,912,24"/>
+<area shape="rect" href="adc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="969,443,1018,469"/>
+<area shape="poly" title=" " alt="" coords="1129,459,1019,459,1019,453,1129,453"/>
+<area shape="rect" href="lcd_8c.html#a35c08b1fa742e650f4873939707b893b" title="Clears LCD." alt="" coords="760,645,833,672"/>
+<area shape="poly" title=" " alt="" coords="1128,625,1076,636,942,652,834,660,833,654,942,647,1075,631,1127,619"/>
+<area shape="rect" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515" title="Initializes LCD." alt="" coords="575,620,637,647"/>
+<area shape="poly" title=" " alt="" coords="1135,631,1125,636,1101,649,1076,660,981,687,904,702,826,702,728,687,675,670,631,650,634,645,677,665,729,681,826,696,903,696,979,682,1074,655,1099,644,1122,631,1133,626"/>
+<area shape="rect" href="lcd_8c.html#a0fa29c0aee6ec3285941a5849de041b2" title="Prints straight horizontal line." alt="" coords="764,493,829,520"/>
+<area shape="poly" title=" " alt="" coords="1127,597,829,518,830,513,1128,592"/>
+<area shape="rect" href="lcd_8c.html#ae361d551feba598bbe0d3b7df6e654dc" title="Prints string to LCD screen at a previously set position." alt="" coords="571,443,641,469"/>
+<area shape="poly" title=" " alt="" coords="1129,589,1122,585,1098,563,1074,544,1017,517,956,497,894,482,833,471,722,460,641,458,641,453,723,455,834,466,895,477,958,492,1019,512,1077,539,1102,559,1125,581,1132,585"/>
+<area shape="rect" href="lcd_8c.html#ab4b92109281330638384cbb7fe9e9809" title=" " alt="" coords="943,747,1045,773"/>
+<area shape="poly" title=" " alt="" coords="1131,630,1125,635,1109,659,1102,682,1095,706,1077,730,1047,749,1044,744,1074,726,1090,703,1097,680,1104,656,1121,632,1128,626"/>
+<area shape="rect" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33" title="Sets LCD cursor position." alt="" coords="941,595,1047,621"/>
+<area shape="poly" title=" " alt="" coords="1127,611,1047,611,1047,605,1127,605"/>
+<area shape="poly" title=" " alt="" coords="744,654,637,640,638,635,745,649"/>
+<area shape="rect" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="360,519,409,545"/>
+<area shape="poly" title=" " alt="" coords="560,615,408,545,411,541,562,611"/>
+<area shape="poly" title=" " alt="" coords="748,512,410,533,409,528,748,507"/>
+<area shape="poly" title=" " alt="" coords="557,475,411,526,409,521,556,470"/>
+<area shape="poly" title=" " alt="" coords="926,628,834,652,833,647,925,623"/>
+<area shape="poly" title=" " alt="" coords="925,615,638,634,638,629,925,610"/>
+<area shape="poly" title=" " alt="" coords="925,602,409,538,410,532,925,597"/>
+<area shape="poly" title=" " alt="" coords="936,591,911,578,886,560,863,541,828,523,831,518,865,536,889,556,913,574,938,586"/>
+<area shape="rect" href="leak_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="969,797,1018,824"/>
+<area shape="poly" title=" " alt="" coords="1125,777,1019,807,1018,802,1124,772"/>
+<area shape="poly" title=" " alt="" coords="1129,496,1018,465,1020,460,1130,491"/>
+<area shape="rect" href="dac_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="969,848,1018,875"/>
+<area shape="poly" title=" " alt="" coords="1128,845,1019,861,1018,855,1128,840"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

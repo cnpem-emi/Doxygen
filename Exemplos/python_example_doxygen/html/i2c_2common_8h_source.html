@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Código-Fonte de bin/i2c/common.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_32510ab65376276d90fe93f98441a27b.html">i2c</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">common.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="i2c_2common_8h.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifndef I2C_COMMON_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define I2C_COMMON_H</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="i2c_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">   17</a></span><span class="preprocessor">#define WINDOW_SIZE 5</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="i2c_2common_8h.html#afd709f201d7643c3909621f620ea648a">   18</a></span><span class="preprocessor">#define MAX_NAME_LEN 16</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &quot;<a class="code" href="spi_2common_8h.html">../spi/common.h</a>&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="};">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structidentifier.html">   25</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structidentifier.html">identifier</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">   26</a></span>  int8_t <a class="code hl_variable" href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">ext_mux_id</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structidentifier.html#ade5862e7d955b2d0109f6c292405f0b1">   27</a></span>  uint8_t <a class="code hl_variable" href="structidentifier.html#ade5862e7d955b2d0109f6c292405f0b1">mux_id</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="structidentifier.html#ab8073994854b7a22c8857c018d8a7d58">   28</a></span>  uint8_t <a class="code hl_variable" href="structidentifier.html#ab8073994854b7a22c8857c018d8a7d58">fd</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>int8_t <a class="code hl_function" href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258">i2c_read</a>(uint8_t reg_addr, uint8_t* reg_data, uint32_t length, <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>int8_t <a class="code hl_function" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe">i2c_write</a>(uint8_t reg_addr, <span class="keyword">const</span> uint8_t* reg_data, uint32_t length, <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>int8_t <a class="code hl_function" href="group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a">i2c_open</a>(int8_t* <a class="code hl_variable" href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, uint8_t addr);</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>int8_t <a class="code hl_function" href="group__i2c_mux.html#ga7cf1d9a50131494c5c77b7dbaebf6818">set_ext_addr</a>(uint8_t addr);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span><span class="keywordtype">void</span> <a class="code hl_function" href="group__i2c_mux.html#ga7000e32b922e6dea26a32e405fd0a46e">unselect_i2c_extender</a>();</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span><span class="keywordtype">void</span> <a class="code hl_function" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400">direct_ext_mux</a>(uint8_t <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keywordtype">void</span> <a class="code hl_function" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd">direct_mux</a>(uint8_t <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>int8_t <a class="code hl_function" href="group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605">configure_mux</a>();</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="keywordtype">void</span> <a class="code hl_function" href="i2c_2common_8h.html#a720879d69fe216a6f53c2d0de74d4073">delay_us</a>(uint32_t <a class="code hl_variable" href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a>, <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>}</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="abbb__dac_8c_html_a486233493fc0e05fe1bdbe7b7e5d0f1e"><div class="ttname"><a href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a></div><div class="ttdeci">int period</div><div class="ttdef"><b>Definição</b> <a href="bbb__dac_8c_source.html#l00008">bbb_dac.c:8</a></div></div>
+<div class="ttc" id="agroup__i2c_comm_html_ga546237630a67ed460e6399f8183ba15a"><div class="ttname"><a href="group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a">i2c_open</a></div><div class="ttdeci">int8_t i2c_open(int8_t *fd, uint8_t addr)</div><div class="ttdoc">Opens communication with the I2C bus at a given address.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00117">common.c:117</a></div></div>
+<div class="ttc" id="agroup__i2c_comm_html_ga6ba6684ba5f02aa62901972aa6fd3258"><div class="ttname"><a href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258">i2c_read</a></div><div class="ttdeci">int8_t i2c_read(uint8_t reg_addr, uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for reading the sensor's registers through I2C bus.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00054">common.c:54</a></div></div>
+<div class="ttc" id="agroup__i2c_comm_html_ga82d15977313cbe9512ca2b907eb176fe"><div class="ttname"><a href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe">i2c_write</a></div><div class="ttdeci">int8_t i2c_write(uint8_t reg_addr, const uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for writing the sensor's registers through I2C bus.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00064">common.c:64</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga151ede3a3f257b072260f424e1a21400"><div class="ttname"><a href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400">direct_ext_mux</a></div><div class="ttdeci">void direct_ext_mux(uint8_t id)</div><div class="ttdoc">Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00035">common.c:35</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga61698283ae91cc7210ed8598aad96605"><div class="ttname"><a href="group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605">configure_mux</a></div><div class="ttdeci">int8_t configure_mux()</div><div class="ttdoc">Configures pins for the digital interface board multiplexing function.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00098">common.c:98</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga638412d4e040a7fbee04a70b711547dd"><div class="ttname"><a href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd">direct_mux</a></div><div class="ttdeci">void direct_mux(uint8_t id)</div><div class="ttdoc">Selects an available I2C channel through the digital interface board (0 to 4)</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00023">common.c:23</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga7000e32b922e6dea26a32e405fd0a46e"><div class="ttname"><a href="group__i2c_mux.html#ga7000e32b922e6dea26a32e405fd0a46e">unselect_i2c_extender</a></div><div class="ttdeci">void unselect_i2c_extender()</div><div class="ttdoc">Unselects the I2C extender (and SPI extender, by proxy)</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00089">common.c:89</a></div></div>
+<div class="ttc" id="agroup__i2c_mux_html_ga7cf1d9a50131494c5c77b7dbaebf6818"><div class="ttname"><a href="group__i2c_mux.html#ga7cf1d9a50131494c5c77b7dbaebf6818">set_ext_addr</a></div><div class="ttdeci">int8_t set_ext_addr(uint8_t addr)</div><div class="ttdoc">Sets the SPI extender board address.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00047">common.c:47</a></div></div>
+<div class="ttc" id="ai2c_2common_8h_html_a720879d69fe216a6f53c2d0de74d4073"><div class="ttname"><a href="i2c_2common_8h.html#a720879d69fe216a6f53c2d0de74d4073">delay_us</a></div><div class="ttdeci">void delay_us(uint32_t period, void *intf_ptr)</div><div class="ttdoc">Delays execution for n us.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8c_source.html#l00113">common.c:113</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="spi_2common_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html"><div class="ttname"><a href="spi_2common_8h.html">common.h</a></div><div class="ttdoc">Common declarations for SPI operations.</div></div>
+<div class="ttc" id="astructidentifier_html"><div class="ttname"><a href="structidentifier.html">identifier</a></div><div class="ttdoc">Identification/communication structure for I2C devices.</div><div class="ttdef"><b>Definição</b> <a href="#l00025">common.h:25</a></div></div>
+<div class="ttc" id="astructidentifier_html_a28edbc0925a6a4cbcb8a040074438302"><div class="ttname"><a href="structidentifier.html#a28edbc0925a6a4cbcb8a040074438302">identifier::ext_mux_id</a></div><div class="ttdeci">int8_t ext_mux_id</div><div class="ttdef"><b>Definição</b> <a href="#l00026">common.h:26</a></div></div>
+<div class="ttc" id="astructidentifier_html_ab8073994854b7a22c8857c018d8a7d58"><div class="ttname"><a href="structidentifier.html#ab8073994854b7a22c8857c018d8a7d58">identifier::fd</a></div><div class="ttdeci">uint8_t fd</div><div class="ttdef"><b>Definição</b> <a href="#l00028">common.h:28</a></div></div>
+<div class="ttc" id="astructidentifier_html_ade5862e7d955b2d0109f6c292405f0b1"><div class="ttname"><a href="structidentifier.html#ade5862e7d955b2d0109f6c292405f0b1">identifier::mux_id</a></div><div class="ttdeci">uint8_t mux_id</div><div class="ttdef"><b>Definição</b> <a href="#l00027">common.h:27</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<map id="tick_to_temperature" name="tick_to_temperature">
+<area shape="rect" id="Node000001" title="converts to temperature from ADC ticks" alt="" coords="531,31,668,57"/>
+<area shape="rect" id="Node000002" href="$group__sht3xSensorSettings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="348,5,483,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="515,35,484,31,484,25,516,30"/>
+<area shape="rect" id="Node000003" href="$group__sht3xSensorData.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="373,56,458,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="516,58,459,66,458,61,515,53"/>
+<area shape="rect" id="Node000004" href="$group__sht3xSensorData.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="103,56,300,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="358,72,300,72,300,67,358,67"/>
+<area shape="rect" id="Node000005" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+</map>

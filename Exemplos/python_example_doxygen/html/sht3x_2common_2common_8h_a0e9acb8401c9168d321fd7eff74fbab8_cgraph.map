@@ -1,0 +1,29 @@
+<map id="sensirion_i2c_write_cmd_with_args" name="sensirion_i2c_write_cmd_with_args">
+<area shape="rect" id="Node000001" title="Writes a command with arguments to the sensor." alt="" coords="5,120,137,163"/>
+<area shape="rect" id="Node000002" href="$group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="192,103,302,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,129,176,123,177,129,138,134"/>
+<area shape="rect" id="Node000009" href="$group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="631,5,717,32"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="115,117,184,88,269,60,357,41,496,24,616,17,616,23,496,30,357,47,270,65,186,93,118,122"/>
+<area shape="rect" id="Node000010" href="$group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="211,153,283,180"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="138,148,196,157,195,162,137,153"/>
+<area shape="rect" id="Node000012" href="$sht3x_2common_2common_8c.html#a9a2b5bc64139a84b4011ba94873e47b8" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="185,204,309,247"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="119,161,188,195,186,199,116,166"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="411,56,516,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="302,101,395,81,396,86,303,107"/>
+<area shape="rect" id="Node000008" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="419,107,507,133"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="303,114,403,116,403,122,303,120"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="618,107,730,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="517,79,570,92,603,100,602,105,569,97,516,84"/>
+<area shape="rect" id="Node000005" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="617,56,731,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="516,67,602,67,602,72,516,72"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="779,5,888,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="718,53,774,35,775,40,719,58"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="781,56,886,83"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="731,67,765,67,765,72,731,72"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="717,16,763,16,763,21,717,21"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="718,30,776,48,774,53,716,35"/>
+<area shape="rect" id="Node000011" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="439,157,487,184"/>
+<area shape="poly" id="edge12_Node000010_Node000011" title=" " alt="" coords="283,165,423,167,423,173,283,170"/>
+<area shape="rect" id="Node000013" href="$sht3x_2common_2common_8c.html#a28a16b2a8660de84fbad96f237a6dabf" title=" " alt="" coords="357,212,569,239"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="309,223,341,223,341,228,309,228"/>
+</map>

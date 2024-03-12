@@ -1,0 +1,53 @@
+<map id="bme280_set_sensor_mode" name="bme280_set_sensor_mode">
+<area shape="rect" id="Node000001" title="This API sets the power mode of the sensor." alt="" coords="5,93,183,120"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="783,43,960,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,98,767,60,768,65,183,104"/>
+<area shape="rect" id="Node000004" href="$bme2_8c.html#a5751485b30c3727943d0e38e9c5a4802" title="This internal API is used to validate the device pointer for null conditions." alt="" coords="1220,117,1325,144"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="126,90,191,65,281,36,385,12,439,5,492,3,873,3,925,6,978,14,1079,42,1167,76,1233,107,1231,112,1165,81,1077,47,976,19,924,11,873,8,492,8,439,11,386,18,283,41,193,70,128,95"/>
+<area shape="rect" id="Node000005" href="$bme2_8c.html#ae471e9fce32acbe04f6fa20d7d80a50f" title="This internal API puts the device to sleep mode." alt="" coords="231,144,369,171"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="152,118,229,137,227,142,151,123"/>
+<area shape="rect" id="Node000019" href="$bme2_8c.html#ad6b69d151e9eaec8338ad86ae2f215e5" title="This internal API writes the power mode in the sensor." alt="" coords="807,245,936,272"/>
+<area shape="poly" id="edge30_Node000001_Node000019" title=" " alt="" coords="114,118,163,155,236,201,323,247,370,267,418,281,468,291,519,297,623,297,719,287,798,273,799,278,719,292,623,302,519,302,467,297,416,287,368,272,321,252,233,206,160,159,111,123"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="1021,168,1145,195"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="920,67,961,86,1014,120,1058,156,1054,160,1011,125,959,90,918,72"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="948,67,1205,116,1204,121,947,73"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1135,165,1205,146,1206,151,1137,170"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="369,142,482,126,630,112,712,110,795,111,879,117,961,129,1004,142,1044,158,1042,163,1002,147,959,135,878,122,795,116,712,115,630,118,483,131,370,147"/>
+<area shape="rect" id="Node000006" href="$bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="806,144,937,171"/>
+<area shape="poly" id="edge8_Node000005_Node000006" title=" " alt="" coords="369,155,790,155,790,160,369,160"/>
+<area shape="rect" id="Node000009" href="$bme2_8c.html#a3b3c55c1d0f54cd3f433a9ac29dcc7e6" title="This internal API parse the oversampling(pressure, temperature and humidity), filter and standby dura..." alt="" coords="419,245,568,272"/>
+<area shape="poly" id="edge14_Node000005_Node000009" title=" " alt="" coords="321,169,364,200,418,231,432,237,430,242,416,236,361,204,318,173"/>
+<area shape="rect" id="Node000010" href="$bme2_8c.html#af10d933e592402c11b3bef03b6929cad" title="This internal API reloads the already existing device settings in the sensor after soft reset." alt="" coords="417,195,569,221"/>
+<area shape="poly" id="edge15_Node000005_Node000010" title=" " alt="" coords="354,169,426,188,425,193,353,174"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="937,162,1006,170,1005,175,937,167"/>
+<area shape="poly" id="edge13_Node000006_Node000004" title=" " alt="" coords="937,150,1204,132,1205,138,938,156"/>
+<area shape="rect" id="Node000007" href="$bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="1021,219,1145,245"/>
+<area shape="poly" id="edge10_Node000006_Node000007" title=" " alt="" coords="927,169,961,180,1009,204,1025,210,1023,215,1007,209,959,185,925,174"/>
+<area shape="poly" id="edge12_Node000007_Node000004" title=" " alt="" coords="1130,216,1157,204,1202,178,1240,151,1243,156,1205,183,1160,209,1132,220"/>
+<area shape="rect" id="Node000008" href="$bme2_8c.html#a50acfb83c8f7913835a35864915c72a4" title="This internal API interleaves the register address between the register data buffer for burst write o..." alt="" coords="1206,219,1339,245"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="1146,229,1191,229,1191,235,1146,235"/>
+<area shape="rect" id="Node000011" href="$bme2_8c.html#a3282103c220c829512ad9688c48cab0b" title="This internal API sets the filter and/or standby duration settings in the sensor according to the set..." alt="" coords="810,296,933,339"/>
+<area shape="poly" id="edge16_Node000010_Node000011" title=" " alt="" coords="570,200,652,206,695,215,736,231,752,243,762,256,770,269,784,282,797,289,794,294,781,286,766,272,757,259,748,247,733,236,693,220,651,211,569,205"/>
+<area shape="rect" id="Node000014" href="$bme2_8c.html#a7a70f7e91041163181773f639dad1e51" title="This internal API sets the oversampling settings for pressure, temperature and humidity in the sensor..." alt="" coords="617,245,735,272"/>
+<area shape="poly" id="edge21_Node000010_Node000014" title=" " alt="" coords="545,219,611,238,610,243,543,225"/>
+<area shape="poly" id="edge17_Node000011_Node000003" title=" " alt="" coords="932,298,958,282,974,263,981,244,989,224,1006,205,1013,200,1016,204,1010,209,994,227,986,246,979,266,962,286,935,302"/>
+<area shape="poly" id="edge18_Node000011_Node000007" title=" " alt="" coords="932,293,959,282,1007,255,1022,249,1024,254,1009,260,961,286,934,298"/>
+<area shape="rect" id="Node000012" href="$bme2_8c.html#af0aae567e5373a87283b0f2e81633ae3" title="This internal API fills the filter settings provided by the user in the data buffer so as to write in..." alt="" coords="1025,269,1142,296"/>
+<area shape="poly" id="edge19_Node000011_Node000012" title=" " alt="" coords="933,305,1009,292,1009,297,934,310"/>
+<area shape="rect" id="Node000013" href="$bme2_8c.html#a14ba3dafbc224fda4a70c27b314cb534" title="This internal API fills the standby duration settings provided by the user in the data buffer so as t..." alt="" coords="1014,320,1153,347"/>
+<area shape="poly" id="edge20_Node000011_Node000013" title=" " alt="" coords="933,319,998,324,998,330,933,325"/>
+<area shape="rect" id="Node000015" href="$bme2_8c.html#a83acb06df9e358e511b5bb02840f8ab6" title="This API sets the humidity over sampling settings of the sensor." alt="" coords="785,195,958,221"/>
+<area shape="poly" id="edge22_Node000014_Node000015" title=" " alt="" coords="730,242,802,223,803,228,731,247"/>
+<area shape="rect" id="Node000016" href="$bme2_8c.html#ac8d16e90412abd25f1792193d05392bf" title="This API sets the pressure and/or temperature oversampling settings in the sensor according to the se..." alt="" coords="802,363,941,405"/>
+<area shape="poly" id="edge25_Node000014_Node000016" title=" " alt="" coords="692,270,731,308,784,348,792,353,790,358,781,353,727,312,688,274"/>
+<area shape="poly" id="edge23_Node000015_Node000003" title=" " alt="" coords="958,194,1006,188,1006,194,959,200"/>
+<area shape="poly" id="edge24_Node000015_Node000007" title=" " alt="" coords="959,215,1006,221,1006,226,958,220"/>
+<area shape="poly" id="edge26_Node000016_Node000003" title=" " alt="" coords="940,363,958,349,971,331,978,314,981,278,984,242,992,223,1006,205,1010,201,1013,205,1010,208,997,226,990,243,986,279,983,315,976,334,962,353,943,367"/>
+<area shape="poly" id="edge27_Node000016_Node000007" title=" " alt="" coords="940,361,958,349,975,326,981,303,988,279,1006,255,1012,251,1015,255,1010,259,993,282,986,305,980,328,962,353,943,366"/>
+<area shape="rect" id="Node000017" href="$bme2_8c.html#a17b91c4c911557fef6b74e9f5b9da862" title="This internal API fills the pressure oversampling settings provided by the user in the data buffer so..." alt="" coords="1008,371,1158,397"/>
+<area shape="poly" id="edge28_Node000016_Node000017" title=" " alt="" coords="941,381,993,381,993,387,941,387"/>
+<area shape="rect" id="Node000018" href="$bme2_8c.html#a52542fdfb9309871e4934cc07814a015" title="This internal API fills the temperature oversampling settings provided by the user in the data buffer..." alt="" coords="1010,421,1157,448"/>
+<area shape="poly" id="edge29_Node000016_Node000018" title=" " alt="" coords="942,398,1010,414,1009,420,941,403"/>
+<area shape="poly" id="edge31_Node000019_Node000003" title=" " alt="" coords="927,242,959,231,983,218,1007,204,1022,198,1024,203,1009,209,985,223,961,236,929,247"/>
+<area shape="poly" id="edge32_Node000019_Node000007" title=" " alt="" coords="936,248,1005,239,1006,244,936,253"/>
+</map>

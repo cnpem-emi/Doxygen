@@ -1,0 +1,10 @@
+<map id="F1" name="F1">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,44,57"/>
+<area shape="rect" id="Node000002" href="$namespacepython__example.html#a51ff1067c76e38a7141b54efe8bf549c" title=" " alt="" coords="92,31,130,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,41,76,41,76,47,44,47"/>
+<area shape="rect" id="Node000003" href="$namespacepython__example.html#a3c4b03ef5a3c92372867ea86ca7e55c6" title=" " alt="" coords="178,5,217,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,36,163,26,164,31,131,41"/>
+<area shape="rect" id="Node000004" href="$namespacepython__example.html#a9c89aaf76b4465c3d1bbe682e2788cac" title=" " alt="" coords="265,31,303,57"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="130,41,249,41,249,47,130,47"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="218,22,251,32,249,37,216,27"/>
+</map>

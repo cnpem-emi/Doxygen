@@ -1,0 +1,15 @@
+<map id="read_data" name="read_data">
+<area shape="rect" id="Node000001" title="Reads digital data at given address." alt="" coords="5,56,84,83"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="132,31,237,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,60,116,54,117,59,85,65"/>
+<area shape="rect" id="Node000007" href="$group__spiComm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="140,81,229,108"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="85,74,125,81,125,87,84,79"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="286,5,398,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="237,33,270,28,271,33,238,38"/>
+<area shape="rect" id="Node000004" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="285,56,398,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="238,50,270,55,269,60,237,55"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="446,31,556,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="398,58,430,53,431,58,399,63"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="449,81,553,108"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="399,76,434,81,433,87,398,81"/>
+</map>

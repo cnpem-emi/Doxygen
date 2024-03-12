@@ -1,0 +1,17 @@
+<map id="mmio_get_gpio" name="mmio_get_gpio">
+<area shape="rect" id="Node000001" title=" " alt="" coords="381,56,491,83"/>
+<area shape="rect" id="Node000002" href="$group__i2cMux.html#ga61698283ae91cc7210ed8598aad96605" title="Configures pins for the digital interface board multiplexing function." alt="" coords="228,5,333,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="377,53,323,35,325,30,379,48"/>
+<area shape="rect" id="Node000006" href="$wireless_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="256,56,305,83"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="366,72,306,72,306,67,366,67"/>
+<area shape="rect" id="Node000007" href="$group__spiComm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="105,107,178,133"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="370,89,334,97,179,119,178,114,333,92,369,84"/>
+<area shape="rect" id="Node000003" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="106,5,177,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="212,21,177,21,177,16,212,16"/>
+<area shape="rect" id="Node000005" href="$group__sht3xInit.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="103,56,180,83"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="229,40,181,58,179,53,227,35"/>
+<area shape="rect" id="Node000004" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="98,41,56,61,54,56,96,36"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="96,102,54,83,56,78,98,97"/>
+</map>

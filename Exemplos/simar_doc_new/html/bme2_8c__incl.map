@@ -1,0 +1,11 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/bme280/bme2.c" name="C:/Users/eric.abbade/Downloads/simar_new/bme280/bme2.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,5,160,64"/>
+<area shape="rect" id="Node000002" href="$bme2_8h.html" title=" " alt="" coords="51,112,115,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,64,86,96,80,96,80,64"/>
+<area shape="rect" id="Node000003" href="$bme2__defs_8h.html" title=" " alt="" coords="35,187,131,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,139,86,171,80,171,80,139"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,261,73,288"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="78,215,57,249,52,247,73,212"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="96,261,161,288"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="93,212,115,247,110,249,89,215"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="bmp2_init" name="bmp2_init">
+<area shape="rect" id="Node000001" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="124,5,201,32"/>
+<area shape="rect" id="Node000002" href="$utils_2_b_m_p280_2common_2common_8c.html#ad8891d2db76c9957ba85df5220de463a" title="Initializes and configures sensor." alt="" coords="5,5,76,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,21,76,21,76,16,108,16"/>
+</map>

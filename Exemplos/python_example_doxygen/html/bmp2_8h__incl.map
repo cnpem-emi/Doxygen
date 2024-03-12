@@ -1,0 +1,9 @@
+<map id="bin/utils/BMP280/bmp2.h" name="bin/utils/BMP280/bmp2.h">
+<area shape="rect" id="Node000001" title="Sensor driver for BMP2 sensor." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="Node000002" href="$bmp2__defs_8h.html" title="Sensor driver for BMP2 sensor." alt="" coords="41,80,137,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,33,92,64,86,64,86,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="11,155,79,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,109,63,143,58,140,79,106"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="102,155,167,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="99,106,121,140,116,143,95,109"/>
+</map>

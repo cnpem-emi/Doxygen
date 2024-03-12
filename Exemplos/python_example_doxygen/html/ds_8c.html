@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/utils/DS1820/ds.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_72012a5cb28b1c2ceb206b79276fb773.html">DS1820</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo ds.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;dirent.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para ds.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="ds_8c__incl.png" border="0" usemap="#abin_2utils_2_d_s1820_2ds_8c" alt=""/></div>
+<map name="abin_2utils_2_d_s1820_2ds_8c" id="abin_2utils_2_d_s1820_2ds_8c">
+<area shape="rect" title=" " alt="" coords="94,5,240,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,70,107"/>
+<area shape="poly" title=" " alt="" coords="146,35,75,74,72,70,143,30"/>
+<area shape="rect" title=" " alt="" coords="94,80,154,107"/>
+<area shape="poly" title=" " alt="" coords="162,34,141,68,137,65,157,31"/>
+<area shape="rect" title=" " alt="" coords="178,80,241,107"/>
+<area shape="poly" title=" " alt="" coords="177,31,197,65,192,68,172,34"/>
+<area shape="rect" title=" " alt="" coords="265,80,330,107"/>
+<area shape="poly" title=" " alt="" coords="191,30,262,70,260,74,188,35"/>
+</map>
+</div>
+</div>
+<p><a href="ds_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ab5466f15e4af75cbc21124b18adfd843" id="r_ab5466f15e4af75cbc21124b18adfd843"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5466f15e4af75cbc21124b18adfd843">get_temp</a> (FILE *f)</td></tr>
+<tr class="separator:ab5466f15e4af75cbc21124b18adfd843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e491303b67bd0f7192b5494d32e4019" id="r_a3e491303b67bd0f7192b5494d32e4019"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e491303b67bd0f7192b5494d32e4019">find_device</a> ()</td></tr>
+<tr class="separator:a3e491303b67bd0f7192b5494d32e4019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="a3e491303b67bd0f7192b5494d32e4019" name="a3e491303b67bd0f7192b5494d32e4019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e491303b67bd0f7192b5494d32e4019">&#9670;&#160;</a></span>find_device()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char * find_device </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="ds_8c_source.html#l00024">24</a> do arquivo <a class="el" href="ds_8c_source.html">ds.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>                    {</div>
+<div class="line"><span class="lineno">   25</span>  DIR* dir;</div>
+<div class="line"><span class="lineno">   26</span>  <span class="keywordtype">char</span>* device_name = malloc(80);</div>
+<div class="line"><span class="lineno">   27</span>  <span class="keyword">struct </span>dirent* de;</div>
+<div class="line"><span class="lineno">   28</span> </div>
+<div class="line"><span class="lineno">   29</span>  dir = opendir(<span class="stringliteral">&quot;/sys/bus/w1/devices/&quot;</span>);</div>
+<div class="line"><span class="lineno">   30</span>  <span class="keywordflow">while</span> (dir) {</div>
+<div class="line"><span class="lineno">   31</span>    de = readdir(dir);</div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">if</span> (!de)</div>
+<div class="line"><span class="lineno">   33</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">if</span> (strstr(de-&gt;d_name, <span class="stringliteral">&quot;28&quot;</span>) != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno">   36</span>      snprintf(device_name, 335, <span class="stringliteral">&quot;/sys/bus/w1/devices/%s/w1_slave&quot;</span>, de-&gt;d_name);</div>
+<div class="line"><span class="lineno">   37</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   38</span>    }</div>
+<div class="line"><span class="lineno">   39</span>  }</div>
+<div class="line"><span class="lineno">   40</span>  closedir(dir);</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>  <span class="keywordflow">return</span> device_name;</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="ds_8c_a3e491303b67bd0f7192b5494d32e4019_icgraph.png" border="0" usemap="#ads_8c_a3e491303b67bd0f7192b5494d32e4019_icgraph" alt=""/></div>
+<map name="ads_8c_a3e491303b67bd0f7192b5494d32e4019_icgraph" id="ads_8c_a3e491303b67bd0f7192b5494d32e4019_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,187,32"/>
+<area shape="rect" href="ds_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab5466f15e4af75cbc21124b18adfd843" name="ab5466f15e4af75cbc21124b18adfd843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5466f15e4af75cbc21124b18adfd843">&#9670;&#160;</a></span>get_temp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double get_temp </td>
+          <td>(</td>
+          <td class="paramtype">FILE *</td>          <td class="paramname"><span class="paramname"><em>f</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="ds_8c_source.html#l00006">6</a> do arquivo <a class="el" href="ds_8c_source.html">ds.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">    6</span>                         {</div>
+<div class="line"><span class="lineno">    7</span>  <span class="keywordtype">char</span>* buf = 0;</div>
+<div class="line"><span class="lineno">    8</span>  <span class="keywordtype">long</span> length;</div>
+<div class="line"><span class="lineno">    9</span>  <span class="keywordflow">if</span> (f) {</div>
+<div class="line"><span class="lineno">   10</span>    fseek(f, 0, SEEK_END);</div>
+<div class="line"><span class="lineno">   11</span>    length = ftell(f);</div>
+<div class="line"><span class="lineno">   12</span>    fseek(f, 0, SEEK_SET);</div>
+<div class="line"><span class="lineno">   13</span>    buf = malloc(length);</div>
+<div class="line"><span class="lineno">   14</span>  }</div>
+<div class="line"><span class="lineno">   15</span> </div>
+<div class="line"><span class="lineno">   16</span>  <span class="keywordflow">if</span> (buf) {</div>
+<div class="line"><span class="lineno">   17</span>    fread(buf, 1, length, f);</div>
+<div class="line"><span class="lineno">   18</span>    buf = strstr(buf, <span class="stringliteral">&quot;t=&quot;</span>);</div>
+<div class="line"><span class="lineno">   19</span>  }</div>
+<div class="line"><span class="lineno">   20</span> </div>
+<div class="line"><span class="lineno">   21</span>  <span class="keywordflow">return</span> atoi(buf + 2) / 1000.0;</div>
+<div class="line"><span class="lineno">   22</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="ds_8c_ab5466f15e4af75cbc21124b18adfd843_icgraph.png" border="0" usemap="#ads_8c_ab5466f15e4af75cbc21124b18adfd843_icgraph" alt=""/></div>
+<map name="ads_8c_ab5466f15e4af75cbc21124b18adfd843_icgraph" id="ads_8c_ab5466f15e4af75cbc21124b18adfd843_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,178,32"/>
+<area shape="rect" href="ds_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="ds_8c_source.html#l00045">45</a> do arquivo <a class="el" href="ds_8c_source.html">ds.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   45</span>           {</div>
+<div class="line"><span class="lineno">   46</span>  FILE* f = fopen(<a class="code hl_function" href="#a3e491303b67bd0f7192b5494d32e4019">find_device</a>(), <span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><span class="lineno">   47</span>  <span class="keywordflow">while</span> (1)</div>
+<div class="line"><span class="lineno">   48</span>    printf(<span class="stringliteral">&quot;%.2f C\n&quot;</span>, <a class="code hl_function" href="#ab5466f15e4af75cbc21124b18adfd843">get_temp</a>(f));</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>  fclose(f);</div>
+<div class="line"><span class="lineno">   51</span>}</div>
+<div class="ttc" id="ads_8c_html_a3e491303b67bd0f7192b5494d32e4019"><div class="ttname"><a href="#a3e491303b67bd0f7192b5494d32e4019">find_device</a></div><div class="ttdeci">char * find_device()</div><div class="ttdef"><b>Definição</b> <a href="ds_8c_source.html#l00024">ds.c:24</a></div></div>
+<div class="ttc" id="ads_8c_html_ab5466f15e4af75cbc21124b18adfd843"><div class="ttname"><a href="#ab5466f15e4af75cbc21124b18adfd843">get_temp</a></div><div class="ttdeci">double get_temp(FILE *f)</div><div class="ttdef"><b>Definição</b> <a href="ds_8c_source.html#l00006">ds.c:6</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="ds_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#ads_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
+<map name="ads_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="ads_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,55,57"/>
+<area shape="rect" href="ds_8c.html#a3e491303b67bd0f7192b5494d32e4019" title=" " alt="" coords="103,5,187,32"/>
+<area shape="poly" title=" " alt="" coords="55,36,87,29,88,34,56,41"/>
+<area shape="rect" href="ds_8c.html#ab5466f15e4af75cbc21124b18adfd843" title=" " alt="" coords="107,56,183,83"/>
+<area shape="poly" title=" " alt="" coords="56,47,92,55,91,60,55,52"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

@@ -1,0 +1,1170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/bme280/bme2.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_5fb8b88357a1f33b05f49ba062609588.html">bme280</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Referência do Arquivo bme2.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="bme2_8h_source.html">bme2.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para bme2.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c__incl.png" border="0" usemap="#abin_2bme280_2bme2_8c" alt=""/></div>
+<map name="abin_2bme280_2bme2_8c" id="abin_2bme280_2bme2_8c">
+<area shape="rect" title=" " alt="" coords="15,5,151,32"/>
+<area shape="rect" href="bme2_8h.html" title=" " alt="" coords="51,80,115,107"/>
+<area shape="poly" title=" " alt="" coords="86,33,86,64,80,64,80,33"/>
+<area shape="rect" href="bme2__defs_8h.html" title=" " alt="" coords="35,155,131,181"/>
+<area shape="poly" title=" " alt="" coords="86,107,86,139,80,139,80,107"/>
+<area shape="rect" title=" " alt="" coords="5,229,73,256"/>
+<area shape="poly" title=" " alt="" coords="78,183,57,217,52,215,73,180"/>
+<area shape="rect" title=" " alt="" coords="96,229,161,256"/>
+<area shape="poly" title=" " alt="" coords="93,180,115,215,110,217,89,183"/>
+</map>
+</div>
+</div>
+<p><a href="bme2_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Internal macros</h2></td></tr>
+<tr class="memitem:a17c5a85c1a9613150ab6a7f798baa427" id="r_a17c5a85c1a9613150ab6a7f798baa427"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17c5a85c1a9613150ab6a7f798baa427">OVERSAMPLING_SETTINGS</a>&#160;&#160;&#160;<a class="el" href="bme2__defs_8h.html#acd2aa09844a8a245cf7fdbb808e215e5">UINT8_C</a>(0x07)</td></tr>
+<tr class="separator:a17c5a85c1a9613150ab6a7f798baa427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a124daa6c7034cbf83e4380265fc5c3f6" id="r_a124daa6c7034cbf83e4380265fc5c3f6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a124daa6c7034cbf83e4380265fc5c3f6">FILTER_STANDBY_SETTINGS</a>&#160;&#160;&#160;<a class="el" href="bme2__defs_8h.html#acd2aa09844a8a245cf7fdbb808e215e5">UINT8_C</a>(0x18)</td></tr>
+<tr class="separator:a124daa6c7034cbf83e4380265fc5c3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b7d7a19bb48ec9eb3651b79f0c3e85" id="r_af0b7d7a19bb48ec9eb3651b79f0c3e85"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0b7d7a19bb48ec9eb3651b79f0c3e85">bme280_init</a> (struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:af0b7d7a19bb48ec9eb3651b79f0c3e85"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API is the entry point. It reads the chip-id and calibration data from the sensor.  <br /></td></tr>
+<tr class="separator:af0b7d7a19bb48ec9eb3651b79f0c3e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90217ff8a635240c20b763a88554da8c" id="r_a90217ff8a635240c20b763a88554da8c"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90217ff8a635240c20b763a88554da8c">bme280_get_regs</a> (uint8_t reg_addr, uint8_t *reg_data, uint16_t len, struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:a90217ff8a635240c20b763a88554da8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API reads the data from the given register address of the sensor.  <br /></td></tr>
+<tr class="separator:a90217ff8a635240c20b763a88554da8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631b93eb751d5260f66090655b276d38" id="r_a631b93eb751d5260f66090655b276d38"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a631b93eb751d5260f66090655b276d38">bme280_set_regs</a> (uint8_t *reg_addr, const uint8_t *reg_data, uint8_t len, struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:a631b93eb751d5260f66090655b276d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API writes the given data to the register address of the sensor.  <br /></td></tr>
+<tr class="separator:a631b93eb751d5260f66090655b276d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd93f268d8109802cffa06b89f868922" id="r_afd93f268d8109802cffa06b89f868922"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd93f268d8109802cffa06b89f868922">bme280_set_sensor_settings</a> (uint8_t desired_settings, struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:afd93f268d8109802cffa06b89f868922"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor.  <br /></td></tr>
+<tr class="separator:afd93f268d8109802cffa06b89f868922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3bef90d33942197a98715ea8657211f" id="r_af3bef90d33942197a98715ea8657211f"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3bef90d33942197a98715ea8657211f">bme280_get_sensor_settings</a> (struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:af3bef90d33942197a98715ea8657211f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API gets the oversampling, filter and standby duration (normal mode) settings from the sensor.  <br /></td></tr>
+<tr class="separator:af3bef90d33942197a98715ea8657211f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6373385e51038a9b982c42e0dce4ba9f" id="r_a6373385e51038a9b982c42e0dce4ba9f"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6373385e51038a9b982c42e0dce4ba9f">bme280_set_sensor_mode</a> (uint8_t sensor_mode, struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:a6373385e51038a9b982c42e0dce4ba9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API sets the power mode of the sensor.  <br /></td></tr>
+<tr class="separator:a6373385e51038a9b982c42e0dce4ba9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab44df556ac18f4e7800d8869a5d483f" id="r_aab44df556ac18f4e7800d8869a5d483f"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab44df556ac18f4e7800d8869a5d483f">bme280_get_sensor_mode</a> (uint8_t *sensor_mode, struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:aab44df556ac18f4e7800d8869a5d483f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API gets the power mode of the sensor.  <br /></td></tr>
+<tr class="separator:aab44df556ac18f4e7800d8869a5d483f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f874563c32b64cb625677e81ac20740" id="r_a6f874563c32b64cb625677e81ac20740"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f874563c32b64cb625677e81ac20740">bme280_soft_reset</a> (struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:a6f874563c32b64cb625677e81ac20740"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API performs the soft reset of the sensor.  <br /></td></tr>
+<tr class="separator:a6f874563c32b64cb625677e81ac20740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6671fea2c1e01f40029a653b9ab4410d" id="r_a6671fea2c1e01f40029a653b9ab4410d"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6671fea2c1e01f40029a653b9ab4410d">bme280_get_sensor_data</a> (uint8_t sensor_comp, struct <a class="el" href="structbme280__data.html">bme280_data</a> *comp_data, struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *dev)</td></tr>
+<tr class="memdesc:a6671fea2c1e01f40029a653b9ab4410d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API reads the pressure, temperature and humidity data from the sensor, compensates the data and store it in the <a class="el" href="structbme280__data.html" title="bme280 sensor structure which comprises of temperature, pressure and humidity data">bme280_data</a> structure instance passed by the user.  <br /></td></tr>
+<tr class="separator:a6671fea2c1e01f40029a653b9ab4410d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84be45ccf7a3a82138ff2170123462c3" id="r_a84be45ccf7a3a82138ff2170123462c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84be45ccf7a3a82138ff2170123462c3">bme280_parse_sensor_data</a> (const uint8_t *reg_data, struct <a class="el" href="structbme280__uncomp__data.html">bme280_uncomp_data</a> *uncomp_data)</td></tr>
+<tr class="memdesc:a84be45ccf7a3a82138ff2170123462c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API is used to parse the pressure, temperature and humidity data and store it in the <a class="el" href="structbme280__uncomp__data.html" title="bme280 sensor structure which comprises of uncompensated temperature, pressure and humidity data">bme280_uncomp_data</a> structure instance.  <br /></td></tr>
+<tr class="separator:a84be45ccf7a3a82138ff2170123462c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2c3c8c683b434ca10447515f85c0de" id="r_a9f2c3c8c683b434ca10447515f85c0de"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f2c3c8c683b434ca10447515f85c0de">bme280_compensate_data</a> (uint8_t sensor_comp, const struct <a class="el" href="structbme280__uncomp__data.html">bme280_uncomp_data</a> *uncomp_data, struct <a class="el" href="structbme280__data.html">bme280_data</a> *comp_data, struct <a class="el" href="structbme280__calib__data.html">bme280_calib_data</a> *calib_data)</td></tr>
+<tr class="memdesc:a9f2c3c8c683b434ca10447515f85c0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API is used to compensate the pressure and/or temperature and/or humidity data according to the component selected by the user.  <br /></td></tr>
+<tr class="separator:a9f2c3c8c683b434ca10447515f85c0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9ea40fe8f8243c6d24b6a19d5ab6226" id="r_af9ea40fe8f8243c6d24b6a19d5ab6226"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9ea40fe8f8243c6d24b6a19d5ab6226">bme280_cal_meas_delay</a> (const struct <a class="el" href="structbme280__settings.html">bme280_settings</a> *settings)</td></tr>
+<tr class="memdesc:af9ea40fe8f8243c6d24b6a19d5ab6226"><td class="mdescLeft">&#160;</td><td class="mdescRight">This API is used to calculate the maximum delay in milliseconds required for the temperature/pressure/humidity(which ever at enabled) measurement to complete.  <br /></td></tr>
+<tr class="separator:af9ea40fe8f8243c6d24b6a19d5ab6226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Definições e macros</h2>
+<a id="a124daa6c7034cbf83e4380265fc5c3f6" name="a124daa6c7034cbf83e4380265fc5c3f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a124daa6c7034cbf83e4380265fc5c3f6">&#9670;&#160;</a></span>FILTER_STANDBY_SETTINGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FILTER_STANDBY_SETTINGS&#160;&#160;&#160;<a class="el" href="bme2__defs_8h.html#acd2aa09844a8a245cf7fdbb808e215e5">UINT8_C</a>(0x18)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00049">49</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+
+</div>
+</div>
+<a id="a17c5a85c1a9613150ab6a7f798baa427" name="a17c5a85c1a9613150ab6a7f798baa427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c5a85c1a9613150ab6a7f798baa427">&#9670;&#160;</a></span>OVERSAMPLING_SETTINGS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OVERSAMPLING_SETTINGS&#160;&#160;&#160;<a class="el" href="bme2__defs_8h.html#acd2aa09844a8a245cf7fdbb808e215e5">UINT8_C</a>(0x07)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00046">46</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="af9ea40fe8f8243c6d24b6a19d5ab6226" name="af9ea40fe8f8243c6d24b6a19d5ab6226"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9ea40fe8f8243c6d24b6a19d5ab6226">&#9670;&#160;</a></span>bme280_cal_meas_delay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t bme280_cal_meas_delay </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="structbme280__settings.html">bme280_settings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API is used to calculate the maximum delay in milliseconds required for the temperature/pressure/humidity(which ever at enabled) measurement to complete. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00809">809</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  809</span>                                                                       {</div>
+<div class="line"><span class="lineno">  810</span>  uint32_t max_delay;</div>
+<div class="line"><span class="lineno">  811</span>  uint8_t temp_osr;</div>
+<div class="line"><span class="lineno">  812</span>  uint8_t pres_osr;</div>
+<div class="line"><span class="lineno">  813</span>  uint8_t hum_osr;</div>
+<div class="line"><span class="lineno">  814</span> </div>
+<div class="line"><span class="lineno">  815</span>  <span class="comment">/*Array to map OSR config register value to actual OSR */</span></div>
+<div class="line"><span class="lineno">  816</span>  uint8_t osr_sett_to_act_osr[] = {0, 1, 2, 4, 8, 16};</div>
+<div class="line"><span class="lineno">  817</span> </div>
+<div class="line"><span class="lineno">  818</span>  <span class="comment">/* Mapping osr settings to the actual osr values e.g. 0b101 -&gt; osr X16  */</span></div>
+<div class="line"><span class="lineno">  819</span>  <span class="keywordflow">if</span> (settings-&gt;<a class="code hl_variable" href="structbme280__settings.html#a4ff3e2b3f65167350a53154dc4754a0d">osr_t</a> &lt;= 5) {</div>
+<div class="line"><span class="lineno">  820</span>    temp_osr = osr_sett_to_act_osr[settings-&gt;<a class="code hl_variable" href="structbme280__settings.html#a4ff3e2b3f65167350a53154dc4754a0d">osr_t</a>];</div>
+<div class="line"><span class="lineno">  821</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  822</span>    temp_osr = 16;</div>
+<div class="line"><span class="lineno">  823</span>  }</div>
+<div class="line"><span class="lineno">  824</span> </div>
+<div class="line"><span class="lineno">  825</span>  <span class="keywordflow">if</span> (settings-&gt;<a class="code hl_variable" href="structbme280__settings.html#aa97bb2f1b5c155a583cd55c8c8c1acd5">osr_p</a> &lt;= 5) {</div>
+<div class="line"><span class="lineno">  826</span>    pres_osr = osr_sett_to_act_osr[settings-&gt;<a class="code hl_variable" href="structbme280__settings.html#aa97bb2f1b5c155a583cd55c8c8c1acd5">osr_p</a>];</div>
+<div class="line"><span class="lineno">  827</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  828</span>    pres_osr = 16;</div>
+<div class="line"><span class="lineno">  829</span>  }</div>
+<div class="line"><span class="lineno">  830</span> </div>
+<div class="line"><span class="lineno">  831</span>  <span class="keywordflow">if</span> (settings-&gt;<a class="code hl_variable" href="structbme280__settings.html#aa4077dd4fa725bdeb246df35cdeccbd8">osr_h</a> &lt;= 5) {</div>
+<div class="line"><span class="lineno">  832</span>    hum_osr = osr_sett_to_act_osr[settings-&gt;<a class="code hl_variable" href="structbme280__settings.html#aa4077dd4fa725bdeb246df35cdeccbd8">osr_h</a>];</div>
+<div class="line"><span class="lineno">  833</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  834</span>    hum_osr = 16;</div>
+<div class="line"><span class="lineno">  835</span>  }</div>
+<div class="line"><span class="lineno">  836</span> </div>
+<div class="line"><span class="lineno">  837</span>  max_delay = (uint32_t)((<a class="code hl_define" href="bme2__defs_8h.html#adc03ec271d45723cb5a10d28f1cf8bd4">BME280_MEAS_OFFSET</a> + (<a class="code hl_define" href="bme2__defs_8h.html#a4a8ec019b392c6712b56ee0760958bdd">BME280_MEAS_DUR</a> * temp_osr) +</div>
+<div class="line"><span class="lineno">  838</span>                          ((<a class="code hl_define" href="bme2__defs_8h.html#a4a8ec019b392c6712b56ee0760958bdd">BME280_MEAS_DUR</a> * pres_osr) + <a class="code hl_define" href="bme2__defs_8h.html#a490336b63c82d5e80493ba1a3e201b1e">BME280_PRES_HUM_MEAS_OFFSET</a>) +</div>
+<div class="line"><span class="lineno">  839</span>                          ((<a class="code hl_define" href="bme2__defs_8h.html#a4a8ec019b392c6712b56ee0760958bdd">BME280_MEAS_DUR</a> * hum_osr) + <a class="code hl_define" href="bme2__defs_8h.html#a490336b63c82d5e80493ba1a3e201b1e">BME280_PRES_HUM_MEAS_OFFSET</a>)) /</div>
+<div class="line"><span class="lineno">  840</span>                         <a class="code hl_define" href="bme2__defs_8h.html#a1d68a125cb1658b8dd73e1875660be46">BME280_MEAS_SCALING_FACTOR</a>);</div>
+<div class="line"><span class="lineno">  841</span> </div>
+<div class="line"><span class="lineno">  842</span>  <span class="keywordflow">return</span> max_delay;</div>
+<div class="line"><span class="lineno">  843</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a1d68a125cb1658b8dd73e1875660be46"><div class="ttname"><a href="bme2__defs_8h.html#a1d68a125cb1658b8dd73e1875660be46">BME280_MEAS_SCALING_FACTOR</a></div><div class="ttdeci">#define BME280_MEAS_SCALING_FACTOR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00224">bme2_defs.h:224</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a490336b63c82d5e80493ba1a3e201b1e"><div class="ttname"><a href="bme2__defs_8h.html#a490336b63c82d5e80493ba1a3e201b1e">BME280_PRES_HUM_MEAS_OFFSET</a></div><div class="ttdeci">#define BME280_PRES_HUM_MEAS_OFFSET</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00223">bme2_defs.h:223</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a4a8ec019b392c6712b56ee0760958bdd"><div class="ttname"><a href="bme2__defs_8h.html#a4a8ec019b392c6712b56ee0760958bdd">BME280_MEAS_DUR</a></div><div class="ttdeci">#define BME280_MEAS_DUR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00222">bme2_defs.h:222</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_adc03ec271d45723cb5a10d28f1cf8bd4"><div class="ttname"><a href="bme2__defs_8h.html#adc03ec271d45723cb5a10d28f1cf8bd4">BME280_MEAS_OFFSET</a></div><div class="ttdeci">#define BME280_MEAS_OFFSET</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00221">bme2_defs.h:221</a></div></div>
+<div class="ttc" id="astructbme280__settings_html_a4ff3e2b3f65167350a53154dc4754a0d"><div class="ttname"><a href="structbme280__settings.html#a4ff3e2b3f65167350a53154dc4754a0d">bme280_settings::osr_t</a></div><div class="ttdeci">uint8_t osr_t</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00425">bme2_defs.h:425</a></div></div>
+<div class="ttc" id="astructbme280__settings_html_aa4077dd4fa725bdeb246df35cdeccbd8"><div class="ttname"><a href="structbme280__settings.html#aa4077dd4fa725bdeb246df35cdeccbd8">bme280_settings::osr_h</a></div><div class="ttdeci">uint8_t osr_h</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00428">bme2_defs.h:428</a></div></div>
+<div class="ttc" id="astructbme280__settings_html_aa97bb2f1b5c155a583cd55c8c8c1acd5"><div class="ttname"><a href="structbme280__settings.html#aa97bb2f1b5c155a583cd55c8c8c1acd5">bme280_settings::osr_p</a></div><div class="ttdeci">uint8_t osr_p</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00422">bme2_defs.h:422</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9f2c3c8c683b434ca10447515f85c0de" name="a9f2c3c8c683b434ca10447515f85c0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2c3c8c683b434ca10447515f85c0de">&#9670;&#160;</a></span>bme280_compensate_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_compensate_data </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>sensor_comp</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="structbme280__uncomp__data.html">bme280_uncomp_data</a> *</td>          <td class="paramname"><span class="paramname"><em>uncomp_data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__data.html">bme280_data</a> *</td>          <td class="paramname"><span class="paramname"><em>comp_data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__calib__data.html">bme280_calib_data</a> *</td>          <td class="paramname"><span class="paramname"><em>calib_data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API is used to compensate the pressure and/or temperature and/or humidity data according to the component selected by the user. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00770">770</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  773</span>                                                                    {</div>
+<div class="line"><span class="lineno">  774</span>  int8_t rslt = <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>;</div>
+<div class="line"><span class="lineno">  775</span> </div>
+<div class="line"><span class="lineno">  776</span>  <span class="keywordflow">if</span> ((uncomp_data != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) &amp;&amp; (comp_data != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) &amp;&amp; (calib_data != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno">  777</span>    <span class="comment">/* Initialize to zero */</span></div>
+<div class="line"><span class="lineno">  778</span>    comp_data-&gt;<a class="code hl_variable" href="structbme280__data.html#ab4b11c8d9c758430960896bc3fe82ead">temperature</a> = 0;</div>
+<div class="line"><span class="lineno">  779</span>    comp_data-&gt;<a class="code hl_variable" href="structbme280__data.html#aee1c5d07ac79c5c036195858afe33405">pressure</a> = 0;</div>
+<div class="line"><span class="lineno">  780</span>    comp_data-&gt;<a class="code hl_variable" href="structbme280__data.html#a987616dbcfdfc936af3e5874ef5a41e7">humidity</a> = 0;</div>
+<div class="line"><span class="lineno">  781</span> </div>
+<div class="line"><span class="lineno">  782</span>    <span class="comment">/* If pressure or temperature component is selected */</span></div>
+<div class="line"><span class="lineno">  783</span>    <span class="keywordflow">if</span> (sensor_comp &amp; (<a class="code hl_define" href="bme2__defs_8h.html#adfbc93f23e81f44aeb31d6e1c3e29f59">BME280_PRESS</a> | <a class="code hl_define" href="bme2__defs_8h.html#aa3ffc130a1db4dd1cdb4b11936a2becc">BME280_TEMP</a> | <a class="code hl_define" href="bme2__defs_8h.html#a709c35c30ebfe237189e533dedbca264">BME280_HUM</a>)) {</div>
+<div class="line"><span class="lineno">  784</span>      <span class="comment">/* Compensate the temperature data */</span></div>
+<div class="line"><span class="lineno">  785</span>      comp_data-&gt;<a class="code hl_variable" href="structbme280__data.html#ab4b11c8d9c758430960896bc3fe82ead">temperature</a> = compensate_temperature(uncomp_data, calib_data);</div>
+<div class="line"><span class="lineno">  786</span>    }</div>
+<div class="line"><span class="lineno">  787</span> </div>
+<div class="line"><span class="lineno">  788</span>    <span class="keywordflow">if</span> (sensor_comp &amp; <a class="code hl_define" href="bme2__defs_8h.html#adfbc93f23e81f44aeb31d6e1c3e29f59">BME280_PRESS</a>) {</div>
+<div class="line"><span class="lineno">  789</span>      <span class="comment">/* Compensate the pressure data */</span></div>
+<div class="line"><span class="lineno">  790</span>      comp_data-&gt;<a class="code hl_variable" href="structbme280__data.html#aee1c5d07ac79c5c036195858afe33405">pressure</a> = compensate_pressure(uncomp_data, calib_data);</div>
+<div class="line"><span class="lineno">  791</span>    }</div>
+<div class="line"><span class="lineno">  792</span> </div>
+<div class="line"><span class="lineno">  793</span>    <span class="keywordflow">if</span> (sensor_comp &amp; <a class="code hl_define" href="bme2__defs_8h.html#a709c35c30ebfe237189e533dedbca264">BME280_HUM</a>) {</div>
+<div class="line"><span class="lineno">  794</span>      <span class="comment">/* Compensate the humidity data */</span></div>
+<div class="line"><span class="lineno">  795</span>      comp_data-&gt;<a class="code hl_variable" href="structbme280__data.html#a987616dbcfdfc936af3e5874ef5a41e7">humidity</a> = compensate_humidity(uncomp_data, calib_data);</div>
+<div class="line"><span class="lineno">  796</span>    }</div>
+<div class="line"><span class="lineno">  797</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  798</span>    rslt = <a class="code hl_define" href="bme2__defs_8h.html#a269f65e4816ca679d618175efefcb00d">BME280_E_NULL_PTR</a>;</div>
+<div class="line"><span class="lineno">  799</span>  }</div>
+<div class="line"><span class="lineno">  800</span> </div>
+<div class="line"><span class="lineno">  801</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  802</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a269f65e4816ca679d618175efefcb00d"><div class="ttname"><a href="bme2__defs_8h.html#a269f65e4816ca679d618175efefcb00d">BME280_E_NULL_PTR</a></div><div class="ttdeci">#define BME280_E_NULL_PTR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00145">bme2_defs.h:145</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a709c35c30ebfe237189e533dedbca264"><div class="ttname"><a href="bme2__defs_8h.html#a709c35c30ebfe237189e533dedbca264">BME280_HUM</a></div><div class="ttdeci">#define BME280_HUM</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00201">bme2_defs.h:201</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_aa3ffc130a1db4dd1cdb4b11936a2becc"><div class="ttname"><a href="bme2__defs_8h.html#aa3ffc130a1db4dd1cdb4b11936a2becc">BME280_TEMP</a></div><div class="ttdeci">#define BME280_TEMP</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00200">bme2_defs.h:200</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_abfe3dd12ee6f5f5d51fbb340a22ff678"><div class="ttname"><a href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a></div><div class="ttdeci">#define BME280_OK</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00142">bme2_defs.h:142</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_adfbc93f23e81f44aeb31d6e1c3e29f59"><div class="ttname"><a href="bme2__defs_8h.html#adfbc93f23e81f44aeb31d6e1c3e29f59">BME280_PRESS</a></div><div class="ttdeci">#define BME280_PRESS</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00199">bme2_defs.h:199</a></div></div>
+<div class="ttc" id="astructbme280__data_html_a987616dbcfdfc936af3e5874ef5a41e7"><div class="ttname"><a href="structbme280__data.html#a987616dbcfdfc936af3e5874ef5a41e7">bme280_data::humidity</a></div><div class="ttdeci">double humidity</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00386">bme2_defs.h:386</a></div></div>
+<div class="ttc" id="astructbme280__data_html_ab4b11c8d9c758430960896bc3fe82ead"><div class="ttname"><a href="structbme280__data.html#ab4b11c8d9c758430960896bc3fe82ead">bme280_data::temperature</a></div><div class="ttdeci">double temperature</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00383">bme2_defs.h:383</a></div></div>
+<div class="ttc" id="astructbme280__data_html_aee1c5d07ac79c5c036195858afe33405"><div class="ttname"><a href="structbme280__data.html#aee1c5d07ac79c5c036195858afe33405">bme280_data::pressure</a></div><div class="ttdeci">double pressure</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00380">bme2_defs.h:380</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a9f2c3c8c683b434ca10447515f85c0de_icgraph.png" border="0" usemap="#abme2_8c_a9f2c3c8c683b434ca10447515f85c0de_icgraph" alt=""/></div>
+<map name="abme2_8c_a9f2c3c8c683b434ca10447515f85c0de_icgraph" id="abme2_8c_a9f2c3c8c683b434ca10447515f85c0de_icgraph">
+<area shape="rect" title="This API is used to compensate the pressure and/or temperature and/or humidity data according to the ..." alt="" coords="447,5,625,32"/>
+<area shape="rect" href="bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="229,5,399,32"/>
+<area shape="poly" title=" " alt="" coords="432,21,400,21,400,16,432,16"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="103,5,181,32"/>
+<area shape="poly" title=" " alt="" coords="214,21,182,21,182,16,214,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a90217ff8a635240c20b763a88554da8c" name="a90217ff8a635240c20b763a88554da8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90217ff8a635240c20b763a88554da8c">&#9670;&#160;</a></span>bme280_get_regs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_get_regs </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>reg_addr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>reg_data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>len</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API reads the data from the given register address of the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00460">460</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  460</span>                                                                                                  {</div>
+<div class="line"><span class="lineno">  461</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  462</span> </div>
+<div class="line"><span class="lineno">  463</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  464</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  465</span> </div>
+<div class="line"><span class="lineno">  466</span>  <span class="comment">/* Proceed if null check is fine */</span></div>
+<div class="line"><span class="lineno">  467</span>  <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (reg_data != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno">  468</span>    <span class="comment">/* If interface selected is SPI */</span></div>
+<div class="line"><span class="lineno">  469</span>    <span class="keywordflow">if</span> (dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a84536d76c03d6f59f77a06c1965c384f">intf</a> != <a class="code hl_enumvalue" href="bme2__defs_8h.html#a142fcd9cb1e99b793488e9b3b1e6766eaae41ddfd32babefbce48e7b7671f46a2">BME280_I2C_INTF</a>) {</div>
+<div class="line"><span class="lineno">  470</span>      reg_addr = reg_addr | 0x80;</div>
+<div class="line"><span class="lineno">  471</span>    }</div>
+<div class="line"><span class="lineno">  472</span> </div>
+<div class="line"><span class="lineno">  473</span>    <span class="comment">/* Read the data  */</span></div>
+<div class="line"><span class="lineno">  474</span>    dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a75e592e07eaed3a3a9c80363ea5b2625">intf_rslt</a> = dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#af51c6be628d23914246f66e71ac91ab3">read</a>(reg_addr, reg_data, len, dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">intf_ptr</a>);</div>
+<div class="line"><span class="lineno">  475</span> </div>
+<div class="line"><span class="lineno">  476</span>    <span class="comment">/* Check for communication error */</span></div>
+<div class="line"><span class="lineno">  477</span>    <span class="keywordflow">if</span> (dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a75e592e07eaed3a3a9c80363ea5b2625">intf_rslt</a> != <a class="code hl_define" href="bme2__defs_8h.html#a029e7889430cabdd3fafc3831afe0962">BME280_INTF_RET_SUCCESS</a>) {</div>
+<div class="line"><span class="lineno">  478</span>      rslt = <a class="code hl_define" href="bme2__defs_8h.html#a2b47776b53e3167b0068bc6ef21f1523">BME280_E_COMM_FAIL</a>;</div>
+<div class="line"><span class="lineno">  479</span>    }</div>
+<div class="line"><span class="lineno">  480</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  481</span>    rslt = <a class="code hl_define" href="bme2__defs_8h.html#a269f65e4816ca679d618175efefcb00d">BME280_E_NULL_PTR</a>;</div>
+<div class="line"><span class="lineno">  482</span>  }</div>
+<div class="line"><span class="lineno">  483</span> </div>
+<div class="line"><span class="lineno">  484</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  485</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a029e7889430cabdd3fafc3831afe0962"><div class="ttname"><a href="bme2__defs_8h.html#a029e7889430cabdd3fafc3831afe0962">BME280_INTF_RET_SUCCESS</a></div><div class="ttdeci">#define BME280_INTF_RET_SUCCESS</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00119">bme2_defs.h:119</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a142fcd9cb1e99b793488e9b3b1e6766eaae41ddfd32babefbce48e7b7671f46a2"><div class="ttname"><a href="bme2__defs_8h.html#a142fcd9cb1e99b793488e9b3b1e6766eaae41ddfd32babefbce48e7b7671f46a2">BME280_I2C_INTF</a></div><div class="ttdeci">@ BME280_I2C_INTF</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00255">bme2_defs.h:254</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a2b47776b53e3167b0068bc6ef21f1523"><div class="ttname"><a href="bme2__defs_8h.html#a2b47776b53e3167b0068bc6ef21f1523">BME280_E_COMM_FAIL</a></div><div class="ttdeci">#define BME280_E_COMM_FAIL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00148">bme2_defs.h:148</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a0f8f25ad3939886263e8c995db718d64"><div class="ttname"><a href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">bme280_dev::intf_ptr</a></div><div class="ttdeci">void * intf_ptr</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00446">bme2_defs.h:446</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a75e592e07eaed3a3a9c80363ea5b2625"><div class="ttname"><a href="structbme280__dev.html#a75e592e07eaed3a3a9c80363ea5b2625">bme280_dev::intf_rslt</a></div><div class="ttdeci">BME280_INTF_RET_TYPE intf_rslt</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00470">bme2_defs.h:470</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a84536d76c03d6f59f77a06c1965c384f"><div class="ttname"><a href="structbme280__dev.html#a84536d76c03d6f59f77a06c1965c384f">bme280_dev::intf</a></div><div class="ttdeci">enum bme280_intf intf</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00452">bme2_defs.h:452</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_af51c6be628d23914246f66e71ac91ab3"><div class="ttname"><a href="structbme280__dev.html#af51c6be628d23914246f66e71ac91ab3">bme280_dev::read</a></div><div class="ttdeci">bme280_read_fptr_t read</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00455">bme2_defs.h:455</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a90217ff8a635240c20b763a88554da8c_icgraph.png" border="0" usemap="#abme2_8c_a90217ff8a635240c20b763a88554da8c_icgraph" alt=""/></div>
+<map name="abme2_8c_a90217ff8a635240c20b763a88554da8c_icgraph" id="abme2_8c_a90217ff8a635240c20b763a88554da8c_icgraph">
+<area shape="rect" title="This API reads the data from the given register address of the sensor." alt="" coords="708,107,832,133"/>
+<area shape="rect" href="bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="479,5,649,32"/>
+<area shape="poly" title=" " alt="" coords="739,99,702,71,659,46,628,35,630,30,661,42,705,67,742,94"/>
+<area shape="rect" href="bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="475,56,653,83"/>
+<area shape="poly" title=" " alt="" coords="697,105,621,86,622,81,698,100"/>
+<area shape="rect" href="bme2_8c.html#af3bef90d33942197a98715ea8657211f" title="This API gets the oversampling, filter and standby duration (normal mode) settings from the sensor." alt="" coords="468,107,660,133"/>
+<area shape="poly" title=" " alt="" coords="692,123,660,123,660,117,692,117"/>
+<area shape="rect" href="bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="279,157,370,184"/>
+<area shape="poly" title=" " alt="" coords="702,140,660,148,501,165,371,172,370,167,500,160,659,143,701,135"/>
+<area shape="rect" href="bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="498,208,630,235"/>
+<area shape="poly" title=" " alt="" coords="739,145,702,169,661,192,615,210,613,205,659,187,700,164,736,140"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="103,19,181,45"/>
+<area shape="poly" title=" " alt="" coords="463,24,182,33,181,28,463,19"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" title=" " alt="" coords="89,53,56,64,54,59,87,47"/>
+<area shape="rect" href="bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="236,56,413,83"/>
+<area shape="poly" title=" " alt="" coords="460,72,414,72,414,67,460,67"/>
+<area shape="rect" href="bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="229,107,420,133"/>
+<area shape="poly" title=" " alt="" coords="483,89,392,109,391,103,482,84"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="107,81,177,108"/>
+<area shape="poly" title=" " alt="" coords="221,86,178,92,177,87,220,81"/>
+<area shape="poly" title=" " alt="" coords="91,86,55,77,56,72,93,81"/>
+<area shape="poly" title=" " alt="" coords="213,107,177,102,178,97,214,102"/>
+<area shape="poly" title=" " alt="" coords="263,160,228,148,192,130,162,111,165,106,195,125,230,143,265,155"/>
+<area shape="poly" title=" " alt="" coords="483,207,370,183,371,178,484,202"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6671fea2c1e01f40029a653b9ab4410d" name="a6671fea2c1e01f40029a653b9ab4410d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6671fea2c1e01f40029a653b9ab4410d">&#9670;&#160;</a></span>bme280_get_sensor_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_get_sensor_data </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>sensor_comp</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__data.html">bme280_data</a> *</td>          <td class="paramname"><span class="paramname"><em>comp_data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API reads the pressure, temperature and humidity data from the sensor, compensates the data and store it in the <a class="el" href="structbme280__data.html" title="bme280 sensor structure which comprises of temperature, pressure and humidity data">bme280_data</a> structure instance passed by the user. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00703">703</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  705</span>                                                      {</div>
+<div class="line"><span class="lineno">  706</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  707</span> </div>
+<div class="line"><span class="lineno">  708</span>  <span class="comment">/* Array to store the pressure, temperature and humidity data read from</span></div>
+<div class="line"><span class="lineno">  709</span><span class="comment">   * the sensor</span></div>
+<div class="line"><span class="lineno">  710</span><span class="comment">   */</span></div>
+<div class="line"><span class="lineno">  711</span>  uint8_t reg_data[<a class="code hl_define" href="bme2__defs_8h.html#af4fd5bc6f8cc635fe961cc20acfcbe5c">BME280_P_T_H_DATA_LEN</a>] = {0};</div>
+<div class="line"><span class="lineno">  712</span>  <span class="keyword">struct </span><a class="code hl_struct" href="structbme280__uncomp__data.html">bme280_uncomp_data</a> uncomp_data = {0};</div>
+<div class="line"><span class="lineno">  713</span> </div>
+<div class="line"><span class="lineno">  714</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  715</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  716</span> </div>
+<div class="line"><span class="lineno">  717</span>  <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (comp_data != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno">  718</span>    <span class="comment">/* Read the pressure and temperature data from the sensor */</span></div>
+<div class="line"><span class="lineno">  719</span>    rslt = <a class="code hl_function" href="#a90217ff8a635240c20b763a88554da8c">bme280_get_regs</a>(<a class="code hl_define" href="bme2__defs_8h.html#a1bcfa4087dcd9ca9af43fce23de8eaf2">BME280_DATA_ADDR</a>, reg_data, <a class="code hl_define" href="bme2__defs_8h.html#af4fd5bc6f8cc635fe961cc20acfcbe5c">BME280_P_T_H_DATA_LEN</a>, dev);</div>
+<div class="line"><span class="lineno">  720</span> </div>
+<div class="line"><span class="lineno">  721</span>    <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  722</span>      <span class="comment">/* Parse the read data from the sensor */</span></div>
+<div class="line"><span class="lineno">  723</span>      <a class="code hl_function" href="#a84be45ccf7a3a82138ff2170123462c3">bme280_parse_sensor_data</a>(reg_data, &amp;uncomp_data);</div>
+<div class="line"><span class="lineno">  724</span> </div>
+<div class="line"><span class="lineno">  725</span>      <span class="comment">/* Compensate the pressure and/or temperature and/or</span></div>
+<div class="line"><span class="lineno">  726</span><span class="comment">       * humidity data from the sensor</span></div>
+<div class="line"><span class="lineno">  727</span><span class="comment">       */</span></div>
+<div class="line"><span class="lineno">  728</span>      rslt = <a class="code hl_function" href="#a9f2c3c8c683b434ca10447515f85c0de">bme280_compensate_data</a>(sensor_comp, &amp;uncomp_data, comp_data, &amp;dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a669813661570cf21b4c9a61f87949b3f">calib_data</a>);</div>
+<div class="line"><span class="lineno">  729</span>    }</div>
+<div class="line"><span class="lineno">  730</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  731</span>    rslt = <a class="code hl_define" href="bme2__defs_8h.html#a269f65e4816ca679d618175efefcb00d">BME280_E_NULL_PTR</a>;</div>
+<div class="line"><span class="lineno">  732</span>  }</div>
+<div class="line"><span class="lineno">  733</span> </div>
+<div class="line"><span class="lineno">  734</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  735</span>}</div>
+<div class="ttc" id="abme2_8c_html_a84be45ccf7a3a82138ff2170123462c3"><div class="ttname"><a href="#a84be45ccf7a3a82138ff2170123462c3">bme280_parse_sensor_data</a></div><div class="ttdeci">void bme280_parse_sensor_data(const uint8_t *reg_data, struct bme280_uncomp_data *uncomp_data)</div><div class="ttdoc">This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco...</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00741">bme2.c:741</a></div></div>
+<div class="ttc" id="abme2_8c_html_a90217ff8a635240c20b763a88554da8c"><div class="ttname"><a href="#a90217ff8a635240c20b763a88554da8c">bme280_get_regs</a></div><div class="ttdeci">int8_t bme280_get_regs(uint8_t reg_addr, uint8_t *reg_data, uint16_t len, struct bme280_dev *dev)</div><div class="ttdoc">This API reads the data from the given register address of the sensor.</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00460">bme2.c:460</a></div></div>
+<div class="ttc" id="abme2_8c_html_a9f2c3c8c683b434ca10447515f85c0de"><div class="ttname"><a href="#a9f2c3c8c683b434ca10447515f85c0de">bme280_compensate_data</a></div><div class="ttdeci">int8_t bme280_compensate_data(uint8_t sensor_comp, const struct bme280_uncomp_data *uncomp_data, struct bme280_data *comp_data, struct bme280_calib_data *calib_data)</div><div class="ttdoc">This API is used to compensate the pressure and/or temperature and/or humidity data according to the ...</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00770">bme2.c:770</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a1bcfa4087dcd9ca9af43fce23de8eaf2"><div class="ttname"><a href="bme2__defs_8h.html#a1bcfa4087dcd9ca9af43fce23de8eaf2">BME280_DATA_ADDR</a></div><div class="ttdeci">#define BME280_DATA_ADDR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00139">bme2_defs.h:139</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_af4fd5bc6f8cc635fe961cc20acfcbe5c"><div class="ttname"><a href="bme2__defs_8h.html#af4fd5bc6f8cc635fe961cc20acfcbe5c">BME280_P_T_H_DATA_LEN</a></div><div class="ttdeci">#define BME280_P_T_H_DATA_LEN</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00158">bme2_defs.h:158</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a669813661570cf21b4c9a61f87949b3f"><div class="ttname"><a href="structbme280__dev.html#a669813661570cf21b4c9a61f87949b3f">bme280_dev::calib_data</a></div><div class="ttdeci">struct bme280_calib_data calib_data</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00464">bme2_defs.h:464</a></div></div>
+<div class="ttc" id="astructbme280__uncomp__data_html"><div class="ttname"><a href="structbme280__uncomp__data.html">bme280_uncomp_data</a></div><div class="ttdoc">bme280 sensor structure which comprises of uncompensated temperature, pressure and humidity data</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00405">bme2_defs.h:405</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a6671fea2c1e01f40029a653b9ab4410d_cgraph.png" border="0" usemap="#abme2_8c_a6671fea2c1e01f40029a653b9ab4410d_cgraph" alt=""/></div>
+<map name="abme2_8c_a6671fea2c1e01f40029a653b9ab4410d_cgraph" id="abme2_8c_a6671fea2c1e01f40029a653b9ab4410d_cgraph">
+<area shape="rect" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="5,56,176,83"/>
+<area shape="rect" href="bme2_8c.html#a9f2c3c8c683b434ca10447515f85c0de" title="This API is used to compensate the pressure and/or temperature and/or humidity data according to the ..." alt="" coords="227,5,405,32"/>
+<area shape="poly" title=" " alt="" coords="153,53,238,33,239,39,154,58"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="254,56,378,83"/>
+<area shape="poly" title=" " alt="" coords="176,67,238,67,238,72,176,72"/>
+<area shape="rect" href="bme2_8c.html#a84be45ccf7a3a82138ff2170123462c3" title="This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco..." alt="" coords="224,107,408,133"/>
+<area shape="poly" title=" " alt="" coords="154,81,239,100,238,105,153,86"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a6671fea2c1e01f40029a653b9ab4410d_icgraph.png" border="0" usemap="#abme2_8c_a6671fea2c1e01f40029a653b9ab4410d_icgraph" alt=""/></div>
+<map name="abme2_8c_a6671fea2c1e01f40029a653b9ab4410d_icgraph" id="abme2_8c_a6671fea2c1e01f40029a653b9ab4410d_icgraph">
+<area shape="rect" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="229,5,399,32"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="103,5,181,32"/>
+<area shape="poly" title=" " alt="" coords="214,21,182,21,182,16,214,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aab44df556ac18f4e7800d8869a5d483f" name="aab44df556ac18f4e7800d8869a5d483f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab44df556ac18f4e7800d8869a5d483f">&#9670;&#160;</a></span>bme280_get_sensor_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_get_sensor_mode </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>sensor_mode</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API gets the power mode of the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00641">641</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  641</span>                                                                            {</div>
+<div class="line"><span class="lineno">  642</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  643</span> </div>
+<div class="line"><span class="lineno">  644</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  645</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  646</span> </div>
+<div class="line"><span class="lineno">  647</span>  <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (sensor_mode != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno">  648</span>    <span class="comment">/* Read the power mode register */</span></div>
+<div class="line"><span class="lineno">  649</span>    rslt = <a class="code hl_function" href="#a90217ff8a635240c20b763a88554da8c">bme280_get_regs</a>(<a class="code hl_define" href="bme2__defs_8h.html#a98ddb9dc59edd34aa1d9ea44a05feb7b">BME280_PWR_CTRL_ADDR</a>, sensor_mode, 1, dev);</div>
+<div class="line"><span class="lineno">  650</span> </div>
+<div class="line"><span class="lineno">  651</span>    <span class="comment">/* Assign the power mode in the device structure */</span></div>
+<div class="line"><span class="lineno">  652</span>    *sensor_mode = <a class="code hl_define" href="bme2__defs_8h.html#a2c4248bc9b39a806aca49e34b1a5636c">BME280_GET_BITS_POS_0</a>(*sensor_mode, BME280_SENSOR_MODE);</div>
+<div class="line"><span class="lineno">  653</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  654</span>    rslt = <a class="code hl_define" href="bme2__defs_8h.html#a269f65e4816ca679d618175efefcb00d">BME280_E_NULL_PTR</a>;</div>
+<div class="line"><span class="lineno">  655</span>  }</div>
+<div class="line"><span class="lineno">  656</span> </div>
+<div class="line"><span class="lineno">  657</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  658</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a2c4248bc9b39a806aca49e34b1a5636c"><div class="ttname"><a href="bme2__defs_8h.html#a2c4248bc9b39a806aca49e34b1a5636c">BME280_GET_BITS_POS_0</a></div><div class="ttdeci">#define BME280_GET_BITS_POS_0(reg_data, bitname)</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00174">bme2_defs.h:174</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a98ddb9dc59edd34aa1d9ea44a05feb7b"><div class="ttname"><a href="bme2__defs_8h.html#a98ddb9dc59edd34aa1d9ea44a05feb7b">BME280_PWR_CTRL_ADDR</a></div><div class="ttdeci">#define BME280_PWR_CTRL_ADDR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00135">bme2_defs.h:135</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_aab44df556ac18f4e7800d8869a5d483f_cgraph.png" border="0" usemap="#abme2_8c_aab44df556ac18f4e7800d8869a5d483f_cgraph" alt=""/></div>
+<map name="abme2_8c_aab44df556ac18f4e7800d8869a5d483f_cgraph" id="abme2_8c_aab44df556ac18f4e7800d8869a5d483f_cgraph">
+<area shape="rect" title="This API gets the power mode of the sensor." alt="" coords="5,5,183,32"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="231,5,355,32"/>
+<area shape="poly" title=" " alt="" coords="183,16,215,16,215,21,183,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_aab44df556ac18f4e7800d8869a5d483f_icgraph.png" border="0" usemap="#abme2_8c_aab44df556ac18f4e7800d8869a5d483f_icgraph" alt=""/></div>
+<map name="abme2_8c_aab44df556ac18f4e7800d8869a5d483f_icgraph" id="abme2_8c_aab44df556ac18f4e7800d8869a5d483f_icgraph">
+<area shape="rect" title="This API gets the power mode of the sensor." alt="" coords="460,31,638,57"/>
+<area shape="rect" href="bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="228,5,405,32"/>
+<area shape="poly" title=" " alt="" coords="445,35,406,31,406,26,445,30"/>
+<area shape="rect" href="bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="221,56,412,83"/>
+<area shape="poly" title=" " alt="" coords="445,58,413,62,413,56,445,53"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,31,173,57"/>
+<area shape="poly" title=" " alt="" coords="213,36,174,42,173,36,212,31"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" title=" " alt="" coords="87,47,55,47,55,41,87,41"/>
+<area shape="poly" title=" " alt="" coords="205,56,173,52,174,46,206,51"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af3bef90d33942197a98715ea8657211f" name="af3bef90d33942197a98715ea8657211f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3bef90d33942197a98715ea8657211f">&#9670;&#160;</a></span>bme280_get_sensor_settings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_get_sensor_settings </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API gets the oversampling, filter and standby duration (normal mode) settings from the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00590">590</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  590</span>                                                          {</div>
+<div class="line"><span class="lineno">  591</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  592</span>  uint8_t reg_data[4];</div>
+<div class="line"><span class="lineno">  593</span> </div>
+<div class="line"><span class="lineno">  594</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  595</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  596</span> </div>
+<div class="line"><span class="lineno">  597</span>  <span class="comment">/* Proceed if null check is fine */</span></div>
+<div class="line"><span class="lineno">  598</span>  <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  599</span>    rslt = <a class="code hl_function" href="#a90217ff8a635240c20b763a88554da8c">bme280_get_regs</a>(<a class="code hl_define" href="bme2__defs_8h.html#a8f090989bb45d85c2605e4a86a49b46d">BME280_CTRL_HUM_ADDR</a>, reg_data, 4, dev);</div>
+<div class="line"><span class="lineno">  600</span> </div>
+<div class="line"><span class="lineno">  601</span>    <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  602</span>      parse_device_settings(reg_data, &amp;dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a35ef7c5b7d367fef5973e37b4ad0560b">settings</a>);</div>
+<div class="line"><span class="lineno">  603</span>    }</div>
+<div class="line"><span class="lineno">  604</span>  }</div>
+<div class="line"><span class="lineno">  605</span> </div>
+<div class="line"><span class="lineno">  606</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  607</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a8f090989bb45d85c2605e4a86a49b46d"><div class="ttname"><a href="bme2__defs_8h.html#a8f090989bb45d85c2605e4a86a49b46d">BME280_CTRL_HUM_ADDR</a></div><div class="ttdeci">#define BME280_CTRL_HUM_ADDR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00136">bme2_defs.h:136</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a35ef7c5b7d367fef5973e37b4ad0560b"><div class="ttname"><a href="structbme280__dev.html#a35ef7c5b7d367fef5973e37b4ad0560b">bme280_dev::settings</a></div><div class="ttdeci">struct bme280_settings settings</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00467">bme2_defs.h:467</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_af3bef90d33942197a98715ea8657211f_cgraph.png" border="0" usemap="#abme2_8c_af3bef90d33942197a98715ea8657211f_cgraph" alt=""/></div>
+<map name="abme2_8c_af3bef90d33942197a98715ea8657211f_cgraph" id="abme2_8c_af3bef90d33942197a98715ea8657211f_cgraph">
+<area shape="rect" title="This API gets the oversampling, filter and standby duration (normal mode) settings from the sensor." alt="" coords="5,5,197,32"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="245,5,369,32"/>
+<area shape="poly" title=" " alt="" coords="197,16,229,16,229,21,197,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af0b7d7a19bb48ec9eb3651b79f0c3e85" name="af0b7d7a19bb48ec9eb3651b79f0c3e85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0b7d7a19bb48ec9eb3651b79f0c3e85">&#9670;&#160;</a></span>bme280_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_init </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API is the entry point. It reads the chip-id and calibration data from the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00412">412</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  412</span>                                           {</div>
+<div class="line"><span class="lineno">  413</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  414</span> </div>
+<div class="line"><span class="lineno">  415</span>  <span class="comment">/* chip id read try count */</span></div>
+<div class="line"><span class="lineno">  416</span>  uint8_t try_count = 5;</div>
+<div class="line"><span class="lineno">  417</span>  uint8_t chip_id = 0;</div>
+<div class="line"><span class="lineno">  418</span> </div>
+<div class="line"><span class="lineno">  419</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  420</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  421</span> </div>
+<div class="line"><span class="lineno">  422</span>  <span class="comment">/* Proceed if null check is fine */</span></div>
+<div class="line"><span class="lineno">  423</span>  <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  424</span>    <span class="keywordflow">while</span> (try_count) {</div>
+<div class="line"><span class="lineno">  425</span>      <span class="comment">/* Read the chip-id of bme280 sensor */</span></div>
+<div class="line"><span class="lineno">  426</span>      rslt = <a class="code hl_function" href="#a90217ff8a635240c20b763a88554da8c">bme280_get_regs</a>(<a class="code hl_define" href="bme2__defs_8h.html#afc2c2e977533781c8fad2dc1a9408b4e">BME280_CHIP_ID_ADDR</a>, &amp;chip_id, 1, dev);</div>
+<div class="line"><span class="lineno">  427</span> </div>
+<div class="line"><span class="lineno">  428</span>      <span class="comment">/* Check for chip id validity */</span></div>
+<div class="line"><span class="lineno">  429</span>      <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (chip_id == <a class="code hl_define" href="bme2__defs_8h.html#aa9471d8f9c99880c3b85360017908e6b">BME280_CHIP_ID</a> || chip_id == <a class="code hl_define" href="bme2__defs_8h.html#aa29aaafdd798a1593a4b536f0ed7c9c2">BMP280_CHIP_ID</a>)) {</div>
+<div class="line"><span class="lineno">  430</span>        dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a88e300db221e7a0382f2a4c289b9557d">chip_id</a> = chip_id;</div>
+<div class="line"><span class="lineno">  431</span> </div>
+<div class="line"><span class="lineno">  432</span>        <span class="comment">/* Reset the sensor */</span></div>
+<div class="line"><span class="lineno">  433</span>        rslt = <a class="code hl_function" href="#a6f874563c32b64cb625677e81ac20740">bme280_soft_reset</a>(dev);</div>
+<div class="line"><span class="lineno">  434</span> </div>
+<div class="line"><span class="lineno">  435</span>        <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  436</span>          <span class="comment">/* Read the calibration data */</span></div>
+<div class="line"><span class="lineno">  437</span>          rslt = get_calib_data(dev);</div>
+<div class="line"><span class="lineno">  438</span>        }</div>
+<div class="line"><span class="lineno">  439</span> </div>
+<div class="line"><span class="lineno">  440</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  441</span>      }</div>
+<div class="line"><span class="lineno">  442</span> </div>
+<div class="line"><span class="lineno">  443</span>      <span class="comment">/* Wait for 1 ms */</span></div>
+<div class="line"><span class="lineno">  444</span>      dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a46c411ed85be103a2462af6316f67a5f">delay_us</a>(1000, dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">intf_ptr</a>);</div>
+<div class="line"><span class="lineno">  445</span>      --try_count;</div>
+<div class="line"><span class="lineno">  446</span>    }</div>
+<div class="line"><span class="lineno">  447</span> </div>
+<div class="line"><span class="lineno">  448</span>    <span class="comment">/* Chip id check failed */</span></div>
+<div class="line"><span class="lineno">  449</span>    <span class="keywordflow">if</span> (!try_count) {</div>
+<div class="line"><span class="lineno">  450</span>      rslt = <a class="code hl_define" href="bme2__defs_8h.html#a0be1b2946c861fe3e3212e14bb9762a0">BME280_E_DEV_NOT_FOUND</a>;</div>
+<div class="line"><span class="lineno">  451</span>    }</div>
+<div class="line"><span class="lineno">  452</span>  }</div>
+<div class="line"><span class="lineno">  453</span> </div>
+<div class="line"><span class="lineno">  454</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  455</span>}</div>
+<div class="ttc" id="abme2_8c_html_a6f874563c32b64cb625677e81ac20740"><div class="ttname"><a href="#a6f874563c32b64cb625677e81ac20740">bme280_soft_reset</a></div><div class="ttdeci">int8_t bme280_soft_reset(struct bme280_dev *dev)</div><div class="ttdoc">This API performs the soft reset of the sensor.</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00663">bme2.c:663</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a0be1b2946c861fe3e3212e14bb9762a0"><div class="ttname"><a href="bme2__defs_8h.html#a0be1b2946c861fe3e3212e14bb9762a0">BME280_E_DEV_NOT_FOUND</a></div><div class="ttdeci">#define BME280_E_DEV_NOT_FOUND</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00146">bme2_defs.h:146</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_aa29aaafdd798a1593a4b536f0ed7c9c2"><div class="ttname"><a href="bme2__defs_8h.html#aa29aaafdd798a1593a4b536f0ed7c9c2">BMP280_CHIP_ID</a></div><div class="ttdeci">#define BMP280_CHIP_ID</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00128">bme2_defs.h:128</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_aa9471d8f9c99880c3b85360017908e6b"><div class="ttname"><a href="bme2__defs_8h.html#aa9471d8f9c99880c3b85360017908e6b">BME280_CHIP_ID</a></div><div class="ttdeci">#define BME280_CHIP_ID</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00127">bme2_defs.h:127</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_afc2c2e977533781c8fad2dc1a9408b4e"><div class="ttname"><a href="bme2__defs_8h.html#afc2c2e977533781c8fad2dc1a9408b4e">BME280_CHIP_ID_ADDR</a></div><div class="ttdeci">#define BME280_CHIP_ID_ADDR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00131">bme2_defs.h:131</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a46c411ed85be103a2462af6316f67a5f"><div class="ttname"><a href="structbme280__dev.html#a46c411ed85be103a2462af6316f67a5f">bme280_dev::delay_us</a></div><div class="ttdeci">bme280_delay_us_fptr_t delay_us</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00461">bme2_defs.h:461</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a88e300db221e7a0382f2a4c289b9557d"><div class="ttname"><a href="structbme280__dev.html#a88e300db221e7a0382f2a4c289b9557d">bme280_dev::chip_id</a></div><div class="ttdeci">uint8_t chip_id</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00442">bme2_defs.h:442</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_cgraph.png" border="0" usemap="#abme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_cgraph" alt=""/></div>
+<map name="abme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_cgraph" id="abme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_cgraph">
+<area shape="rect" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="5,31,97,57"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="324,5,448,32"/>
+<area shape="poly" title=" " alt="" coords="97,38,308,22,309,27,97,43"/>
+<area shape="rect" href="bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="145,56,276,83"/>
+<area shape="poly" title=" " alt="" coords="98,49,130,54,129,59,97,54"/>
+<area shape="poly" title=" " alt="" coords="259,53,322,34,323,39,260,58"/>
+<area shape="rect" href="bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="324,56,448,83"/>
+<area shape="poly" title=" " alt="" coords="277,67,308,67,308,72,277,72"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_icgraph.png" border="0" usemap="#abme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_icgraph" alt=""/></div>
+<map name="abme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_icgraph" id="abme2_8c_af0b7d7a19bb48ec9eb3651b79f0c3e85_icgraph">
+<area shape="rect" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="221,5,312,32"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,5,173,32"/>
+<area shape="poly" title=" " alt="" coords="205,21,174,21,174,16,205,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a84be45ccf7a3a82138ff2170123462c3" name="a84be45ccf7a3a82138ff2170123462c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84be45ccf7a3a82138ff2170123462c3">&#9670;&#160;</a></span>bme280_parse_sensor_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void bme280_parse_sensor_data </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *</td>          <td class="paramname"><span class="paramname"><em>reg_data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__uncomp__data.html">bme280_uncomp_data</a> *</td>          <td class="paramname"><span class="paramname"><em>uncomp_data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API is used to parse the pressure, temperature and humidity data and store it in the <a class="el" href="structbme280__uncomp__data.html" title="bme280 sensor structure which comprises of uncompensated temperature, pressure and humidity data">bme280_uncomp_data</a> structure instance. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00741">741</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  741</span>                                                                                               {</div>
+<div class="line"><span class="lineno">  742</span>  <span class="comment">/* Variables to store the sensor data */</span></div>
+<div class="line"><span class="lineno">  743</span>  uint32_t data_xlsb;</div>
+<div class="line"><span class="lineno">  744</span>  uint32_t data_lsb;</div>
+<div class="line"><span class="lineno">  745</span>  uint32_t data_msb;</div>
+<div class="line"><span class="lineno">  746</span> </div>
+<div class="line"><span class="lineno">  747</span>  <span class="comment">/* Store the parsed register values for pressure data */</span></div>
+<div class="line"><span class="lineno">  748</span>  data_msb = (uint32_t)reg_data[0] &lt;&lt; 12;</div>
+<div class="line"><span class="lineno">  749</span>  data_lsb = (uint32_t)reg_data[1] &lt;&lt; 4;</div>
+<div class="line"><span class="lineno">  750</span>  data_xlsb = (uint32_t)reg_data[2] &gt;&gt; 4;</div>
+<div class="line"><span class="lineno">  751</span>  uncomp_data-&gt;<a class="code hl_variable" href="structbme280__uncomp__data.html#a40802f00da9a5333c393554eec7d3912">pressure</a> = data_msb | data_lsb | data_xlsb;</div>
+<div class="line"><span class="lineno">  752</span> </div>
+<div class="line"><span class="lineno">  753</span>  <span class="comment">/* Store the parsed register values for temperature data */</span></div>
+<div class="line"><span class="lineno">  754</span>  data_msb = (uint32_t)reg_data[3] &lt;&lt; 12;</div>
+<div class="line"><span class="lineno">  755</span>  data_lsb = (uint32_t)reg_data[4] &lt;&lt; 4;</div>
+<div class="line"><span class="lineno">  756</span>  data_xlsb = (uint32_t)reg_data[5] &gt;&gt; 4;</div>
+<div class="line"><span class="lineno">  757</span>  uncomp_data-&gt;<a class="code hl_variable" href="structbme280__uncomp__data.html#a6460ae4ad1bf348486378ed1456f1cfa">temperature</a> = data_msb | data_lsb | data_xlsb;</div>
+<div class="line"><span class="lineno">  758</span> </div>
+<div class="line"><span class="lineno">  759</span>  <span class="comment">/* Store the parsed register values for humidity data */</span></div>
+<div class="line"><span class="lineno">  760</span>  data_msb = (uint32_t)reg_data[6] &lt;&lt; 8;</div>
+<div class="line"><span class="lineno">  761</span>  data_lsb = (uint32_t)reg_data[7];</div>
+<div class="line"><span class="lineno">  762</span>  uncomp_data-&gt;<a class="code hl_variable" href="structbme280__uncomp__data.html#a50c9fa7d72a92ac100303875e378d55c">humidity</a> = data_msb | data_lsb;</div>
+<div class="line"><span class="lineno">  763</span>}</div>
+<div class="ttc" id="astructbme280__uncomp__data_html_a40802f00da9a5333c393554eec7d3912"><div class="ttname"><a href="structbme280__uncomp__data.html#a40802f00da9a5333c393554eec7d3912">bme280_uncomp_data::pressure</a></div><div class="ttdeci">uint32_t pressure</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00407">bme2_defs.h:407</a></div></div>
+<div class="ttc" id="astructbme280__uncomp__data_html_a50c9fa7d72a92ac100303875e378d55c"><div class="ttname"><a href="structbme280__uncomp__data.html#a50c9fa7d72a92ac100303875e378d55c">bme280_uncomp_data::humidity</a></div><div class="ttdeci">uint32_t humidity</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00413">bme2_defs.h:413</a></div></div>
+<div class="ttc" id="astructbme280__uncomp__data_html_a6460ae4ad1bf348486378ed1456f1cfa"><div class="ttname"><a href="structbme280__uncomp__data.html#a6460ae4ad1bf348486378ed1456f1cfa">bme280_uncomp_data::temperature</a></div><div class="ttdeci">uint32_t temperature</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00410">bme2_defs.h:410</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a84be45ccf7a3a82138ff2170123462c3_icgraph.png" border="0" usemap="#abme2_8c_a84be45ccf7a3a82138ff2170123462c3_icgraph" alt=""/></div>
+<map name="abme2_8c_a84be45ccf7a3a82138ff2170123462c3_icgraph" id="abme2_8c_a84be45ccf7a3a82138ff2170123462c3_icgraph">
+<area shape="rect" title="This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco..." alt="" coords="447,5,632,32"/>
+<area shape="rect" href="bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="229,5,399,32"/>
+<area shape="poly" title=" " alt="" coords="432,21,400,21,400,16,432,16"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="103,5,181,32"/>
+<area shape="poly" title=" " alt="" coords="214,21,182,21,182,16,214,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a631b93eb751d5260f66090655b276d38" name="a631b93eb751d5260f66090655b276d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a631b93eb751d5260f66090655b276d38">&#9670;&#160;</a></span>bme280_set_regs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_set_regs </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>reg_addr</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *</td>          <td class="paramname"><span class="paramname"><em>reg_data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>len</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API writes the given data to the register address of the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00491">491</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  494</span>                                               {</div>
+<div class="line"><span class="lineno">  495</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  496</span>  uint8_t temp_buff[20]; <span class="comment">/* Typically not to write more than 10 registers */</span></div>
+<div class="line"><span class="lineno">  497</span> </div>
+<div class="line"><span class="lineno">  498</span>  <span class="keywordflow">if</span> (len &gt; 10) {</div>
+<div class="line"><span class="lineno">  499</span>    len = 10;</div>
+<div class="line"><span class="lineno">  500</span>  }</div>
+<div class="line"><span class="lineno">  501</span> </div>
+<div class="line"><span class="lineno">  502</span>  uint16_t temp_len;</div>
+<div class="line"><span class="lineno">  503</span>  uint8_t reg_addr_cnt;</div>
+<div class="line"><span class="lineno">  504</span> </div>
+<div class="line"><span class="lineno">  505</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  506</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  507</span> </div>
+<div class="line"><span class="lineno">  508</span>  <span class="comment">/* Check for arguments validity */</span></div>
+<div class="line"><span class="lineno">  509</span>  <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (reg_addr != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) &amp;&amp; (reg_data != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno">  510</span>    <span class="keywordflow">if</span> (len != 0) {</div>
+<div class="line"><span class="lineno">  511</span>      temp_buff[0] = reg_data[0];</div>
+<div class="line"><span class="lineno">  512</span> </div>
+<div class="line"><span class="lineno">  513</span>      <span class="comment">/* If interface selected is SPI */</span></div>
+<div class="line"><span class="lineno">  514</span>      <span class="keywordflow">if</span> (dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a84536d76c03d6f59f77a06c1965c384f">intf</a> != <a class="code hl_enumvalue" href="bme2__defs_8h.html#a142fcd9cb1e99b793488e9b3b1e6766eaae41ddfd32babefbce48e7b7671f46a2">BME280_I2C_INTF</a>) {</div>
+<div class="line"><span class="lineno">  515</span>        <span class="keywordflow">for</span> (reg_addr_cnt = 0; reg_addr_cnt &lt; len; reg_addr_cnt++) {</div>
+<div class="line"><span class="lineno">  516</span>          reg_addr[reg_addr_cnt] = reg_addr[reg_addr_cnt] &amp; 0x7F;</div>
+<div class="line"><span class="lineno">  517</span>        }</div>
+<div class="line"><span class="lineno">  518</span>      }</div>
+<div class="line"><span class="lineno">  519</span> </div>
+<div class="line"><span class="lineno">  520</span>      <span class="comment">/* Burst write mode */</span></div>
+<div class="line"><span class="lineno">  521</span>      <span class="keywordflow">if</span> (len &gt; 1) {</div>
+<div class="line"><span class="lineno">  522</span>        <span class="comment">/* Interleave register address w.r.t data for</span></div>
+<div class="line"><span class="lineno">  523</span><span class="comment">         * burst write</span></div>
+<div class="line"><span class="lineno">  524</span><span class="comment">         */</span></div>
+<div class="line"><span class="lineno">  525</span>        interleave_reg_addr(reg_addr, temp_buff, reg_data, len);</div>
+<div class="line"><span class="lineno">  526</span>        temp_len = ((len * 2) - 1);</div>
+<div class="line"><span class="lineno">  527</span>      } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  528</span>        temp_len = len;</div>
+<div class="line"><span class="lineno">  529</span>      }</div>
+<div class="line"><span class="lineno">  530</span> </div>
+<div class="line"><span class="lineno">  531</span>      dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a75e592e07eaed3a3a9c80363ea5b2625">intf_rslt</a> = dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a05cd9a6306d24772602c771c253ca59e">write</a>(reg_addr[0], temp_buff, temp_len, dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">intf_ptr</a>);</div>
+<div class="line"><span class="lineno">  532</span> </div>
+<div class="line"><span class="lineno">  533</span>      <span class="comment">/* Check for communication error */</span></div>
+<div class="line"><span class="lineno">  534</span>      <span class="keywordflow">if</span> (dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a75e592e07eaed3a3a9c80363ea5b2625">intf_rslt</a> != <a class="code hl_define" href="bme2__defs_8h.html#a029e7889430cabdd3fafc3831afe0962">BME280_INTF_RET_SUCCESS</a>) {</div>
+<div class="line"><span class="lineno">  535</span>        rslt = <a class="code hl_define" href="bme2__defs_8h.html#a2b47776b53e3167b0068bc6ef21f1523">BME280_E_COMM_FAIL</a>;</div>
+<div class="line"><span class="lineno">  536</span>      }</div>
+<div class="line"><span class="lineno">  537</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  538</span>      rslt = <a class="code hl_define" href="bme2__defs_8h.html#afeb74eb5e3f125d1f03be173e40c89b0">BME280_E_INVALID_LEN</a>;</div>
+<div class="line"><span class="lineno">  539</span>    }</div>
+<div class="line"><span class="lineno">  540</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  541</span>    rslt = <a class="code hl_define" href="bme2__defs_8h.html#a269f65e4816ca679d618175efefcb00d">BME280_E_NULL_PTR</a>;</div>
+<div class="line"><span class="lineno">  542</span>  }</div>
+<div class="line"><span class="lineno">  543</span> </div>
+<div class="line"><span class="lineno">  544</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  545</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_afeb74eb5e3f125d1f03be173e40c89b0"><div class="ttname"><a href="bme2__defs_8h.html#afeb74eb5e3f125d1f03be173e40c89b0">BME280_E_INVALID_LEN</a></div><div class="ttdeci">#define BME280_E_INVALID_LEN</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00147">bme2_defs.h:147</a></div></div>
+<div class="ttc" id="astructbme280__dev_html_a05cd9a6306d24772602c771c253ca59e"><div class="ttname"><a href="structbme280__dev.html#a05cd9a6306d24772602c771c253ca59e">bme280_dev::write</a></div><div class="ttdeci">bme280_write_fptr_t write</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00458">bme2_defs.h:458</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a631b93eb751d5260f66090655b276d38_icgraph.png" border="0" usemap="#abme2_8c_a631b93eb751d5260f66090655b276d38_icgraph" alt=""/></div>
+<map name="abme2_8c_a631b93eb751d5260f66090655b276d38_icgraph" id="abme2_8c_a631b93eb751d5260f66090655b276d38_icgraph">
+<area shape="rect" title="This API writes the given data to the register address of the sensor." alt="" coords="540,5,664,32"/>
+<area shape="rect" href="bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="360,5,492,32"/>
+<area shape="poly" title=" " alt="" coords="524,21,492,21,492,16,524,16"/>
+<area shape="rect" href="bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="221,5,312,32"/>
+<area shape="poly" title=" " alt="" coords="345,21,313,21,313,16,345,16"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,5,173,32"/>
+<area shape="poly" title=" " alt="" coords="205,21,174,21,174,16,205,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6373385e51038a9b982c42e0dce4ba9f" name="a6373385e51038a9b982c42e0dce4ba9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6373385e51038a9b982c42e0dce4ba9f">&#9670;&#160;</a></span>bme280_set_sensor_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_set_sensor_mode </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>sensor_mode</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API sets the power mode of the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00612">612</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  612</span>                                                                           {</div>
+<div class="line"><span class="lineno">  613</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  614</span>  uint8_t last_set_mode;</div>
+<div class="line"><span class="lineno">  615</span> </div>
+<div class="line"><span class="lineno">  616</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  617</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  618</span> </div>
+<div class="line"><span class="lineno">  619</span>  <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  620</span>    rslt = <a class="code hl_function" href="#aab44df556ac18f4e7800d8869a5d483f">bme280_get_sensor_mode</a>(&amp;last_set_mode, dev);</div>
+<div class="line"><span class="lineno">  621</span> </div>
+<div class="line"><span class="lineno">  622</span>    <span class="comment">/* If the sensor is not in sleep mode put the device to sleep</span></div>
+<div class="line"><span class="lineno">  623</span><span class="comment">     * mode</span></div>
+<div class="line"><span class="lineno">  624</span><span class="comment">     */</span></div>
+<div class="line"><span class="lineno">  625</span>    <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (last_set_mode != <a class="code hl_define" href="bme2__defs_8h.html#a4db27e6a138fa0ba5c2f5779467b5871">BME280_SLEEP_MODE</a>)) {</div>
+<div class="line"><span class="lineno">  626</span>      rslt = put_device_to_sleep(dev);</div>
+<div class="line"><span class="lineno">  627</span>    }</div>
+<div class="line"><span class="lineno">  628</span> </div>
+<div class="line"><span class="lineno">  629</span>    <span class="comment">/* Set the power mode */</span></div>
+<div class="line"><span class="lineno">  630</span>    <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  631</span>      rslt = write_power_mode(sensor_mode, dev);</div>
+<div class="line"><span class="lineno">  632</span>    }</div>
+<div class="line"><span class="lineno">  633</span>  }</div>
+<div class="line"><span class="lineno">  634</span> </div>
+<div class="line"><span class="lineno">  635</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  636</span>}</div>
+<div class="ttc" id="abme2_8c_html_aab44df556ac18f4e7800d8869a5d483f"><div class="ttname"><a href="#aab44df556ac18f4e7800d8869a5d483f">bme280_get_sensor_mode</a></div><div class="ttdeci">int8_t bme280_get_sensor_mode(uint8_t *sensor_mode, struct bme280_dev *dev)</div><div class="ttdoc">This API gets the power mode of the sensor.</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00641">bme2.c:641</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a4db27e6a138fa0ba5c2f5779467b5871"><div class="ttname"><a href="bme2__defs_8h.html#a4db27e6a138fa0ba5c2f5779467b5871">BME280_SLEEP_MODE</a></div><div class="ttdeci">#define BME280_SLEEP_MODE</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00161">bme2_defs.h:161</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a6373385e51038a9b982c42e0dce4ba9f_cgraph.png" border="0" usemap="#abme2_8c_a6373385e51038a9b982c42e0dce4ba9f_cgraph" alt=""/></div>
+<map name="abme2_8c_a6373385e51038a9b982c42e0dce4ba9f_cgraph" id="abme2_8c_a6373385e51038a9b982c42e0dce4ba9f_cgraph">
+<area shape="rect" title="This API sets the power mode of the sensor." alt="" coords="5,5,183,32"/>
+<area shape="rect" href="bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="231,5,408,32"/>
+<area shape="poly" title=" " alt="" coords="183,16,215,16,215,21,183,21"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="456,5,580,32"/>
+<area shape="poly" title=" " alt="" coords="408,16,440,16,440,21,408,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a6373385e51038a9b982c42e0dce4ba9f_icgraph.png" border="0" usemap="#abme2_8c_a6373385e51038a9b982c42e0dce4ba9f_icgraph" alt=""/></div>
+<map name="abme2_8c_a6373385e51038a9b982c42e0dce4ba9f_icgraph" id="abme2_8c_a6373385e51038a9b982c42e0dce4ba9f_icgraph">
+<area shape="rect" title="This API sets the power mode of the sensor." alt="" coords="221,5,398,32"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,5,173,32"/>
+<area shape="poly" title=" " alt="" coords="206,21,174,21,174,16,206,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afd93f268d8109802cffa06b89f868922" name="afd93f268d8109802cffa06b89f868922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd93f268d8109802cffa06b89f868922">&#9670;&#160;</a></span>bme280_set_sensor_settings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_set_sensor_settings </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>desired_settings</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00551">551</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  551</span>                                                                                    {</div>
+<div class="line"><span class="lineno">  552</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  553</span>  uint8_t sensor_mode;</div>
+<div class="line"><span class="lineno">  554</span> </div>
+<div class="line"><span class="lineno">  555</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  556</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  557</span> </div>
+<div class="line"><span class="lineno">  558</span>  <span class="comment">/* Proceed if null check is fine */</span></div>
+<div class="line"><span class="lineno">  559</span>  <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  560</span>    rslt = <a class="code hl_function" href="#aab44df556ac18f4e7800d8869a5d483f">bme280_get_sensor_mode</a>(&amp;sensor_mode, dev);</div>
+<div class="line"><span class="lineno">  561</span> </div>
+<div class="line"><span class="lineno">  562</span>    <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (sensor_mode != <a class="code hl_define" href="bme2__defs_8h.html#a4db27e6a138fa0ba5c2f5779467b5871">BME280_SLEEP_MODE</a>)) {</div>
+<div class="line"><span class="lineno">  563</span>      rslt = put_device_to_sleep(dev);</div>
+<div class="line"><span class="lineno">  564</span>    }</div>
+<div class="line"><span class="lineno">  565</span> </div>
+<div class="line"><span class="lineno">  566</span>    <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  567</span>      <span class="comment">/* Check if user wants to change oversampling</span></div>
+<div class="line"><span class="lineno">  568</span><span class="comment">       * settings</span></div>
+<div class="line"><span class="lineno">  569</span><span class="comment">       */</span></div>
+<div class="line"><span class="lineno">  570</span>      <span class="keywordflow">if</span> (are_settings_changed(<a class="code hl_define" href="#a17c5a85c1a9613150ab6a7f798baa427">OVERSAMPLING_SETTINGS</a>, desired_settings)) {</div>
+<div class="line"><span class="lineno">  571</span>        rslt = set_osr_settings(desired_settings, &amp;dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a35ef7c5b7d367fef5973e37b4ad0560b">settings</a>, dev);</div>
+<div class="line"><span class="lineno">  572</span>      }</div>
+<div class="line"><span class="lineno">  573</span> </div>
+<div class="line"><span class="lineno">  574</span>      <span class="comment">/* Check if user wants to change filter and/or</span></div>
+<div class="line"><span class="lineno">  575</span><span class="comment">       * standby settings</span></div>
+<div class="line"><span class="lineno">  576</span><span class="comment">       */</span></div>
+<div class="line"><span class="lineno">  577</span>      <span class="keywordflow">if</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; are_settings_changed(<a class="code hl_define" href="#a124daa6c7034cbf83e4380265fc5c3f6">FILTER_STANDBY_SETTINGS</a>, desired_settings)) {</div>
+<div class="line"><span class="lineno">  578</span>        rslt = set_filter_standby_settings(desired_settings, &amp;dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a35ef7c5b7d367fef5973e37b4ad0560b">settings</a>, dev);</div>
+<div class="line"><span class="lineno">  579</span>      }</div>
+<div class="line"><span class="lineno">  580</span>    }</div>
+<div class="line"><span class="lineno">  581</span>  }</div>
+<div class="line"><span class="lineno">  582</span> </div>
+<div class="line"><span class="lineno">  583</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  584</span>}</div>
+<div class="ttc" id="abme2_8c_html_a124daa6c7034cbf83e4380265fc5c3f6"><div class="ttname"><a href="#a124daa6c7034cbf83e4380265fc5c3f6">FILTER_STANDBY_SETTINGS</a></div><div class="ttdeci">#define FILTER_STANDBY_SETTINGS</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00049">bme2.c:49</a></div></div>
+<div class="ttc" id="abme2_8c_html_a17c5a85c1a9613150ab6a7f798baa427"><div class="ttname"><a href="#a17c5a85c1a9613150ab6a7f798baa427">OVERSAMPLING_SETTINGS</a></div><div class="ttdeci">#define OVERSAMPLING_SETTINGS</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00046">bme2.c:46</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_afd93f268d8109802cffa06b89f868922_cgraph.png" border="0" usemap="#abme2_8c_afd93f268d8109802cffa06b89f868922_cgraph" alt=""/></div>
+<map name="abme2_8c_afd93f268d8109802cffa06b89f868922_cgraph" id="abme2_8c_afd93f268d8109802cffa06b89f868922_cgraph">
+<area shape="rect" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="5,5,197,32"/>
+<area shape="rect" href="bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="245,5,422,32"/>
+<area shape="poly" title=" " alt="" coords="197,16,229,16,229,21,197,21"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="470,5,594,32"/>
+<area shape="poly" title=" " alt="" coords="422,16,454,16,454,21,422,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_afd93f268d8109802cffa06b89f868922_icgraph.png" border="0" usemap="#abme2_8c_afd93f268d8109802cffa06b89f868922_icgraph" alt=""/></div>
+<map name="abme2_8c_afd93f268d8109802cffa06b89f868922_icgraph" id="abme2_8c_afd93f268d8109802cffa06b89f868922_icgraph">
+<area shape="rect" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="221,5,412,32"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,5,173,32"/>
+<area shape="poly" title=" " alt="" coords="205,21,174,21,174,16,205,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6f874563c32b64cb625677e81ac20740" name="a6f874563c32b64cb625677e81ac20740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f874563c32b64cb625677e81ac20740">&#9670;&#160;</a></span>bme280_soft_reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t bme280_soft_reset </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structbme280__dev.html">bme280_dev</a> *</td>          <td class="paramname"><span class="paramname"><em>dev</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This API performs the soft reset of the sensor. </p>
+
+<p class="definition">Definição na linha <a class="el" href="bme2_8c_source.html#l00663">663</a> do arquivo <a class="el" href="bme2_8c_source.html">bme2.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  663</span>                                                 {</div>
+<div class="line"><span class="lineno">  664</span>  int8_t rslt;</div>
+<div class="line"><span class="lineno">  665</span>  uint8_t reg_addr = <a class="code hl_define" href="bme2__defs_8h.html#a946f939c2dda53735f06cb86abb216e4">BME280_RESET_ADDR</a>;</div>
+<div class="line"><span class="lineno">  666</span>  uint8_t status_reg = 0;</div>
+<div class="line"><span class="lineno">  667</span>  uint8_t try_run = 5;</div>
+<div class="line"><span class="lineno">  668</span> </div>
+<div class="line"><span class="lineno">  669</span>  <span class="comment">/* 0xB6 is the soft reset command */</span></div>
+<div class="line"><span class="lineno">  670</span>  uint8_t soft_rst_cmd = <a class="code hl_define" href="bme2__defs_8h.html#a459aacfaccab02562d4aa0c7c8fc6632">BME280_SOFT_RESET_COMMAND</a>;</div>
+<div class="line"><span class="lineno">  671</span> </div>
+<div class="line"><span class="lineno">  672</span>  <span class="comment">/* Check for null pointer in the device structure*/</span></div>
+<div class="line"><span class="lineno">  673</span>  rslt = null_ptr_check(dev);</div>
+<div class="line"><span class="lineno">  674</span> </div>
+<div class="line"><span class="lineno">  675</span>  <span class="comment">/* Proceed if null check is fine */</span></div>
+<div class="line"><span class="lineno">  676</span>  <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  677</span>    <span class="comment">/* Write the soft reset command in the sensor */</span></div>
+<div class="line"><span class="lineno">  678</span>    rslt = <a class="code hl_function" href="#a631b93eb751d5260f66090655b276d38">bme280_set_regs</a>(&amp;reg_addr, &amp;soft_rst_cmd, 1, dev);</div>
+<div class="line"><span class="lineno">  679</span> </div>
+<div class="line"><span class="lineno">  680</span>    <span class="keywordflow">if</span> (rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">  681</span>      <span class="comment">/* If NVM not copied yet, Wait for NVM to copy */</span></div>
+<div class="line"><span class="lineno">  682</span>      <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">  683</span>        <span class="comment">/* As per data sheet - Table 1, startup time is 2 ms. */</span></div>
+<div class="line"><span class="lineno">  684</span>        dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a46c411ed85be103a2462af6316f67a5f">delay_us</a>(2000, dev-&gt;<a class="code hl_variable" href="structbme280__dev.html#a0f8f25ad3939886263e8c995db718d64">intf_ptr</a>);</div>
+<div class="line"><span class="lineno">  685</span>        rslt = <a class="code hl_function" href="#a90217ff8a635240c20b763a88554da8c">bme280_get_regs</a>(<a class="code hl_define" href="bme2__defs_8h.html#a8a3f153c65335508a7ddd44f34e92214">BME280_STATUS_REG_ADDR</a>, &amp;status_reg, 1, dev);</div>
+<div class="line"><span class="lineno">  686</span> </div>
+<div class="line"><span class="lineno">  687</span>      } <span class="keywordflow">while</span> ((rslt == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) &amp;&amp; (try_run--) &amp;&amp; (status_reg &amp; <a class="code hl_define" href="bme2__defs_8h.html#a50d9c167bc634d4633919268f5b56100">BME280_STATUS_IM_UPDATE</a>));</div>
+<div class="line"><span class="lineno">  688</span> </div>
+<div class="line"><span class="lineno">  689</span>      <span class="keywordflow">if</span> (status_reg &amp; <a class="code hl_define" href="bme2__defs_8h.html#a50d9c167bc634d4633919268f5b56100">BME280_STATUS_IM_UPDATE</a>) {</div>
+<div class="line"><span class="lineno">  690</span>        rslt = <a class="code hl_define" href="bme2__defs_8h.html#a8b703c72ef7cc265bc46282e807ab61d">BME280_E_NVM_COPY_FAILED</a>;</div>
+<div class="line"><span class="lineno">  691</span>      }</div>
+<div class="line"><span class="lineno">  692</span>    }</div>
+<div class="line"><span class="lineno">  693</span>  }</div>
+<div class="line"><span class="lineno">  694</span> </div>
+<div class="line"><span class="lineno">  695</span>  <span class="keywordflow">return</span> rslt;</div>
+<div class="line"><span class="lineno">  696</span>}</div>
+<div class="ttc" id="abme2_8c_html_a631b93eb751d5260f66090655b276d38"><div class="ttname"><a href="#a631b93eb751d5260f66090655b276d38">bme280_set_regs</a></div><div class="ttdeci">int8_t bme280_set_regs(uint8_t *reg_addr, const uint8_t *reg_data, uint8_t len, struct bme280_dev *dev)</div><div class="ttdoc">This API writes the given data to the register address of the sensor.</div><div class="ttdef"><b>Definição</b> <a href="bme2_8c_source.html#l00491">bme2.c:491</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a459aacfaccab02562d4aa0c7c8fc6632"><div class="ttname"><a href="bme2__defs_8h.html#a459aacfaccab02562d4aa0c7c8fc6632">BME280_SOFT_RESET_COMMAND</a></div><div class="ttdeci">#define BME280_SOFT_RESET_COMMAND</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00244">bme2_defs.h:244</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a50d9c167bc634d4633919268f5b56100"><div class="ttname"><a href="bme2__defs_8h.html#a50d9c167bc634d4633919268f5b56100">BME280_STATUS_IM_UPDATE</a></div><div class="ttdeci">#define BME280_STATUS_IM_UPDATE</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00245">bme2_defs.h:245</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a8a3f153c65335508a7ddd44f34e92214"><div class="ttname"><a href="bme2__defs_8h.html#a8a3f153c65335508a7ddd44f34e92214">BME280_STATUS_REG_ADDR</a></div><div class="ttdeci">#define BME280_STATUS_REG_ADDR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00243">bme2_defs.h:243</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a8b703c72ef7cc265bc46282e807ab61d"><div class="ttname"><a href="bme2__defs_8h.html#a8b703c72ef7cc265bc46282e807ab61d">BME280_E_NVM_COPY_FAILED</a></div><div class="ttdeci">#define BME280_E_NVM_COPY_FAILED</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00150">bme2_defs.h:150</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a946f939c2dda53735f06cb86abb216e4"><div class="ttname"><a href="bme2__defs_8h.html#a946f939c2dda53735f06cb86abb216e4">BME280_RESET_ADDR</a></div><div class="ttdeci">#define BME280_RESET_ADDR</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00132">bme2_defs.h:132</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a6f874563c32b64cb625677e81ac20740_cgraph.png" border="0" usemap="#abme2_8c_a6f874563c32b64cb625677e81ac20740_cgraph" alt=""/></div>
+<map name="abme2_8c_a6f874563c32b64cb625677e81ac20740_cgraph" id="abme2_8c_a6f874563c32b64cb625677e81ac20740_cgraph">
+<area shape="rect" title="This API performs the soft reset of the sensor." alt="" coords="5,31,137,57"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="185,5,309,32"/>
+<area shape="poly" title=" " alt="" coords="137,32,169,27,170,32,138,37"/>
+<area shape="rect" href="bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="185,56,309,83"/>
+<area shape="poly" title=" " alt="" coords="138,51,170,56,169,61,137,56"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="bme2_8c_a6f874563c32b64cb625677e81ac20740_icgraph.png" border="0" usemap="#abme2_8c_a6f874563c32b64cb625677e81ac20740_icgraph" alt=""/></div>
+<map name="abme2_8c_a6f874563c32b64cb625677e81ac20740_icgraph" id="abme2_8c_a6f874563c32b64cb625677e81ac20740_icgraph">
+<area shape="rect" title="This API performs the soft reset of the sensor." alt="" coords="360,5,492,32"/>
+<area shape="rect" href="bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="221,5,312,32"/>
+<area shape="poly" title=" " alt="" coords="345,21,313,21,313,16,345,16"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,5,173,32"/>
+<area shape="poly" title=" " alt="" coords="205,21,174,21,174,16,205,16"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<map id="I2C" name="I2C">
+<area shape="rect" id="Node000001" title="I2C communication." alt="" coords="5,35,46,61"/>
+<area shape="rect" id="Node000002" href="$group__i2cComm.html" title="Communication methods." alt="" coords="124,5,235,32"/>
+<area shape="rect" id="Node000003" href="$group__i2cMux.html" title="Generic methods for handling communication with the multiplexer and extension boards." alt="" coords="94,56,265,99"/>
+</map>

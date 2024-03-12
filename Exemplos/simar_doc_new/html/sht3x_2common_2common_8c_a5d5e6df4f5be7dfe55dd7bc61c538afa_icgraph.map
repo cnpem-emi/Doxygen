@@ -1,0 +1,15 @@
+<map id="sensirion_i2c_delayed_read_cmd" name="sensirion_i2c_delayed_read_cmd">
+<area shape="rect" id="Node000001" title="Send a command, wait for the sensor to process and read data back." alt="" coords="495,48,645,91"/>
+<area shape="rect" id="Node000002" href="$sht3x_2common_2common_8c.html#ade8479d9748d07974f8e7e88c166e381" title="Reads data words from the sensor after a command is issued." alt="" coords="286,5,447,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="480,50,423,35,424,30,481,44"/>
+<area shape="rect" id="Node000004" href="$sht3x_8c.html#a4aae0d3756e7554f9ee2921e52fcdaac" title="Read the sensor status word." alt="" coords="306,56,427,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="480,72,428,72,428,67,480,67"/>
+<area shape="rect" id="Node000005" href="$group__sht3xInit.html#ga76f706a73188d8e19e2ba03ca1e1dba2" title="Detects if a sensor is connected by reading out the ID register." alt="" coords="321,107,413,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="481,94,414,111,412,106,480,89"/>
+<area shape="rect" id="Node000003" href="$group__sht3xSensorSettings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="103,5,238,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="270,21,238,21,238,16,270,16"/>
+<area shape="rect" id="Node000006" href="$group__sht3xInit.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="132,107,209,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="305,123,210,123,210,117,305,117"/>
+<area shape="rect" id="Node000007" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,107,55,133"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="116,123,55,123,55,117,116,117"/>
+</map>

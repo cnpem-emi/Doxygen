@@ -1,0 +1,7 @@
+<map id="bme280_soft_reset" name="bme280_soft_reset">
+<area shape="rect" id="Node000001" title="This API performs the soft reset of the sensor." alt="" coords="5,31,137,57"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="185,5,309,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,32,169,27,170,32,138,37"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="185,56,309,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,51,170,56,169,61,137,56"/>
+</map>

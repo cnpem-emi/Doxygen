@@ -1,0 +1,9 @@
+<map id="set_period" name="set_period">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,87,83"/>
+<area shape="rect" id="Node000002" href="$structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="135,5,187,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,53,119,34,122,39,79,58"/>
+<area shape="rect" id="Node000003" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="136,56,186,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="87,67,121,67,121,72,87,72"/>
+<area shape="rect" id="Node000004" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="137,107,185,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="79,81,123,101,121,106,77,86"/>
+</map>

@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Código-Fonte de bin/utils/BMP280/common/common.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_c8d347ac537bd2b9c67c89e961238a1c.html">BMP280</a></li><li class="navelem"><a class="el" href="dir_cfbb7b013a12523931d83f56b0c4107f.html">common</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">common.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="utils_2_b_m_p280_2common_2common_8h.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">/******************************************************************************/</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef BMP_COMMON_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define BMP_COMMON_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;../../I2C/common.h&quot;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="bmp2_8h.html">../bmp2.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structsensor__data.html">   19</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structsensor__data.html">sensor_data</a> {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structsensor__data.html#a984839a719a06c088dfdebb67991c5c6">   21</a></span>  <span class="keywordtype">double</span> <a class="code hl_variable" href="structsensor__data.html#a984839a719a06c088dfdebb67991c5c6">past_pres</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structsensor__data.html#a2e50537b138c27e2e30e8d3a568fbee0">   23</a></span>  <span class="keywordtype">double</span> <a class="code hl_variable" href="structsensor__data.html#a2e50537b138c27e2e30e8d3a568fbee0">average</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structsensor__data.html#afacfe4cf3ca3b35a655ae784c80befc2">   25</a></span>  <span class="keywordtype">double</span> <a class="code hl_variable" href="structsensor__data.html#afacfe4cf3ca3b35a655ae784c80befc2">open_average</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structsensor__data.html#a3cac20bbb2d439ef00331615e67cd48e">   27</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="structbmp2__data.html">bmp2_data</a> <a class="code hl_variable" href="structsensor__data.html#a3cac20bbb2d439ef00331615e67cd48e">data</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structsensor__data.html#a15aeb482722353229f5d8146c430aea8">   29</a></span>  <span class="keywordtype">double</span> <a class="code hl_variable" href="structsensor__data.html#a15aeb482722353229f5d8146c430aea8">window</a>[<a class="code hl_define" href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a>];</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="structsensor__data.html#ab3b0ac04c763f7916155b8051274f252">   31</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="structbmp2__dev.html">bmp2_dev</a> <a class="code hl_variable" href="structsensor__data.html#ab3b0ac04c763f7916155b8051274f252">dev</a>;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structsensor__data.html#adcd4e76d48bbeeb7ded9d4c26466b82f">   34</a></span>  uint8_t <a class="code hl_variable" href="structsensor__data.html#adcd4e76d48bbeeb7ded9d4c26466b82f">strikes_closed</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structsensor__data.html#a36682e1348672a59b00237a1a67a2ed9">   36</a></span>  uint8_t <a class="code hl_variable" href="structsensor__data.html#a36682e1348672a59b00237a1a67a2ed9">is_open</a>;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structsensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">   38</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="structidentifier.html">identifier</a> <a class="code hl_variable" href="structsensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">id</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="structsensor__data.html#a7ce0c1b2491ed3c00102583e9c7f994f">   40</a></span>  <span class="keyword">struct </span><a class="code hl_struct" href="structbmp2__config.html">bmp2_config</a> <a class="code hl_variable" href="structsensor__data.html#a7ce0c1b2491ed3c00102583e9c7f994f">config</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="structsensor__data.html#af869a309a32425813b56b839f9659b24">   42</a></span>  <span class="keywordtype">char</span> <a class="code hl_variable" href="structsensor__data.html#af869a309a32425813b56b839f9659b24">name</a>[<a class="code hl_define" href="bme280_2common_2common_8h.html#afd709f201d7643c3909621f620ea648a">MAX_NAME_LEN</a>];</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>};</div>
+</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="comment">/***************************************************************************/</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="utils_2_b_m_p280_2common_2common_8h.html#afe75ce41eb78f06431b1015b62ae8b49">   64</a></span><a class="code hl_define" href="bmp2__defs_8h.html#ae6f5733ddccd6ab88aa5a130f620bc3d">BMP2_INTF_RET_TYPE</a> <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#afe75ce41eb78f06431b1015b62ae8b49">bmp2_spi_read</a>(uint8_t reg_addr,</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                                 uint8_t* reg_data,</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                                 uint32_t length,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>                                 <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="utils_2_b_m_p280_2common_2common_8h.html#a121b00b804b5c5c97b76d97b3ad23ff2">   83</a></span><a class="code hl_define" href="bmp2__defs_8h.html#ae6f5733ddccd6ab88aa5a130f620bc3d">BMP2_INTF_RET_TYPE</a> <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#a121b00b804b5c5c97b76d97b3ad23ff2">bmp2_i2c_read</a>(uint8_t reg_addr,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>                                 uint8_t* reg_data,</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>                                 uint32_t length,</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                                 <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="utils_2_b_m_p280_2common_2common_8h.html#a02fa515a4332cacc5f3e7f17d689735a">  103</a></span><a class="code hl_define" href="bmp2__defs_8h.html#ae6f5733ddccd6ab88aa5a130f620bc3d">BMP2_INTF_RET_TYPE</a> <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#a02fa515a4332cacc5f3e7f17d689735a">bmp2_spi_write</a>(uint8_t reg_addr,</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                                  <span class="keyword">const</span> uint8_t* reg_data,</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>                                  uint32_t length,</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>                                  <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="utils_2_b_m_p280_2common_2common_8h.html#adf001d26c29e8bee6434bb88b2be8698">  123</a></span><a class="code hl_define" href="bmp2__defs_8h.html#ae6f5733ddccd6ab88aa5a130f620bc3d">BMP2_INTF_RET_TYPE</a> <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#adf001d26c29e8bee6434bb88b2be8698">bmp2_i2c_write</a>(uint8_t reg_addr,</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>                                  <span class="keyword">const</span> uint8_t* reg_data,</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                                  uint32_t length,</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>                                  <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="utils_2_b_m_p280_2common_2common_8h.html#aaf4426e1c24d3e94692443b76b389066">  137</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#aaf4426e1c24d3e94692443b76b389066">bmp2_delay_us</a>(uint32_t period_us, <span class="keywordtype">void</span>* intf_ptr);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>int8_t <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#a199e01b1f976b8ad36284d3c4ef89e08">bmp2_interface_selection</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="structsensor__data.html">sensor_data</a>* sensor, uint8_t intf, uint8_t addr);</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="utils_2_b_m_p280_2common_2common_8h.html#a408342b2f1313c7a26dc3428f1d522be">  163</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#a408342b2f1313c7a26dc3428f1d522be">bmp2_error_codes_print_result</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> api_name[], int8_t rslt);</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno"><a class="line" href="utils_2_b_m_p280_2common_2common_8h.html#a03d41849ea8d370acafc5115554b85fe">  171</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#a03d41849ea8d370acafc5115554b85fe">bmp2_coines_deinit</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>int8_t <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#ad8891d2db76c9957ba85df5220de463a">bmp_init</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="structsensor__data.html">sensor_data</a>* sensor, uint8_t addr);</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>int8_t <a class="code hl_function" href="utils_2_b_m_p280_2common_2common_8h.html#a9e90f5cde057a32a982156e59815475a">bmp_read</a>(<span class="keyword">struct</span> <a class="code hl_struct" href="structsensor__data.html">sensor_data</a>* sensor);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>}</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="preprocessor">#endif </span><span class="comment">/* End of CPP guard */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="preprocessor">#endif </span><span class="comment">/* _COMMON_H */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="abme280_2common_2common_8h_html_ab3f68d59e815ea166f8c983bc6e85c5b"><div class="ttname"><a href="bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b">WINDOW_SIZE</a></div><div class="ttdeci">#define WINDOW_SIZE</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8h_source.html#l00011">common.h:11</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8h_html_afd709f201d7643c3909621f620ea648a"><div class="ttname"><a href="bme280_2common_2common_8h.html#afd709f201d7643c3909621f620ea648a">MAX_NAME_LEN</a></div><div class="ttdeci">#define MAX_NAME_LEN</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8h_source.html#l00012">common.h:12</a></div></div>
+<div class="ttc" id="abmp2_8h_html"><div class="ttname"><a href="bmp2_8h.html">bmp2.h</a></div><div class="ttdoc">Sensor driver for BMP2 sensor.</div></div>
+<div class="ttc" id="abmp2__defs_8h_html_ae6f5733ddccd6ab88aa5a130f620bc3d"><div class="ttname"><a href="bmp2__defs_8h.html#ae6f5733ddccd6ab88aa5a130f620bc3d">BMP2_INTF_RET_TYPE</a></div><div class="ttdeci">#define BMP2_INTF_RET_TYPE</div><div class="ttdef"><b>Definição</b> <a href="bmp2__defs_8h_source.html#l00374">bmp2_defs.h:374</a></div></div>
+<div class="ttc" id="astructbmp2__config_html"><div class="ttname"><a href="structbmp2__config.html">bmp2_config</a></div><div class="ttdoc">Sensor configuration structure.</div><div class="ttdef"><b>Definição</b> <a href="bmp2__defs_8h_source.html#l00497">bmp2_defs.h:497</a></div></div>
+<div class="ttc" id="astructbmp2__data_html"><div class="ttname"><a href="structbmp2__data.html">bmp2_data</a></div><div class="ttdoc">bmp2 sensor structure which comprises of temperature and pressure</div><div class="ttdef"><b>Definição</b> <a href="bmp2__defs_8h_source.html#l00543">bmp2_defs.h:543</a></div></div>
+<div class="ttc" id="astructbmp2__dev_html"><div class="ttname"><a href="structbmp2__dev.html">bmp2_dev</a></div><div class="ttdoc">API device structure.</div><div class="ttdef"><b>Definição</b> <a href="bmp2__defs_8h_source.html#l00563">bmp2_defs.h:563</a></div></div>
+<div class="ttc" id="astructidentifier_html"><div class="ttname"><a href="structidentifier.html">identifier</a></div><div class="ttdoc">Identification/communication structure for I2C devices.</div><div class="ttdef"><b>Definição</b> <a href="i2c_2common_8h_source.html#l00025">common.h:25</a></div></div>
+<div class="ttc" id="astructsensor__data_html"><div class="ttname"><a href="structsensor__data.html">sensor_data</a></div><div class="ttdef"><b>Definição</b> <a href="#l00019">common.h:19</a></div></div>
+<div class="ttc" id="astructsensor__data_html_a15aeb482722353229f5d8146c430aea8"><div class="ttname"><a href="structsensor__data.html#a15aeb482722353229f5d8146c430aea8">sensor_data::window</a></div><div class="ttdeci">double window[WINDOW_SIZE]</div><div class="ttdef"><b>Definição</b> <a href="#l00029">common.h:29</a></div></div>
+<div class="ttc" id="astructsensor__data_html_a2e50537b138c27e2e30e8d3a568fbee0"><div class="ttname"><a href="structsensor__data.html#a2e50537b138c27e2e30e8d3a568fbee0">sensor_data::average</a></div><div class="ttdeci">double average</div><div class="ttdef"><b>Definição</b> <a href="#l00023">common.h:23</a></div></div>
+<div class="ttc" id="astructsensor__data_html_a36682e1348672a59b00237a1a67a2ed9"><div class="ttname"><a href="structsensor__data.html#a36682e1348672a59b00237a1a67a2ed9">sensor_data::is_open</a></div><div class="ttdeci">uint8_t is_open</div><div class="ttdef"><b>Definição</b> <a href="#l00036">common.h:36</a></div></div>
+<div class="ttc" id="astructsensor__data_html_a3cac20bbb2d439ef00331615e67cd48e"><div class="ttname"><a href="structsensor__data.html#a3cac20bbb2d439ef00331615e67cd48e">sensor_data::data</a></div><div class="ttdeci">struct bmp2_data data</div><div class="ttdef"><b>Definição</b> <a href="#l00027">common.h:27</a></div></div>
+<div class="ttc" id="astructsensor__data_html_a7ce0c1b2491ed3c00102583e9c7f994f"><div class="ttname"><a href="structsensor__data.html#a7ce0c1b2491ed3c00102583e9c7f994f">sensor_data::config</a></div><div class="ttdeci">struct bmp2_config config</div><div class="ttdef"><b>Definição</b> <a href="#l00040">common.h:40</a></div></div>
+<div class="ttc" id="astructsensor__data_html_a984839a719a06c088dfdebb67991c5c6"><div class="ttname"><a href="structsensor__data.html#a984839a719a06c088dfdebb67991c5c6">sensor_data::past_pres</a></div><div class="ttdeci">double past_pres</div><div class="ttdef"><b>Definição</b> <a href="#l00021">common.h:21</a></div></div>
+<div class="ttc" id="astructsensor__data_html_ab3b0ac04c763f7916155b8051274f252"><div class="ttname"><a href="structsensor__data.html#ab3b0ac04c763f7916155b8051274f252">sensor_data::dev</a></div><div class="ttdeci">struct bmp2_dev dev</div><div class="ttdef"><b>Definição</b> <a href="#l00031">common.h:31</a></div></div>
+<div class="ttc" id="astructsensor__data_html_adcd4e76d48bbeeb7ded9d4c26466b82f"><div class="ttname"><a href="structsensor__data.html#adcd4e76d48bbeeb7ded9d4c26466b82f">sensor_data::strikes_closed</a></div><div class="ttdeci">uint8_t strikes_closed</div><div class="ttdef"><b>Definição</b> <a href="#l00034">common.h:34</a></div></div>
+<div class="ttc" id="astructsensor__data_html_af2849e44963fbe8f3aa29320ca01d7b6"><div class="ttname"><a href="structsensor__data.html#af2849e44963fbe8f3aa29320ca01d7b6">sensor_data::id</a></div><div class="ttdeci">struct identifier id</div><div class="ttdef"><b>Definição</b> <a href="#l00038">common.h:38</a></div></div>
+<div class="ttc" id="astructsensor__data_html_af869a309a32425813b56b839f9659b24"><div class="ttname"><a href="structsensor__data.html#af869a309a32425813b56b839f9659b24">sensor_data::name</a></div><div class="ttdeci">char name[MAX_NAME_LEN]</div><div class="ttdef"><b>Definição</b> <a href="#l00042">common.h:42</a></div></div>
+<div class="ttc" id="astructsensor__data_html_afacfe4cf3ca3b35a655ae784c80befc2"><div class="ttname"><a href="structsensor__data.html#afacfe4cf3ca3b35a655ae784c80befc2">sensor_data::open_average</a></div><div class="ttdeci">double open_average</div><div class="ttdef"><b>Definição</b> <a href="#l00025">common.h:25</a></div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_a02fa515a4332cacc5f3e7f17d689735a"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#a02fa515a4332cacc5f3e7f17d689735a">bmp2_spi_write</a></div><div class="ttdeci">BMP2_INTF_RET_TYPE bmp2_spi_write(uint8_t reg_addr, const uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for writing the sensor's registers through SPI bus.</div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_a03d41849ea8d370acafc5115554b85fe"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#a03d41849ea8d370acafc5115554b85fe">bmp2_coines_deinit</a></div><div class="ttdeci">void bmp2_coines_deinit(void)</div><div class="ttdoc">This function deinitializes coines platform.</div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_a121b00b804b5c5c97b76d97b3ad23ff2"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#a121b00b804b5c5c97b76d97b3ad23ff2">bmp2_i2c_read</a></div><div class="ttdeci">BMP2_INTF_RET_TYPE bmp2_i2c_read(uint8_t reg_addr, uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for reading the sensor's registers through I2C bus.</div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_a199e01b1f976b8ad36284d3c4ef89e08"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#a199e01b1f976b8ad36284d3c4ef89e08">bmp2_interface_selection</a></div><div class="ttdeci">int8_t bmp2_interface_selection(struct sensor_data *sensor, uint8_t intf, uint8_t addr)</div><div class="ttdoc">This function is to select the interface between SPI and I2C.</div><div class="ttdef"><b>Definição</b> <a href="utils_2_b_m_p280_2common_2common_8c_source.html#l00018">common.c:18</a></div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_a408342b2f1313c7a26dc3428f1d522be"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#a408342b2f1313c7a26dc3428f1d522be">bmp2_error_codes_print_result</a></div><div class="ttdeci">void bmp2_error_codes_print_result(const char api_name[], int8_t rslt)</div><div class="ttdoc">This API is used to print the execution status.</div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_a9e90f5cde057a32a982156e59815475a"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#a9e90f5cde057a32a982156e59815475a">bmp_read</a></div><div class="ttdeci">int8_t bmp_read(struct sensor_data *sensor)</div><div class="ttdoc">Reads temperature/pressure data.</div><div class="ttdef"><b>Definição</b> <a href="utils_2_b_m_p280_2common_2common_8c_source.html#l00102">common.c:102</a></div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_aaf4426e1c24d3e94692443b76b389066"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#aaf4426e1c24d3e94692443b76b389066">bmp2_delay_us</a></div><div class="ttdeci">void bmp2_delay_us(uint32_t period_us, void *intf_ptr)</div><div class="ttdoc">This function provides the delay for required time (Microsecond) as per the input provided in some of...</div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_ad8891d2db76c9957ba85df5220de463a"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#ad8891d2db76c9957ba85df5220de463a">bmp_init</a></div><div class="ttdeci">int8_t bmp_init(struct sensor_data *sensor, uint8_t addr)</div><div class="ttdoc">Initializes and configures sensor.</div><div class="ttdef"><b>Definição</b> <a href="utils_2_b_m_p280_2common_2common_8c_source.html#l00066">common.c:66</a></div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_adf001d26c29e8bee6434bb88b2be8698"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#adf001d26c29e8bee6434bb88b2be8698">bmp2_i2c_write</a></div><div class="ttdeci">BMP2_INTF_RET_TYPE bmp2_i2c_write(uint8_t reg_addr, const uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for writing the sensor's registers through I2C bus.</div></div>
+<div class="ttc" id="autils_2_b_m_p280_2common_2common_8h_html_afe75ce41eb78f06431b1015b62ae8b49"><div class="ttname"><a href="utils_2_b_m_p280_2common_2common_8h.html#afe75ce41eb78f06431b1015b62ae8b49">bmp2_spi_read</a></div><div class="ttdeci">BMP2_INTF_RET_TYPE bmp2_spi_read(uint8_t reg_addr, uint8_t *reg_data, uint32_t length, void *intf_ptr)</div><div class="ttdoc">Function for reading the sensor's registers through SPI bus.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

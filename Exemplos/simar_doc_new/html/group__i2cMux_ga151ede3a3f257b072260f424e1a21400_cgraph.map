@@ -1,0 +1,15 @@
+<map id="direct_ext_mux" name="direct_ext_mux">
+<area shape="rect" id="Node000001" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="5,56,116,83"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="164,31,269,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,58,148,52,149,58,117,63"/>
+<area shape="rect" id="Node000007" href="$group__spiComm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="172,81,261,108"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="117,76,157,82,156,88,116,81"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="318,5,430,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="269,33,302,28,303,33,270,38"/>
+<area shape="rect" id="Node000004" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="317,56,430,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,50,302,55,301,60,269,55"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="478,31,588,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="430,58,462,53,463,58,431,63"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="481,81,585,108"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="431,76,466,81,465,87,430,81"/>
+</map>

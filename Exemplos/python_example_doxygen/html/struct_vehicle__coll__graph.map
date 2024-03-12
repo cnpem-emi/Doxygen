@@ -1,0 +1,6 @@
+<map id="Vehicle" name="Vehicle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,96,70,123"/>
+<area shape="rect" id="Node000002" href="$struct_object.html" title=" " alt="" coords="8,5,67,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,48,37,56,39,96,34,96,32,56,33,48"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="40,48,40,95,35,95,35,48"/>
+</map>

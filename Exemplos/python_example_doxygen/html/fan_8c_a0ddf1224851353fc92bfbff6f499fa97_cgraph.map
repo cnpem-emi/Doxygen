@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,55,83"/>
+<area shape="rect" id="Node000002" href="$fan_8c.html#a04e958e4f09a5b709be1b2605c2e3085" title=" " alt="" coords="103,56,171,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,67,87,67,87,72,55,72"/>
+<area shape="rect" id="Node000003" href="$structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="219,5,271,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="166,53,204,35,206,40,168,58"/>
+<area shape="rect" id="Node000004" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="221,56,270,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="172,67,205,67,205,72,172,72"/>
+<area shape="rect" id="Node000005" href="$structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="222,107,268,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="168,81,209,100,207,105,166,86"/>
+</map>

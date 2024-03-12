@@ -1,0 +1,38 @@
+<map id="bme_read" name="bme_read">
+<area shape="rect" id="Node000001" title="Reads sensor data." alt="" coords="5,208,84,235"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="132,107,302,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,205,178,139,181,144,70,210"/>
+<area shape="rect" id="Node000010" href="$group__i2cMux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="162,259,272,285"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="85,230,155,251,154,256,84,235"/>
+<area shape="rect" id="Node000017" href="$group__i2cMux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="624,208,709,235"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="84,219,609,219,609,224,84,224"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a9f2c3c8c683b434ca10447515f85c0de" title="This API is used to compensate the pressure and/or temperature and/or humidity data according to the ..." alt="" coords="354,56,531,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,103,364,84,366,89,280,109"/>
+<area shape="rect" id="Node000007" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="380,107,504,133"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="302,117,364,117,364,123,302,123"/>
+<area shape="rect" id="Node000008" href="$bme2_8c.html#a5751485b30c3727943d0e38e9c5a4802" title="This internal API is used to validate the device pointer for null conditions." alt="" coords="614,157,719,184"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="284,131,350,143,483,157,599,165,598,170,482,162,350,148,283,137"/>
+<area shape="rect" id="Node000009" href="$bme2_8c.html#a84be45ccf7a3a82138ff2170123462c3" title="This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco..." alt="" coords="350,5,534,32"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="237,104,287,73,349,42,367,35,369,40,351,46,289,78,240,108"/>
+<area shape="rect" id="Node000004" href="$bme2_8c.html#aed3de7c17aef18939c3c6ab7e82143cb" title="This internal API is used to compensate the raw humidity data and return the compensated humidity dat..." alt="" coords="592,56,741,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="531,67,576,67,576,72,531,72"/>
+<area shape="rect" id="Node000005" href="$bme2_8c.html#a18762082fa326ad25b2239c8443e2e1f" title="This internal API is used to compensate the raw pressure data and return the compensated pressure dat..." alt="" coords="592,107,741,133"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="505,81,590,100,589,105,504,86"/>
+<area shape="rect" id="Node000006" href="$bme2_8c.html#afb448fa04c40537c0cc1ca77dcb8471e" title="This internal API is used to compensate the raw temperature data and return the compensated temperatu..." alt="" coords="582,5,751,32"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="504,53,589,33,590,39,505,58"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="505,131,599,153,598,158,504,137"/>
+<area shape="rect" id="Node000011" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="390,309,495,336"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="273,282,375,305,373,310,272,287"/>
+<area shape="rect" id="Node000016" href="$group__spiComm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="398,259,486,285"/>
+<area shape="poly" id="edge16_Node000010_Node000016" title=" " alt="" coords="273,269,382,269,382,275,273,275"/>
+<area shape="rect" id="Node000012" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="610,259,723,285"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="495,308,595,285,596,291,496,313"/>
+<area shape="rect" id="Node000013" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="610,309,723,336"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="495,320,594,320,594,325,495,325"/>
+<area shape="rect" id="Node000014" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="799,221,908,248"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="720,306,750,295,819,255,822,259,752,300,722,311"/>
+<area shape="rect" id="Node000015" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="801,284,906,311"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="723,312,785,304,786,309,724,318"/>
+<area shape="poly" id="edge18_Node000017_Node000014" title=" " alt="" coords="710,222,783,227,783,232,709,227"/>
+<area shape="poly" id="edge19_Node000017_Node000015" title=" " alt="" coords="710,230,752,244,815,274,813,279,750,249,709,235"/>
+</map>

@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Código-Fonte de bin/utils/LCD/example.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_71781031496afb3e022ce930ef5573f6.html">LCD</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">example.c</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_l_c_d_2example_8c.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="lcd_8h.html">lcd.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="foldopen" id="foldopen00005" data-start="{" data-end="}">
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="_l_c_d_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">    5</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="_d_h_t_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>() {</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>  <a class="code hl_function" href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515">lcd_init</a>(<span class="stringliteral">&quot;\xb7&quot;</span>, <span class="stringliteral">&quot;\x13&quot;</span>);</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>  <a class="code hl_function" href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a>(0, 5);</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>  <a class="code hl_function" href="lcd_8c.html#ae361d551feba598bbe0d3b7df6e654dc">lcd_print</a>(<span class="stringliteral">&quot;Test&quot;</span>);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>  sleep(1);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 7; i++) {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_function" href="lcd_8c.html#a0fa29c0aee6ec3285941a5849de041b2">lcd_line</a>(i * 6, i, 5, 2);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    usleep(300000);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  }</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 6; i &gt;= 0; i--) {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_function" href="lcd_8c.html#a0fa29c0aee6ec3285941a5849de041b2">lcd_line</a>(78 - (i * 6), i, 5, 2);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    usleep(300000);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  }</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>  <a class="code hl_function" href="lcd_8c.html#abbee04b3dec721332759f89a137f2129">lcd_close</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
+</div>
+<div class="ttc" id="a_d_h_t_2example_8c_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="_d_h_t_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definição</b> <a href="_d_h_t_2example_8c_source.html#l00005">example.c:5</a></div></div>
+<div class="ttc" id="alcd_8c_html_a013af80ec99f63cf714b0749c36cbe33"><div class="ttname"><a href="lcd_8c.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a></div><div class="ttdeci">int lcd_set_cursor(int row, int col)</div><div class="ttdoc">Sets LCD cursor position.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00160">lcd.c:160</a></div></div>
+<div class="ttc" id="alcd_8c_html_a0fa29c0aee6ec3285941a5849de041b2"><div class="ttname"><a href="lcd_8c.html#a0fa29c0aee6ec3285941a5849de041b2">lcd_line</a></div><div class="ttdeci">void lcd_line(int x, int y, int len, int thickness)</div><div class="ttdoc">Prints straight horizontal line.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00208">lcd.c:208</a></div></div>
+<div class="ttc" id="alcd_8c_html_a7027d4c67c9704b73a0eafb7dd94a515"><div class="ttname"><a href="lcd_8c.html#a7027d4c67c9704b73a0eafb7dd94a515">lcd_init</a></div><div class="ttdeci">void lcd_init(char *vop, char *bias)</div><div class="ttdoc">Initializes LCD.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00235">lcd.c:235</a></div></div>
+<div class="ttc" id="alcd_8c_html_abbee04b3dec721332759f89a137f2129"><div class="ttname"><a href="lcd_8c.html#abbee04b3dec721332759f89a137f2129">lcd_close</a></div><div class="ttdeci">void lcd_close()</div><div class="ttdoc">Finalizes LCD operations.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00269">lcd.c:269</a></div></div>
+<div class="ttc" id="alcd_8c_html_ae361d551feba598bbe0d3b7df6e654dc"><div class="ttname"><a href="lcd_8c.html#ae361d551feba598bbe0d3b7df6e654dc">lcd_print</a></div><div class="ttdeci">void lcd_print(char *strn)</div><div class="ttdoc">Prints string to LCD screen at a previously set position.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00188">lcd.c:188</a></div></div>
+<div class="ttc" id="alcd_8h_html"><div class="ttname"><a href="lcd_8h.html">lcd.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

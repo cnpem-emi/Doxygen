@@ -1,0 +1,9 @@
+<map id="bme280_get_sensor_data" name="bme280_get_sensor_data">
+<area shape="rect" id="Node000001" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="5,56,176,83"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a9f2c3c8c683b434ca10447515f85c0de" title="This API is used to compensate the pressure and/or temperature and/or humidity data according to the ..." alt="" coords="227,5,405,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,53,238,33,239,39,154,58"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="254,56,378,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,67,238,67,238,72,176,72"/>
+<area shape="rect" id="Node000004" href="$bme2_8c.html#a84be45ccf7a3a82138ff2170123462c3" title="This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco..." alt="" coords="224,107,408,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,81,239,100,238,105,153,86"/>
+</map>

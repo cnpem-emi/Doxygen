@@ -1,0 +1,23 @@
+<map id="bin/i2c/common.h" name="bin/i2c/common.h">
+<area shape="rect" id="Node000001" title="Common declarations for I2C operations." alt="" coords="427,5,551,32"/>
+<area shape="rect" id="Node000002" href="$bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="196,80,403,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="443,40,334,82,332,77,441,35"/>
+<area shape="rect" id="Node000006" href="$i2c_2common_8c.html" title="Common functions for I2C operations." alt="" coords="427,80,551,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="492,48,492,80,486,80,486,48"/>
+<area shape="rect" id="Node000007" href="$sht3x_8h.html" title="Sensirion SHT driver interface." alt="" coords="575,80,696,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="529,37,611,77,609,82,527,42"/>
+<area shape="rect" id="Node000003" href="$bme280_2common_2common_8c.html" title="Common functions for BMx device operation on AM335x." alt="" coords="5,155,213,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="253,115,143,157,142,152,251,110"/>
+<area shape="rect" id="Node000004" href="$bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="399,155,510,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="342,111,428,152,426,156,339,116"/>
+<area shape="rect" id="Node000005" href="$wireless_8c.html" title="Main starting point for wireless SIMAR." alt="" coords="236,155,369,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="303,122,305,154,299,154,298,123"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="591,115,487,157,485,152,589,110"/>
+<area shape="rect" id="Node000008" href="$sht3x_2common_2common_8h.html" title=" " alt="" coords="538,155,731,181"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="638,123,637,154,632,154,632,122"/>
+<area shape="rect" id="Node000010" href="$sht3x_8c.html" title="Sensirion SHT3x driver implementation." alt="" coords="708,229,830,256"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="689,111,719,129,746,153,757,172,765,192,771,228,766,229,759,194,752,174,742,156,716,133,686,116"/>
+<area shape="rect" id="Node000009" href="$sht3x_2common_2common_8c.html" title=" " alt="" coords="491,229,684,256"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="620,196,598,230,593,227,616,193"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="672,187,747,226,744,231,670,191"/>
+</map>

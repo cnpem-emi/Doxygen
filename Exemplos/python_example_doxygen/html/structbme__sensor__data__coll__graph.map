@@ -1,0 +1,5 @@
+<map id="bme_sensor_data" name="bme_sensor_data">
+<area shape="rect" id="Node000001" title="Parent struct for all valid BMx sensors, including custom values to aid in door status calibration." alt="" coords="5,128,130,155"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="40,5,95,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,48,70,127,65,127,65,48"/>
+</map>

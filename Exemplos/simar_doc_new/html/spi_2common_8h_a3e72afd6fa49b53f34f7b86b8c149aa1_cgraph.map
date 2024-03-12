@@ -1,0 +1,11 @@
+<map id="select_module" name="select_module">
+<area shape="rect" id="Node000001" title="Selects module at given address." alt="" coords="5,31,111,57"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="159,5,272,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,33,144,28,144,33,112,38"/>
+<area shape="rect" id="Node000003" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="159,56,272,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,50,144,55,143,60,111,55"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="320,31,429,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="272,58,304,53,305,58,273,63"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="323,81,427,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="273,76,308,81,307,87,272,81"/>
+</map>

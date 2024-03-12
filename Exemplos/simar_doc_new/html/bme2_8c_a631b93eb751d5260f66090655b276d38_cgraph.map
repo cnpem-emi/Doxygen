@@ -1,0 +1,7 @@
+<map id="bme280_set_regs" name="bme280_set_regs">
+<area shape="rect" id="Node000001" title="This API writes the given data to the register address of the sensor." alt="" coords="5,31,130,57"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a50acfb83c8f7913835a35864915c72a4" title="This internal API interleaves the register address between the register data buffer for burst write o..." alt="" coords="178,5,310,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,32,162,28,162,33,130,38"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a5751485b30c3727943d0e38e9c5a4802" title="This internal API is used to validate the device pointer for null conditions." alt="" coords="191,56,297,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,50,177,57,176,62,130,56"/>
+</map>

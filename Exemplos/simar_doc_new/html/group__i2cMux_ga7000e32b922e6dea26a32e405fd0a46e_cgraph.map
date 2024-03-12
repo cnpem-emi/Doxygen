@@ -1,0 +1,9 @@
+<map id="unselect_i2c_extender" name="unselect_i2c_extender">
+<area shape="rect" id="Node000001" title="Unselects the I2C extender (and SPI extender, by proxy)" alt="" coords="5,31,157,57"/>
+<area shape="rect" id="Node000002" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="205,31,318,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,41,189,41,189,47,157,47"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="366,5,475,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="318,32,350,27,351,32,319,38"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="369,56,473,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="319,50,354,56,353,61,318,56"/>
+</map>

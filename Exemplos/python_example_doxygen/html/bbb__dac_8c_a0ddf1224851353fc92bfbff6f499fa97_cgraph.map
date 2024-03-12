@@ -1,0 +1,21 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,55,83"/>
+<area shape="rect" id="Node000002" href="$bbb__dac_8c.html#ab8bce0a58e0f4fa9e5a894b2cb09046a" title=" " alt="" coords="114,5,173,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,56,98,36,100,41,56,61"/>
+<area shape="rect" id="Node000006" href="$bbb__dac_8c.html#a950c527a1a2c3b7a365f8f2927b38f39" title=" " alt="" coords="108,56,179,83"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="55,67,92,67,92,72,55,72"/>
+<area shape="rect" id="Node000007" href="$bbb__dac_8c.html#a37fb5f77b399f3f5d847b62d0005f276" title=" " alt="" coords="103,107,184,133"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="56,78,99,97,97,102,54,83"/>
+<area shape="rect" id="Node000003" href="$structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="232,5,284,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="174,16,216,16,216,21,174,21"/>
+<area shape="rect" id="Node000004" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="234,56,283,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="175,29,221,50,218,55,172,34"/>
+<area shape="rect" id="Node000005" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="234,107,282,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="170,30,186,42,211,67,234,93,235,94,231,97,230,96,207,70,182,46,167,35"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="174,53,217,34,219,39,176,58"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="180,67,218,67,218,72,180,72"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="176,81,221,101,219,106,174,86"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="167,104,182,93,207,68,230,42,231,41,235,45,234,46,211,72,186,97,170,108"/>
+<area shape="poly" id="edge11_Node000007_Node000004" title=" " alt="" coords="174,104,218,84,221,89,176,109"/>
+<area shape="poly" id="edge12_Node000007_Node000005" title=" " alt="" coords="185,117,218,117,218,123,185,123"/>
+</map>

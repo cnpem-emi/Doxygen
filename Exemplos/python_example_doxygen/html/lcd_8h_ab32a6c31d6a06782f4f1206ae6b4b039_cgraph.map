@@ -1,0 +1,7 @@
+<map id="lcd_set_backlight" name="lcd_set_backlight">
+<area shape="rect" id="Node000001" title="Turns on or off LCD backlight." alt="" coords="5,31,128,57"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="176,5,285,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,32,160,27,160,32,129,37"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="178,56,283,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,51,163,56,162,62,128,56"/>
+</map>

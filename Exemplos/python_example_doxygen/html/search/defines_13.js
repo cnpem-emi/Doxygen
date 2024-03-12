@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['window_5fsize_0',['WINDOW_SIZE',['../bme280_2common_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b',1,'WINDOW_SIZE:&#160;common.h'],['../i2c_2common_8h.html#ab3f68d59e815ea166f8c983bc6e85c5b',1,'WINDOW_SIZE:&#160;common.h']]]
+];

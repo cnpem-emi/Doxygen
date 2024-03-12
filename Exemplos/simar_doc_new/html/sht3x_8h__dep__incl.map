@@ -1,0 +1,12 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/sht3x/sht3x.h" name="C:/Users/eric.abbade/Downloads/simar_new/sht3x/sht3x.h">
+<area shape="rect" id="Node000001" title="Sensirion SHT driver interface." alt="" coords="195,5,349,64"/>
+<area shape="rect" id="Node000002" href="$bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="5,112,160,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,74,135,114,133,109,206,69"/>
+<area shape="rect" id="Node000003" href="$sht3x_2common_2common_8h.html" title=" " alt="" coords="184,112,360,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="275,80,275,112,269,112,269,80"/>
+<area shape="rect" id="Node000005" href="$sht3x_8c.html" title="Sensirion SHT3x driver implementation." alt="" coords="320,219,474,277"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="338,71,358,89,374,111,387,137,395,166,400,218,395,219,389,167,382,139,370,113,354,93,334,75"/>
+<area shape="rect" id="Node000004" href="$sht3x_2common_2common_8c.html" title=" " alt="" coords="120,219,296,277"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="249,185,228,220,223,217,244,183"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="319,179,365,216,361,220,316,183"/>
+</map>

@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/utils/ADC-DAC/adc.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_49a594bf590a2862817d6e46f127786f.html">ADC-DAC</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo adc.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &quot;../SPI/common.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para adc.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8c__incl.png" border="0" usemap="#abin_2utils_2_a_d_c-_d_a_c_2adc_8c" alt=""/></div>
+<map name="abin_2utils_2_a_d_c-_d_a_c_2adc_8c" id="abin_2utils_2_a_d_c-_d_a_c_2adc_8c">
+<area shape="rect" title=" " alt="" coords="127,5,291,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,66,107"/>
+<area shape="poly" title=" " alt="" coords="180,35,81,76,79,71,178,30"/>
+<area shape="rect" title=" " alt="" coords="89,80,153,107"/>
+<area shape="poly" title=" " alt="" coords="195,35,149,72,146,68,192,30"/>
+<area shape="rect" title=" " alt="" coords="177,80,241,107"/>
+<area shape="poly" title=" " alt="" coords="212,33,212,64,206,64,206,33"/>
+<area shape="rect" title=" " alt="" coords="265,80,332,107"/>
+<area shape="poly" title=" " alt="" coords="226,30,273,68,269,72,223,35"/>
+<area shape="rect" title=" " alt="" coords="356,80,475,107"/>
+<area shape="poly" title=" " alt="" coords="246,30,366,72,364,77,244,35"/>
+</map>
+</div>
+</div>
+<p><a href="adc_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a25a40b6614565f755233080a384c35f1" id="r_a25a40b6614565f755233080a384c35f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25a40b6614565f755233080a384c35f1">initialize</a> ()</td></tr>
+<tr class="separator:a25a40b6614565f755233080a384c35f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7744892c54a1e0f1c2fd8746f813aa0" id="r_ab7744892c54a1e0f1c2fd8746f813aa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7744892c54a1e0f1c2fd8746f813aa0">ch_int</a> (int *data, char *st)</td></tr>
+<tr class="separator:ab7744892c54a1e0f1c2fd8746f813aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4adf7091071b9c3db5a132e2befd529" id="r_af4adf7091071b9c3db5a132e2befd529"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4adf7091071b9c3db5a132e2befd529">read_val</a> (int channel)</td></tr>
+<tr class="separator:af4adf7091071b9c3db5a132e2befd529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Funções</h2>
+<a id="ab7744892c54a1e0f1c2fd8746f813aa0" name="ab7744892c54a1e0f1c2fd8746f813aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7744892c54a1e0f1c2fd8746f813aa0">&#9670;&#160;</a></span>ch_int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ch_int </td>
+          <td>(</td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>data</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>st</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="adc_8c_source.html#l00024">24</a> do arquivo <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   24</span>                                 {</div>
+<div class="line"><span class="lineno">   25</span>  <span class="keywordtype">int</span> length = strlen(st);</div>
+<div class="line"><span class="lineno">   26</span>  printf(<span class="stringliteral">&quot;RX STRLEN: %d\n&quot;</span>, length);</div>
+<div class="line"><span class="lineno">   27</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; length; i++) {</div>
+<div class="line"><span class="lineno">   28</span>    data[i] = (int)st[i];</div>
+<div class="line"><span class="lineno">   29</span>  }</div>
+<div class="line"><span class="lineno">   30</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8c_ab7744892c54a1e0f1c2fd8746f813aa0_icgraph.png" border="0" usemap="#aadc_8c_ab7744892c54a1e0f1c2fd8746f813aa0_icgraph" alt=""/></div>
+<map name="aadc_8c_ab7744892c54a1e0f1c2fd8746f813aa0_icgraph" id="aadc_8c_ab7744892c54a1e0f1c2fd8746f813aa0_icgraph">
+<area shape="rect" title=" " alt="" coords="219,5,275,32"/>
+<area shape="rect" href="adc_8c.html#af4adf7091071b9c3db5a132e2befd529" title=" " alt="" coords="103,5,171,32"/>
+<area shape="poly" title=" " alt="" coords="204,21,171,21,171,16,204,16"/>
+<area shape="rect" href="adc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a25a40b6614565f755233080a384c35f1" name="a25a40b6614565f755233080a384c35f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25a40b6614565f755233080a384c35f1">&#9670;&#160;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initialize </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="adc_8c_source.html#l00013">13</a> do arquivo <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   13</span>                  {</div>
+<div class="line"><span class="lineno">   14</span>  <a class="code hl_struct" href="structgpio__t.html">gpio_t</a> <a class="code hl_variable" href="namespaceconverters.html#a18df48359e5a21cb7d25221f4b2db13e">ADC_pin</a> = {.pin = <a class="code hl_enumvalue" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227eaf07de5bb89e4d4cbad89204c20590872">P9_24</a>};</div>
+<div class="line"><span class="lineno">   15</span> </div>
+<div class="line"><span class="lineno">   16</span>  <a class="code hl_function" href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd">spi_open</a>(<span class="stringliteral">&quot;/dev/spidev0.0&quot;</span>, &amp;mode, &amp;bits, &amp;speed, &amp;ADC_pin);</div>
+<div class="line"><span class="lineno">   17</span>  <span class="keywordtype">char</span>* rx;</div>
+<div class="line"><span class="lineno">   18</span> </div>
+<div class="line"><span class="lineno">   19</span>  <a class="code hl_function" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a>(<span class="stringliteral">&quot;\xff\xff&quot;</span>, rx, 2);</div>
+<div class="line"><span class="lineno">   20</span>  <a class="code hl_function" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a>(<span class="stringliteral">&quot;\xff\xff&quot;</span>, rx, 2);</div>
+<div class="line"><span class="lineno">   21</span>  <a class="code hl_function" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a>(<span class="stringliteral">&quot;\x83\x10&quot;</span>, rx, 2);</div>
+<div class="line"><span class="lineno">   22</span>}</div>
+<div class="ttc" id="agroup__spi_comm_html_ga92caafc38b2327a8d2dcdd7d5695fe88"><div class="ttname"><a href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a></div><div class="ttdeci">int spi_transfer(const char *tx, const char *rx, int len)</div><div class="ttdoc">Transfers buffer through SPI with determined length.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00104">common.c:104</a></div></div>
+<div class="ttc" id="agroup__spi_comm_html_ga968d98569b427752f4798f05ba8fb6bd"><div class="ttname"><a href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd">spi_open</a></div><div class="ttdeci">int spi_open(const char *device, uint32_t *mode, uint8_t *bits, uint32_t *speed)</div><div class="ttdoc">Opens SPI bus.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00075">common.c:75</a></div></div>
+<div class="ttc" id="anamespaceconverters_html_a18df48359e5a21cb7d25221f4b2db13e"><div class="ttname"><a href="namespaceconverters.html#a18df48359e5a21cb7d25221f4b2db13e">converters.ADC_pin</a></div><div class="ttdeci">str ADC_pin</div><div class="ttdef"><b>Definição</b> <a href="converters_8py_source.html#l00006">converters.py:6</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html_a763b7835b59e456a1a142a0478df227eaf07de5bb89e4d4cbad89204c20590872"><div class="ttname"><a href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227eaf07de5bb89e4d4cbad89204c20590872">P9_24</a></div><div class="ttdeci">@ P9_24</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00055">common.h:55</a></div></div>
+<div class="ttc" id="astructgpio__t_html"><div class="ttname"><a href="structgpio__t.html">gpio_t</a></div><div class="ttdoc">Beaglebone GPIO pin structure.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00114">common.h:114</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8c_a25a40b6614565f755233080a384c35f1_cgraph.png" border="0" usemap="#aadc_8c_a25a40b6614565f755233080a384c35f1_cgraph" alt=""/></div>
+<map name="aadc_8c_a25a40b6614565f755233080a384c35f1_cgraph" id="aadc_8c_a25a40b6614565f755233080a384c35f1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,81,74,108"/>
+<area shape="rect" href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="129,56,203,83"/>
+<area shape="poly" title=" " alt="" coords="73,85,113,77,114,82,75,90"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="122,107,210,133"/>
+<area shape="poly" title=" " alt="" coords="75,99,107,105,106,111,73,104"/>
+<area shape="rect" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="264,5,373,32"/>
+<area shape="poly" title=" " alt="" coords="202,55,261,35,263,40,204,60"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="427,31,477,57"/>
+<area shape="poly" title=" " alt="" coords="203,63,412,45,412,50,203,69"/>
+<area shape="rect" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="258,107,379,133"/>
+<area shape="poly" title=" " alt="" coords="204,79,263,99,261,104,202,84"/>
+<area shape="poly" title=" " alt="" coords="374,26,413,34,412,39,373,32"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8c_a25a40b6614565f755233080a384c35f1_icgraph.png" border="0" usemap="#aadc_8c_a25a40b6614565f755233080a384c35f1_icgraph" alt=""/></div>
+<map name="aadc_8c_a25a40b6614565f755233080a384c35f1_icgraph" id="aadc_8c_a25a40b6614565f755233080a384c35f1_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,171,32"/>
+<area shape="rect" href="adc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>argc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>argv</em>[]</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="adc_8c_source.html#l00044">44</a> do arquivo <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   44</span>                                 {</div>
+<div class="line"><span class="lineno">   45</span>  <span class="keywordflow">if</span> (geteuid() != 0) {</div>
+<div class="line"><span class="lineno">   46</span>    printf(<span class="stringliteral">&quot;Please run this as root!&quot;</span>);</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">   48</span>  }</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>  <span class="keywordtype">int</span> channel = argc &gt; 1 ? atoi(argv[1]) : 0;</div>
+<div class="line"><span class="lineno">   51</span>  <a class="code hl_function" href="#a25a40b6614565f755233080a384c35f1">initialize</a>();</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>  <span class="keywordtype">int</span> val = <a class="code hl_function" href="#af4adf7091071b9c3db5a132e2befd529">read_val</a>(channel);</div>
+<div class="line"><span class="lineno">   54</span>  printf(<span class="stringliteral">&quot;Val: %d %.2fV\n&quot;</span>, val, (<span class="keywordtype">float</span>)val / 4095.f * 5.f);</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>  <a class="code hl_function" href="group__spi_comm.html#gac54b0dcdb1c3c7f2c652639ddebb58ce">spi_close</a>();</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   59</span>}</div>
+<div class="ttc" id="aadc_8c_html_a25a40b6614565f755233080a384c35f1"><div class="ttname"><a href="#a25a40b6614565f755233080a384c35f1">initialize</a></div><div class="ttdeci">void initialize()</div><div class="ttdef"><b>Definição</b> <a href="adc_8c_source.html#l00013">adc.c:13</a></div></div>
+<div class="ttc" id="aadc_8c_html_af4adf7091071b9c3db5a132e2befd529"><div class="ttname"><a href="#af4adf7091071b9c3db5a132e2befd529">read_val</a></div><div class="ttdeci">int read_val(int channel)</div><div class="ttdef"><b>Definição</b> <a href="adc_8c_source.html#l00032">adc.c:32</a></div></div>
+<div class="ttc" id="agroup__spi_comm_html_gac54b0dcdb1c3c7f2c652639ddebb58ce"><div class="ttname"><a href="group__spi_comm.html#gac54b0dcdb1c3c7f2c652639ddebb58ce">spi_close</a></div><div class="ttdeci">int spi_close()</div><div class="ttdoc">Closes SPI bus.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00100">common.c:100</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#aadc_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
+<map name="aadc_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="aadc_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
+<area shape="rect" title=" " alt="" coords="5,157,55,184"/>
+<area shape="rect" href="adc_8c.html#a25a40b6614565f755233080a384c35f1" title=" " alt="" coords="107,107,175,133"/>
+<area shape="poly" title=" " alt="" coords="54,157,95,138,97,143,56,162"/>
+<area shape="rect" href="adc_8c.html#af4adf7091071b9c3db5a132e2befd529" title=" " alt="" coords="107,157,175,184"/>
+<area shape="poly" title=" " alt="" coords="55,168,91,168,91,173,55,173"/>
+<area shape="rect" href="group__spi_comm.html#gac54b0dcdb1c3c7f2c652639ddebb58ce" title="Closes SPI bus." alt="" coords="103,208,179,235"/>
+<area shape="poly" title=" " alt="" coords="56,179,97,199,95,203,54,184"/>
+<area shape="rect" href="group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="235,56,308,83"/>
+<area shape="poly" title=" " alt="" coords="174,104,220,86,222,91,176,109"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="227,107,315,133"/>
+<area shape="poly" title=" " alt="" coords="175,117,211,117,211,123,175,123"/>
+<area shape="rect" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="369,5,479,32"/>
+<area shape="poly" title=" " alt="" coords="308,55,366,35,368,40,309,60"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="533,31,582,57"/>
+<area shape="poly" title=" " alt="" coords="308,63,517,45,517,50,309,69"/>
+<area shape="rect" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="363,107,485,133"/>
+<area shape="poly" title=" " alt="" coords="309,79,368,99,366,104,308,84"/>
+<area shape="poly" title=" " alt="" coords="480,26,518,34,517,39,479,32"/>
+<area shape="poly" title=" " alt="" coords="174,155,220,137,222,142,176,160"/>
+<area shape="rect" href="adc_8c.html#ab7744892c54a1e0f1c2fd8746f813aa0" title=" " alt="" coords="243,157,299,184"/>
+<area shape="poly" title=" " alt="" coords="175,168,228,168,228,173,175,173"/>
+<area shape="rect" href="structcmd_8h.html#ae152484c890a24e4d9b4980e7b965be0" title="Closes the file descriptor fd." alt="" coords="245,208,297,235"/>
+<area shape="poly" title=" " alt="" coords="179,219,229,219,229,224,179,224"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af4adf7091071b9c3db5a132e2befd529" name="af4adf7091071b9c3db5a132e2befd529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4adf7091071b9c3db5a132e2befd529">&#9670;&#160;</a></span>read_val()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int read_val </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>channel</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="adc_8c_source.html#l00032">32</a> do arquivo <a class="el" href="adc_8c_source.html">adc.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>                          {</div>
+<div class="line"><span class="lineno">   33</span>  <span class="keywordtype">char</span> rx[2];</div>
+<div class="line"><span class="lineno">   34</span>  <span class="keywordtype">char</span> msg[3] = {131 + (channel * 4), 16};</div>
+<div class="line"><span class="lineno">   35</span>  <a class="code hl_function" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a>(msg, rx, 2);  <span class="comment">// Not a typo</span></div>
+<div class="line"><span class="lineno">   36</span>  <a class="code hl_function" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88">spi_transfer</a>(msg, rx, 2);</div>
+<div class="line"><span class="lineno">   37</span> </div>
+<div class="line"><span class="lineno">   38</span>  <span class="keywordtype">int</span> data[2] = {0, 0};</div>
+<div class="line"><span class="lineno">   39</span>  <a class="code hl_function" href="#ab7744892c54a1e0f1c2fd8746f813aa0">ch_int</a>(data, rx);</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>  <span class="keywordflow">return</span> (data[0] &amp; 0x0F) * 256 + data[1];</div>
+<div class="line"><span class="lineno">   42</span>}</div>
+<div class="ttc" id="aadc_8c_html_ab7744892c54a1e0f1c2fd8746f813aa0"><div class="ttname"><a href="#ab7744892c54a1e0f1c2fd8746f813aa0">ch_int</a></div><div class="ttdeci">void ch_int(int *data, char *st)</div><div class="ttdef"><b>Definição</b> <a href="adc_8c_source.html#l00024">adc.c:24</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8c_af4adf7091071b9c3db5a132e2befd529_cgraph.png" border="0" usemap="#aadc_8c_af4adf7091071b9c3db5a132e2befd529_cgraph" alt=""/></div>
+<map name="aadc_8c_af4adf7091071b9c3db5a132e2befd529_cgraph" id="aadc_8c_af4adf7091071b9c3db5a132e2befd529_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,74,57"/>
+<area shape="rect" href="adc_8c.html#ab7744892c54a1e0f1c2fd8746f813aa0" title=" " alt="" coords="138,5,194,32"/>
+<area shape="poly" title=" " alt="" coords="73,35,122,25,123,30,75,40"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="122,56,210,83"/>
+<area shape="poly" title=" " alt="" coords="75,48,107,55,106,60,73,53"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="adc_8c_af4adf7091071b9c3db5a132e2befd529_icgraph.png" border="0" usemap="#aadc_8c_af4adf7091071b9c3db5a132e2befd529_icgraph" alt=""/></div>
+<map name="aadc_8c_af4adf7091071b9c3db5a132e2befd529_icgraph" id="aadc_8c_af4adf7091071b9c3db5a132e2befd529_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,171,32"/>
+<area shape="rect" href="adc_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

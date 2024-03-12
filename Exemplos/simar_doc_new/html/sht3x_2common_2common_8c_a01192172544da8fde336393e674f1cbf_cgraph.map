@@ -1,0 +1,5 @@
+<map id="sensirion_bytes_to_float" name="sensirion_bytes_to_float">
+<area shape="rect" id="Node000001" title="Convert an array of bytes to a float." alt="" coords="5,5,136,48"/>
+<area shape="rect" id="Node000002" href="$sht3x_2common_2common_8c.html#a0b4b0315d1dccbc6f4bfa597efdc9db6" title="Convert an array of bytes to an uint32_t." alt="" coords="184,5,314,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,24,168,24,168,29,136,29"/>
+</map>

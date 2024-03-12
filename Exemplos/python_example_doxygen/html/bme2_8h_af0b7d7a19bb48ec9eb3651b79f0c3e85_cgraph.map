@@ -1,0 +1,10 @@
+<map id="bme280_init" name="bme280_init">
+<area shape="rect" id="Node000001" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="5,31,97,57"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="324,5,448,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,38,308,22,309,27,97,43"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="145,56,276,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="98,49,130,54,129,59,97,54"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="259,53,322,34,323,39,260,58"/>
+<area shape="rect" id="Node000004" href="$bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="324,56,448,83"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="277,67,308,67,308,72,277,72"/>
+</map>

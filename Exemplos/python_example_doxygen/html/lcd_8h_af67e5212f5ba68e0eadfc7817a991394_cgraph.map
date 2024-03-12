@@ -1,0 +1,9 @@
+<map id="lcd_write" name="lcd_write">
+<area shape="rect" id="Node000001" title="Transfers to LCD register." alt="" coords="5,56,78,83"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="126,5,235,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,54,127,35,129,40,79,59"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="128,56,233,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="78,67,113,67,113,72,78,72"/>
+<area shape="rect" id="Node000004" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="136,107,225,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="79,80,129,98,127,103,77,85"/>
+</map>

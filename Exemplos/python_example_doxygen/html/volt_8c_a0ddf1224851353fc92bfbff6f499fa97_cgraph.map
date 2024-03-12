@@ -1,0 +1,49 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,208,55,235"/>
+<area shape="rect" id="Node000002" href="$volt_8c.html#a820b526e15e7d0feb63e8892b8894a3c" title="Calculate actual voltage, by picking out the 8 bits in the middle of the ADCs response." alt="" coords="120,5,213,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="31,207,52,134,72,89,101,49,113,38,117,42,105,52,77,92,57,136,36,208"/>
+<area shape="rect" id="Node000003" href="$volt_8c.html#ae72fe522ee99ae5c8172806b6d063e08" title="Listens for commands sent to the Redis key on the main server." alt="" coords="103,107,230,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="39,206,65,175,101,143,109,138,112,143,104,147,69,179,43,210"/>
+<area shape="rect" id="Node000011" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="480,284,528,311"/>
+<area shape="poly" id="edge27_Node000001_Node000011" title=" " alt="" coords="55,217,116,215,202,217,301,225,400,244,436,257,469,274,466,278,434,262,399,249,300,230,202,222,116,221,55,223"/>
+<area shape="rect" id="Node000012" href="$volt_8c.html#adf5a6d98b1ff91ef533edb988967728f" title="Connects to a local Redis server (or exits, in case none are available)" alt="" coords="116,157,217,184"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="54,210,113,188,115,193,56,215"/>
+<area shape="rect" id="Node000013" href="$volt_8c.html#a1f2829e8ec43eeb4838ce9cd1db322ce" title="Gets glitch count, frequency and duty cycle information from the PRU." alt="" coords="115,309,218,336"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="45,233,71,260,104,289,122,300,119,304,101,293,67,264,41,237"/>
+<area shape="rect" id="Node000015" href="$structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="316,259,362,285"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="56,226,103,237,210,255,301,266,300,271,210,260,102,243,54,231"/>
+<area shape="rect" id="Node000016" href="$group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="130,436,203,463"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="37,234,59,308,79,354,105,397,133,425,129,428,101,400,74,356,54,309,32,236"/>
+<area shape="rect" id="Node000019" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="122,360,211,387"/>
+<area shape="poly" id="edge24_Node000001_Node000019" title=" " alt="" coords="38,234,61,288,80,319,104,346,110,351,107,355,101,350,76,322,56,290,33,236"/>
+<area shape="rect" id="Node000020" href="$group__spi_module.html#ga40fe919c1468169bee343c112d7e1321" title="Writes data directly to SPI (module selection)" alt="" coords="447,31,561,57"/>
+<area shape="poly" id="edge25_Node000001_Node000020" title=" " alt="" coords="32,206,54,150,74,118,101,93,141,70,183,54,227,42,272,34,358,29,432,32,431,38,358,35,272,40,228,47,185,59,143,75,104,97,78,122,59,152,37,208"/>
+<area shape="rect" id="Node000004" href="$volt_8c.html#a2bfbe66ec6ac66ff12e9bb015aaaf5f6" title="Connects to remote Redis server (or exits, in case none are available)" alt="" coords="282,107,396,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="230,117,266,117,266,123,230,123"/>
+<area shape="rect" id="Node000005" href="$group__spi_module.html#gaae72590a50e1e0f2724816e414aa4299" title="Writes digital data at given address." alt="" coords="299,157,379,184"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="215,131,285,152,283,157,214,137"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="770,107,879,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="379,158,447,143,527,127,608,117,684,114,755,115,754,120,684,120,609,123,528,132,448,148,380,163"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="773,183,877,209"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="380,180,445,196,530,212,625,222,674,222,722,219,763,211,764,216,722,224,674,228,625,227,529,218,444,201,378,185"/>
+<area shape="rect" id="Node000008" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="451,157,557,184"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="379,168,436,168,436,173,379,173"/>
+<area shape="poly" id="edge12_Node000005_Node000011" title=" " alt="" coords="373,182,401,201,417,217,426,232,435,247,449,263,468,277,464,281,446,267,430,251,421,235,412,220,398,205,370,187"/>
+<area shape="rect" id="Node000009" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="609,183,722,209"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="558,176,594,182,593,187,557,182"/>
+<area shape="rect" id="Node000010" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="609,132,722,159"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="557,160,593,154,593,159,558,165"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="722,134,754,129,755,134,723,139"/>
+<area shape="poly" id="edge11_Node000010_Node000007" title=" " alt="" coords="711,157,767,175,765,180,709,162"/>
+<area shape="poly" id="edge17_Node000013_Node000011" title=" " alt="" coords="218,316,464,298,464,303,218,322"/>
+<area shape="rect" id="Node000014" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="479,411,529,437"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="215,334,465,410,464,415,213,339"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="214,306,300,280,301,286,215,311"/>
+<area shape="poly" id="edge23_Node000016_Node000014" title=" " alt="" coords="203,444,463,424,464,430,204,449"/>
+<area shape="rect" id="Node000017" href="$spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="284,461,393,488"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="204,452,269,462,268,467,203,457"/>
+<area shape="rect" id="Node000018" href="$spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="278,512,399,539"/>
+<area shape="poly" id="edge22_Node000016_Node000018" title=" " alt="" coords="199,461,279,498,292,503,290,508,277,502,196,466"/>
+<area shape="poly" id="edge21_Node000017_Node000014" title=" " alt="" coords="384,458,464,433,465,438,386,463"/>
+<area shape="poly" id="edge26_Node000020_Node000010" title=" " alt="" coords="528,55,631,121,628,126,525,60"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="i2c_write" name="i2c_write">
+<area shape="rect" id="Node000001" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="5,5,78,32"/>
+<area shape="rect" id="Node000002" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="126,5,174,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,16,110,16,110,21,78,21"/>
+</map>

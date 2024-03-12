@@ -1,0 +1,32 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/main/wireless.c" name="C:/Users/eric.abbade/Downloads/simar_new/main/wireless.c">
+<area shape="rect" id="Node000001" title="Main starting point for wireless SIMAR." alt="" coords="327,5,481,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,70,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="327,56,85,114,84,109,326,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="93,112,206,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="327,65,201,109,199,104,326,60"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="229,112,305,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="361,67,301,106,298,101,358,62"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="329,112,392,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="392,66,376,99,371,97,388,63"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="416,112,480,139"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="421,63,438,97,433,99,416,66"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="505,112,575,139"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="450,62,510,101,507,106,447,67"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="600,112,657,139"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="478,62,586,105,584,110,476,67"/>
+<area shape="rect" id="Node000009" href="$bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="681,112,879,139"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="482,52,713,105,711,111,481,57"/>
+<area shape="rect" id="Node000010" href="$i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="654,187,781,213"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="771,141,740,177,736,173,767,137"/>
+<area shape="rect" id="Node000013" href="$bme2_8h.html" title=" " alt="" coords="806,187,882,213"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="793,137,825,173,821,177,789,141"/>
+<area shape="rect" id="Node000011" href="$spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="659,261,774,288"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="720,214,719,246,714,246,715,214"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="704,336,768,363"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="722,288,731,320,726,322,717,289"/>
+<area shape="rect" id="Node000014" href="$bme2__defs_8h.html" title=" " alt="" coords="798,261,893,288"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="847,214,848,246,842,246,842,214"/>
+<area shape="poly" id="edge15_Node000014_Node000012" title=" " alt="" coords="828,291,769,330,766,325,825,286"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="812,336,879,363"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="848,289,848,320,843,320,843,289"/>
+</map>

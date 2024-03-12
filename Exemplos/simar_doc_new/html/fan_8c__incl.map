@@ -1,0 +1,19 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/main/fan.c" name="C:/Users/eric.abbade/Downloads/simar_new/main/fan.c">
+<area shape="rect" id="Node000001" title="Main starting point for fan RPM sensor module." alt="" coords="267,5,421,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,62,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,60,78,114,76,108,266,55"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="85,112,198,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="279,67,185,108,183,103,277,62"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="222,112,285,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="317,66,279,103,276,99,313,62"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="309,112,379,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="347,64,347,96,342,96,342,64"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="404,112,461,139"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="374,62,411,99,407,103,371,66"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="485,112,553,139"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="402,62,482,102,479,107,400,67"/>
+<area shape="rect" id="Node000008" href="$spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="577,112,693,139"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="422,57,579,104,578,110,421,62"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="603,187,667,213"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="638,139,638,171,632,171,632,139"/>
+</map>

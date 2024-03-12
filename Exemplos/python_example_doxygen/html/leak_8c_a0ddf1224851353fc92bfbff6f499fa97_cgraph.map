@@ -1,0 +1,29 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,55,83"/>
+<area shape="rect" id="Node000002" href="$structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="267,5,313,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,57,102,41,181,27,251,19,251,24,182,32,103,47,56,62"/>
+<area shape="rect" id="Node000003" href="$group__spi_module.html#ga4f599c24b77a8c45bee52bb0c290860e" title="Reads digital data at given address." alt="" coords="103,56,181,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,67,87,67,87,72,55,72"/>
+<area shape="rect" id="Node000010" href="$group__spi_comm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="105,183,179,209"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="45,81,121,169,117,173,41,85"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="180,54,251,29,253,34,182,59"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="237,56,342,83"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="181,67,221,67,221,72,181,72"/>
+<area shape="rect" id="Node000009" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="246,107,334,133"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="182,80,235,99,233,104,180,85"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="399,44,511,71"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="343,63,383,60,383,65,343,68"/>
+<area shape="rect" id="Node000006" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="398,95,512,121"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="344,79,383,89,382,94,342,84"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="560,69,669,96"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="512,96,544,91,545,96,512,102"/>
+<area shape="rect" id="Node000008" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="562,120,667,147"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="512,114,547,120,546,125,512,120"/>
+<area shape="rect" id="Node000011" href="$spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="235,157,344,184"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="179,187,219,180,220,185,180,192"/>
+<area shape="rect" id="Node000012" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="430,171,480,197"/>
+<area shape="poly" id="edge14_Node000010_Node000012" title=" " alt="" coords="179,195,258,196,350,193,415,187,415,192,350,199,258,201,179,200"/>
+<area shape="rect" id="Node000013" href="$spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="229,259,350,285"/>
+<area shape="poly" id="edge13_Node000010_Node000013" title=" " alt="" coords="171,208,250,249,247,253,169,212"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="345,172,415,178,415,183,344,178"/>
+</map>

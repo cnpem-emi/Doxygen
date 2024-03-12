@@ -1,0 +1,7 @@
+<map id="SHT3x" name="SHT3x">
+<area shape="rect" id="Node000001" title="Product Overview and Sensor API Source Code" alt="" coords="5,81,66,108"/>
+<area shape="rect" id="Node000002" href="$group__sht3xInit.html" title="Initialize the sensor and device structure." alt="" coords="126,5,216,32"/>
+<area shape="rect" id="Node000003" href="$group__sht3xSensorData.html" title="Data processing of sensor." alt="" coords="124,56,218,83"/>
+<area shape="rect" id="Node000004" href="$group__sht3xSensorPower.html" title="Generic API for configuring sensor power mode." alt="" coords="120,107,222,133"/>
+<area shape="rect" id="Node000005" href="$group__sht3xSensorSettings.html" title="Generic API for accessing sensor settings." alt="" coords="114,157,228,184"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,107,55,133"/>
+<area shape="rect" id="Node000002" href="$group__spiModule.html#ga4f599c24b77a8c45bee52bb0c290860e" title="Reads digital data at given address." alt="" coords="103,81,181,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,112,87,104,88,110,56,117"/>
+<area shape="rect" id="Node000009" href="$group__spiComm.html#ga968d98569b427752f4798f05ba8fb6bd" title="Opens SPI bus." alt="" coords="105,132,179,159"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="56,123,91,131,90,136,54,128"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="237,31,342,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="180,79,233,60,235,65,182,84"/>
+<area shape="rect" id="Node000008" href="$group__spiComm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="246,81,334,108"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="181,92,230,92,230,97,181,97"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="399,5,511,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="343,33,383,27,384,32,343,39"/>
+<area shape="rect" id="Node000005" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="398,56,512,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="343,49,383,56,382,61,343,55"/>
+<area shape="rect" id="Node000006" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="560,31,669,57"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="512,58,544,53,545,58,512,63"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="562,81,667,108"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="512,76,547,81,546,87,512,81"/>
+<area shape="rect" id="Node000010" href="$spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="235,132,344,159"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="179,143,220,143,220,148,179,148"/>
+<area shape="rect" id="Node000011" href="$spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="229,183,350,209"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="180,155,235,175,233,180,178,160"/>
+</map>

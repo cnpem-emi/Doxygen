@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/main/wireless.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_0e7e5b8e082842383448704bc01977c3.html">main</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo wireless.c</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Main starting point for wireless SIMAR.  
+<a href="#details">Mais...</a></p>
+<div class="textblock"><code>#include &lt;dirent.h&gt;</code><br />
+<code>#include &lt;hiredis/hiredis.h&gt;</code><br />
+<code>#include &lt;pthread.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;syslog.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="bme280_2common_2common_8h_source.html">../bme280/common/common.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para wireless.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="wireless_8c__incl.png" border="0" usemap="#abin_2main_2wireless_8c" alt=""/></div>
+<map name="abin_2main_2wireless_8c" id="abin_2main_2wireless_8c">
+<area shape="rect" title="Main starting point for wireless SIMAR." alt="" coords="338,5,470,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,70,107"/>
+<area shape="poly" title=" " alt="" coords="338,33,224,54,85,82,84,77,223,48,337,28"/>
+<area shape="rect" title=" " alt="" coords="93,80,206,107"/>
+<area shape="poly" title=" " alt="" coords="361,35,209,78,208,73,359,30"/>
+<area shape="rect" title=" " alt="" coords="229,80,305,107"/>
+<area shape="poly" title=" " alt="" coords="381,35,306,75,303,70,379,30"/>
+<area shape="rect" title=" " alt="" coords="329,80,392,107"/>
+<area shape="poly" title=" " alt="" coords="399,34,378,68,373,65,394,31"/>
+<area shape="rect" title=" " alt="" coords="416,80,480,107"/>
+<area shape="poly" title=" " alt="" coords="414,31,435,65,430,68,410,34"/>
+<area shape="rect" title=" " alt="" coords="505,80,575,107"/>
+<area shape="poly" title=" " alt="" coords="429,30,504,70,502,75,427,35"/>
+<area shape="rect" title=" " alt="" coords="600,80,657,107"/>
+<area shape="poly" title=" " alt="" coords="444,30,586,75,584,81,442,35"/>
+<area shape="rect" href="bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="681,80,879,107"/>
+<area shape="poly" title=" " alt="" coords="471,30,700,74,699,79,470,35"/>
+<area shape="rect" href="i2c_2common_8h.html" title="Common declarations for I2C operations." alt="" coords="654,155,781,181"/>
+<area shape="poly" title=" " alt="" coords="771,109,740,145,736,141,767,105"/>
+<area shape="rect" href="bme2_8h.html" title=" " alt="" coords="806,155,882,181"/>
+<area shape="poly" title=" " alt="" coords="793,105,825,141,821,145,789,109"/>
+<area shape="rect" href="spi_2common_8h.html" title="Common declarations for SPI operations." alt="" coords="659,229,774,256"/>
+<area shape="poly" title=" " alt="" coords="720,182,719,214,714,214,715,182"/>
+<area shape="rect" title=" " alt="" coords="704,304,768,331"/>
+<area shape="poly" title=" " alt="" coords="722,256,731,288,726,290,717,257"/>
+<area shape="rect" href="bme2__defs_8h.html" title=" " alt="" coords="798,229,893,256"/>
+<area shape="poly" title=" " alt="" coords="847,182,848,214,842,214,842,182"/>
+<area shape="poly" title=" " alt="" coords="828,259,769,298,766,293,825,254"/>
+<area shape="rect" title=" " alt="" coords="812,304,879,331"/>
+<area shape="poly" title=" " alt="" coords="848,257,848,288,843,288,843,257"/>
+</map>
+</div>
+</div>
+<p><a href="wireless_8c_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a2963e6c9e2c47157ad61fb5ac9f2b52f" id="r_a2963e6c9e2c47157ad61fb5ac9f2b52f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2963e6c9e2c47157ad61fb5ac9f2b52f">redis_connect</a> ()</td></tr>
+<tr class="separator:a2963e6c9e2c47157ad61fb5ac9f2b52f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21352936e880c177a790f0a707d82b6d" id="r_a21352936e880c177a790f0a707d82b6d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21352936e880c177a790f0a707d82b6d">blink_led</a> ()</td></tr>
+<tr class="separator:a21352936e880c177a790f0a707d82b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97" id="r_a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:af90d996c6169d02772757fa54c268964" id="r_af90d996c6169d02772757fa54c268964"><td class="memItemLeft" align="right" valign="top">redisContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af90d996c6169d02772757fa54c268964">c</a></td></tr>
+<tr class="separator:af90d996c6169d02772757fa54c268964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add931d24151277739fa84be3a73429a0" id="r_add931d24151277739fa84be3a73429a0"><td class="memItemLeft" align="right" valign="top">redisContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add931d24151277739fa84be3a73429a0">local_c</a></td></tr>
+<tr class="separator:add931d24151277739fa84be3a73429a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8aa122634e5f2134c14025b3df4f26a" id="r_ac8aa122634e5f2134c14025b3df4f26a"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8aa122634e5f2134c14025b3df4f26a">servers</a> [12][16]</td></tr>
+<tr class="separator:ac8aa122634e5f2134c14025b3df4f26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6f6d7040a058dea717c634cc3accfe" id="r_a9f6f6d7040a058dea717c634cc3accfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgpio__t.html">gpio_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f6f6d7040a058dea717c634cc3accfe">led</a> = {.pin = <a class="el" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ead600f976513726d12701e23ad198f32c">USR_3</a>}</td></tr>
+<tr class="separator:a9f6f6d7040a058dea717c634cc3accfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5774b6c12bc76f2fe59f69dc2b1b7baa" id="r_a5774b6c12bc76f2fe59f69dc2b1b7baa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structgpio__t.html">gpio_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5774b6c12bc76f2fe59f69dc2b1b7baa">dec_led</a> = {.pin = <a class="el" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea96ae5b9913064c89578761588b3c4085">USR_2</a>}</td></tr>
+<tr class="separator:a5774b6c12bc76f2fe59f69dc2b1b7baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca25eedd2de7d3996c3b605ae1f5720f" id="r_aca25eedd2de7d3996c3b605ae1f5720f"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> = -1</td></tr>
+<tr class="separator:aca25eedd2de7d3996c3b605ae1f5720f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Main starting point for wireless SIMAR. </p>
+
+<p class="definition">Definição no arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+</div><h2 class="groupheader">Funções</h2>
+<a id="a21352936e880c177a790f0a707d82b6d" name="a21352936e880c177a790f0a707d82b6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21352936e880c177a790f0a707d82b6d">&#9670;&#160;</a></span>blink_led()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void * blink_led </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00040">40</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   40</span>                  {</div>
+<div class="line"><span class="lineno">   41</span>  <span class="keyword">const</span> <span class="keyword">struct </span>timespec blink_delay = {0, 250000000L};</div>
+<div class="line"><span class="lineno">   42</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> == 99) {</div>
+<div class="line"><span class="lineno">   43</span>    <span class="keyword">const</span> <span class="keyword">struct </span>timespec blink_period = {10, 0};</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">for</span> (;;) {</div>
+<div class="line"><span class="lineno">   45</span>      <a class="code hl_function" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a>(<a class="code hl_variable" href="#a9f6f6d7040a058dea717c634cc3accfe">led</a>);</div>
+<div class="line"><span class="lineno">   46</span>      nanosleep(&amp;blink_period, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">   47</span>      <span class="comment">// nanosl</span></div>
+<div class="line"><span class="lineno">   48</span>    }</div>
+<div class="line"><span class="lineno">   49</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keyword">const</span> <span class="keyword">struct </span>timespec blink_period = {0, 750000000L};</div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> &gt; 9) {</div>
+<div class="line"><span class="lineno">   52</span>      <a class="code hl_function" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a>(<a class="code hl_variable" href="#a5774b6c12bc76f2fe59f69dc2b1b7baa">dec_led</a>);</div>
+<div class="line"><span class="lineno">   53</span>    }</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">for</span> (;;) {</div>
+<div class="line"><span class="lineno">   55</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a>; i++) {</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_function" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a>(<a class="code hl_variable" href="#a9f6f6d7040a058dea717c634cc3accfe">led</a>);</div>
+<div class="line"><span class="lineno">   57</span>        nanosleep(&amp;blink_delay, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">   58</span>        <a class="code hl_function" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a>(<a class="code hl_variable" href="#a9f6f6d7040a058dea717c634cc3accfe">led</a>);</div>
+<div class="line"><span class="lineno">   59</span>        nanosleep(&amp;blink_delay, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">   60</span>      }</div>
+<div class="line"><span class="lineno">   61</span>      nanosleep(&amp;blink_period, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
+<div class="line"><span class="lineno">   63</span>  }</div>
+<div class="line"><span class="lineno">   64</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a3dfeb486a29131f600b337889b08f34f"><div class="ttname"><a href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a></div><div class="ttdeci">void mmio_set_high(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00033">common.c:33</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a41cfe7f245de261fbb41e4591c221e14"><div class="ttname"><a href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a></div><div class="ttdeci">void mmio_set_low(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00037">common.c:37</a></div></div>
+<div class="ttc" id="awireless_8c_html_a5774b6c12bc76f2fe59f69dc2b1b7baa"><div class="ttname"><a href="#a5774b6c12bc76f2fe59f69dc2b1b7baa">dec_led</a></div><div class="ttdeci">gpio_t dec_led</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00020">wireless.c:20</a></div></div>
+<div class="ttc" id="awireless_8c_html_a9f6f6d7040a058dea717c634cc3accfe"><div class="ttname"><a href="#a9f6f6d7040a058dea717c634cc3accfe">led</a></div><div class="ttdeci">gpio_t led</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00019">wireless.c:19</a></div></div>
+<div class="ttc" id="awireless_8c_html_aca25eedd2de7d3996c3b605ae1f5720f"><div class="ttname"><a href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a></div><div class="ttdeci">int8_t sensor_number</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00021">wireless.c:21</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="wireless_8c_a21352936e880c177a790f0a707d82b6d_cgraph.png" border="0" usemap="#awireless_8c_a21352936e880c177a790f0a707d82b6d_cgraph" alt=""/></div>
+<map name="awireless_8c_a21352936e880c177a790f0a707d82b6d_cgraph" id="awireless_8c_a21352936e880c177a790f0a707d82b6d_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,78,57"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="126,5,235,32"/>
+<area shape="poly" title=" " alt="" coords="78,35,110,29,111,34,79,40"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="128,56,233,83"/>
+<area shape="poly" title=" " alt="" coords="79,48,113,54,112,60,78,53"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="wireless_8c_a21352936e880c177a790f0a707d82b6d_icgraph.png" border="0" usemap="#awireless_8c_a21352936e880c177a790f0a707d82b6d_icgraph" alt=""/></div>
+<map name="awireless_8c_a21352936e880c177a790f0a707d82b6d_icgraph" id="awireless_8c_a21352936e880c177a790f0a707d82b6d_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,175,32"/>
+<area shape="rect" href="wireless_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0ddf1224851353fc92bfbff6f499fa97" name="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>argc</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>argv</em>[]</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00066">66</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   66</span>                                 {</div>
+<div class="line"><span class="lineno">   67</span>  openlog(<span class="stringliteral">&quot;simar_bme&quot;</span>, 0, LOG_LOCAL0);</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>  redisReply* reply;</div>
+<div class="line"><span class="lineno">   70</span>  <span class="keyword">struct </span><a class="code hl_struct" href="structbme__sensor__data.html">bme_sensor_data</a> <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>;</div>
+<div class="line"><span class="lineno">   71</span>  syslog(LOG_NOTICE, <span class="stringliteral">&quot;Starting up...&quot;</span>);</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>  <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev.settings.osr_h = <a class="code hl_define" href="bme2__defs_8h.html#a521eb8ad23776eee8faaf58b17191a76">BME280_OVERSAMPLING_4X</a>;</div>
+<div class="line"><span class="lineno">   74</span>  <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev.settings.osr_p = <a class="code hl_define" href="bme2__defs_8h.html#ad8dc54a7a7d5bd1fd04d901561f7f646">BME280_OVERSAMPLING_16X</a>;</div>
+<div class="line"><span class="lineno">   75</span>  <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev.settings.osr_t = <a class="code hl_define" href="bme2__defs_8h.html#a521eb8ad23776eee8faaf58b17191a76">BME280_OVERSAMPLING_4X</a>;</div>
+<div class="line"><span class="lineno">   76</span>  <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev.settings.filter = <a class="code hl_define" href="bme2__defs_8h.html#ae61c58ec304b87f6f9726992af323dc3">BME280_FILTER_COEFF_OFF</a>;</div>
+<div class="line"><span class="lineno">   77</span>  <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id.mux_id = 0;</div>
+<div class="line"><span class="lineno">   78</span>  <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.past_pres = 0;</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">bme_init</a>(&amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev, &amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id, 0x76) == <a class="code hl_define" href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a>) {</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev.intf_ptr = &amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.id;</div>
+<div class="line"><span class="lineno">   82</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   83</span>    syslog(LOG_CRIT, <span class="stringliteral">&quot;No sensor found&quot;</span>);</div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">return</span> -2;</div>
+<div class="line"><span class="lineno">   85</span>  }</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 20; i++) {</div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_variable" href="#add931d24151277739fa84be3a73429a0">local_c</a> = redisConnectWithTimeout(<span class="stringliteral">&quot;127.0.0.1&quot;</span>, 6379, (<span class="keyword">struct</span> timeval){1, 500000});</div>
+<div class="line"><span class="lineno">   89</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="#add931d24151277739fa84be3a73429a0">local_c</a>-&gt;err)</div>
+<div class="line"><span class="lineno">   90</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   91</span> </div>
+<div class="line"><span class="lineno">   92</span>    <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev.delay_us(500000, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">   93</span>  }</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#add931d24151277739fa84be3a73429a0">local_c</a>-&gt;err) {</div>
+<div class="line"><span class="lineno">   96</span>    syslog(LOG_CRIT, <span class="stringliteral">&quot;Could not find a local Redis server&quot;</span>);</div>
+<div class="line"><span class="lineno">   97</span>    <span class="keywordflow">return</span> -2;</div>
+<div class="line"><span class="lineno">   98</span>  }</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="#a2963e6c9e2c47157ad61fb5ac9f2b52f">redis_connect</a>()) {</div>
+<div class="line"><span class="lineno">  101</span>    redisSetTimeout(<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>, (<span class="keyword">struct</span> timeval){1, 500000});</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>    reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#add931d24151277739fa84be3a73429a0">local_c</a>, <span class="stringliteral">&quot;HGET device simar_gia&quot;</span>);</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">if</span> (reply-&gt;str) {</div>
+<div class="line"><span class="lineno">  106</span>      <span class="keywordtype">int</span> sensor_preassigned = atoi(reply-&gt;str);</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>      freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  109</span>      reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;GET wgen%d_pressure&quot;</span>, sensor_preassigned);</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>      <span class="keywordflow">if</span> (!reply-&gt;str &amp;&amp; sensor_preassigned &lt; 20)</div>
+<div class="line"><span class="lineno">  112</span>        <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> = sensor_preassigned;</div>
+<div class="line"><span class="lineno">  113</span>      <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  114</span>        syslog(LOG_NOTICE, <span class="stringliteral">&quot;Preassigned SIMAR ID was not available, resorting to available ID&quot;</span>);</div>
+<div class="line"><span class="lineno">  115</span>    }</div>
+<div class="line"><span class="lineno">  116</span>    freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> == -1) {</div>
+<div class="line"><span class="lineno">  119</span>      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; 10; i++) {</div>
+<div class="line"><span class="lineno">  120</span>        reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;GET wgen%d_pressure&quot;</span>, i);</div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">if</span> (!reply-&gt;str) {</div>
+<div class="line"><span class="lineno">  122</span>          <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> = i;</div>
+<div class="line"><span class="lineno">  123</span>          freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  124</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  125</span>        }</div>
+<div class="line"><span class="lineno">  126</span>        freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  127</span>      }</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>      <span class="keywordflow">if</span> (<a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> == -1) {</div>
+<div class="line"><span class="lineno">  130</span>        syslog(LOG_CRIT, <span class="stringliteral">&quot;Sensor could not be allocated a variable&quot;</span>);</div>
+<div class="line"><span class="lineno">  131</span>        exit(<a class="code hl_define" href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a>);</div>
+<div class="line"><span class="lineno">  132</span>      }</div>
+<div class="line"><span class="lineno">  133</span>    }</div>
+<div class="line"><span class="lineno">  134</span>    syslog(LOG_NOTICE, <span class="stringliteral">&quot;Redis DB connected&quot;</span>);</div>
+<div class="line"><span class="lineno">  135</span> </div>
+<div class="line"><span class="lineno">  136</span>    syslog(LOG_NOTICE, <span class="stringliteral">&quot;Sensor connected, utilizing id %d&quot;</span>, <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a>);</div>
+<div class="line"><span class="lineno">  137</span>    reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#add931d24151277739fa84be3a73429a0">local_c</a>, <span class="stringliteral">&quot;HSET device simar_gia %d&quot;</span>, <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a>);</div>
+<div class="line"><span class="lineno">  138</span>    freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  139</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  140</span>    <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> = 99;</div>
+<div class="line"><span class="lineno">  141</span>  }</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>  reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#add931d24151277739fa84be3a73429a0">local_c</a>, <span class="stringliteral">&quot;SET retries 0&quot;</span>);</div>
+<div class="line"><span class="lineno">  144</span>  freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  145</span> </div>
+<div class="line"><span class="lineno">  146</span>  syslog(LOG_NOTICE, <span class="stringliteral">&quot;Starting readings...&quot;</span>);</div>
+<div class="line"><span class="lineno">  147</span>  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 10; i++) {</div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_function" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a>(&amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev, &amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data);  <span class="comment">// Perform &quot;calibration&quot; readings</span></div>
+<div class="line"><span class="lineno">  149</span>    <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev.delay_us(500000, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  150</span>  }</div>
+<div class="line"><span class="lineno">  151</span> </div>
+<div class="line"><span class="lineno">  152</span>  <a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;<a class="code hl_variable" href="#a9f6f6d7040a058dea717c634cc3accfe">led</a>);</div>
+<div class="line"><span class="lineno">  153</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(<a class="code hl_variable" href="#a9f6f6d7040a058dea717c634cc3accfe">led</a>);</div>
+<div class="line"><span class="lineno">  154</span>  <a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;<a class="code hl_variable" href="#a5774b6c12bc76f2fe59f69dc2b1b7baa">dec_led</a>);</div>
+<div class="line"><span class="lineno">  155</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(<a class="code hl_variable" href="#a5774b6c12bc76f2fe59f69dc2b1b7baa">dec_led</a>);</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>  pthread_t led_thread;</div>
+<div class="line"><span class="lineno">  158</span>  pthread_create(&amp;led_thread, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code hl_function" href="#a21352936e880c177a790f0a707d82b6d">blink_led</a>, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>  FILE* file = fopen(<span class="stringliteral">&quot;/log.csv&quot;</span>, <span class="stringliteral">&quot;a&quot;</span>);</div>
+<div class="line"><span class="lineno">  161</span>  <span class="keywordtype">char</span>* filename;</div>
+<div class="line"><span class="lineno">  162</span>  filename = (<span class="keywordtype">char</span>*)calloc(512, <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div>
+<div class="line"><span class="lineno">  163</span>  DIR* dr = opendir(<span class="stringliteral">&quot;/media/&quot;</span>);</div>
+<div class="line"><span class="lineno">  164</span>  <span class="keyword">struct </span>dirent* de;</div>
+<div class="line"><span class="lineno">  165</span>  <span class="keywordtype">int</span> found_loc = 0;</div>
+<div class="line"><span class="lineno">  166</span> </div>
+<div class="line"><span class="lineno">  167</span>  <span class="keyword">const</span> <span class="keyword">struct </span>timespec <a class="code hl_variable" href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a> = {0, 999999999L};</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>  time_t t = time(<a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  170</span>  <span class="keyword">struct </span>tm* current_time = localtime(&amp;t);</div>
+<div class="line"><span class="lineno">  171</span>  <span class="keywordtype">char</span> time_str[64];</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>  <span class="keywordflow">if</span> (dr == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno">  174</span>    syslog(LOG_ERR, <span class="stringliteral">&quot;Could not open logging directory&quot;</span>);</div>
+<div class="line"><span class="lineno">  175</span>    <span class="keywordflow">return</span> -4;</div>
+<div class="line"><span class="lineno">  176</span>  }</div>
+<div class="line"><span class="lineno">  177</span> </div>
+<div class="line"><span class="lineno">  178</span>  <span class="keywordflow">for</span> (;;) {</div>
+<div class="line"><span class="lineno">  179</span>    found_loc = 0;</div>
+<div class="line"><span class="lineno">  180</span> </div>
+<div class="line"><span class="lineno">  181</span>    <span class="keywordflow">while</span> ((de = readdir(dr)) != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno">  182</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a>(de-&gt;d_name, <span class="stringliteral">&quot;.&quot;</span>) &amp;&amp; <a class="code hl_function" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a>(de-&gt;d_name, <span class="stringliteral">&quot;..&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  183</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a>(de-&gt;d_name, filename)) {</div>
+<div class="line"><span class="lineno">  184</span>          snprintf(filename, 512, <span class="stringliteral">&quot;/media/%s/datalog.csv&quot;</span>, de-&gt;d_name);</div>
+<div class="line"><span class="lineno">  185</span>          fclose(file);</div>
+<div class="line"><span class="lineno">  186</span>          fopen(filename, <span class="stringliteral">&quot;a&quot;</span>);</div>
+<div class="line"><span class="lineno">  187</span>        }</div>
+<div class="line"><span class="lineno">  188</span>        found_loc = 1;</div>
+<div class="line"><span class="lineno">  189</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  190</span>      }</div>
+<div class="line"><span class="lineno">  191</span>    }</div>
+<div class="line"><span class="lineno">  192</span> </div>
+<div class="line"><span class="lineno">  193</span>    <span class="keywordflow">if</span> (!found_loc)</div>
+<div class="line"><span class="lineno">  194</span>      strcpy(filename, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  195</span>    rewinddir(dr);</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a> == 99 &amp;&amp; <a class="code hl_function" href="#a2963e6c9e2c47157ad61fb5ac9f2b52f">redis_connect</a>())</div>
+<div class="line"><span class="lineno">  198</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ad369675948e5476d0572af3f0f1308cb">DB_FAIL</a>;</div>
+<div class="line"><span class="lineno">  199</span> </div>
+<div class="line"><span class="lineno">  200</span>    <a class="code hl_function" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a>(&amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.dev, &amp;<a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data);</div>
+<div class="line"><span class="lineno">  201</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb">check_alteration</a>(sensor)) {</div>
+<div class="line"><span class="lineno">  202</span>      reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;SET wgen%d_%s %.3f EX 5&quot;</span>, <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a>, <span class="stringliteral">&quot;temperature&quot;</span>,</div>
+<div class="line"><span class="lineno">  203</span>                                        <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data.temperature);</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>      <span class="keywordflow">if</span> (reply == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> || reply-&gt;type == REDIS_REPLY_ERROR)</div>
+<div class="line"><span class="lineno">  206</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ad369675948e5476d0572af3f0f1308cb">DB_FAIL</a>;</div>
+<div class="line"><span class="lineno">  207</span>      freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  208</span> </div>
+<div class="line"><span class="lineno">  209</span>      reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;SET wgen%d_%s %.3f EX 5&quot;</span>, <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a>, <span class="stringliteral">&quot;pressure&quot;</span>,</div>
+<div class="line"><span class="lineno">  210</span>                                        <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data.pressure);</div>
+<div class="line"><span class="lineno">  211</span>      freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  212</span> </div>
+<div class="line"><span class="lineno">  213</span>      reply = (redisReply*)redisCommand(<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>, <span class="stringliteral">&quot;SET wgen%d_%s %.3f EX 5&quot;</span>, <a class="code hl_variable" href="#aca25eedd2de7d3996c3b605ae1f5720f">sensor_number</a>, <span class="stringliteral">&quot;humidity&quot;</span>,</div>
+<div class="line"><span class="lineno">  214</span>                                        <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data.humidity);</div>
+<div class="line"><span class="lineno">  215</span>      freeReplyObject(reply);</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>      <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.past_pres = <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data.pressure;</div>
+<div class="line"><span class="lineno">  218</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a>(filename, <span class="stringliteral">&quot;&quot;</span>)) {</div>
+<div class="line"><span class="lineno">  219</span>        t = time(0);</div>
+<div class="line"><span class="lineno">  220</span>        current_time = localtime(&amp;t);</div>
+<div class="line"><span class="lineno">  221</span>        strftime(time_str, <span class="keyword">sizeof</span>(time_str), <span class="stringliteral">&quot;%c&quot;</span>, current_time);</div>
+<div class="line"><span class="lineno">  222</span> </div>
+<div class="line"><span class="lineno">  223</span>        fprintf(file, <span class="stringliteral">&quot;%s,%.4f,%.4f,%.4f\n&quot;</span>, time_str, <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data.temperature,</div>
+<div class="line"><span class="lineno">  224</span>                <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data.pressure, <a class="code hl_variable" href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">sensor</a>.data.humidity);</div>
+<div class="line"><span class="lineno">  225</span>        fflush(file);</div>
+<div class="line"><span class="lineno">  226</span>      }</div>
+<div class="line"><span class="lineno">  227</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  228</span>      syslog(LOG_ERR, <span class="stringliteral">&quot;Invalid sensor reading&quot;</span>);</div>
+<div class="line"><span class="lineno">  229</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a>;</div>
+<div class="line"><span class="lineno">  230</span>    }</div>
+<div class="line"><span class="lineno">  231</span>    nanosleep(&amp;<a class="code hl_variable" href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a>, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  232</span>  }</div>
+<div class="line"><span class="lineno">  233</span> </div>
+<div class="line"><span class="lineno">  234</span>  <span class="comment">// Unreachable</span></div>
+<div class="line"><span class="lineno">  235</span>  free(filename);</div>
+<div class="line"><span class="lineno">  236</span>  pthread_join(led_thread, <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><span class="lineno">  237</span>  redisFree(<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>);</div>
+<div class="line"><span class="lineno">  238</span>  redisFree(<a class="code hl_variable" href="#add931d24151277739fa84be3a73429a0">local_c</a>);</div>
+<div class="line"><span class="lineno">  239</span>  closedir(dr);</div>
+<div class="line"><span class="lineno">  240</span>  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  241</span>}</div>
+<div class="ttc" id="abbb__dac_8c_html_a486233493fc0e05fe1bdbe7b7e5d0f1e"><div class="ttname"><a href="bbb__dac_8c.html#a486233493fc0e05fe1bdbe7b7e5d0f1e">period</a></div><div class="ttdeci">int period</div><div class="ttdef"><b>Definição</b> <a href="bbb__dac_8c_source.html#l00008">bbb_dac.c:8</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a3e502594f97be65d769480bce36c3706"><div class="ttname"><a href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706">bme_init</a></div><div class="ttdeci">int8_t bme_init(struct bme280_dev *dev, struct identifier *id, uint8_t addr)</div><div class="ttdoc">Initializes sensor communication.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8c_source.html#l00021">common.c:21</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a4c840b82055c8e4dad841d25cb520ee5"><div class="ttname"><a href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5">bme_read</a></div><div class="ttdeci">int8_t bme_read(struct bme280_dev *dev, struct bme280_data *comp_data)</div><div class="ttdoc">Reads sensor data.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8c_source.html#l00072">common.c:72</a></div></div>
+<div class="ttc" id="abme280_2common_2common_8c_html_a4efac5cc7de570b579555a87cdaf53bb"><div class="ttname"><a href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb">check_alteration</a></div><div class="ttdeci">int8_t check_alteration(struct bme_sensor_data sensor)</div><div class="ttdoc">Checks if the alteration in pressure over one measurement is realistic.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8c_source.html#l00089">common.c:89</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_a521eb8ad23776eee8faaf58b17191a76"><div class="ttname"><a href="bme2__defs_8h.html#a521eb8ad23776eee8faaf58b17191a76">BME280_OVERSAMPLING_4X</a></div><div class="ttdeci">#define BME280_OVERSAMPLING_4X</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00216">bme2_defs.h:216</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_abfe3dd12ee6f5f5d51fbb340a22ff678"><div class="ttname"><a href="bme2__defs_8h.html#abfe3dd12ee6f5f5d51fbb340a22ff678">BME280_OK</a></div><div class="ttdeci">#define BME280_OK</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00142">bme2_defs.h:142</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_ad8dc54a7a7d5bd1fd04d901561f7f646"><div class="ttname"><a href="bme2__defs_8h.html#ad8dc54a7a7d5bd1fd04d901561f7f646">BME280_OVERSAMPLING_16X</a></div><div class="ttdeci">#define BME280_OVERSAMPLING_16X</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00218">bme2_defs.h:218</a></div></div>
+<div class="ttc" id="abme2__defs_8h_html_ae61c58ec304b87f6f9726992af323dc3"><div class="ttname"><a href="bme2__defs_8h.html#ae61c58ec304b87f6f9726992af323dc3">BME280_FILTER_COEFF_OFF</a></div><div class="ttdeci">#define BME280_FILTER_COEFF_OFF</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00237">bme2_defs.h:237</a></div></div>
+<div class="ttc" id="anamespacemagnet_html_ad2c79e7569cbb6bbd9a5632a509151f0"><div class="ttname"><a href="namespacemagnet.html#ad2c79e7569cbb6bbd9a5632a509151f0">magnet.sensor</a></div><div class="ttdeci">sensor</div><div class="ttdef"><b>Definição</b> <a href="magnet_8py_source.html#l00005">magnet.py:5</a></div></div>
+<div class="ttc" id="arelates_8cpp_html_a7ceb7d379a52f7e26418e7a446b4a41a"><div class="ttname"><a href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a></div><div class="ttdeci">int strcmp(const String &amp;s1, const String &amp;s2)</div><div class="ttdef"><b>Definição</b> <a href="relates_8cpp_source.html#l00014">relates.cpp:14</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a43a120dc2fc182d3fe61769d34cf4285"><div class="ttname"><a href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a></div><div class="ttdeci">int mmio_get_gpio(gpio_t *gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00045">common.c:45</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_ac6a1cc04fa4fbcb29722630720f80399"><div class="ttname"><a href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a></div><div class="ttdeci">void mmio_set_output(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00025">common.c:25</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html_ad369675948e5476d0572af3f0f1308cb"><div class="ttname"><a href="spi_2common_8h.html#ad369675948e5476d0572af3f0f1308cb">DB_FAIL</a></div><div class="ttdeci">#define DB_FAIL</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00033">common.h:33</a></div></div>
+<div class="ttc" id="aspi_2common_8h_html_ada84c21bd9b80b6a7fdf741706029f00"><div class="ttname"><a href="spi_2common_8h.html#ada84c21bd9b80b6a7fdf741706029f00">SENSOR_FAIL</a></div><div class="ttdeci">#define SENSOR_FAIL</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00032">common.h:32</a></div></div>
+<div class="ttc" id="astructbme__sensor__data_html"><div class="ttname"><a href="structbme__sensor__data.html">bme_sensor_data</a></div><div class="ttdoc">Parent struct for all valid BMx sensors, including custom values to aid in door status calibration.</div><div class="ttdef"><b>Definição</b> <a href="bme280_2common_2common_8h_source.html#l00021">common.h:21</a></div></div>
+<div class="ttc" id="awireless_8c_html_a21352936e880c177a790f0a707d82b6d"><div class="ttname"><a href="#a21352936e880c177a790f0a707d82b6d">blink_led</a></div><div class="ttdeci">void * blink_led()</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00040">wireless.c:40</a></div></div>
+<div class="ttc" id="awireless_8c_html_a2963e6c9e2c47157ad61fb5ac9f2b52f"><div class="ttname"><a href="#a2963e6c9e2c47157ad61fb5ac9f2b52f">redis_connect</a></div><div class="ttdeci">uint8_t redis_connect()</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00023">wireless.c:23</a></div></div>
+<div class="ttc" id="awireless_8c_html_add931d24151277739fa84be3a73429a0"><div class="ttname"><a href="#add931d24151277739fa84be3a73429a0">local_c</a></div><div class="ttdeci">redisContext * local_c</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00015">wireless.c:15</a></div></div>
+<div class="ttc" id="awireless_8c_html_af90d996c6169d02772757fa54c268964"><div class="ttname"><a href="#af90d996c6169d02772757fa54c268964">c</a></div><div class="ttdeci">redisContext * c</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00015">wireless.c:15</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="wireless_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph.png" border="0" usemap="#awireless_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" alt=""/></div>
+<map name="awireless_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph" id="awireless_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph">
+<area shape="rect" title=" " alt="" coords="5,841,55,868"/>
+<area shape="rect" href="wireless_8c.html#a21352936e880c177a790f0a707d82b6d" title=" " alt="" coords="765,715,837,741"/>
+<area shape="poly" title=" " alt="" coords="55,857,159,873,234,880,319,884,411,883,506,875,600,857,690,827,717,812,741,793,779,752,783,755,745,797,720,816,692,832,601,862,507,880,411,889,319,890,234,886,158,878,54,862"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="126,512,196,539"/>
+<area shape="poly" title=" " alt="" coords="34,840,146,552,151,554,39,842"/>
+<area shape="rect" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="544,715,653,741"/>
+<area shape="poly" title=" " alt="" coords="54,840,102,821,283,784,528,738,529,743,284,789,103,827,56,845"/>
+<area shape="rect" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="538,791,659,817"/>
+<area shape="poly" title=" " alt="" coords="55,850,522,808,522,813,56,855"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="122,233,200,260"/>
+<area shape="poly" title=" " alt="" coords="31,840,100,499,150,275,155,276,105,501,37,841"/>
+<area shape="rect" href="bme280_2common_2common_8c.html#a4efac5cc7de570b579555a87cdaf53bb" title="Checks if the alteration in pressure over one measurement is realistic." alt="" coords="103,917,219,944"/>
+<area shape="poly" title=" " alt="" coords="54,866,104,896,123,907,120,912,101,901,52,871"/>
+<area shape="rect" href="wireless_8c.html#a2963e6c9e2c47157ad61fb5ac9f2b52f" title=" " alt="" coords="110,968,212,995"/>
+<area shape="poly" title=" " alt="" coords="40,867,65,909,83,933,104,954,109,957,106,962,101,958,79,937,61,912,36,870"/>
+<area shape="rect" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a" title=" " alt="" coords="130,1019,192,1045"/>
+<area shape="poly" title=" " alt="" coords="37,867,58,932,78,971,105,1005,118,1015,115,1019,101,1009,73,974,53,934,32,869"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="911,335,1020,361"/>
+<area shape="poly" title=" " alt="" coords="836,717,850,710,861,701,890,662,912,620,929,574,942,528,957,442,961,377,967,377,962,443,947,529,935,576,917,622,894,665,865,705,853,715,838,722"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="914,284,1018,311"/>
+<area shape="poly" title=" " alt="" coords="836,718,850,711,861,701,877,676,888,652,897,605,895,560,886,514,877,468,873,421,882,372,893,347,909,321,910,319,914,323,913,324,898,349,887,374,879,421,882,467,891,513,900,559,903,606,893,654,882,679,865,704,853,715,838,723"/>
+<area shape="rect" href="bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="317,411,408,437"/>
+<area shape="poly" title=" " alt="" coords="176,509,215,478,266,447,301,434,303,439,268,452,218,482,179,514"/>
+<area shape="rect" href="bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="274,512,451,539"/>
+<area shape="poly" title=" " alt="" coords="196,523,259,523,259,528,196,528"/>
+<area shape="rect" href="bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="267,461,458,488"/>
+<area shape="poly" title=" " alt="" coords="196,514,291,490,293,495,197,519"/>
+<area shape="rect" href="group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605" title="Configures pins for the digital interface board multiplexing function." alt="" coords="310,715,415,741"/>
+<area shape="poly" title=" " alt="" coords="169,538,182,570,203,612,232,656,269,694,297,710,294,715,265,698,228,659,198,615,177,572,164,540"/>
+<area shape="rect" href="i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073" title="Delays execution for n us." alt="" coords="326,360,399,387"/>
+<area shape="poly" title=" " alt="" coords="167,510,204,455,232,423,266,396,287,386,310,378,312,383,289,390,268,401,236,427,209,458,172,513"/>
+<area shape="rect" href="group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="308,259,418,285"/>
+<area shape="poly" title=" " alt="" coords="162,511,172,471,192,415,222,355,242,327,265,302,292,285,294,290,269,306,246,330,226,357,196,417,177,472,167,512"/>
+<area shape="rect" href="group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="758,309,844,336"/>
+<area shape="poly" title=" " alt="" coords="163,511,174,476,194,430,224,383,243,362,266,346,304,330,357,320,420,313,489,310,629,311,743,316,742,321,628,316,489,316,420,319,358,325,306,335,268,350,247,366,228,386,199,432,179,478,168,512"/>
+<area shape="rect" href="group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a" title="Opens communication with the I2C bus at a given address." alt="" coords="562,664,635,691"/>
+<area shape="poly" title=" " alt="" coords="171,538,207,595,235,625,268,650,303,665,339,675,415,686,487,687,546,683,546,688,487,693,415,692,338,680,301,670,266,654,231,629,202,598,167,541"/>
+<area shape="rect" href="group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="328,563,398,589"/>
+<area shape="poly" title=" " alt="" coords="197,531,313,561,312,566,196,537"/>
+<area shape="rect" href="group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="327,613,399,640"/>
+<area shape="poly" title=" " alt="" coords="179,537,218,568,268,599,312,614,311,619,266,604,215,573,176,541"/>
+<area shape="rect" href="bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="739,411,863,437"/>
+<area shape="poly" title=" " alt="" coords="409,421,723,421,723,427,409,427"/>
+<area shape="rect" href="bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="533,360,664,387"/>
+<area shape="poly" title=" " alt="" coords="408,412,518,388,519,393,410,417"/>
+<area shape="poly" title=" " alt="" coords="656,385,730,404,729,409,654,390"/>
+<area shape="rect" href="bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="739,360,863,387"/>
+<area shape="poly" title=" " alt="" coords="665,371,723,371,723,376,665,376"/>
+<area shape="rect" href="bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="510,461,687,488"/>
+<area shape="poly" title=" " alt="" coords="428,509,518,489,519,494,429,514"/>
+<area shape="poly" title=" " alt="" coords="654,458,729,439,730,444,656,463"/>
+<area shape="poly" title=" " alt="" coords="459,472,494,472,494,477,459,477"/>
+<area shape="poly" title=" " alt="" coords="416,725,529,725,529,731,416,731"/>
+<area shape="poly" title=" " alt="" coords="408,739,541,783,539,788,406,744"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="776,664,826,691"/>
+<area shape="poly" title=" " alt="" coords="653,712,761,684,762,690,654,717"/>
+<area shape="rect" href="spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="546,107,651,133"/>
+<area shape="poly" title=" " alt="" coords="384,256,562,140,565,144,387,260"/>
+<area shape="rect" href="group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="554,259,643,285"/>
+<area shape="poly" title=" " alt="" coords="418,269,539,269,539,275,418,275"/>
+<area shape="rect" href="spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="745,107,857,133"/>
+<area shape="poly" title=" " alt="" coords="652,117,729,117,729,123,652,123"/>
+<area shape="rect" href="group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="744,259,858,285"/>
+<area shape="poly" title=" " alt="" coords="653,131,692,150,720,172,745,196,784,244,780,247,741,200,716,176,689,154,650,136"/>
+<area shape="poly" title=" " alt="" coords="838,283,864,295,912,320,922,325,920,330,910,325,862,300,836,288"/>
+<area shape="poly" title=" " alt="" coords="858,278,899,284,898,290,858,283"/>
+<area shape="poly" title=" " alt="" coords="844,327,896,335,895,340,844,332"/>
+<area shape="poly" title=" " alt="" coords="844,314,897,305,898,310,844,319"/>
+<area shape="poly" title=" " alt="" coords="636,675,761,675,761,680,636,680"/>
+<area shape="rect" href="structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="575,563,622,589"/>
+<area shape="poly" title=" " alt="" coords="398,573,560,573,560,579,398,579"/>
+<area shape="rect" href="structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="574,613,623,640"/>
+<area shape="poly" title=" " alt="" coords="399,581,560,616,559,621,398,586"/>
+<area shape="poly" title=" " alt="" coords="399,624,559,624,559,629,399,629"/>
+<area shape="poly" title=" " alt="" coords="201,249,292,261,291,266,200,254"/>
+<area shape="poly" title=" " alt="" coords="200,234,291,217,415,204,485,203,555,209,625,222,692,244,708,255,718,269,726,282,740,295,748,300,745,304,737,299,722,285,714,271,705,259,689,249,624,227,555,214,484,208,416,209,291,222,201,239"/>
+<area shape="rect" href="bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="278,107,448,133"/>
+<area shape="poly" title=" " alt="" coords="182,231,325,140,328,144,185,235"/>
+<area shape="poly" title=" " alt="" coords="449,129,509,144,574,167,638,200,667,221,693,245,707,265,714,284,718,322,720,360,727,378,741,397,743,399,739,403,737,400,723,380,715,361,712,323,709,285,702,267,689,248,663,225,635,204,572,172,508,149,448,134"/>
+<area shape="rect" href="bme2_8c.html#a9f2c3c8c683b434ca10447515f85c0de" title="This API is used to compensate the pressure and/or temperature and/or humidity data according to the ..." alt="" coords="510,56,687,83"/>
+<area shape="poly" title=" " alt="" coords="428,103,518,84,519,89,429,109"/>
+<area shape="rect" href="bme2_8c.html#a84be45ccf7a3a82138ff2170123462c3" title="This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco..." alt="" coords="506,5,691,32"/>
+<area shape="poly" title=" " alt="" coords="385,104,439,73,505,42,525,35,526,40,507,46,441,78,388,108"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2963e6c9e2c47157ad61fb5ac9f2b52f" name="a2963e6c9e2c47157ad61fb5ac9f2b52f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2963e6c9e2c47157ad61fb5ac9f2b52f">&#9670;&#160;</a></span>redis_connect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t redis_connect </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00023">23</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   23</span>                        {</div>
+<div class="line"><span class="lineno">   24</span>  <span class="keywordtype">int</span> server_i = 0;</div>
+<div class="line"><span class="lineno">   25</span>  <span class="keywordflow">do</span> {</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a> = redisConnectWithTimeout(<a class="code hl_variable" href="#ac8aa122634e5f2134c14025b3df4f26a">servers</a>[server_i], 6379, (<span class="keyword">struct</span> timeval){1, 500000});</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>-&gt;err) {</div>
+<div class="line"><span class="lineno">   29</span>      <span class="keywordflow">if</span> (server_i == 2) {</div>
+<div class="line"><span class="lineno">   30</span>        syslog(LOG_ERR, <span class="stringliteral">&quot;No remote Redis server instance found&quot;</span>);</div>
+<div class="line"><span class="lineno">   31</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   32</span>      }</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>      syslog(LOG_ERR, <span class="stringliteral">&quot;%s remote Redis server not available, switching...\n&quot;</span>, <a class="code hl_variable" href="#ac8aa122634e5f2134c14025b3df4f26a">servers</a>[server_i++]);</div>
+<div class="line"><span class="lineno">   35</span>    }</div>
+<div class="line"><span class="lineno">   36</span>  } <span class="keywordflow">while</span> (<a class="code hl_variable" href="#af90d996c6169d02772757fa54c268964">c</a>-&gt;err);</div>
+<div class="line"><span class="lineno">   37</span>  <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+<div class="ttc" id="awireless_8c_html_ac8aa122634e5f2134c14025b3df4f26a"><div class="ttname"><a href="#ac8aa122634e5f2134c14025b3df4f26a">servers</a></div><div class="ttdeci">const char servers[12][16]</div><div class="ttdef"><b>Definição</b> <a href="wireless_8c_source.html#l00016">wireless.c:16</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="wireless_8c_a2963e6c9e2c47157ad61fb5ac9f2b52f_icgraph.png" border="0" usemap="#awireless_8c_a2963e6c9e2c47157ad61fb5ac9f2b52f_icgraph" alt=""/></div>
+<map name="awireless_8c_a2963e6c9e2c47157ad61fb5ac9f2b52f_icgraph" id="awireless_8c_a2963e6c9e2c47157ad61fb5ac9f2b52f_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,205,32"/>
+<area shape="rect" href="wireless_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variáveis</h2>
+<a id="af90d996c6169d02772757fa54c268964" name="af90d996c6169d02772757fa54c268964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af90d996c6169d02772757fa54c268964">&#9670;&#160;</a></span>c</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">redisContext* c</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00015">15</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+
+</div>
+</div>
+<a id="a5774b6c12bc76f2fe59f69dc2b1b7baa" name="a5774b6c12bc76f2fe59f69dc2b1b7baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5774b6c12bc76f2fe59f69dc2b1b7baa">&#9670;&#160;</a></span>dec_led</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgpio__t.html">gpio_t</a> dec_led = {.pin = <a class="el" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea96ae5b9913064c89578761588b3c4085">USR_2</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00020">20</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   20</span>{.pin = <a class="code hl_enumvalue" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea96ae5b9913064c89578761588b3c4085">USR_2</a>};</div>
+<div class="ttc" id="aspi_2common_8h_html_a763b7835b59e456a1a142a0478df227ea96ae5b9913064c89578761588b3c4085"><div class="ttname"><a href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ea96ae5b9913064c89578761588b3c4085">USR_2</a></div><div class="ttdeci">@ USR_2</div><div class="ttdoc">User LED 1.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00040">common.h:40</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9f6f6d7040a058dea717c634cc3accfe" name="a9f6f6d7040a058dea717c634cc3accfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6f6d7040a058dea717c634cc3accfe">&#9670;&#160;</a></span>led</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structgpio__t.html">gpio_t</a> led = {.pin = <a class="el" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ead600f976513726d12701e23ad198f32c">USR_3</a>}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00019">19</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   19</span>{.pin = <a class="code hl_enumvalue" href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ead600f976513726d12701e23ad198f32c">USR_3</a>};</div>
+<div class="ttc" id="aspi_2common_8h_html_a763b7835b59e456a1a142a0478df227ead600f976513726d12701e23ad198f32c"><div class="ttname"><a href="spi_2common_8h.html#a763b7835b59e456a1a142a0478df227ead600f976513726d12701e23ad198f32c">USR_3</a></div><div class="ttdeci">@ USR_3</div><div class="ttdoc">User LED 2.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00041">common.h:41</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="add931d24151277739fa84be3a73429a0" name="add931d24151277739fa84be3a73429a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add931d24151277739fa84be3a73429a0">&#9670;&#160;</a></span>local_c</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">redisContext * local_c</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00015">15</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+
+</div>
+</div>
+<a id="aca25eedd2de7d3996c3b605ae1f5720f" name="aca25eedd2de7d3996c3b605ae1f5720f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca25eedd2de7d3996c3b605ae1f5720f">&#9670;&#160;</a></span>sensor_number</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t sensor_number = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00021">21</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+
+</div>
+</div>
+<a id="ac8aa122634e5f2134c14025b3df4f26a" name="ac8aa122634e5f2134c14025b3df4f26a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8aa122634e5f2134c14025b3df4f26a">&#9670;&#160;</a></span>servers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char servers[12][16]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Valor inicial:</b><div class="fragment"><div class="line">= {<span class="stringliteral">&quot;10.0.38.59&quot;</span>,    <span class="stringliteral">&quot;10.0.38.46&quot;</span>,    <span class="stringliteral">&quot;10.0.38.42&quot;</span>,    <span class="stringliteral">&quot;10.128.153.81&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;10.128.153.82&quot;</span>, <span class="stringliteral">&quot;10.128.153.83&quot;</span>, <span class="stringliteral">&quot;10.128.153.84&quot;</span>, <span class="stringliteral">&quot;10.128.153.85&quot;</span>,</div>
+<div class="line">                              <span class="stringliteral">&quot;10.128.153.86&quot;</span>, <span class="stringliteral">&quot;10.128.153.87&quot;</span>, <span class="stringliteral">&quot;10.128.153.88&quot;</span>, <span class="stringliteral">&quot;10.128.255.5&quot;</span>}</div>
+</div><!-- fragment -->
+<p class="definition">Definição na linha <a class="el" href="wireless_8c_source.html#l00016">16</a> do arquivo <a class="el" href="wireless_8c_source.html">wireless.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   16</span>                             {<span class="stringliteral">&quot;10.0.38.59&quot;</span>,    <span class="stringliteral">&quot;10.0.38.46&quot;</span>,    <span class="stringliteral">&quot;10.0.38.42&quot;</span>,    <span class="stringliteral">&quot;10.128.153.81&quot;</span>,</div>
+<div class="line"><span class="lineno">   17</span>                              <span class="stringliteral">&quot;10.128.153.82&quot;</span>, <span class="stringliteral">&quot;10.128.153.83&quot;</span>, <span class="stringliteral">&quot;10.128.153.84&quot;</span>, <span class="stringliteral">&quot;10.128.153.85&quot;</span>,</div>
+<div class="line"><span class="lineno">   18</span>                              <span class="stringliteral">&quot;10.128.153.86&quot;</span>, <span class="stringliteral">&quot;10.128.153.87&quot;</span>, <span class="stringliteral">&quot;10.128.153.88&quot;</span>, <span class="stringliteral">&quot;10.128.255.5&quot;</span>};</div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

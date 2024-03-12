@@ -1,0 +1,11 @@
+<map id="BMP2" name="BMP2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,63,209"/>
+<area shape="rect" id="Node000006" href="$group__bmp2_api_config.html" title="Set / Get configurations of the sensor." alt="" coords="155,5,252,32"/>
+<area shape="rect" id="Node000002" href="$group__bmp2_api_init.html" title="Perform initialization of sensor." alt="" coords="159,56,248,83"/>
+<area shape="rect" id="Node000009" href="$group__bmp2_api_meas_time.html" title="Computes measurement time (in microseconds)" alt="" coords="111,107,296,133"/>
+<area shape="rect" id="Node000005" href="$group__bmp2_api_powermode.html" title="Set / Get power mode of the sensor." alt="" coords="157,157,250,184"/>
+<area shape="rect" id="Node000003" href="$group__bmp2_api_regs.html" title="Initialize the sensor and device structure." alt="" coords="165,208,242,235"/>
+<area shape="rect" id="Node000008" href="$group__bmp2_api_sensor_data.html" title="Data processing of sensor." alt="" coords="157,259,250,285"/>
+<area shape="rect" id="Node000004" href="$group__bmp2_api_softreset.html" title="Perform self test." alt="" coords="165,309,242,336"/>
+<area shape="rect" id="Node000007" href="$group__bmp2_api_status.html" title="Read status register." alt="" coords="150,360,257,387"/>
+</map>

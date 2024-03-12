@@ -1,0 +1,29 @@
+<map id="bme_read" name="bme_read">
+<area shape="rect" id="Node000001" title="Reads sensor data." alt="" coords="5,183,84,209"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a6671fea2c1e01f40029a653b9ab4410d" title="This API reads the pressure, temperature and humidity data from the sensor, compensates the data and ..." alt="" coords="132,81,302,108"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,180,178,114,181,118,70,184"/>
+<area shape="rect" id="Node000006" href="$group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="162,183,272,209"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="84,193,146,193,146,199,84,199"/>
+<area shape="rect" id="Node000013" href="$group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="596,259,682,285"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="85,206,132,219,257,240,382,254,581,267,581,273,381,259,256,245,131,224,83,211"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a9f2c3c8c683b434ca10447515f85c0de" title="This API is used to compensate the pressure and/or temperature and/or humidity data according to the ..." alt="" coords="354,5,531,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="251,78,349,41,373,34,374,39,351,47,252,83"/>
+<area shape="rect" id="Node000004" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="380,56,504,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="302,82,364,75,365,81,303,88"/>
+<area shape="rect" id="Node000005" href="$bme2_8c.html#a84be45ccf7a3a82138ff2170123462c3" title="This API is used to parse the pressure, temperature and humidity data and store it in the bme280_unco..." alt="" coords="350,107,534,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="303,102,335,105,334,111,302,107"/>
+<area shape="rect" id="Node000007" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="390,157,495,184"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="272,187,374,176,374,181,273,192"/>
+<area shape="rect" id="Node000012" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="398,208,486,235"/>
+<area shape="poly" id="edge11_Node000006_Node000012" title=" " alt="" coords="273,200,383,212,382,217,272,205"/>
+<area shape="rect" id="Node000008" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="583,208,695,235"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="496,182,570,201,569,206,494,187"/>
+<area shape="rect" id="Node000009" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="582,157,696,184"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="495,168,567,168,567,173,495,173"/>
+<area shape="rect" id="Node000010" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="744,171,853,197"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="696,173,728,175,728,181,696,178"/>
+<area shape="rect" id="Node000011" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="746,233,851,260"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="672,182,697,194,758,224,756,229,695,198,670,187"/>
+<area shape="poly" id="edge13_Node000013_Node000010" title=" " alt="" coords="671,256,694,244,762,204,765,208,697,249,673,261"/>
+<area shape="poly" id="edge14_Node000013_Node000011" title=" " alt="" coords="682,263,731,255,732,260,683,268"/>
+</map>

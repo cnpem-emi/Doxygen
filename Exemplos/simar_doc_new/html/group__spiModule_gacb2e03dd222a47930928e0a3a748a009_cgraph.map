@@ -1,0 +1,7 @@
+<map id="spi_mod_comm" name="spi_mod_comm">
+<area shape="rect" id="Node000001" title="Writes directly to module selector (bypassing parity)" alt="" coords="5,31,119,57"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="167,5,276,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,32,151,27,152,32,119,38"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="169,56,274,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="119,50,154,56,153,61,119,56"/>
+</map>

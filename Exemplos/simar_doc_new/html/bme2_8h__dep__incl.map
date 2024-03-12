@@ -1,0 +1,13 @@
+<map id="C:/Users/eric.abbade/Downloads/simar_new/bme280/bme2.h" name="C:/Users/eric.abbade/Downloads/simar_new/bme280/bme2.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="121,5,275,64"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html" title=" " alt="" coords="23,112,178,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,77,129,113,125,110,159,74"/>
+<area shape="rect" id="Node000003" href="$bme280_2common_2common_8h.html" title="Common declarations for BME280 operation on AM335x." alt="" coords="201,112,392,171"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,74,272,110,268,113,233,77"/>
+<area shape="rect" id="Node000004" href="$bme280_2common_2common_8c.html" title="Common functions for BMx device operation on AM335x." alt="" coords="5,219,196,277"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="231,180,156,220,153,216,228,176"/>
+<area shape="rect" id="Node000005" href="$bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="219,219,374,277"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="299,186,299,218,294,218,294,186"/>
+<area shape="rect" id="Node000006" href="$wireless_8c.html" title="Main starting point for wireless SIMAR." alt="" coords="398,219,552,277"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="359,176,428,216,425,221,357,181"/>
+</map>

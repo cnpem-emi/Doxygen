@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Código-Fonte de bin/utils/LCD/lcd.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_71781031496afb3e022ce930ef5573f6.html">LCD</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">lcd.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="lcd_8h.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef LCD_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define LCD_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno"><a class="line" href="lcd_8h.html#a19693eac3018d3e7800fde141921b812">    4</a></span><span class="preprocessor">#define LCD_WIDTH 84</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="lcd_8h.html#a53a8b2a971de4b88047192655a48b651">    5</a></span><span class="preprocessor">#define LCD_HEIGHT 48</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="struct_pin.html">    9</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="struct_pin.html#adc7ed4d9991bc47d473e178bd4fe9a49">   10</a></span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_pin.html#adc7ed4d9991bc47d473e178bd4fe9a49">header</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="struct_pin.html#aeabac9491522ec7f68102bfeab33d5c1">   11</a></span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_pin.html#aeabac9491522ec7f68102bfeab33d5c1">pin</a>;</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>} <a class="code hl_struct" href="struct_pin.html">Pin</a>;</div>
+</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keywordtype">void</span> <a class="code hl_function" href="lcd_8h.html#a0fa29c0aee6ec3285941a5849de041b2">lcd_line</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> len, <span class="keywordtype">int</span> thickness);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keywordtype">void</span> <a class="code hl_function" href="lcd_8h.html#a7027d4c67c9704b73a0eafb7dd94a515">lcd_init</a>(<span class="keywordtype">char</span>* vop, <span class="keywordtype">char</span>* bias);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">void</span> <a class="code hl_function" href="lcd_8h.html#abbee04b3dec721332759f89a137f2129">lcd_close</a>();</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keywordtype">int</span> <a class="code hl_function" href="lcd_8h.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a>(<span class="keywordtype">int</span> mode, uint8_t <span class="keyword">const</span>* wr, <span class="keywordtype">int</span> len);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keywordtype">void</span> <a class="code hl_function" href="lcd_8h.html#ab32a6c31d6a06782f4f1206ae6b4b039">lcd_set_backlight</a>(<span class="keywordtype">int</span> state);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">void</span> <a class="code hl_function" href="lcd_8h.html#a35c08b1fa742e650f4873939707b893b">lcd_clear</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keywordtype">int</span> <a class="code hl_function" href="lcd_8h.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a>(<span class="keywordtype">int</span> row, <span class="keywordtype">int</span> col);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keywordtype">void</span> <a class="code hl_function" href="lcd_8h.html#ae361d551feba598bbe0d3b7df6e654dc">lcd_print</a>(<span class="keywordtype">char</span>* strn);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keywordtype">void</span> <a class="code hl_function" href="lcd_8h.html#ab4b92109281330638384cbb7fe9e9809">lcd_print_char</a>(<span class="keywordtype">char</span>* strn);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="alcd_8h_html_a013af80ec99f63cf714b0749c36cbe33"><div class="ttname"><a href="lcd_8h.html#a013af80ec99f63cf714b0749c36cbe33">lcd_set_cursor</a></div><div class="ttdeci">int lcd_set_cursor(int row, int col)</div><div class="ttdoc">Sets LCD cursor position.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00160">lcd.c:160</a></div></div>
+<div class="ttc" id="alcd_8h_html_a0fa29c0aee6ec3285941a5849de041b2"><div class="ttname"><a href="lcd_8h.html#a0fa29c0aee6ec3285941a5849de041b2">lcd_line</a></div><div class="ttdeci">void lcd_line(int x, int y, int len, int thickness)</div><div class="ttdoc">Prints straight horizontal line.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00208">lcd.c:208</a></div></div>
+<div class="ttc" id="alcd_8h_html_a35c08b1fa742e650f4873939707b893b"><div class="ttname"><a href="lcd_8h.html#a35c08b1fa742e650f4873939707b893b">lcd_clear</a></div><div class="ttdeci">void lcd_clear()</div><div class="ttdoc">Clears LCD.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00177">lcd.c:177</a></div></div>
+<div class="ttc" id="alcd_8h_html_a7027d4c67c9704b73a0eafb7dd94a515"><div class="ttname"><a href="lcd_8h.html#a7027d4c67c9704b73a0eafb7dd94a515">lcd_init</a></div><div class="ttdeci">void lcd_init(char *vop, char *bias)</div><div class="ttdoc">Initializes LCD.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00235">lcd.c:235</a></div></div>
+<div class="ttc" id="alcd_8h_html_ab32a6c31d6a06782f4f1206ae6b4b039"><div class="ttname"><a href="lcd_8h.html#ab32a6c31d6a06782f4f1206ae6b4b039">lcd_set_backlight</a></div><div class="ttdeci">void lcd_set_backlight(int state)</div><div class="ttdoc">Turns on or off LCD backlight.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00145">lcd.c:145</a></div></div>
+<div class="ttc" id="alcd_8h_html_ab4b92109281330638384cbb7fe9e9809"><div class="ttname"><a href="lcd_8h.html#ab4b92109281330638384cbb7fe9e9809">lcd_print_char</a></div><div class="ttdeci">void lcd_print_char(char *strn)</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00198">lcd.c:198</a></div></div>
+<div class="ttc" id="alcd_8h_html_abbee04b3dec721332759f89a137f2129"><div class="ttname"><a href="lcd_8h.html#abbee04b3dec721332759f89a137f2129">lcd_close</a></div><div class="ttdeci">void lcd_close()</div><div class="ttdoc">Finalizes LCD operations.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00269">lcd.c:269</a></div></div>
+<div class="ttc" id="alcd_8h_html_ae361d551feba598bbe0d3b7df6e654dc"><div class="ttname"><a href="lcd_8h.html#ae361d551feba598bbe0d3b7df6e654dc">lcd_print</a></div><div class="ttdeci">void lcd_print(char *strn)</div><div class="ttdoc">Prints string to LCD screen at a previously set position.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00188">lcd.c:188</a></div></div>
+<div class="ttc" id="alcd_8h_html_af67e5212f5ba68e0eadfc7817a991394"><div class="ttname"><a href="lcd_8h.html#af67e5212f5ba68e0eadfc7817a991394">lcd_write</a></div><div class="ttdeci">int lcd_write(int mode, uint8_t const *wr, int len)</div><div class="ttdoc">Transfers to LCD register.</div><div class="ttdef"><b>Definição</b> <a href="lcd_8c_source.html#l00131">lcd.c:131</a></div></div>
+<div class="ttc" id="astruct_pin_html"><div class="ttname"><a href="struct_pin.html">Pin</a></div><div class="ttdef"><b>Definição</b> <a href="#l00009">lcd.h:9</a></div></div>
+<div class="ttc" id="astruct_pin_html_adc7ed4d9991bc47d473e178bd4fe9a49"><div class="ttname"><a href="struct_pin.html#adc7ed4d9991bc47d473e178bd4fe9a49">Pin::header</a></div><div class="ttdeci">int header</div><div class="ttdef"><b>Definição</b> <a href="#l00010">lcd.h:10</a></div></div>
+<div class="ttc" id="astruct_pin_html_aeabac9491522ec7f68102bfeab33d5c1"><div class="ttname"><a href="struct_pin.html#aeabac9491522ec7f68102bfeab33d5c1">Pin::pin</a></div><div class="ttdeci">int pin</div><div class="ttdef"><b>Definição</b> <a href="#l00011">lcd.h:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

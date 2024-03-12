@@ -1,0 +1,85 @@
+<map id="mmio_set_high" name="mmio_set_high">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1606,433,1716,460"/>
+<area shape="rect" id="Node000002" href="$wireless_8c.html#a21352936e880c177a790f0a707d82b6d" title=" " alt="" coords="1466,357,1538,384"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1616,428,1530,387,1533,382,1619,424"/>
+<area shape="rect" id="Node000004" href="$group__i2cMux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="1138,212,1223,239"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1590,448,1508,445,1418,437,1337,422,1305,411,1282,398,1266,381,1258,364,1254,329,1251,293,1245,275,1234,256,1215,241,1218,237,1238,253,1250,272,1257,292,1259,328,1263,362,1271,378,1285,394,1307,406,1338,417,1419,431,1509,439,1591,443"/>
+<area shape="rect" id="Node000025" href="$group__spiModule.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="1445,484,1558,511"/>
+<area shape="poly" id="edge30_Node000001_Node000025" title=" " alt="" coords="1603,468,1547,486,1545,481,1601,463"/>
+<area shape="rect" id="Node000030" href="$group__spiModule.html#gaae72590a50e1e0f2724816e414aa4299" title="Writes digital data at given address." alt="" coords="1140,560,1221,587"/>
+<area shape="poly" id="edge49_Node000001_Node000030" title=" " alt="" coords="1637,472,1602,501,1559,525,1514,541,1467,554,1373,570,1287,576,1221,577,1221,572,1287,571,1372,565,1466,549,1513,536,1557,520,1599,496,1634,468"/>
+<area shape="rect" id="Node000003" href="$wireless_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="1316,357,1365,384"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1450,373,1365,373,1365,368,1450,368"/>
+<area shape="rect" id="Node000005" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="961,348,1031,375"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1136,249,1127,256,1112,277,1105,297,1097,318,1079,338,1056,351,1032,359,1030,354,1054,346,1076,334,1092,315,1100,295,1107,275,1123,253,1133,245"/>
+<area shape="rect" id="Node000007" href="$bme280_2common_2common_8c.html#a4c840b82055c8e4dad841d25cb520ee5" title="Reads sensor data." alt="" coords="957,47,1035,73"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="1164,199,1129,142,1104,113,1076,87,1056,76,1034,69,1036,64,1058,72,1079,83,1108,109,1133,139,1168,197"/>
+<area shape="rect" id="Node000008" href="$sht3x_2common_2common_8c.html#a5d5e6df4f5be7dfe55dd7bc61c538afa" title="Send a command, wait for the sensor to process and read data back." alt="" coords="532,148,682,191"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="1171,197,1160,159,1141,114,1114,70,1096,52,1076,37,1047,23,1017,14,987,9,955,8,892,18,829,38,770,65,717,95,637,149,634,145,714,90,767,60,827,33,890,13,955,3,987,4,1019,8,1049,18,1079,32,1100,48,1118,67,1146,111,1165,157,1176,196"/>
+<area shape="rect" id="Node000014" href="$sht3x_2common_2common_8c.html#a1756dcca78c1ba9ec6ea3a6be4aed0ce" title="Send a general call reset." alt="" coords="923,164,1069,207"/>
+<area shape="poly" id="edge15_Node000004_Node000014" title=" " alt="" coords="1122,215,1069,204,1070,198,1123,210"/>
+<area shape="rect" id="Node000015" href="$sht3x_2common_2common_8c.html#aba9b6fbed3b9f06f891a593f17fa3e0f" title="Read data words as byte&#45;stream from sensor." alt="" coords="931,231,1060,273"/>
+<area shape="poly" id="edge16_Node000004_Node000015" title=" " alt="" coords="1123,236,1061,245,1060,240,1122,231"/>
+<area shape="rect" id="Node000020" href="$sht3x_2common_2common_8c.html#a1fc554d0b46a85dd8dfdfd149c4bdd21" title="writes a command to the sensor" alt="" coords="914,297,1077,324"/>
+<area shape="poly" id="edge23_Node000004_Node000020" title=" " alt="" coords="1141,249,1127,257,1103,273,1079,288,1049,299,1047,294,1076,283,1100,268,1124,252,1138,244"/>
+<area shape="rect" id="Node000023" href="$sht3x_2common_2common_8c.html#a0e9acb8401c9168d321fd7eff74fbab8" title="Writes a command with arguments to the sensor." alt="" coords="930,97,1061,140"/>
+<area shape="poly" id="edge28_Node000004_Node000023" title=" " alt="" coords="1149,204,1115,179,1076,154,1053,143,1056,138,1079,150,1118,174,1152,200"/>
+<area shape="rect" id="Node000006" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,261,55,288"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="945,368,795,377,608,383,383,383,334,380,285,372,191,346,111,316,54,289,56,284,113,311,193,341,286,367,335,374,383,377,608,377,795,372,945,362"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="941,63,608,63,383,63,299,64,233,74,203,85,172,100,104,147,79,174,60,206,38,262,33,260,55,203,75,171,101,143,170,95,201,80,231,69,298,59,383,57,608,57,941,57"/>
+<area shape="rect" id="Node000009" href="$sht3x_2common_2common_8c.html#ade8479d9748d07974f8e7e88c166e381" title="Reads data words from the sensor after a command is issued." alt="" coords="304,208,465,235"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="518,193,446,210,444,205,516,188"/>
+<area shape="rect" id="Node000011" href="$sht3x_8c.html#a4aae0d3756e7554f9ee2921e52fcdaac" title="Read the sensor status word." alt="" coords="324,107,445,133"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="517,152,445,136,446,131,518,147"/>
+<area shape="rect" id="Node000012" href="$group__sht3xInit.html#ga76f706a73188d8e19e2ba03ca1e1dba2" title="Detects if a sensor is connected by reading out the ID register." alt="" coords="339,157,431,184"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="517,172,431,173,431,168,517,167"/>
+<area shape="rect" id="Node000010" href="$group__sht3xSensorSettings.html#ga0872ad269a4661044d8742ff19fba5fd" title="Get target temperature and humidity alert threshold." alt="" coords="103,208,238,235"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="289,224,238,224,238,219,289,219"/>
+<area shape="rect" id="Node000013" href="$group__sht3xInit.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="132,157,209,184"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="323,173,210,173,210,168,323,168"/>
+<area shape="poly" id="edge14_Node000013_Node000006" title=" " alt="" coords="119,190,104,198,68,231,43,263,38,259,64,227,101,194,116,185"/>
+<area shape="rect" id="Node000016" href="$sht3x_2common_2common_8c.html#a61c2efbc31ab106dcd1d888412485db7" title="Read data words from sensor." alt="" coords="734,148,863,191"/>
+<area shape="poly" id="edge17_Node000015_Node000016" title=" " alt="" coords="926,226,913,221,849,193,851,189,915,216,928,222"/>
+<area shape="rect" id="Node000019" href="$sht3x_8c.html#af90d87bffcb72c50d35776f03f2277dd" title="Read out the serial number." alt="" coords="737,215,860,241"/>
+<area shape="poly" id="edge22_Node000015_Node000019" title=" " alt="" coords="915,245,860,238,861,233,916,239"/>
+<area shape="poly" id="edge18_Node000016_Node000008" title=" " alt="" coords="718,172,682,172,682,167,718,167"/>
+<area shape="rect" id="Node000017" href="$group__sht3xSensorData.html#ga29484dcdfe9787fccfd5eb3ef151e5cc" title="Reads out the results of a measurement." alt="" coords="564,215,650,241"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="720,196,651,217,649,212,718,191"/>
+<area shape="rect" id="Node000018" href="$group__sht3xSensorData.html#gab7581ca6d91564876c4a1aeea6b4c80f" title="Starts a measurement and then reads out the results." alt="" coords="286,261,483,288"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="550,243,452,263,451,258,548,237"/>
+<area shape="poly" id="edge21_Node000018_Node000006" title=" " alt="" coords="271,277,55,277,55,272,271,272"/>
+<area shape="poly" id="edge27_Node000020_Node000019" title=" " alt="" coords="930,294,913,288,865,262,828,244,830,239,867,257,915,283,932,289"/>
+<area shape="rect" id="Node000021" href="$sht3x_8c.html#ac2af42046713a88b65652976149354da" title="Clear the status register alert flags." alt="" coords="733,316,864,343"/>
+<area shape="poly" id="edge24_Node000020_Node000021" title=" " alt="" coords="899,322,865,326,864,320,898,317"/>
+<area shape="rect" id="Node000022" href="$group__sht3xSensorData.html#ga535cf192fdfb60b6e220c9d8159f1edf" title="Starts a measurement in high precision mode." alt="" coords="552,265,662,292"/>
+<area shape="poly" id="edge25_Node000020_Node000022" title=" " alt="" coords="898,305,662,286,663,280,899,300"/>
+<area shape="poly" id="edge26_Node000022_Node000018" title=" " alt="" coords="536,280,484,279,484,274,537,275"/>
+<area shape="rect" id="Node000024" href="$group__sht3xSensorSettings.html#ga4f3716965817168fbf8e5fd2ca26c3e7" title="Set target temperature and humidity alert threshold." alt="" coords="731,97,866,124"/>
+<area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="914,118,866,116,867,111,915,113"/>
+<area shape="rect" id="Node000026" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="1288,459,1393,485"/>
+<area shape="poly" id="edge31_Node000025_Node000026" title=" " alt="" coords="1429,488,1393,483,1394,477,1430,483"/>
+<area shape="rect" id="Node000033" href="$group__spiModule.html#ga40fe919c1468169bee343c112d7e1321" title="Writes data directly to SPI (module selection)" alt="" coords="1284,509,1397,536"/>
+<area shape="poly" id="edge45_Node000025_Node000033" title=" " alt="" coords="1430,511,1398,516,1397,511,1429,506"/>
+<area shape="rect" id="Node000034" href="$group__i2cMux.html#ga7000e32b922e6dea26a32e405fd0a46e" title="Unselects the I2C extender (and SPI extender, by proxy)" alt="" coords="531,555,683,581"/>
+<area shape="poly" id="edge47_Node000025_Node000034" title=" " alt="" coords="1470,522,1417,553,1347,588,1267,615,1224,624,1182,627,994,627,904,622,815,612,667,584,668,579,816,606,905,617,994,621,1182,621,1224,618,1265,610,1345,583,1414,549,1467,517"/>
+<area shape="rect" id="Node000027" href="$group__i2cMux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="1125,267,1236,293"/>
+<area shape="poly" id="edge32_Node000026_Node000027" title=" " alt="" coords="1295,452,1282,442,1249,404,1221,362,1186,295,1190,293,1225,360,1253,401,1286,438,1298,448"/>
+<area shape="rect" id="Node000028" href="$group__spiModule.html#ga4f599c24b77a8c45bee52bb0c290860e" title="Reads digital data at given address." alt="" coords="1141,459,1220,485"/>
+<area shape="poly" id="edge40_Node000026_Node000028" title=" " alt="" coords="1272,475,1220,475,1220,469,1272,469"/>
+<area shape="poly" id="edge42_Node000026_Node000030" title=" " alt="" coords="1293,495,1285,499,1238,532,1200,562,1196,557,1235,527,1282,495,1291,490"/>
+<area shape="poly" id="edge33_Node000027_Node000005" title=" " alt="" coords="1145,304,1078,338,1032,355,1030,350,1076,333,1143,299"/>
+<area shape="poly" id="edge34_Node000027_Node000007" title=" " alt="" coords="1130,260,1123,252,1109,230,1102,208,1101,166,1098,126,1090,107,1075,87,1057,74,1035,67,1036,62,1059,69,1079,83,1095,104,1103,125,1106,166,1108,207,1114,227,1127,249,1134,256"/>
+<area shape="poly" id="edge35_Node000027_Node000008" title=" " alt="" coords="1165,308,1130,352,1106,373,1079,389,1027,409,980,424,936,433,894,434,853,428,813,413,772,390,729,356,713,338,705,319,702,281,700,243,694,224,681,204,668,193,671,189,685,201,698,221,705,242,707,281,710,318,717,335,733,353,775,385,815,409,855,423,894,429,936,427,979,419,1025,404,1076,384,1103,369,1126,348,1161,305"/>
+<area shape="poly" id="edge36_Node000027_Node000014" title=" " alt="" coords="1138,261,1124,253,1076,221,1053,210,1055,205,1079,216,1127,248,1141,256"/>
+<area shape="poly" id="edge37_Node000027_Node000015" title=" " alt="" coords="1110,272,1060,264,1061,259,1110,267"/>
+<area shape="poly" id="edge38_Node000027_Node000020" title=" " alt="" coords="1110,294,1078,300,1077,294,1110,289"/>
+<area shape="poly" id="edge39_Node000027_Node000023" title=" " alt="" coords="1132,260,1123,252,1106,226,1099,201,1093,178,1075,154,1060,142,1063,138,1079,150,1097,175,1105,200,1111,224,1127,249,1136,256"/>
+<area shape="rect" id="Node000029" href="$leak_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="971,459,1020,485"/>
+<area shape="poly" id="edge41_Node000028_Node000029" title=" " alt="" coords="1126,475,1021,475,1021,469,1126,469"/>
+<area shape="rect" id="Node000031" href="$volt_8c.html#ae72fe522ee99ae5c8172806b6d063e08" title="Listens for commands sent to the Redis key on the main server." alt="" coords="932,560,1059,587"/>
+<area shape="poly" id="edge43_Node000030_Node000031" title=" " alt="" coords="1125,576,1060,576,1060,571,1125,571"/>
+<area shape="rect" id="Node000032" href="$volt_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="774,535,823,561"/>
+<area shape="poly" id="edge44_Node000031_Node000032" title=" " alt="" coords="916,566,823,554,824,548,917,560"/>
+<area shape="poly" id="edge46_Node000033_Node000032" title=" " alt="" coords="1268,529,824,549,823,544,1268,523"/>
+<area shape="poly" id="edge48_Node000034_Node000006" title=" " alt="" coords="515,560,422,542,313,511,257,491,202,465,149,436,101,401,76,374,56,343,33,289,38,287,61,340,80,370,104,397,152,431,205,461,259,486,315,506,423,537,516,555"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="bme280_soft_reset" name="bme280_soft_reset">
+<area shape="rect" id="Node000001" title="This API performs the soft reset of the sensor." alt="" coords="647,31,778,57"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="484,5,575,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="631,35,575,28,576,22,632,30"/>
+<area shape="rect" id="Node000005" href="$bme2_8c.html#ae471e9fce32acbe04f6fa20d7d80a50f" title="This internal API puts the device to sleep mode." alt="" coords="460,56,599,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="632,58,600,62,599,57,631,53"/>
+<area shape="rect" id="Node000003" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,56,173,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="469,22,354,29,222,47,174,59,173,54,220,41,353,24,468,17"/>
+<area shape="rect" id="Node000004" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="rect" id="Node000006" href="$bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="228,56,405,83"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="445,72,406,72,406,67,445,67"/>
+<area shape="rect" id="Node000007" href="$bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="221,107,412,133"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="456,90,376,109,375,103,455,84"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="212,72,173,72,173,67,212,67"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="246,105,220,97,173,83,174,78,222,92,248,99"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="sensirion_fill_cmd_send_buf" name="sensirion_fill_cmd_send_buf">
+<area shape="rect" id="Node000001" title="Create the i2c send buffer for a command and a set of argument words. The output buffer interleaves a..." alt="" coords="5,5,130,48"/>
+<area shape="rect" id="Node000002" href="$sht3x_2common_2common_8c.html#a28a16b2a8660de84fbad96f237a6dabf" title=" " alt="" coords="178,13,390,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,24,162,24,162,29,130,29"/>
+</map>

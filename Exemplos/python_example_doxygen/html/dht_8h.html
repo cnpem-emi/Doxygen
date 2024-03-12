@@ -1,0 +1,529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/utils/DHT/dht.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_df667337808610c926b0a386f5e20e11.html">DHT</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#func-members">Funções</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo dht.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &quot;../../SPI/common.h&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para dht.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="dht_8h__incl.png" border="0" usemap="#abin_2utils_2_d_h_t_2dht_8h" alt=""/></div>
+<map name="abin_2utils_2_d_h_t_2dht_8h" id="abin_2utils_2_d_h_t_2dht_8h">
+<area shape="rect" title=" " alt="" coords="33,5,162,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,70,107"/>
+<area shape="poly" title=" " alt="" coords="89,34,59,70,55,66,85,31"/>
+<area shape="rect" title=" " alt="" coords="93,80,225,107"/>
+<area shape="poly" title=" " alt="" coords="110,31,141,66,137,70,106,34"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com esse arquivo:</div>
+<div class="dyncontent">
+<div class="center"><img src="dht_8h__dep__incl.png" border="0" usemap="#abin_2utils_2_d_h_t_2dht_8hdep" alt=""/></div>
+<map name="abin_2utils_2_d_h_t_2dht_8hdep" id="abin_2utils_2_d_h_t_2dht_8hdep">
+<area shape="rect" title=" " alt="" coords="173,5,302,32"/>
+<area shape="rect" href="dht_8c.html" title=" " alt="" coords="5,88,134,115"/>
+<area shape="poly" title=" " alt="" coords="199,41,97,90,94,85,197,37"/>
+<area shape="rect" href="_d_h_t_2example_8c.html" title=" " alt="" coords="158,88,317,115"/>
+<area shape="poly" title=" " alt="" coords="240,48,240,88,235,88,235,48"/>
+<area shape="rect" href="redis__dht_8c.html" title=" " alt="" coords="342,80,469,123"/>
+<area shape="poly" title=" " alt="" coords="279,37,364,77,361,82,276,41"/>
+</map>
+</div>
+</div>
+<p><a href="dht_8h_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a9baea15fd17f9bc1b4b1e83d61eb5449" id="r_a9baea15fd17f9bc1b4b1e83d61eb5449"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9baea15fd17f9bc1b4b1e83d61eb5449">DHT_PULSES</a>&#160;&#160;&#160;41</td></tr>
+<tr class="separator:a9baea15fd17f9bc1b4b1e83d61eb5449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe26d1e76a2f0f3fbd1136e6e75904c2" id="r_abe26d1e76a2f0f3fbd1136e6e75904c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe26d1e76a2f0f3fbd1136e6e75904c2">DHT_ERROR_TIMEOUT</a>&#160;&#160;&#160;-1</td></tr>
+<tr class="separator:abe26d1e76a2f0f3fbd1136e6e75904c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a818bc5e5d065db456d9fb6f1f59c696c" id="r_a818bc5e5d065db456d9fb6f1f59c696c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a818bc5e5d065db456d9fb6f1f59c696c">DHT_ERROR_CHECKSUM</a>&#160;&#160;&#160;-2</td></tr>
+<tr class="separator:a818bc5e5d065db456d9fb6f1f59c696c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d56b83ad61e04b32116ae357193844" id="r_ac5d56b83ad61e04b32116ae357193844"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5d56b83ad61e04b32116ae357193844">DHT_ERROR_ARGUMENT</a>&#160;&#160;&#160;-3</td></tr>
+<tr class="separator:ac5d56b83ad61e04b32116ae357193844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3906ce8aa9def8d2a256a35c7cff77e8" id="r_a3906ce8aa9def8d2a256a35c7cff77e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3906ce8aa9def8d2a256a35c7cff77e8">DHT_ERROR_GPIO</a>&#160;&#160;&#160;-4</td></tr>
+<tr class="separator:a3906ce8aa9def8d2a256a35c7cff77e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e3c431054554cf10b6158d014d6e30" id="r_a82e3c431054554cf10b6158d014d6e30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82e3c431054554cf10b6158d014d6e30">DHT_SUCCESS</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a82e3c431054554cf10b6158d014d6e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ca444ad6788a4e3686a83bc036efb6" id="r_ac7ca444ad6788a4e3686a83bc036efb6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ca444ad6788a4e3686a83bc036efb6">DHT11</a>&#160;&#160;&#160;11</td></tr>
+<tr class="separator:ac7ca444ad6788a4e3686a83bc036efb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d34ec65a101891e5800d6e6a69fe528" id="r_a1d34ec65a101891e5800d6e6a69fe528"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d34ec65a101891e5800d6e6a69fe528">DHT22</a>&#160;&#160;&#160;22</td></tr>
+<tr class="separator:a1d34ec65a101891e5800d6e6a69fe528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e491cdee89d884a9a9e4a67ef04bf59" id="r_a0e491cdee89d884a9a9e4a67ef04bf59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e491cdee89d884a9a9e4a67ef04bf59">AM2302</a>&#160;&#160;&#160;22</td></tr>
+<tr class="separator:a0e491cdee89d884a9a9e4a67ef04bf59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab0db4aa96804666fa8d7a471a7feb2" id="r_a2ab0db4aa96804666fa8d7a471a7feb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab0db4aa96804666fa8d7a471a7feb2">DHT_MAXCOUNT</a>&#160;&#160;&#160;32000</td></tr>
+<tr class="separator:a2ab0db4aa96804666fa8d7a471a7feb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ab90bbb546cb27122d1e381c020dcbf17" id="r_ab90bbb546cb27122d1e381c020dcbf17"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90bbb546cb27122d1e381c020dcbf17">bbb_dht_read</a> (int type, <a class="el" href="structgpio__t.html">gpio_t</a> pin_o, double *humidity, double *temperature)</td></tr>
+<tr class="separator:ab90bbb546cb27122d1e381c020dcbf17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Definições e macros</h2>
+<a id="a0e491cdee89d884a9a9e4a67ef04bf59" name="a0e491cdee89d884a9a9e4a67ef04bf59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e491cdee89d884a9a9e4a67ef04bf59">&#9670;&#160;</a></span>AM2302</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AM2302&#160;&#160;&#160;22</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00040">40</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="ac7ca444ad6788a4e3686a83bc036efb6" name="ac7ca444ad6788a4e3686a83bc036efb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ca444ad6788a4e3686a83bc036efb6">&#9670;&#160;</a></span>DHT11</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT11&#160;&#160;&#160;11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00038">38</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d34ec65a101891e5800d6e6a69fe528" name="a1d34ec65a101891e5800d6e6a69fe528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d34ec65a101891e5800d6e6a69fe528">&#9670;&#160;</a></span>DHT22</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT22&#160;&#160;&#160;22</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00039">39</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="ac5d56b83ad61e04b32116ae357193844" name="ac5d56b83ad61e04b32116ae357193844"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5d56b83ad61e04b32116ae357193844">&#9670;&#160;</a></span>DHT_ERROR_ARGUMENT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT_ERROR_ARGUMENT&#160;&#160;&#160;-3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00034">34</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="a818bc5e5d065db456d9fb6f1f59c696c" name="a818bc5e5d065db456d9fb6f1f59c696c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a818bc5e5d065db456d9fb6f1f59c696c">&#9670;&#160;</a></span>DHT_ERROR_CHECKSUM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT_ERROR_CHECKSUM&#160;&#160;&#160;-2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00033">33</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="a3906ce8aa9def8d2a256a35c7cff77e8" name="a3906ce8aa9def8d2a256a35c7cff77e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3906ce8aa9def8d2a256a35c7cff77e8">&#9670;&#160;</a></span>DHT_ERROR_GPIO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT_ERROR_GPIO&#160;&#160;&#160;-4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00035">35</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="abe26d1e76a2f0f3fbd1136e6e75904c2" name="abe26d1e76a2f0f3fbd1136e6e75904c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe26d1e76a2f0f3fbd1136e6e75904c2">&#9670;&#160;</a></span>DHT_ERROR_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT_ERROR_TIMEOUT&#160;&#160;&#160;-1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00032">32</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="a2ab0db4aa96804666fa8d7a471a7feb2" name="a2ab0db4aa96804666fa8d7a471a7feb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab0db4aa96804666fa8d7a471a7feb2">&#9670;&#160;</a></span>DHT_MAXCOUNT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT_MAXCOUNT&#160;&#160;&#160;32000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00042">42</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="a9baea15fd17f9bc1b4b1e83d61eb5449" name="a9baea15fd17f9bc1b4b1e83d61eb5449"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9baea15fd17f9bc1b4b1e83d61eb5449">&#9670;&#160;</a></span>DHT_PULSES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT_PULSES&#160;&#160;&#160;41</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00030">30</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<a id="a82e3c431054554cf10b6158d014d6e30" name="a82e3c431054554cf10b6158d014d6e30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82e3c431054554cf10b6158d014d6e30">&#9670;&#160;</a></span>DHT_SUCCESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DHT_SUCCESS&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8h_source.html#l00036">36</a> do arquivo <a class="el" href="dht_8h_source.html">dht.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="ab90bbb546cb27122d1e381c020dcbf17" name="ab90bbb546cb27122d1e381c020dcbf17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab90bbb546cb27122d1e381c020dcbf17">&#9670;&#160;</a></span>bbb_dht_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int bbb_dht_read </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>type</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structgpio__t.html">gpio_t</a></td>          <td class="paramname"><span class="paramname"><em>pin_o</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *</td>          <td class="paramname"><span class="paramname"><em>humidity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *</td>          <td class="paramname"><span class="paramname"><em>temperature</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="dht_8c_source.html#l00076">76</a> do arquivo <a class="el" href="dht_8c_source.html">dht.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   76</span>                                                                                {</div>
+<div class="line"><span class="lineno">   77</span>  <span class="comment">// Validate humidity and temperature arguments and set them to zero.</span></div>
+<div class="line"><span class="lineno">   78</span>  <span class="keywordflow">if</span> (humidity == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> || temperature == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="#ac5d56b83ad61e04b32116ae357193844">DHT_ERROR_ARGUMENT</a>;</div>
+<div class="line"><span class="lineno">   80</span>  }</div>
+<div class="line"><span class="lineno">   81</span>  *temperature = 0.0;</div>
+<div class="line"><span class="lineno">   82</span>  *humidity = 0.0;</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>  <span class="comment">// Store the count that each DHT bit pulse is low and high.</span></div>
+<div class="line"><span class="lineno">   85</span>  <span class="comment">// Make sure array is initialized to start at zero.</span></div>
+<div class="line"><span class="lineno">   86</span>  <span class="keywordtype">int</span> pulseCounts[<a class="code hl_define" href="#a9baea15fd17f9bc1b4b1e83d61eb5449">DHT_PULSES</a> * 2] = {0};</div>
+<div class="line"><span class="lineno">   87</span> </div>
+<div class="line"><span class="lineno">   88</span>  <span class="comment">// Get GPIO pin and set it as an output.</span></div>
+<div class="line"><span class="lineno">   89</span>  <a class="code hl_struct" href="structgpio__t.html">gpio_t</a> pin;</div>
+<div class="line"><span class="lineno">   90</span>  pin = pin_o;</div>
+<div class="line"><span class="lineno">   91</span>  <span class="keywordflow">if</span> (<a class="code hl_function" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a>(&amp;pin) &lt; 0) {</div>
+<div class="line"><span class="lineno">   92</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="#a3906ce8aa9def8d2a256a35c7cff77e8">DHT_ERROR_GPIO</a>;</div>
+<div class="line"><span class="lineno">   93</span>  }</div>
+<div class="line"><span class="lineno">   94</span>  <a class="code hl_function" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a>(pin);</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>  <span class="comment">// Bump up process priority and change scheduler to try to try to make process</span></div>
+<div class="line"><span class="lineno">   97</span>  <span class="comment">// more &#39;real time&#39;.</span></div>
+<div class="line"><span class="lineno">   98</span>  <a class="code hl_function" href="dht_8c.html#a479eb2474b27ff6e5634067fcb2189f9">set_max_priority</a>();</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>  <span class="comment">// Set pin high for ~500 milliseconds.</span></div>
+<div class="line"><span class="lineno">  101</span>  <a class="code hl_function" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a>(pin);</div>
+<div class="line"><span class="lineno">  102</span>  <a class="code hl_function" href="dht_8c.html#a901d7a41a7cfa615f7dc2428a3290114">sleep_milliseconds</a>(500);</div>
+<div class="line"><span class="lineno">  103</span> </div>
+<div class="line"><span class="lineno">  104</span>  <span class="comment">// The next calls are timing critical and care should be taken</span></div>
+<div class="line"><span class="lineno">  105</span>  <span class="comment">// to ensure no unnecssary work is done below.</span></div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>  <span class="comment">// Set pin low for ~20 milliseconds.</span></div>
+<div class="line"><span class="lineno">  108</span>  <a class="code hl_function" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a>(pin);</div>
+<div class="line"><span class="lineno">  109</span>  <a class="code hl_function" href="dht_8c.html#a8e48661473ddebee15f9f4189d84b197">busy_wait_milliseconds</a>(20);</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>  <span class="comment">// Set pin as input.</span></div>
+<div class="line"><span class="lineno">  112</span>  <a class="code hl_function" href="spi_2common_8c.html#aa28cd04a9d8f1f5418ed2e110ba9f5b3">mmio_set_input</a>(pin);</div>
+<div class="line"><span class="lineno">  113</span> </div>
+<div class="line"><span class="lineno">  114</span>  <span class="comment">// Wait for DHT to pull pin low.</span></div>
+<div class="line"><span class="lineno">  115</span>  uint32_t <a class="code hl_variable" href="c_j_s_o_n_8h.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a> = 0;</div>
+<div class="line"><span class="lineno">  116</span>  <span class="keywordtype">int</span> i;</div>
+<div class="line"><span class="lineno">  117</span>  <span class="keywordflow">while</span> (<a class="code hl_function" href="spi_2common_8c.html#afde39453443d627f27881ec54733ade3">mmio_input</a>(pin)) {</div>
+<div class="line"><span class="lineno">  118</span>    <span class="keywordflow">if</span> (++<a class="code hl_variable" href="c_j_s_o_n_8h.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a> &gt;= <a class="code hl_define" href="#a2ab0db4aa96804666fa8d7a471a7feb2">DHT_MAXCOUNT</a>) {</div>
+<div class="line"><span class="lineno">  119</span>      <span class="comment">// Timeout waiting for response.</span></div>
+<div class="line"><span class="lineno">  120</span>      <a class="code hl_function" href="dht_8c.html#a4a98b4a9b881519f9dbc68a04e0982a3">set_default_priority</a>();</div>
+<div class="line"><span class="lineno">  121</span>      <span class="keywordflow">return</span> <a class="code hl_define" href="#abe26d1e76a2f0f3fbd1136e6e75904c2">DHT_ERROR_TIMEOUT</a>;</div>
+<div class="line"><span class="lineno">  122</span>    }</div>
+<div class="line"><span class="lineno">  123</span>  }</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>  <span class="comment">// Record pulse widths for the expected result bits.</span></div>
+<div class="line"><span class="lineno">  126</span>  <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code hl_define" href="#a9baea15fd17f9bc1b4b1e83d61eb5449">DHT_PULSES</a> * 2; i += 2) {</div>
+<div class="line"><span class="lineno">  127</span>    <span class="comment">// Count how long pin is low and store in pulseCounts[i]</span></div>
+<div class="line"><span class="lineno">  128</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="spi_2common_8c.html#afde39453443d627f27881ec54733ade3">mmio_input</a>(pin)) {</div>
+<div class="line"><span class="lineno">  129</span>      <span class="keywordflow">if</span> (++pulseCounts[i] &gt;= <a class="code hl_define" href="#a2ab0db4aa96804666fa8d7a471a7feb2">DHT_MAXCOUNT</a>) {</div>
+<div class="line"><span class="lineno">  130</span>        <span class="comment">// Timeout waiting for response.</span></div>
+<div class="line"><span class="lineno">  131</span>        <a class="code hl_function" href="dht_8c.html#a4a98b4a9b881519f9dbc68a04e0982a3">set_default_priority</a>();</div>
+<div class="line"><span class="lineno">  132</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="#abe26d1e76a2f0f3fbd1136e6e75904c2">DHT_ERROR_TIMEOUT</a>;</div>
+<div class="line"><span class="lineno">  133</span>      }</div>
+<div class="line"><span class="lineno">  134</span>    }</div>
+<div class="line"><span class="lineno">  135</span>    <span class="comment">// Count how long pin is high and store in pulseCounts[i+1]</span></div>
+<div class="line"><span class="lineno">  136</span>    <span class="keywordflow">while</span> (<a class="code hl_function" href="spi_2common_8c.html#afde39453443d627f27881ec54733ade3">mmio_input</a>(pin)) {</div>
+<div class="line"><span class="lineno">  137</span>      <span class="keywordflow">if</span> (++pulseCounts[i + 1] &gt;= <a class="code hl_define" href="#a2ab0db4aa96804666fa8d7a471a7feb2">DHT_MAXCOUNT</a>) {</div>
+<div class="line"><span class="lineno">  138</span>        <span class="comment">// Timeout waiting for response.</span></div>
+<div class="line"><span class="lineno">  139</span>        <a class="code hl_function" href="dht_8c.html#a4a98b4a9b881519f9dbc68a04e0982a3">set_default_priority</a>();</div>
+<div class="line"><span class="lineno">  140</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="#abe26d1e76a2f0f3fbd1136e6e75904c2">DHT_ERROR_TIMEOUT</a>;</div>
+<div class="line"><span class="lineno">  141</span>      }</div>
+<div class="line"><span class="lineno">  142</span>    }</div>
+<div class="line"><span class="lineno">  143</span>  }</div>
+<div class="line"><span class="lineno">  144</span> </div>
+<div class="line"><span class="lineno">  145</span>  <span class="comment">// Done with timing critical code, now interpret the results.</span></div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>  <span class="comment">// Drop back to normal priority.</span></div>
+<div class="line"><span class="lineno">  148</span>  <a class="code hl_function" href="dht_8c.html#a4a98b4a9b881519f9dbc68a04e0982a3">set_default_priority</a>();</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>  <span class="comment">// Compute the average low pulse width to use as a 50 microsecond reference</span></div>
+<div class="line"><span class="lineno">  151</span>  <span class="comment">// threshold. Ignore the first two readings because they are a constant 80</span></div>
+<div class="line"><span class="lineno">  152</span>  <span class="comment">// microsecond pulse.</span></div>
+<div class="line"><span class="lineno">  153</span>  uint32_t threshold = 0;</div>
+<div class="line"><span class="lineno">  154</span>  <span class="keywordflow">for</span> (i = 2; i &lt; <a class="code hl_define" href="#a9baea15fd17f9bc1b4b1e83d61eb5449">DHT_PULSES</a> * 2; i += 2) {</div>
+<div class="line"><span class="lineno">  155</span>    threshold += pulseCounts[i];</div>
+<div class="line"><span class="lineno">  156</span>  }</div>
+<div class="line"><span class="lineno">  157</span>  threshold /= <a class="code hl_define" href="#a9baea15fd17f9bc1b4b1e83d61eb5449">DHT_PULSES</a> - 1;</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>  <span class="comment">// Interpret each high pulse as a 0 or 1 by comparing it to the 50us</span></div>
+<div class="line"><span class="lineno">  160</span>  <span class="comment">// reference. If the count is less than 50us it must be a ~28us 0 pulse, and</span></div>
+<div class="line"><span class="lineno">  161</span>  <span class="comment">// if it&#39;s higher then it must be a ~70us 1 pulse.</span></div>
+<div class="line"><span class="lineno">  162</span>  uint8_t data[5] = {0};</div>
+<div class="line"><span class="lineno">  163</span>  <span class="keywordflow">for</span> (i = 3; i &lt; <a class="code hl_define" href="#a9baea15fd17f9bc1b4b1e83d61eb5449">DHT_PULSES</a> * 2; i += 2) {</div>
+<div class="line"><span class="lineno">  164</span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="c_j_s_o_n_8h.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a> = (i - 3) / 16;</div>
+<div class="line"><span class="lineno">  165</span>    data[<a class="code hl_variable" href="c_j_s_o_n_8h.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a>] &lt;&lt;= 1;</div>
+<div class="line"><span class="lineno">  166</span>    <span class="keywordflow">if</span> (pulseCounts[i] &gt;= threshold) {</div>
+<div class="line"><span class="lineno">  167</span>      <span class="comment">// One bit for long pulse.</span></div>
+<div class="line"><span class="lineno">  168</span>      data[<a class="code hl_variable" href="c_j_s_o_n_8h.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a>] |= 1;</div>
+<div class="line"><span class="lineno">  169</span>    }</div>
+<div class="line"><span class="lineno">  170</span>    <span class="comment">// Else zero bit for short pulse.</span></div>
+<div class="line"><span class="lineno">  171</span>  }</div>
+<div class="line"><span class="lineno">  172</span> </div>
+<div class="line"><span class="lineno">  173</span>  <span class="comment">// Useful debug info:</span></div>
+<div class="line"><span class="lineno">  174</span>  <span class="comment">// printf(&quot;Data: 0x%x 0x%x 0x%x 0x%x 0x%x\n&quot;, data[0], data[1], data[2],</span></div>
+<div class="line"><span class="lineno">  175</span>  <span class="comment">// data[3], data[4]);</span></div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>  <span class="comment">// Verify checksum of received data.</span></div>
+<div class="line"><span class="lineno">  178</span>  <span class="keywordflow">if</span> (data[4] == ((data[0] + data[1] + data[2] + data[3]) &amp; 0xFF)) {</div>
+<div class="line"><span class="lineno">  179</span>    <span class="keywordflow">if</span> (type == <a class="code hl_define" href="#ac7ca444ad6788a4e3686a83bc036efb6">DHT11</a>) {</div>
+<div class="line"><span class="lineno">  180</span>      <span class="comment">// Get humidity and temp for DHT11 sensor.</span></div>
+<div class="line"><span class="lineno">  181</span>      *humidity = (double)data[0];</div>
+<div class="line"><span class="lineno">  182</span>      *temperature = (double)data[2];</div>
+<div class="line"><span class="lineno">  183</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type == <a class="code hl_define" href="#a1d34ec65a101891e5800d6e6a69fe528">DHT22</a>) {</div>
+<div class="line"><span class="lineno">  184</span>      <span class="comment">// Calculate humidity and temp for DHT22 sensor.</span></div>
+<div class="line"><span class="lineno">  185</span>      *humidity = (data[0] * 256 + data[1]) / 10.0;</div>
+<div class="line"><span class="lineno">  186</span>      *temperature = ((data[2] &amp; 0x7F) * 256 + data[3]) / 10.0;</div>
+<div class="line"><span class="lineno">  187</span>      <span class="keywordflow">if</span> (data[2] &amp; 0x80) {</div>
+<div class="line"><span class="lineno">  188</span>        *temperature *= -1.0;</div>
+<div class="line"><span class="lineno">  189</span>      }</div>
+<div class="line"><span class="lineno">  190</span>    }</div>
+<div class="line"><span class="lineno">  191</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="#a82e3c431054554cf10b6158d014d6e30">DHT_SUCCESS</a>;</div>
+<div class="line"><span class="lineno">  192</span>  } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  193</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="#a818bc5e5d065db456d9fb6f1f59c696c">DHT_ERROR_CHECKSUM</a>;</div>
+<div class="line"><span class="lineno">  194</span>  }</div>
+<div class="line"><span class="lineno">  195</span>}</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a750b5d744c39a06bfb13e6eb010e35d0"><div class="ttname"><a href="c_j_s_o_n_8h.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a></div><div class="ttdeci">int index</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00192">cJSON.h:192</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_ad43c3812e6d13e0518d9f8b8f463ffcf"><div class="ttname"><a href="c_j_s_o_n_8h.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></div><div class="ttdeci">int count</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00242">cJSON.h:242</a></div></div>
+<div class="ttc" id="adht_8c_html_a479eb2474b27ff6e5634067fcb2189f9"><div class="ttname"><a href="dht_8c.html#a479eb2474b27ff6e5634067fcb2189f9">set_max_priority</a></div><div class="ttdeci">void set_max_priority(void)</div><div class="ttdef"><b>Definição</b> <a href="dht_8c_source.html#l00059">dht.c:59</a></div></div>
+<div class="ttc" id="adht_8c_html_a4a98b4a9b881519f9dbc68a04e0982a3"><div class="ttname"><a href="dht_8c.html#a4a98b4a9b881519f9dbc68a04e0982a3">set_default_priority</a></div><div class="ttdeci">void set_default_priority(void)</div><div class="ttdef"><b>Definição</b> <a href="dht_8c_source.html#l00068">dht.c:68</a></div></div>
+<div class="ttc" id="adht_8c_html_a8e48661473ddebee15f9f4189d84b197"><div class="ttname"><a href="dht_8c.html#a8e48661473ddebee15f9f4189d84b197">busy_wait_milliseconds</a></div><div class="ttdeci">void busy_wait_milliseconds(uint32_t millis)</div><div class="ttdef"><b>Definição</b> <a href="dht_8c_source.html#l00035">dht.c:35</a></div></div>
+<div class="ttc" id="adht_8c_html_a901d7a41a7cfa615f7dc2428a3290114"><div class="ttname"><a href="dht_8c.html#a901d7a41a7cfa615f7dc2428a3290114">sleep_milliseconds</a></div><div class="ttdeci">void sleep_milliseconds(uint32_t millis)</div><div class="ttdef"><b>Definição</b> <a href="dht_8c_source.html#l00051">dht.c:51</a></div></div>
+<div class="ttc" id="adht_8h_html_a1d34ec65a101891e5800d6e6a69fe528"><div class="ttname"><a href="#a1d34ec65a101891e5800d6e6a69fe528">DHT22</a></div><div class="ttdeci">#define DHT22</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00039">dht.h:39</a></div></div>
+<div class="ttc" id="adht_8h_html_a2ab0db4aa96804666fa8d7a471a7feb2"><div class="ttname"><a href="#a2ab0db4aa96804666fa8d7a471a7feb2">DHT_MAXCOUNT</a></div><div class="ttdeci">#define DHT_MAXCOUNT</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00042">dht.h:42</a></div></div>
+<div class="ttc" id="adht_8h_html_a3906ce8aa9def8d2a256a35c7cff77e8"><div class="ttname"><a href="#a3906ce8aa9def8d2a256a35c7cff77e8">DHT_ERROR_GPIO</a></div><div class="ttdeci">#define DHT_ERROR_GPIO</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00035">dht.h:35</a></div></div>
+<div class="ttc" id="adht_8h_html_a818bc5e5d065db456d9fb6f1f59c696c"><div class="ttname"><a href="#a818bc5e5d065db456d9fb6f1f59c696c">DHT_ERROR_CHECKSUM</a></div><div class="ttdeci">#define DHT_ERROR_CHECKSUM</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00033">dht.h:33</a></div></div>
+<div class="ttc" id="adht_8h_html_a82e3c431054554cf10b6158d014d6e30"><div class="ttname"><a href="#a82e3c431054554cf10b6158d014d6e30">DHT_SUCCESS</a></div><div class="ttdeci">#define DHT_SUCCESS</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00036">dht.h:36</a></div></div>
+<div class="ttc" id="adht_8h_html_a9baea15fd17f9bc1b4b1e83d61eb5449"><div class="ttname"><a href="#a9baea15fd17f9bc1b4b1e83d61eb5449">DHT_PULSES</a></div><div class="ttdeci">#define DHT_PULSES</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00030">dht.h:30</a></div></div>
+<div class="ttc" id="adht_8h_html_abe26d1e76a2f0f3fbd1136e6e75904c2"><div class="ttname"><a href="#abe26d1e76a2f0f3fbd1136e6e75904c2">DHT_ERROR_TIMEOUT</a></div><div class="ttdeci">#define DHT_ERROR_TIMEOUT</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00032">dht.h:32</a></div></div>
+<div class="ttc" id="adht_8h_html_ac5d56b83ad61e04b32116ae357193844"><div class="ttname"><a href="#ac5d56b83ad61e04b32116ae357193844">DHT_ERROR_ARGUMENT</a></div><div class="ttdeci">#define DHT_ERROR_ARGUMENT</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00034">dht.h:34</a></div></div>
+<div class="ttc" id="adht_8h_html_ac7ca444ad6788a4e3686a83bc036efb6"><div class="ttname"><a href="#ac7ca444ad6788a4e3686a83bc036efb6">DHT11</a></div><div class="ttdeci">#define DHT11</div><div class="ttdef"><b>Definição</b> <a href="dht_8h_source.html#l00038">dht.h:38</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a3dfeb486a29131f600b337889b08f34f"><div class="ttname"><a href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f">mmio_set_high</a></div><div class="ttdeci">void mmio_set_high(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00033">common.c:33</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a41cfe7f245de261fbb41e4591c221e14"><div class="ttname"><a href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14">mmio_set_low</a></div><div class="ttdeci">void mmio_set_low(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00037">common.c:37</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_a43a120dc2fc182d3fe61769d34cf4285"><div class="ttname"><a href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285">mmio_get_gpio</a></div><div class="ttdeci">int mmio_get_gpio(gpio_t *gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00045">common.c:45</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_aa28cd04a9d8f1f5418ed2e110ba9f5b3"><div class="ttname"><a href="spi_2common_8c.html#aa28cd04a9d8f1f5418ed2e110ba9f5b3">mmio_set_input</a></div><div class="ttdeci">void mmio_set_input(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00029">common.c:29</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_ac6a1cc04fa4fbcb29722630720f80399"><div class="ttname"><a href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399">mmio_set_output</a></div><div class="ttdeci">void mmio_set_output(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00025">common.c:25</a></div></div>
+<div class="ttc" id="aspi_2common_8c_html_afde39453443d627f27881ec54733ade3"><div class="ttname"><a href="spi_2common_8c.html#afde39453443d627f27881ec54733ade3">mmio_input</a></div><div class="ttdeci">uint32_t mmio_input(gpio_t gpio)</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8c_source.html#l00041">common.c:41</a></div></div>
+<div class="ttc" id="astructgpio__t_html"><div class="ttname"><a href="structgpio__t.html">gpio_t</a></div><div class="ttdoc">Beaglebone GPIO pin structure.</div><div class="ttdef"><b>Definição</b> <a href="spi_2common_8h_source.html#l00114">common.h:114</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="dht_8h_ab90bbb546cb27122d1e381c020dcbf17_cgraph.png" border="0" usemap="#adht_8h_ab90bbb546cb27122d1e381c020dcbf17_cgraph" alt=""/></div>
+<map name="adht_8h_ab90bbb546cb27122d1e381c020dcbf17_cgraph" id="adht_8h_ab90bbb546cb27122d1e381c020dcbf17_cgraph">
+<area shape="rect" title=" " alt="" coords="5,233,105,260"/>
+<area shape="rect" href="dht_8c.html#a8e48661473ddebee15f9f4189d84b197" title=" " alt="" coords="153,5,311,32"/>
+<area shape="poly" title=" " alt="" coords="56,232,66,195,83,144,111,90,130,64,151,42,156,38,159,42,154,46,134,68,116,92,88,146,71,197,61,234"/>
+<area shape="rect" href="spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="177,56,287,83"/>
+<area shape="poly" title=" " alt="" coords="59,232,90,166,117,127,151,93,161,86,164,90,154,97,121,130,95,168,64,234"/>
+<area shape="rect" href="spi_2common_8c.html#afde39453443d627f27881ec54733ade3" title=" " alt="" coords="188,107,276,133"/>
+<area shape="poly" title=" " alt="" coords="64,231,99,188,124,164,151,143,172,133,175,137,154,148,127,168,103,192,68,234"/>
+<area shape="rect" href="spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="177,157,287,184"/>
+<area shape="poly" title=" " alt="" coords="79,230,152,194,168,187,170,192,154,198,81,235"/>
+<area shape="rect" href="spi_2common_8c.html#aa28cd04a9d8f1f5418ed2e110ba9f5b3" title=" " alt="" coords="175,208,289,235"/>
+<area shape="poly" title=" " alt="" coords="105,237,159,229,160,234,106,242"/>
+<area shape="rect" href="spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="180,259,284,285"/>
+<area shape="poly" title=" " alt="" coords="106,251,165,260,164,265,105,256"/>
+<area shape="rect" href="spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="171,309,293,336"/>
+<area shape="poly" title=" " alt="" coords="81,258,154,295,170,301,168,306,152,300,79,263"/>
+<area shape="rect" href="dht_8c.html#a4a98b4a9b881519f9dbc68a04e0982a3" title=" " alt="" coords="167,360,297,387"/>
+<area shape="poly" title=" " alt="" coords="68,259,103,302,127,325,154,346,163,351,161,356,151,350,124,329,99,305,64,262"/>
+<area shape="rect" href="dht_8c.html#a479eb2474b27ff6e5634067fcb2189f9" title=" " alt="" coords="173,411,291,437"/>
+<area shape="poly" title=" " alt="" coords="64,259,95,325,121,363,154,397,161,401,158,405,151,401,117,367,90,328,59,261"/>
+<area shape="rect" href="dht_8c.html#a901d7a41a7cfa615f7dc2428a3290114" title=" " alt="" coords="166,461,298,488"/>
+<area shape="poly" title=" " alt="" coords="61,260,71,297,88,347,116,401,134,426,154,447,159,451,156,455,151,451,130,429,111,404,83,349,66,298,56,261"/>
+<area shape="rect" href="structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="359,56,408,83"/>
+<area shape="poly" title=" " alt="" coords="287,67,343,67,343,72,287,72"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="dht_8h_ab90bbb546cb27122d1e381c020dcbf17_icgraph.png" border="0" usemap="#adht_8h_ab90bbb546cb27122d1e381c020dcbf17_icgraph" alt=""/></div>
+<map name="adht_8h_ab90bbb546cb27122d1e381c020dcbf17_icgraph" id="adht_8h_ab90bbb546cb27122d1e381c020dcbf17_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,202,32"/>
+<area shape="rect" href="_d_h_t_2example_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

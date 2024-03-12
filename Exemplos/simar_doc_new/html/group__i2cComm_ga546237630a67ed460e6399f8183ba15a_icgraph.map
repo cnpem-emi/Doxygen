@@ -1,0 +1,10 @@
+<map id="i2c_open" name="i2c_open">
+<area shape="rect" id="Node000001" title="Opens communication with the I2C bus at a given address." alt="" coords="228,31,301,57"/>
+<area shape="rect" id="Node000002" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="106,5,177,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,36,177,29,178,23,213,31"/>
+<area shape="rect" id="Node000004" href="$group__sht3xInit.html#ga646de02d627e97cc0ebdb6ef4f869c28" title="Initializes sensor communication." alt="" coords="103,56,180,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,57,181,64,180,59,212,52"/>
+<area shape="rect" id="Node000003" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,33,56,41,55,36,90,28"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="87,60,55,52,56,47,88,55"/>
+</map>

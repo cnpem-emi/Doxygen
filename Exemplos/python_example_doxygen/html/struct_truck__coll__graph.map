@@ -1,0 +1,9 @@
+<map id="Truck" name="Truck">
+<area shape="rect" id="Node000001" title=" " alt="" coords="11,187,64,213"/>
+<area shape="rect" id="Node000002" href="$struct_vehicle.html" title=" " alt="" coords="5,96,70,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="38,139,37,147,39,186,34,186,32,147,33,138"/>
+<area shape="poly" id="edge4_Node000001_Node000002" title=" " alt="" coords="40,138,40,186,35,186,35,138"/>
+<area shape="rect" id="Node000003" href="$struct_object.html" title=" " alt="" coords="8,5,67,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="38,48,37,56,39,96,34,96,32,56,33,48"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="40,48,40,95,35,95,35,48"/>
+</map>

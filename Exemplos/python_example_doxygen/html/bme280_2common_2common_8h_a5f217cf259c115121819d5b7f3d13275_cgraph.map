@@ -1,0 +1,60 @@
+<map id="bme_init" name="bme_init">
+<area shape="rect" id="Node000001" title="Initializes sensor communication." alt="" coords="5,233,76,260"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#af0b7d7a19bb48ec9eb3651b79f0c3e85" title="This API is the entry point. It reads the chip&#45;id and calibration data from the sensor." alt="" coords="174,107,265,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="48,231,78,191,99,169,122,150,157,132,160,137,125,154,102,173,82,195,53,234"/>
+<area shape="rect" id="Node000006" href="$bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="131,5,308,32"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="41,233,47,195,61,143,85,89,101,64,122,42,127,38,130,42,125,46,106,67,89,92,66,145,52,196,46,233"/>
+<area shape="rect" id="Node000008" href="$bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="124,56,315,83"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="43,232,52,203,68,165,91,126,122,93,128,88,132,92,125,97,95,129,72,168,57,205,48,234"/>
+<area shape="rect" id="Node000009" href="$group__i2c_mux.html#ga61698283ae91cc7210ed8598aad96605" title="Configures pins for the digital interface board multiplexing function." alt="" coords="167,208,272,235"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="76,239,151,228,152,234,77,244"/>
+<area shape="rect" id="Node000013" href="$i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073" title="Delays execution for n us." alt="" coords="183,259,256,285"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="77,249,168,262,167,267,76,254"/>
+<area shape="rect" id="Node000014" href="$group__i2c_mux.html#ga151ede3a3f257b072260f424e1a21400" title="Selects an available I2C channel through the SPI and I2C extender boards (0 to 8)" alt="" coords="164,309,275,336"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="62,258,91,277,125,295,150,304,148,309,123,300,88,282,59,263"/>
+<area shape="rect" id="Node000021" href="$group__i2c_mux.html#ga638412d4e040a7fbee04a70b711547dd" title="Selects an available I2C channel through the digital interface board (0 to 4)" alt="" coords="608,411,693,437"/>
+<area shape="poly" id="edge23_Node000001_Node000021" title=" " alt="" coords="51,259,79,303,100,326,125,346,184,376,246,398,311,413,376,423,497,430,592,427,593,432,497,436,376,429,310,419,245,403,182,381,122,350,97,330,75,306,47,262"/>
+<area shape="rect" id="Node000022" href="$group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a" title="Opens communication with the I2C bus at a given address." alt="" coords="415,157,488,184"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="57,231,87,211,123,193,197,176,272,167,342,164,399,165,399,170,342,169,272,172,198,181,125,199,89,215,60,235"/>
+<area shape="rect" id="Node000023" href="$group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="184,461,255,488"/>
+<area shape="poly" id="edge28_Node000001_Node000023" title=" " alt="" coords="46,260,53,296,67,344,91,396,107,420,125,441,146,455,170,464,168,469,144,460,122,445,102,423,86,399,62,346,48,297,41,261"/>
+<area shape="rect" id="Node000026" href="$group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="183,512,256,539"/>
+<area shape="poly" id="edge31_Node000001_Node000026" title=" " alt="" coords="45,260,48,306,59,370,69,405,84,439,102,471,125,498,145,511,169,519,167,524,143,516,122,502,98,474,79,441,64,407,54,372,43,307,39,261"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#a90217ff8a635240c20b763a88554da8c" title="This API reads the data from the given register address of the sensor." alt="" coords="588,56,713,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="265,108,363,92,573,72,573,77,363,97,266,114"/>
+<area shape="rect" id="Node000004" href="$bme2_8c.html#a6f874563c32b64cb625677e81ac20740" title="This API performs the soft reset of the sensor." alt="" coords="386,107,517,133"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="265,117,370,117,370,123,265,123"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="506,103,580,84,581,90,508,109"/>
+<area shape="rect" id="Node000005" href="$bme2_8c.html#a631b93eb751d5260f66090655b276d38" title="This API writes the given data to the register address of the sensor." alt="" coords="588,107,713,133"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="518,117,573,117,573,123,518,123"/>
+<area shape="rect" id="Node000007" href="$bme2_8c.html#aab44df556ac18f4e7800d8869a5d483f" title="This API gets the power mode of the sensor." alt="" coords="363,5,540,32"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="308,16,347,16,347,21,308,21"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="508,30,581,49,580,54,506,35"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="283,53,372,33,373,38,285,58"/>
+<area shape="rect" id="Node000010" href="$spi_2common_8c.html#a43a120dc2fc182d3fe61769d34cf4285" title=" " alt="" coords="397,208,506,235"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="272,219,381,219,381,224,272,224"/>
+<area shape="rect" id="Node000012" href="$spi_2common_8c.html#ac6a1cc04fa4fbcb29722630720f80399" title=" " alt="" coords="391,259,512,285"/>
+<area shape="poly" id="edge14_Node000009_Node000012" title=" " alt="" coords="273,230,376,253,375,258,272,235"/>
+<area shape="rect" id="Node000011" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="626,183,675,209"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="506,212,610,198,610,204,507,217"/>
+<area shape="rect" id="Node000015" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="399,360,504,387"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="276,332,384,356,383,361,275,337"/>
+<area shape="rect" id="Node000020" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="408,309,496,336"/>
+<area shape="poly" id="edge22_Node000014_Node000020" title=" " alt="" coords="275,320,392,320,392,325,275,325"/>
+<area shape="rect" id="Node000016" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="594,309,707,336"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="504,357,580,338,581,343,505,363"/>
+<area shape="rect" id="Node000017" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="594,360,707,387"/>
+<area shape="poly" id="edge19_Node000015_Node000017" title=" " alt="" coords="505,371,578,371,578,376,505,376"/>
+<area shape="rect" id="Node000018" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="761,360,870,387"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="708,371,745,371,745,376,708,376"/>
+<area shape="rect" id="Node000019" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="763,411,868,437"/>
+<area shape="poly" id="edge21_Node000017_Node000019" title=" " alt="" coords="697,385,756,403,754,408,696,390"/>
+<area shape="poly" id="edge24_Node000021_Node000018" title=" " alt="" coords="693,408,754,389,756,394,694,413"/>
+<area shape="poly" id="edge25_Node000021_Node000019" title=" " alt="" coords="694,421,748,421,748,427,694,427"/>
+<area shape="poly" id="edge27_Node000022_Node000011" title=" " alt="" coords="489,173,611,188,610,194,489,178"/>
+<area shape="rect" id="Node000024" href="$structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="429,461,475,488"/>
+<area shape="poly" id="edge29_Node000023_Node000024" title=" " alt="" coords="255,472,413,472,413,477,255,477"/>
+<area shape="rect" id="Node000025" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="428,512,476,539"/>
+<area shape="poly" id="edge30_Node000023_Node000025" title=" " alt="" coords="256,480,413,514,412,520,254,485"/>
+<area shape="poly" id="edge32_Node000026_Node000025" title=" " alt="" coords="256,523,412,523,412,528,256,528"/>
+</map>

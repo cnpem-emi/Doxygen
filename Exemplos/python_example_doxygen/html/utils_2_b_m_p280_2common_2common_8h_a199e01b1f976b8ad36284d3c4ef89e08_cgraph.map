@@ -1,0 +1,18 @@
+<map id="bmp2_interface_selection" name="bmp2_interface_selection">
+<area shape="rect" id="Node000001" title="This function is to select the interface between SPI and I2C." alt="" coords="5,81,174,108"/>
+<area shape="rect" id="Node000002" href="$i2c_2common_8c.html#a720879d69fe216a6f53c2d0de74d4073" title="Delays execution for n us." alt="" coords="222,5,295,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,78,212,36,214,41,122,83"/>
+<area shape="rect" id="Node000003" href="$group__i2c_comm.html#ga546237630a67ed460e6399f8183ba15a" title="Opens communication with the I2C bus at a given address." alt="" coords="222,56,295,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,79,206,74,207,80,174,85"/>
+<area shape="rect" id="Node000005" href="$group__i2c_comm.html#ga6ba6684ba5f02aa62901972aa6fd3258" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="223,107,294,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="174,105,208,110,207,115,174,110"/>
+<area shape="rect" id="Node000008" href="$group__i2c_comm.html#ga82d15977313cbe9512ca2b907eb176fe" title="Function for writing the sensor&#39;s registers through I2C bus." alt="" coords="222,157,295,184"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="122,106,214,148,212,153,120,111"/>
+<area shape="rect" id="Node000004" href="$structcmd_8h.html#a2c4414339f388561554c2deab11a1a07" title="Opens a file descriptor." alt="" coords="343,56,392,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="295,67,327,67,327,72,295,72"/>
+<area shape="rect" id="Node000006" href="$structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="345,107,391,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="294,117,329,117,329,123,294,123"/>
+<area shape="rect" id="Node000007" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="344,157,392,184"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="290,131,330,151,328,155,288,136"/>
+<area shape="poly" id="edge8_Node000008_Node000007" title=" " alt="" coords="295,168,328,168,328,173,295,173"/>
+</map>

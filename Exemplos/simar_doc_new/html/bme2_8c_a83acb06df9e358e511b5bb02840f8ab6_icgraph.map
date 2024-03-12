@@ -1,0 +1,19 @@
+<map id="set_osr_humidity_settings" name="set_osr_humidity_settings">
+<area shape="rect" id="Node000001" title="This API sets the humidity over sampling settings of the sensor." alt="" coords="1012,31,1186,57"/>
+<area shape="rect" id="Node000002" href="$bme2_8c.html#a7a70f7e91041163181773f639dad1e51" title="This internal API sets the oversampling settings for pressure, temperature and humidity in the sensor..." alt="" coords="847,31,964,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="997,47,965,47,965,41,997,41"/>
+<area shape="rect" id="Node000003" href="$bme2_8c.html#afd93f268d8109802cffa06b89f868922" title="This API sets the oversampling, filter and standby duration (normal mode) settings in the sensor." alt="" coords="221,5,412,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="831,44,413,25,413,20,832,38"/>
+<area shape="rect" id="Node000006" href="$bme2_8c.html#af10d933e592402c11b3bef03b6929cad" title="This internal API reloads the already existing device settings in the sensor after soft reset." alt="" coords="647,56,799,83"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="832,57,800,61,799,56,831,52"/>
+<area shape="rect" id="Node000004" href="$bme280_2common_2common_8c.html#a3e502594f97be65d769480bce36c3706" title="Initializes sensor communication." alt="" coords="103,31,173,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="206,37,174,42,173,36,205,32"/>
+<area shape="rect" id="Node000005" href="$bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,47,55,47,55,41,87,41"/>
+<area shape="rect" id="Node000007" href="$bme2_8c.html#ae471e9fce32acbe04f6fa20d7d80a50f" title="This internal API puts the device to sleep mode." alt="" coords="460,56,599,83"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="631,72,599,72,599,67,631,67"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="455,54,375,35,376,30,456,49"/>
+<area shape="rect" id="Node000008" href="$bme2_8c.html#a6373385e51038a9b982c42e0dce4ba9f" title="This API sets the power mode of the sensor." alt="" coords="228,56,405,83"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="445,72,406,72,406,67,445,67"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="212,57,173,52,174,46,213,52"/>
+</map>

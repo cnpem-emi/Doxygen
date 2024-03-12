@@ -1,0 +1,17 @@
+<map id="write_data" name="write_data">
+<area shape="rect" id="Node000001" title="Writes digital data at given address." alt="" coords="5,107,86,133"/>
+<area shape="rect" id="Node000002" href="$spi_2common_8c.html#a3dfeb486a29131f600b337889b08f34f" title=" " alt="" coords="448,5,558,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,104,132,67,207,35,287,16,362,10,433,10,433,16,362,15,287,21,209,40,135,72,69,108"/>
+<area shape="rect" id="Node000003" href="$spi_2common_8c.html#a41cfe7f245de261fbb41e4591c221e14" title=" " alt="" coords="451,81,555,108"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="86,120,225,126,313,124,400,117,441,110,442,115,401,123,313,130,225,131,86,126"/>
+<area shape="rect" id="Node000004" href="$spi_2common_8c.html#a3e72afd6fa49b53f34f7b86b8c149aa1" title="Selects module at given address." alt="" coords="134,81,239,108"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="86,110,118,104,119,110,87,115"/>
+<area shape="rect" id="Node000007" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="162,183,211,209"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="73,132,150,174,147,178,71,136"/>
+<area shape="rect" id="Node000005" href="$spi_2common_8c.html#a48b6d5a86061665b7774f9c3e1a943cc" title="Calculates even parity bit." alt="" coords="288,81,400,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="240,92,272,92,272,97,240,97"/>
+<area shape="rect" id="Node000006" href="$group__spi_module.html#gacb2e03dd222a47930928e0a3a748a009" title="Writes directly to module selector (bypassing parity)" alt="" coords="287,31,400,57"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="230,78,285,60,286,65,231,83"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="400,32,432,27,433,32,401,38"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="389,55,445,74,443,79,387,61"/>
+</map>

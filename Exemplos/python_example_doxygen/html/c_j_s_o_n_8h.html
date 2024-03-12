@@ -1,0 +1,1844 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Demonstração Doxygen: Referência do Arquivo bin/utils/json/cJSON.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cnpemlogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Demonstração Doxygen<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Exemplo de documentação do Doxygen em</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2ea30aa2956a8db99dd22aa5e597f384.html">bin</a></li><li class="navelem"><a class="el" href="dir_31508e67cfab82fa49e0b7413e3fb991.html">utils</a></li><li class="navelem"><a class="el" href="dir_b6d9edd6d616be16cefd7003c128b6f5.html">json</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Estruturas de Dados</a> &#124;
+<a href="#define-members">Definições e Macros</a> &#124;
+<a href="#typedef-members">Definições de Tipos</a> &#124;
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo cJSON.h</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stddef.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para cJSON.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h__incl.png" border="0" usemap="#abin_2utils_2json_2c_j_s_o_n_8h" alt=""/></div>
+<map name="abin_2utils_2json_2c_j_s_o_n_8h" id="abin_2utils_2json_2c_j_s_o_n_8h">
+<area shape="rect" title=" " alt="" coords="5,5,156,32"/>
+<area shape="rect" title=" " alt="" coords="47,80,114,107"/>
+<area shape="poly" title=" " alt="" coords="83,33,83,64,78,64,78,33"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Este grafo mostra quais arquivos estão direta ou indiretamente relacionados com esse arquivo:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h__dep__incl.png" border="0" usemap="#abin_2utils_2json_2c_j_s_o_n_8hdep" alt=""/></div>
+<map name="abin_2utils_2json_2c_j_s_o_n_8hdep" id="abin_2utils_2json_2c_j_s_o_n_8hdep">
+<area shape="rect" title=" " alt="" coords="63,5,213,32"/>
+<area shape="rect" href="bme_8c.html" title="Main starting point for BME280 sensor module." alt="" coords="5,80,116,107"/>
+<area shape="poly" title=" " alt="" coords="115,45,76,82,72,78,111,41"/>
+<area shape="rect" href="c_j_s_o_n_8c.html" title=" " alt="" coords="140,80,290,107"/>
+<area shape="poly" title=" " alt="" coords="164,41,204,78,200,82,161,45"/>
+</map>
+</div>
+</div>
+<p><a href="c_j_s_o_n_8h_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Estruturas de Dados</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structc_j_s_o_n.html">cJSON</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structc_j_s_o_n___hooks.html">cJSON_Hooks</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Definições e Macros</h2></td></tr>
+<tr class="memitem:a79203c3ba406ffd5736627cc1e082e38" id="r_a79203c3ba406ffd5736627cc1e082e38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79203c3ba406ffd5736627cc1e082e38">CJSON_CDECL</a></td></tr>
+<tr class="separator:a79203c3ba406ffd5736627cc1e082e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee2cdf14a236df79175ef257a5a94964" id="r_aee2cdf14a236df79175ef257a5a94964"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee2cdf14a236df79175ef257a5a94964">CJSON_STDCALL</a></td></tr>
+<tr class="separator:aee2cdf14a236df79175ef257a5a94964"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70709a6f2a7e45debe4f5abe345fcb86" id="r_a70709a6f2a7e45debe4f5abe345fcb86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70709a6f2a7e45debe4f5abe345fcb86">CJSON_PUBLIC</a>(type)&#160;&#160;&#160;type</td></tr>
+<tr class="separator:a70709a6f2a7e45debe4f5abe345fcb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78f100ac5089a51941e2ca573ad8e380" id="r_a78f100ac5089a51941e2ca573ad8e380"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78f100ac5089a51941e2ca573ad8e380">CJSON_VERSION_MAJOR</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a78f100ac5089a51941e2ca573ad8e380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55a808fe6b77cef1e4c2cf02a4316301" id="r_a55a808fe6b77cef1e4c2cf02a4316301"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55a808fe6b77cef1e4c2cf02a4316301">CJSON_VERSION_MINOR</a>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:a55a808fe6b77cef1e4c2cf02a4316301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad7073103d4b9aaf2153add95561c47" id="r_a6ad7073103d4b9aaf2153add95561c47"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad7073103d4b9aaf2153add95561c47">CJSON_VERSION_PATCH</a>&#160;&#160;&#160;15</td></tr>
+<tr class="separator:a6ad7073103d4b9aaf2153add95561c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c36e86d8d65b697bc623fe28027668" id="r_a80c36e86d8d65b697bc623fe28027668"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80c36e86d8d65b697bc623fe28027668">cJSON_Invalid</a>&#160;&#160;&#160;(0)</td></tr>
+<tr class="separator:a80c36e86d8d65b697bc623fe28027668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d240682316354b5748f909ad220184b" id="r_a2d240682316354b5748f909ad220184b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d240682316354b5748f909ad220184b">cJSON_False</a>&#160;&#160;&#160;(1 &lt;&lt; 0)</td></tr>
+<tr class="separator:a2d240682316354b5748f909ad220184b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4e442b8095939decddfb67d87d9324" id="r_aad4e442b8095939decddfb67d87d9324"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad4e442b8095939decddfb67d87d9324">cJSON_True</a>&#160;&#160;&#160;(1 &lt;&lt; 1)</td></tr>
+<tr class="separator:aad4e442b8095939decddfb67d87d9324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeadaba63ddb68aaa518528595d503dcd" id="r_aeadaba63ddb68aaa518528595d503dcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeadaba63ddb68aaa518528595d503dcd">cJSON_NULL</a>&#160;&#160;&#160;(1 &lt;&lt; 2)</td></tr>
+<tr class="separator:aeadaba63ddb68aaa518528595d503dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e77e2f6457dc9b19c10ddb032af971" id="r_a15e77e2f6457dc9b19c10ddb032af971"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15e77e2f6457dc9b19c10ddb032af971">cJSON_Number</a>&#160;&#160;&#160;(1 &lt;&lt; 3)</td></tr>
+<tr class="separator:a15e77e2f6457dc9b19c10ddb032af971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2cb4765308e2bbdf01988b2acdf92d9" id="r_aa2cb4765308e2bbdf01988b2acdf92d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2cb4765308e2bbdf01988b2acdf92d9">cJSON_String</a>&#160;&#160;&#160;(1 &lt;&lt; 4)</td></tr>
+<tr class="separator:aa2cb4765308e2bbdf01988b2acdf92d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57cffa126740a8efcdcb7bcef80e8897" id="r_a57cffa126740a8efcdcb7bcef80e8897"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57cffa126740a8efcdcb7bcef80e8897">cJSON_Array</a>&#160;&#160;&#160;(1 &lt;&lt; 5)</td></tr>
+<tr class="separator:a57cffa126740a8efcdcb7bcef80e8897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c6e13481c090629afbd77b7cebd24c" id="r_a22c6e13481c090629afbd77b7cebd24c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22c6e13481c090629afbd77b7cebd24c">cJSON_Object</a>&#160;&#160;&#160;(1 &lt;&lt; 6)</td></tr>
+<tr class="separator:a22c6e13481c090629afbd77b7cebd24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ddc931ea84908d12f48c5b7f8731a1" id="r_ae9ddc931ea84908d12f48c5b7f8731a1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9ddc931ea84908d12f48c5b7f8731a1">cJSON_Raw</a>&#160;&#160;&#160;(1 &lt;&lt; 7) /* raw json */</td></tr>
+<tr class="separator:ae9ddc931ea84908d12f48c5b7f8731a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d18116aae3bfa46f13bcfd7fd6d4e7" id="r_ad3d18116aae3bfa46f13bcfd7fd6d4e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3d18116aae3bfa46f13bcfd7fd6d4e7">cJSON_IsReference</a>&#160;&#160;&#160;256</td></tr>
+<tr class="separator:ad3d18116aae3bfa46f13bcfd7fd6d4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491c3484a36f3915cc4710088f55971f" id="r_a491c3484a36f3915cc4710088f55971f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a491c3484a36f3915cc4710088f55971f">cJSON_StringIsConst</a>&#160;&#160;&#160;512</td></tr>
+<tr class="separator:a491c3484a36f3915cc4710088f55971f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7ac4e1b31070b787afb3a4b67727f4" id="r_a9c7ac4e1b31070b787afb3a4b67727f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7ac4e1b31070b787afb3a4b67727f4">CJSON_NESTING_LIMIT</a>&#160;&#160;&#160;1000</td></tr>
+<tr class="separator:a9c7ac4e1b31070b787afb3a4b67727f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b1335bfccc358f566bea6f7e4bfdc6" id="r_ae5b1335bfccc358f566bea6f7e4bfdc6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5b1335bfccc358f566bea6f7e4bfdc6">cJSON_SetIntValue</a>(object,  <a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>)&#160;&#160;&#160;  ((object) ? (object)-&gt;valueint = (object)-&gt;valuedouble = (<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>) : (<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>))</td></tr>
+<tr class="separator:ae5b1335bfccc358f566bea6f7e4bfdc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab3f1e3586395bdb2da5a40059cb24b" id="r_adab3f1e3586395bdb2da5a40059cb24b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab3f1e3586395bdb2da5a40059cb24b">cJSON_SetNumberValue</a>(object,  <a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>)&#160;&#160;&#160;  ((object != <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) ? cJSON_SetNumberHelper(object, (double)<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>) : (<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>))</td></tr>
+<tr class="separator:adab3f1e3586395bdb2da5a40059cb24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210748b11b9b4f93d29391591a37ad85" id="r_a210748b11b9b4f93d29391591a37ad85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a210748b11b9b4f93d29391591a37ad85">cJSON_SetBoolValue</a>(object,  boolValue)</td></tr>
+<tr class="separator:a210748b11b9b4f93d29391591a37ad85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d6e5782fb4bb3c7a25c7c5b1868f06" id="r_ac3d6e5782fb4bb3c7a25c7c5b1868f06"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3d6e5782fb4bb3c7a25c7c5b1868f06">cJSON_ArrayForEach</a>(element,  array)&#160;&#160;&#160;  for (element = (array != <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) ? (array)-&gt;child : <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; element != <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; element = element-&gt;next)</td></tr>
+<tr class="separator:ac3d6e5782fb4bb3c7a25c7c5b1868f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Definições de Tipos</h2></td></tr>
+<tr class="memitem:a4c146234dfd7b6adbf13b49505e995bc" id="r_a4c146234dfd7b6adbf13b49505e995bc"><td class="memItemLeft" align="right" valign="top">typedef struct cJSON&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c146234dfd7b6adbf13b49505e995bc">cJSON</a></td></tr>
+<tr class="separator:a4c146234dfd7b6adbf13b49505e995bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67bc592e52110fee68ab8ab4140530d" id="r_ab67bc592e52110fee68ab8ab4140530d"><td class="memItemLeft" align="right" valign="top">typedef struct cJSON_Hooks&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab67bc592e52110fee68ab8ab4140530d">cJSON_Hooks</a></td></tr>
+<tr class="separator:ab67bc592e52110fee68ab8ab4140530d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0a1491f73d98b7cc4b8b791c408a4a" id="r_aea0a1491f73d98b7cc4b8b791c408a4a"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a></td></tr>
+<tr class="separator:aea0a1491f73d98b7cc4b8b791c408a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:ad111420010c8684e2acde69bb1ead4f8" id="r_ad111420010c8684e2acde69bb1ead4f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad111420010c8684e2acde69bb1ead4f8">CJSON_PUBLIC</a> (const char *) cJSON_Version(void)</td></tr>
+<tr class="separator:ad111420010c8684e2acde69bb1ead4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5712efac9864c56f805260c5e2a5c01b" id="r_a5712efac9864c56f805260c5e2a5c01b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5712efac9864c56f805260c5e2a5c01b">CJSON_PUBLIC</a> (void) cJSON_InitHooks(<a class="el" href="structc_j_s_o_n___hooks.html">cJSON_Hooks</a> *hooks)</td></tr>
+<tr class="separator:a5712efac9864c56f805260c5e2a5c01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd55c37a5af547c3c1ada176e38afbc6" id="r_abd55c37a5af547c3c1ada176e38afbc6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd55c37a5af547c3c1ada176e38afbc6">CJSON_PUBLIC</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *) cJSON_Parse(const char *value)</td></tr>
+<tr class="separator:abd55c37a5af547c3c1ada176e38afbc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfabd5d09c2cf0a2f051c47650db6e80" id="r_adfabd5d09c2cf0a2f051c47650db6e80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfabd5d09c2cf0a2f051c47650db6e80">cJSON_ParseWithOpts</a> (const char *value, const char **return_parse_end, <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a> require_null_terminated)</td></tr>
+<tr class="separator:adfabd5d09c2cf0a2f051c47650db6e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a24e49a04490273160cdc1f30f10d22" id="r_a3a24e49a04490273160cdc1f30f10d22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a24e49a04490273160cdc1f30f10d22">cJSON_ParseWithLengthOpts</a> (const char *value, size_t <a class="el" href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a>, const char **return_parse_end, <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a> require_null_terminated)</td></tr>
+<tr class="separator:a3a24e49a04490273160cdc1f30f10d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc0bf2ad0de27db33e6471754c8f3ace" id="r_acc0bf2ad0de27db33e6471754c8f3ace"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc0bf2ad0de27db33e6471754c8f3ace">CJSON_PUBLIC</a> (char *) cJSON_Print(const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *<a class="el" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>)</td></tr>
+<tr class="separator:acc0bf2ad0de27db33e6471754c8f3ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae150f0e5009534979d4532a411d077" id="r_a5ae150f0e5009534979d4532a411d077"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ae150f0e5009534979d4532a411d077">cJSON_PrintPreallocated</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *<a class="el" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>, char *buffer, const int length, const <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a> format)</td></tr>
+<tr class="separator:a5ae150f0e5009534979d4532a411d077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b701b8a83a4ae2865dba90b7198585" id="r_a90b701b8a83a4ae2865dba90b7198585"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90b701b8a83a4ae2865dba90b7198585">CJSON_PUBLIC</a> (int) cJSON_GetArraySize(const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *array)</td></tr>
+<tr class="separator:a90b701b8a83a4ae2865dba90b7198585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02267703c3d44400abbb80ea8c91edb0" id="r_a02267703c3d44400abbb80ea8c91edb0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02267703c3d44400abbb80ea8c91edb0">cJSON_GetObjectItemCaseSensitive</a> (const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const object, const char *const <a class="el" href="#ad4c68ea99a26b0a98ad9a79982960458">string</a>)</td></tr>
+<tr class="separator:a02267703c3d44400abbb80ea8c91edb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a228b429c345d298fa5b887420337a54c" id="r_a228b429c345d298fa5b887420337a54c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a228b429c345d298fa5b887420337a54c">CJSON_PUBLIC</a> (double) cJSON_GetNumberValue(const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const <a class="el" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>)</td></tr>
+<tr class="separator:a228b429c345d298fa5b887420337a54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae40faf8fce455884d99bbb2f60cd5860" id="r_ae40faf8fce455884d99bbb2f60cd5860"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae40faf8fce455884d99bbb2f60cd5860">cJSON_AddItemReferenceToObject</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *object, const char *<a class="el" href="#ad4c68ea99a26b0a98ad9a79982960458">string</a>, <a class="el" href="structc_j_s_o_n.html">cJSON</a> *<a class="el" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>)</td></tr>
+<tr class="separator:ae40faf8fce455884d99bbb2f60cd5860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2554b76546ea961f1f2227c7f995507f" id="r_a2554b76546ea961f1f2227c7f995507f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2554b76546ea961f1f2227c7f995507f">cJSON_InsertItemInArray</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *array, int <a class="el" href="#aa2a4dae2a14de4093826005f9bdfd3bb">which</a>, <a class="el" href="structc_j_s_o_n.html">cJSON</a> *<a class="el" href="#af0a08d1c14f93dc16a29f8912fc1a930">newitem</a>)</td></tr>
+<tr class="separator:a2554b76546ea961f1f2227c7f995507f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef23a5c2b35e0c54fef7b6de54918289" id="r_aef23a5c2b35e0c54fef7b6de54918289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef23a5c2b35e0c54fef7b6de54918289">cJSON_ReplaceItemViaPointer</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *const parent, <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const <a class="el" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>, <a class="el" href="structc_j_s_o_n.html">cJSON</a> *replacement)</td></tr>
+<tr class="separator:aef23a5c2b35e0c54fef7b6de54918289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8335f21a2f78d63c854c002f09f96dc" id="r_ae8335f21a2f78d63c854c002f09f96dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8335f21a2f78d63c854c002f09f96dc">cJSON_ReplaceItemInObject</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *object, const char *<a class="el" href="#ad4c68ea99a26b0a98ad9a79982960458">string</a>, <a class="el" href="structc_j_s_o_n.html">cJSON</a> *<a class="el" href="#af0a08d1c14f93dc16a29f8912fc1a930">newitem</a>)</td></tr>
+<tr class="separator:ae8335f21a2f78d63c854c002f09f96dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbcada89e12f21f1d0f2e296d93130dc" id="r_acbcada89e12f21f1d0f2e296d93130dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbcada89e12f21f1d0f2e296d93130dc">cJSON_ReplaceItemInObjectCaseSensitive</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *object, const char *<a class="el" href="#ad4c68ea99a26b0a98ad9a79982960458">string</a>, <a class="el" href="structc_j_s_o_n.html">cJSON</a> *<a class="el" href="#af0a08d1c14f93dc16a29f8912fc1a930">newitem</a>)</td></tr>
+<tr class="separator:acbcada89e12f21f1d0f2e296d93130dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf300812688daed48537a559e8838ec" id="r_abcf300812688daed48537a559e8838ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcf300812688daed48537a559e8838ec">cJSON_Compare</a> (const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const a, const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const b, const <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a> case_sensitive)</td></tr>
+<tr class="separator:abcf300812688daed48537a559e8838ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac44e19cf2c9b85d693021327cd13c380" id="r_ac44e19cf2c9b85d693021327cd13c380"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac44e19cf2c9b85d693021327cd13c380">cJSON_AddBoolToObject</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *const object, const char *const <a class="el" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, const <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a> boolean)</td></tr>
+<tr class="separator:ac44e19cf2c9b85d693021327cd13c380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53dc5895c82cc121dec73b81930ee42" id="r_aa53dc5895c82cc121dec73b81930ee42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa53dc5895c82cc121dec73b81930ee42">cJSON_AddNumberToObject</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *const object, const char *const <a class="el" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, const double <a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>)</td></tr>
+<tr class="separator:aa53dc5895c82cc121dec73b81930ee42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49e0e6b028e5a814c642307254816208" id="r_a49e0e6b028e5a814c642307254816208"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49e0e6b028e5a814c642307254816208">cJSON_AddStringToObject</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *const object, const char *const <a class="el" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, const char *const <a class="el" href="#ad4c68ea99a26b0a98ad9a79982960458">string</a>)</td></tr>
+<tr class="separator:a49e0e6b028e5a814c642307254816208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60358335b6645747178c8050d5e51653" id="r_a60358335b6645747178c8050d5e51653"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60358335b6645747178c8050d5e51653">cJSON_AddRawToObject</a> (<a class="el" href="structc_j_s_o_n.html">cJSON</a> *const object, const char *const <a class="el" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, const char *const raw)</td></tr>
+<tr class="separator:a60358335b6645747178c8050d5e51653"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8172bffbb05eec3c761bf0b43484f62d" id="r_a8172bffbb05eec3c761bf0b43484f62d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8172bffbb05eec3c761bf0b43484f62d">CJSON_PUBLIC</a> (void *) cJSON_malloc(size_t size)</td></tr>
+<tr class="separator:a8172bffbb05eec3c761bf0b43484f62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:a7beaf9b4ef5e4c7254cc3298a3424354" id="r_a7beaf9b4ef5e4c7254cc3298a3424354"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a></td></tr>
+<tr class="separator:a7beaf9b4ef5e4c7254cc3298a3424354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039dc262c2ae63f95cfe193245f8ee7e" id="r_a039dc262c2ae63f95cfe193245f8ee7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a039dc262c2ae63f95cfe193245f8ee7e">prebuffer</a></td></tr>
+<tr class="separator:a039dc262c2ae63f95cfe193245f8ee7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa813b2b7bde1a5a1f528cd9d9aa9ee7d" id="r_aa813b2b7bde1a5a1f528cd9d9aa9ee7d"><td class="memItemLeft" align="right" valign="top">int <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa813b2b7bde1a5a1f528cd9d9aa9ee7d">fmt</a></td></tr>
+<tr class="separator:aa813b2b7bde1a5a1f528cd9d9aa9ee7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a750b5d744c39a06bfb13e6eb010e35d0" id="r_a750b5d744c39a06bfb13e6eb010e35d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a750b5d744c39a06bfb13e6eb010e35d0">index</a></td></tr>
+<tr class="separator:a750b5d744c39a06bfb13e6eb010e35d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c68ea99a26b0a98ad9a79982960458" id="r_ad4c68ea99a26b0a98ad9a79982960458"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4c68ea99a26b0a98ad9a79982960458">string</a></td></tr>
+<tr class="separator:ad4c68ea99a26b0a98ad9a79982960458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43c3812e6d13e0518d9f8b8f463ffcf" id="r_ad43c3812e6d13e0518d9f8b8f463ffcf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></td></tr>
+<tr class="separator:ad43c3812e6d13e0518d9f8b8f463ffcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76cea59d438ba893d2f82aabb367d14" id="r_ac76cea59d438ba893d2f82aabb367d14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac76cea59d438ba893d2f82aabb367d14">item</a></td></tr>
+<tr class="separator:ac76cea59d438ba893d2f82aabb367d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a4dae2a14de4093826005f9bdfd3bb" id="r_aa2a4dae2a14de4093826005f9bdfd3bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2a4dae2a14de4093826005f9bdfd3bb">which</a></td></tr>
+<tr class="separator:aa2a4dae2a14de4093826005f9bdfd3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a08d1c14f93dc16a29f8912fc1a930" id="r_af0a08d1c14f93dc16a29f8912fc1a930"><td class="memItemLeft" align="right" valign="top">int <a class="el" href="structc_j_s_o_n.html">cJSON</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0a08d1c14f93dc16a29f8912fc1a930">newitem</a></td></tr>
+<tr class="separator:af0a08d1c14f93dc16a29f8912fc1a930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8d1c385c6dc37e1c5b640869ce4ab6" id="r_afc8d1c385c6dc37e1c5b640869ce4ab6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8d1c385c6dc37e1c5b640869ce4ab6">recurse</a></td></tr>
+<tr class="separator:afc8d1c385c6dc37e1c5b640869ce4ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc128f98d9ceca227038c771308eff39" id="r_acc128f98d9ceca227038c771308eff39"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc128f98d9ceca227038c771308eff39">name</a></td></tr>
+<tr class="separator:acc128f98d9ceca227038c771308eff39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01b4671c6b7cc8f831c951c000a37735" id="r_a01b4671c6b7cc8f831c951c000a37735"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a></td></tr>
+<tr class="separator:a01b4671c6b7cc8f831c951c000a37735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa770d5dc55a1031ccff9aee4e96acf8f" id="r_aa770d5dc55a1031ccff9aee4e96acf8f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa770d5dc55a1031ccff9aee4e96acf8f">valuestring</a></td></tr>
+<tr class="separator:aa770d5dc55a1031ccff9aee4e96acf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Definições e macros</h2>
+<a id="a57cffa126740a8efcdcb7bcef80e8897" name="a57cffa126740a8efcdcb7bcef80e8897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57cffa126740a8efcdcb7bcef80e8897">&#9670;&#160;</a></span>cJSON_Array</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_Array&#160;&#160;&#160;(1 &lt;&lt; 5)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00099">99</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="ac3d6e5782fb4bb3c7a25c7c5b1868f06" name="ac3d6e5782fb4bb3c7a25c7c5b1868f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3d6e5782fb4bb3c7a25c7c5b1868f06">&#9670;&#160;</a></span>cJSON_ArrayForEach</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_ArrayForEach</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">element, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">array</span>&#160;)&#160;&#160;&#160;  for (element = (array != <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) ? (array)-&gt;child : <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; element != <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; element = element-&gt;next)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00335">335</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  335</span><span class="preprocessor">#define cJSON_ArrayForEach(element, array) \</span></div>
+<div class="line"><span class="lineno">  336</span><span class="preprocessor">  for (element = (array != NULL) ? (array)-&gt;child : NULL; element != NULL; element = element-&gt;next)</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a79203c3ba406ffd5736627cc1e082e38" name="a79203c3ba406ffd5736627cc1e082e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79203c3ba406ffd5736627cc1e082e38">&#9670;&#160;</a></span>CJSON_CDECL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CJSON_CDECL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00074">74</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a2d240682316354b5748f909ad220184b" name="a2d240682316354b5748f909ad220184b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d240682316354b5748f909ad220184b">&#9670;&#160;</a></span>cJSON_False</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_False&#160;&#160;&#160;(1 &lt;&lt; 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00094">94</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a80c36e86d8d65b697bc623fe28027668" name="a80c36e86d8d65b697bc623fe28027668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c36e86d8d65b697bc623fe28027668">&#9670;&#160;</a></span>cJSON_Invalid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_Invalid&#160;&#160;&#160;(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00093">93</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3d18116aae3bfa46f13bcfd7fd6d4e7" name="ad3d18116aae3bfa46f13bcfd7fd6d4e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d18116aae3bfa46f13bcfd7fd6d4e7">&#9670;&#160;</a></span>cJSON_IsReference</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_IsReference&#160;&#160;&#160;256</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00103">103</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a9c7ac4e1b31070b787afb3a4b67727f4" name="a9c7ac4e1b31070b787afb3a4b67727f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7ac4e1b31070b787afb3a4b67727f4">&#9670;&#160;</a></span>CJSON_NESTING_LIMIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CJSON_NESTING_LIMIT&#160;&#160;&#160;1000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00143">143</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="aeadaba63ddb68aaa518528595d503dcd" name="aeadaba63ddb68aaa518528595d503dcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeadaba63ddb68aaa518528595d503dcd">&#9670;&#160;</a></span>cJSON_NULL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_NULL&#160;&#160;&#160;(1 &lt;&lt; 2)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00096">96</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a15e77e2f6457dc9b19c10ddb032af971" name="a15e77e2f6457dc9b19c10ddb032af971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e77e2f6457dc9b19c10ddb032af971">&#9670;&#160;</a></span>cJSON_Number</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_Number&#160;&#160;&#160;(1 &lt;&lt; 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00097">97</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a22c6e13481c090629afbd77b7cebd24c" name="a22c6e13481c090629afbd77b7cebd24c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22c6e13481c090629afbd77b7cebd24c">&#9670;&#160;</a></span>cJSON_Object</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_Object&#160;&#160;&#160;(1 &lt;&lt; 6)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00100">100</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a70709a6f2a7e45debe4f5abe345fcb86" name="a70709a6f2a7e45debe4f5abe345fcb86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70709a6f2a7e45debe4f5abe345fcb86">&#9670;&#160;</a></span>CJSON_PUBLIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CJSON_PUBLIC</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">type</span></td><td>)</td>
+          <td>&#160;&#160;&#160;type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00081">81</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="ae9ddc931ea84908d12f48c5b7f8731a1" name="ae9ddc931ea84908d12f48c5b7f8731a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9ddc931ea84908d12f48c5b7f8731a1">&#9670;&#160;</a></span>cJSON_Raw</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_Raw&#160;&#160;&#160;(1 &lt;&lt; 7) /* raw json */</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00101">101</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a210748b11b9b4f93d29391591a37ad85" name="a210748b11b9b4f93d29391591a37ad85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210748b11b9b4f93d29391591a37ad85">&#9670;&#160;</a></span>cJSON_SetBoolValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_SetBoolValue</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">object, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">boolValue</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Valor:</b><div class="fragment"><div class="line">  ((<span class="keywordtype">object</span> != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> &amp;&amp; ((object)-&gt;type &amp; (<a class="code hl_define" href="#a2d240682316354b5748f909ad220184b">cJSON_False</a> | <a class="code hl_define" href="#aad4e442b8095939decddfb67d87d9324">cJSON_True</a>)))         \</div>
+<div class="line">       ? (object)-&gt;type = ((<span class="keywordtype">object</span>)-&gt;type &amp; (~(<a class="code hl_define" href="#a2d240682316354b5748f909ad220184b">cJSON_False</a> | <a class="code hl_define" href="#aad4e442b8095939decddfb67d87d9324">cJSON_True</a>))) | \</div>
+<div class="line">                          ((boolValue) ? <a class="code hl_define" href="#aad4e442b8095939decddfb67d87d9324">cJSON_True</a> : <a class="code hl_define" href="#a2d240682316354b5748f909ad220184b">cJSON_False</a>)           \</div>
+<div class="line">       : <a class="code hl_define" href="#a80c36e86d8d65b697bc623fe28027668">cJSON_Invalid</a>)</div>
+<div class="ttc" id="abme2__defs_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definição</b> <a href="bme2__defs_8h_source.html#l00082">bme2_defs.h:82</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a2d240682316354b5748f909ad220184b"><div class="ttname"><a href="#a2d240682316354b5748f909ad220184b">cJSON_False</a></div><div class="ttdeci">#define cJSON_False</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00094">cJSON.h:94</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a80c36e86d8d65b697bc623fe28027668"><div class="ttname"><a href="#a80c36e86d8d65b697bc623fe28027668">cJSON_Invalid</a></div><div class="ttdeci">#define cJSON_Invalid</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00093">cJSON.h:93</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_aad4e442b8095939decddfb67d87d9324"><div class="ttname"><a href="#aad4e442b8095939decddfb67d87d9324">cJSON_True</a></div><div class="ttdeci">#define cJSON_True</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00095">cJSON.h:95</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00328">328</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  328</span><span class="preprocessor">#define cJSON_SetBoolValue(object, boolValue)                                \</span></div>
+<div class="line"><span class="lineno">  329</span><span class="preprocessor">  ((object != NULL &amp;&amp; ((object)-&gt;type &amp; (cJSON_False | cJSON_True)))         \</span></div>
+<div class="line"><span class="lineno">  330</span><span class="preprocessor">       ? (object)-&gt;type = ((object)-&gt;type &amp; (~(cJSON_False | cJSON_True))) | \</span></div>
+<div class="line"><span class="lineno">  331</span><span class="preprocessor">                          ((boolValue) ? cJSON_True : cJSON_False)           \</span></div>
+<div class="line"><span class="lineno">  332</span><span class="preprocessor">       : cJSON_Invalid)</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae5b1335bfccc358f566bea6f7e4bfdc6" name="ae5b1335bfccc358f566bea6f7e4bfdc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5b1335bfccc358f566bea6f7e4bfdc6">&#9670;&#160;</a></span>cJSON_SetIntValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_SetIntValue</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">object, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a></span>&#160;)&#160;&#160;&#160;  ((object) ? (object)-&gt;valueint = (object)-&gt;valuedouble = (<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>) : (<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00316">316</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  316</span><span class="preprocessor">#define cJSON_SetIntValue(object, number) \</span></div>
+<div class="line"><span class="lineno">  317</span><span class="preprocessor">  ((object) ? (object)-&gt;valueint = (object)-&gt;valuedouble = (number) : (number))</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adab3f1e3586395bdb2da5a40059cb24b" name="adab3f1e3586395bdb2da5a40059cb24b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab3f1e3586395bdb2da5a40059cb24b">&#9670;&#160;</a></span>cJSON_SetNumberValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_SetNumberValue</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname">object, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a></span>&#160;)&#160;&#160;&#160;  ((object != <a class="el" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) ? cJSON_SetNumberHelper(object, (double)<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>) : (<a class="el" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00320">320</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  320</span><span class="preprocessor">#define cJSON_SetNumberValue(object, number) \</span></div>
+<div class="line"><span class="lineno">  321</span><span class="preprocessor">  ((object != NULL) ? cJSON_SetNumberHelper(object, (double)number) : (number))</span></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aee2cdf14a236df79175ef257a5a94964" name="aee2cdf14a236df79175ef257a5a94964"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee2cdf14a236df79175ef257a5a94964">&#9670;&#160;</a></span>CJSON_STDCALL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CJSON_STDCALL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00075">75</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="aa2cb4765308e2bbdf01988b2acdf92d9" name="aa2cb4765308e2bbdf01988b2acdf92d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2cb4765308e2bbdf01988b2acdf92d9">&#9670;&#160;</a></span>cJSON_String</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_String&#160;&#160;&#160;(1 &lt;&lt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00098">98</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a491c3484a36f3915cc4710088f55971f" name="a491c3484a36f3915cc4710088f55971f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a491c3484a36f3915cc4710088f55971f">&#9670;&#160;</a></span>cJSON_StringIsConst</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_StringIsConst&#160;&#160;&#160;512</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00104">104</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="aad4e442b8095939decddfb67d87d9324" name="aad4e442b8095939decddfb67d87d9324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad4e442b8095939decddfb67d87d9324">&#9670;&#160;</a></span>cJSON_True</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define cJSON_True&#160;&#160;&#160;(1 &lt;&lt; 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00095">95</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a78f100ac5089a51941e2ca573ad8e380" name="a78f100ac5089a51941e2ca573ad8e380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78f100ac5089a51941e2ca573ad8e380">&#9670;&#160;</a></span>CJSON_VERSION_MAJOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CJSON_VERSION_MAJOR&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00086">86</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a55a808fe6b77cef1e4c2cf02a4316301" name="a55a808fe6b77cef1e4c2cf02a4316301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55a808fe6b77cef1e4c2cf02a4316301">&#9670;&#160;</a></span>CJSON_VERSION_MINOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CJSON_VERSION_MINOR&#160;&#160;&#160;7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00087">87</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a6ad7073103d4b9aaf2153add95561c47" name="a6ad7073103d4b9aaf2153add95561c47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ad7073103d4b9aaf2153add95561c47">&#9670;&#160;</a></span>CJSON_VERSION_PATCH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CJSON_VERSION_PATCH&#160;&#160;&#160;15</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00088">88</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Definições dos tipos</h2>
+<a id="a4c146234dfd7b6adbf13b49505e995bc" name="a4c146234dfd7b6adbf13b49505e995bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c146234dfd7b6adbf13b49505e995bc">&#9670;&#160;</a></span>cJSON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct cJSON cJSON</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea0a1491f73d98b7cc4b8b791c408a4a" name="aea0a1491f73d98b7cc4b8b791c408a4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0a1491f73d98b7cc4b8b791c408a4a">&#9670;&#160;</a></span>cJSON_bool</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00138">138</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="ab67bc592e52110fee68ab8ab4140530d" name="ab67bc592e52110fee68ab8ab4140530d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab67bc592e52110fee68ab8ab4140530d">&#9670;&#160;</a></span>cJSON_Hooks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct cJSON_Hooks cJSON_Hooks</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Funções</h2>
+<a id="ac44e19cf2c9b85d693021327cd13c380" name="ac44e19cf2c9b85d693021327cd13c380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac44e19cf2c9b85d693021327cd13c380">&#9670;&#160;</a></span>cJSON_AddBoolToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_AddBoolToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a></td>          <td class="paramname"><span class="paramname"><em>boolean</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01843">1843</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1843</span>                                                                                             {</div>
+<div class="line"><span class="lineno"> 1844</span>  <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* bool_item = cJSON_CreateBool(<span class="keywordtype">boolean</span>);</div>
+<div class="line"><span class="lineno"> 1845</span>  <span class="keywordflow">if</span> (add_item_to_object(<span class="keywordtype">object</span>, <a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, bool_item, &amp;global_hooks, <span class="keyword">false</span>)) {</div>
+<div class="line"><span class="lineno"> 1846</span>    <span class="keywordflow">return</span> bool_item;</div>
+<div class="line"><span class="lineno"> 1847</span>  }</div>
+<div class="line"><span class="lineno"> 1848</span> </div>
+<div class="line"><span class="lineno"> 1849</span>  cJSON_Delete(bool_item);</div>
+<div class="line"><span class="lineno"> 1850</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 1851</span>}</div>
+<div class="ttc" id="astructc_j_s_o_n_html"><div class="ttname"><a href="structc_j_s_o_n.html">cJSON</a></div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00107">cJSON.h:107</a></div></div>
+<div class="ttc" id="avolt_8c_html_a5d56a0efcdf59b0deb6abf579be8fd2f"><div class="ttname"><a href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a></div><div class="ttdeci">char name[72]</div><div class="ttdef"><b>Definição</b> <a href="volt_8c_source.html#l00031">volt.c:31</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae40faf8fce455884d99bbb2f60cd5860" name="ae40faf8fce455884d99bbb2f60cd5860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae40faf8fce455884d99bbb2f60cd5860">&#9670;&#160;</a></span>cJSON_AddItemReferenceToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_AddItemReferenceToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>string</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>item</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01803">1803</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1803</span>                                                                               {</div>
+<div class="line"><span class="lineno"> 1804</span>  <span class="keywordflow">if</span> ((<span class="keywordtype">object</span> == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) || (<span class="keywordtype">string</span> == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno"> 1805</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1806</span>  }</div>
+<div class="line"><span class="lineno"> 1807</span> </div>
+<div class="line"><span class="lineno"> 1808</span>  <span class="keywordflow">return</span> add_item_to_object(<span class="keywordtype">object</span>, <span class="keywordtype">string</span>, create_reference(<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>, &amp;global_hooks), &amp;global_hooks,</div>
+<div class="line"><span class="lineno"> 1809</span>                            <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 1810</span>}</div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_ac76cea59d438ba893d2f82aabb367d14"><div class="ttname"><a href="#ac76cea59d438ba893d2f82aabb367d14">item</a></div><div class="ttdeci">cJSON * item</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00248">cJSON.h:248</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa53dc5895c82cc121dec73b81930ee42" name="aa53dc5895c82cc121dec73b81930ee42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53dc5895c82cc121dec73b81930ee42">&#9670;&#160;</a></span>cJSON_AddNumberToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_AddNumberToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double</td>          <td class="paramname"><span class="paramname"><em>number</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01854">1854</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1854</span>                                                                                          {</div>
+<div class="line"><span class="lineno"> 1855</span>  <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* number_item = cJSON_CreateNumber(<a class="code hl_variable" href="#a01b4671c6b7cc8f831c951c000a37735">number</a>);</div>
+<div class="line"><span class="lineno"> 1856</span>  <span class="keywordflow">if</span> (add_item_to_object(<span class="keywordtype">object</span>, <a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, number_item, &amp;global_hooks, <span class="keyword">false</span>)) {</div>
+<div class="line"><span class="lineno"> 1857</span>    <span class="keywordflow">return</span> number_item;</div>
+<div class="line"><span class="lineno"> 1858</span>  }</div>
+<div class="line"><span class="lineno"> 1859</span> </div>
+<div class="line"><span class="lineno"> 1860</span>  cJSON_Delete(number_item);</div>
+<div class="line"><span class="lineno"> 1861</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 1862</span>}</div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a01b4671c6b7cc8f831c951c000a37735"><div class="ttname"><a href="#a01b4671c6b7cc8f831c951c000a37735">number</a></div><div class="ttdeci">double number</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00319">cJSON.h:319</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a60358335b6645747178c8050d5e51653" name="a60358335b6645747178c8050d5e51653"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60358335b6645747178c8050d5e51653">&#9670;&#160;</a></span>cJSON_AddRawToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_AddRawToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const</td>          <td class="paramname"><span class="paramname"><em>raw</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01876">1876</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1876</span>                                                                                         {</div>
+<div class="line"><span class="lineno"> 1877</span>  <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* raw_item = cJSON_CreateRaw(raw);</div>
+<div class="line"><span class="lineno"> 1878</span>  <span class="keywordflow">if</span> (add_item_to_object(<span class="keywordtype">object</span>, <a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, raw_item, &amp;global_hooks, <span class="keyword">false</span>)) {</div>
+<div class="line"><span class="lineno"> 1879</span>    <span class="keywordflow">return</span> raw_item;</div>
+<div class="line"><span class="lineno"> 1880</span>  }</div>
+<div class="line"><span class="lineno"> 1881</span> </div>
+<div class="line"><span class="lineno"> 1882</span>  cJSON_Delete(raw_item);</div>
+<div class="line"><span class="lineno"> 1883</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 1884</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a49e0e6b028e5a814c642307254816208" name="a49e0e6b028e5a814c642307254816208"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e0e6b028e5a814c642307254816208">&#9670;&#160;</a></span>cJSON_AddStringToObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_AddStringToObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const</td>          <td class="paramname"><span class="paramname"><em>name</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const</td>          <td class="paramname"><span class="paramname"><em>string</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01865">1865</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1865</span>                                                                                               {</div>
+<div class="line"><span class="lineno"> 1866</span>  <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* string_item = cJSON_CreateString(<span class="keywordtype">string</span>);</div>
+<div class="line"><span class="lineno"> 1867</span>  <span class="keywordflow">if</span> (add_item_to_object(<span class="keywordtype">object</span>, <a class="code hl_variable" href="volt_8c.html#a5d56a0efcdf59b0deb6abf579be8fd2f">name</a>, string_item, &amp;global_hooks, <span class="keyword">false</span>)) {</div>
+<div class="line"><span class="lineno"> 1868</span>    <span class="keywordflow">return</span> string_item;</div>
+<div class="line"><span class="lineno"> 1869</span>  }</div>
+<div class="line"><span class="lineno"> 1870</span> </div>
+<div class="line"><span class="lineno"> 1871</span>  cJSON_Delete(string_item);</div>
+<div class="line"><span class="lineno"> 1872</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 1873</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abcf300812688daed48537a559e8838ec" name="abcf300812688daed48537a559e8838ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf300812688daed48537a559e8838ec">&#9670;&#160;</a></span>cJSON_Compare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_Compare </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>a</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>b</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a></td>          <td class="paramname"><span class="paramname"><em>case_sensitive</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l02569">2569</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2569</span>                                                                                           {</div>
+<div class="line"><span class="lineno"> 2570</span>  <span class="keywordflow">if</span> ((a == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) || (b == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) || ((a-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#ac765329451135abec74c45e1897abf26">type</a> &amp; 0xFF) != (b-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#ac765329451135abec74c45e1897abf26">type</a> &amp; 0xFF))) {</div>
+<div class="line"><span class="lineno"> 2571</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2572</span>  }</div>
+<div class="line"><span class="lineno"> 2573</span> </div>
+<div class="line"><span class="lineno"> 2574</span>  <span class="comment">/* check if type is valid */</span></div>
+<div class="line"><span class="lineno"> 2575</span>  <span class="keywordflow">switch</span> (a-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#ac765329451135abec74c45e1897abf26">type</a> &amp; 0xFF) {</div>
+<div class="line"><span class="lineno"> 2576</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a2d240682316354b5748f909ad220184b">cJSON_False</a>:</div>
+<div class="line"><span class="lineno"> 2577</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#aad4e442b8095939decddfb67d87d9324">cJSON_True</a>:</div>
+<div class="line"><span class="lineno"> 2578</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#aeadaba63ddb68aaa518528595d503dcd">cJSON_NULL</a>:</div>
+<div class="line"><span class="lineno"> 2579</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a15e77e2f6457dc9b19c10ddb032af971">cJSON_Number</a>:</div>
+<div class="line"><span class="lineno"> 2580</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#aa2cb4765308e2bbdf01988b2acdf92d9">cJSON_String</a>:</div>
+<div class="line"><span class="lineno"> 2581</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#ae9ddc931ea84908d12f48c5b7f8731a1">cJSON_Raw</a>:</div>
+<div class="line"><span class="lineno"> 2582</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a57cffa126740a8efcdcb7bcef80e8897">cJSON_Array</a>:</div>
+<div class="line"><span class="lineno"> 2583</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a22c6e13481c090629afbd77b7cebd24c">cJSON_Object</a>:</div>
+<div class="line"><span class="lineno"> 2584</span>      <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 2585</span> </div>
+<div class="line"><span class="lineno"> 2586</span>    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 2587</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2588</span>  }</div>
+<div class="line"><span class="lineno"> 2589</span> </div>
+<div class="line"><span class="lineno"> 2590</span>  <span class="comment">/* identical objects are equal */</span></div>
+<div class="line"><span class="lineno"> 2591</span>  <span class="keywordflow">if</span> (a == b) {</div>
+<div class="line"><span class="lineno"> 2592</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2593</span>  }</div>
+<div class="line"><span class="lineno"> 2594</span> </div>
+<div class="line"><span class="lineno"> 2595</span>  <span class="keywordflow">switch</span> (a-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#ac765329451135abec74c45e1897abf26">type</a> &amp; 0xFF) {</div>
+<div class="line"><span class="lineno"> 2596</span>    <span class="comment">/* in these cases and equal type is enough */</span></div>
+<div class="line"><span class="lineno"> 2597</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a2d240682316354b5748f909ad220184b">cJSON_False</a>:</div>
+<div class="line"><span class="lineno"> 2598</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#aad4e442b8095939decddfb67d87d9324">cJSON_True</a>:</div>
+<div class="line"><span class="lineno"> 2599</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#aeadaba63ddb68aaa518528595d503dcd">cJSON_NULL</a>:</div>
+<div class="line"><span class="lineno"> 2600</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2601</span> </div>
+<div class="line"><span class="lineno"> 2602</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a15e77e2f6457dc9b19c10ddb032af971">cJSON_Number</a>:</div>
+<div class="line"><span class="lineno"> 2603</span>      <span class="keywordflow">if</span> (compare_double(a-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a2983295369d8ff0183638d8550a22263">valuedouble</a>, b-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a2983295369d8ff0183638d8550a22263">valuedouble</a>)) {</div>
+<div class="line"><span class="lineno"> 2604</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2605</span>      }</div>
+<div class="line"><span class="lineno"> 2606</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2607</span> </div>
+<div class="line"><span class="lineno"> 2608</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#aa2cb4765308e2bbdf01988b2acdf92d9">cJSON_String</a>:</div>
+<div class="line"><span class="lineno"> 2609</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#ae9ddc931ea84908d12f48c5b7f8731a1">cJSON_Raw</a>:</div>
+<div class="line"><span class="lineno"> 2610</span>      <span class="keywordflow">if</span> ((a-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a4d2b95f0dc1f37a46452f5ddd6963455">valuestring</a> == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) || (b-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a4d2b95f0dc1f37a46452f5ddd6963455">valuestring</a> == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno"> 2611</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2612</span>      }</div>
+<div class="line"><span class="lineno"> 2613</span>      <span class="keywordflow">if</span> (<a class="code hl_function" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a>(a-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a4d2b95f0dc1f37a46452f5ddd6963455">valuestring</a>, b-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a4d2b95f0dc1f37a46452f5ddd6963455">valuestring</a>) == 0) {</div>
+<div class="line"><span class="lineno"> 2614</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2615</span>      }</div>
+<div class="line"><span class="lineno"> 2616</span> </div>
+<div class="line"><span class="lineno"> 2617</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2618</span> </div>
+<div class="line"><span class="lineno"> 2619</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a57cffa126740a8efcdcb7bcef80e8897">cJSON_Array</a>: {</div>
+<div class="line"><span class="lineno"> 2620</span>      <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* a_element = a-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">child</a>;</div>
+<div class="line"><span class="lineno"> 2621</span>      <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* b_element = b-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">child</a>;</div>
+<div class="line"><span class="lineno"> 2622</span> </div>
+<div class="line"><span class="lineno"> 2623</span>      <span class="keywordflow">for</span> (; (a_element != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) &amp;&amp; (b_element != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);) {</div>
+<div class="line"><span class="lineno"> 2624</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="c_j_s_o_n_8c.html#abcf300812688daed48537a559e8838ec">cJSON_Compare</a>(a_element, b_element, case_sensitive)) {</div>
+<div class="line"><span class="lineno"> 2625</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2626</span>        }</div>
+<div class="line"><span class="lineno"> 2627</span> </div>
+<div class="line"><span class="lineno"> 2628</span>        a_element = a_element-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a>;</div>
+<div class="line"><span class="lineno"> 2629</span>        b_element = b_element-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a>;</div>
+<div class="line"><span class="lineno"> 2630</span>      }</div>
+<div class="line"><span class="lineno"> 2631</span> </div>
+<div class="line"><span class="lineno"> 2632</span>      <span class="comment">/* one of the arrays is longer than the other */</span></div>
+<div class="line"><span class="lineno"> 2633</span>      <span class="keywordflow">if</span> (a_element != b_element) {</div>
+<div class="line"><span class="lineno"> 2634</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2635</span>      }</div>
+<div class="line"><span class="lineno"> 2636</span> </div>
+<div class="line"><span class="lineno"> 2637</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2638</span>    }</div>
+<div class="line"><span class="lineno"> 2639</span> </div>
+<div class="line"><span class="lineno"> 2640</span>    <span class="keywordflow">case</span> <a class="code hl_define" href="#a22c6e13481c090629afbd77b7cebd24c">cJSON_Object</a>: {</div>
+<div class="line"><span class="lineno"> 2641</span>      <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* a_element = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 2642</span>      <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* b_element = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 2643</span>      <a class="code hl_define" href="#ac3d6e5782fb4bb3c7a25c7c5b1868f06">cJSON_ArrayForEach</a>(a_element, a) {</div>
+<div class="line"><span class="lineno"> 2644</span>        <span class="comment">/* TODO This has O(n^2) runtime, which is horrible! */</span></div>
+<div class="line"><span class="lineno"> 2645</span>        b_element = get_object_item(b, a_element-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#aed1cfb225a5fb77461e7972691e68a72">string</a>, case_sensitive);</div>
+<div class="line"><span class="lineno"> 2646</span>        <span class="keywordflow">if</span> (b_element == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno"> 2647</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2648</span>        }</div>
+<div class="line"><span class="lineno"> 2649</span> </div>
+<div class="line"><span class="lineno"> 2650</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="c_j_s_o_n_8c.html#abcf300812688daed48537a559e8838ec">cJSON_Compare</a>(a_element, b_element, case_sensitive)) {</div>
+<div class="line"><span class="lineno"> 2651</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2652</span>        }</div>
+<div class="line"><span class="lineno"> 2653</span>      }</div>
+<div class="line"><span class="lineno"> 2654</span> </div>
+<div class="line"><span class="lineno"> 2655</span>      <span class="comment">/* doing this twice, once on a and b to prevent true comparison if a subset of b</span></div>
+<div class="line"><span class="lineno"> 2656</span><span class="comment">       * TODO: Do this the proper way, this is just a fix for now */</span></div>
+<div class="line"><span class="lineno"> 2657</span>      <a class="code hl_define" href="#ac3d6e5782fb4bb3c7a25c7c5b1868f06">cJSON_ArrayForEach</a>(b_element, b) {</div>
+<div class="line"><span class="lineno"> 2658</span>        a_element = get_object_item(a, b_element-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#aed1cfb225a5fb77461e7972691e68a72">string</a>, case_sensitive);</div>
+<div class="line"><span class="lineno"> 2659</span>        <span class="keywordflow">if</span> (a_element == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno"> 2660</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2661</span>        }</div>
+<div class="line"><span class="lineno"> 2662</span> </div>
+<div class="line"><span class="lineno"> 2663</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="c_j_s_o_n_8c.html#abcf300812688daed48537a559e8838ec">cJSON_Compare</a>(b_element, a_element, case_sensitive)) {</div>
+<div class="line"><span class="lineno"> 2664</span>          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2665</span>        }</div>
+<div class="line"><span class="lineno"> 2666</span>      }</div>
+<div class="line"><span class="lineno"> 2667</span> </div>
+<div class="line"><span class="lineno"> 2668</span>      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2669</span>    }</div>
+<div class="line"><span class="lineno"> 2670</span> </div>
+<div class="line"><span class="lineno"> 2671</span>    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 2672</span>      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 2673</span>  }</div>
+<div class="line"><span class="lineno"> 2674</span>}</div>
+<div class="ttc" id="ac_j_s_o_n_8c_html_abcf300812688daed48537a559e8838ec"><div class="ttname"><a href="c_j_s_o_n_8c.html#abcf300812688daed48537a559e8838ec">cJSON_Compare</a></div><div class="ttdeci">cJSON_Compare(const cJSON *const a, const cJSON *const b, const cJSON_bool case_sensitive)</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l02569">cJSON.c:2569</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a15e77e2f6457dc9b19c10ddb032af971"><div class="ttname"><a href="#a15e77e2f6457dc9b19c10ddb032af971">cJSON_Number</a></div><div class="ttdeci">#define cJSON_Number</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00097">cJSON.h:97</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a22c6e13481c090629afbd77b7cebd24c"><div class="ttname"><a href="#a22c6e13481c090629afbd77b7cebd24c">cJSON_Object</a></div><div class="ttdeci">#define cJSON_Object</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00100">cJSON.h:100</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a57cffa126740a8efcdcb7bcef80e8897"><div class="ttname"><a href="#a57cffa126740a8efcdcb7bcef80e8897">cJSON_Array</a></div><div class="ttdeci">#define cJSON_Array</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00099">cJSON.h:99</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_aa2cb4765308e2bbdf01988b2acdf92d9"><div class="ttname"><a href="#aa2cb4765308e2bbdf01988b2acdf92d9">cJSON_String</a></div><div class="ttdeci">#define cJSON_String</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00098">cJSON.h:98</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_ac3d6e5782fb4bb3c7a25c7c5b1868f06"><div class="ttname"><a href="#ac3d6e5782fb4bb3c7a25c7c5b1868f06">cJSON_ArrayForEach</a></div><div class="ttdeci">#define cJSON_ArrayForEach(element, array)</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00335">cJSON.h:335</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_ae9ddc931ea84908d12f48c5b7f8731a1"><div class="ttname"><a href="#ae9ddc931ea84908d12f48c5b7f8731a1">cJSON_Raw</a></div><div class="ttdeci">#define cJSON_Raw</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00101">cJSON.h:101</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_aeadaba63ddb68aaa518528595d503dcd"><div class="ttname"><a href="#aeadaba63ddb68aaa518528595d503dcd">cJSON_NULL</a></div><div class="ttdeci">#define cJSON_NULL</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00096">cJSON.h:96</a></div></div>
+<div class="ttc" id="arelates_8cpp_html_a7ceb7d379a52f7e26418e7a446b4a41a"><div class="ttname"><a href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a">strcmp</a></div><div class="ttdeci">int strcmp(const String &amp;s1, const String &amp;s2)</div><div class="ttdef"><b>Definição</b> <a href="relates_8cpp_source.html#l00014">relates.cpp:14</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_a2983295369d8ff0183638d8550a22263"><div class="ttname"><a href="structc_j_s_o_n.html#a2983295369d8ff0183638d8550a22263">cJSON::valuedouble</a></div><div class="ttdeci">double valuedouble</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00124">cJSON.h:124</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_a4d2b95f0dc1f37a46452f5ddd6963455"><div class="ttname"><a href="structc_j_s_o_n.html#a4d2b95f0dc1f37a46452f5ddd6963455">cJSON::valuestring</a></div><div class="ttdeci">char * valuestring</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00120">cJSON.h:120</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_a91a95ab3a28ac01716663d0bdd7215f9"><div class="ttname"><a href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">cJSON::next</a></div><div class="ttdeci">struct cJSON * next</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00110">cJSON.h:110</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_ac765329451135abec74c45e1897abf26"><div class="ttname"><a href="structc_j_s_o_n.html#ac765329451135abec74c45e1897abf26">cJSON::type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00117">cJSON.h:117</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_aed1cfb225a5fb77461e7972691e68a72"><div class="ttname"><a href="structc_j_s_o_n.html#aed1cfb225a5fb77461e7972691e68a72">cJSON::string</a></div><div class="ttdeci">char * string</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00128">cJSON.h:128</a></div></div>
+<div class="ttc" id="astructc_j_s_o_n_html_af3da6753e4916f328721d324d62af50d"><div class="ttname"><a href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">cJSON::child</a></div><div class="ttdeci">struct cJSON * child</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00114">cJSON.h:114</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_cgraph.png" border="0" usemap="#ac_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_cgraph" alt=""/></div>
+<map name="ac_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_cgraph" id="ac_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,127,56"/>
+<area shape="poly" title=" " alt="" coords="41,30,37,21,40,11,50,5,66,3,83,5,92,12,89,16,81,10,66,8,52,10,44,14,43,20,46,28"/>
+<area shape="rect" href="relates_8cpp.html#a7ceb7d379a52f7e26418e7a446b4a41a" title=" " alt="" coords="175,29,236,56"/>
+<area shape="poly" title=" " alt="" coords="127,40,159,40,159,45,127,45"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_icgraph.png" border="0" usemap="#ac_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_icgraph" alt=""/></div>
+<map name="ac_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_icgraph" id="ac_j_s_o_n_8h_abcf300812688daed48537a559e8838ec_icgraph">
+<area shape="rect" title=" " alt="" coords="5,29,127,56"/>
+<area shape="poly" title=" " alt="" coords="86,16,79,10,66,8,54,10,48,14,46,20,49,28,44,30,41,20,43,11,52,5,66,3,81,5,89,12"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a02267703c3d44400abbb80ea8c91edb0" name="a02267703c3d44400abbb80ea8c91edb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02267703c3d44400abbb80ea8c91edb0">&#9670;&#160;</a></span>cJSON_GetObjectItemCaseSensitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_GetObjectItemCaseSensitive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *const</td>          <td class="paramname"><span class="paramname"><em>string</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01670">1670</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1670</span>                                                                                      {</div>
+<div class="line"><span class="lineno"> 1671</span>  <span class="keywordflow">return</span> get_object_item(<span class="keywordtype">object</span>, <span class="keywordtype">string</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 1672</span>}</div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h_a02267703c3d44400abbb80ea8c91edb0_icgraph.png" border="0" usemap="#ac_j_s_o_n_8h_a02267703c3d44400abbb80ea8c91edb0_icgraph" alt=""/></div>
+<map name="ac_j_s_o_n_8h_a02267703c3d44400abbb80ea8c91edb0_icgraph" id="ac_j_s_o_n_8h_a02267703c3d44400abbb80ea8c91edb0_icgraph">
+<area shape="rect" title=" " alt="" coords="103,5,338,32"/>
+<area shape="rect" href="bme_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2554b76546ea961f1f2227c7f995507f" name="a2554b76546ea961f1f2227c7f995507f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2554b76546ea961f1f2227c7f995507f">&#9670;&#160;</a></span>cJSON_InsertItemInArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_InsertItemInArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>array</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>which</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>newitem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a24e49a04490273160cdc1f30f10d22" name="a3a24e49a04490273160cdc1f30f10d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a24e49a04490273160cdc1f30f10d22">&#9670;&#160;</a></span>cJSON_ParseWithLengthOpts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_ParseWithLengthOpts </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>buffer_length</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char **</td>          <td class="paramname"><span class="paramname"><em>return_parse_end</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a></td>          <td class="paramname"><span class="paramname"><em>require_null_terminated</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l00951">951</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  954</span>                                                              {</div>
+<div class="line"><span class="lineno">  955</span>  <a class="code hl_struct" href="structparse__buffer.html">parse_buffer</a> buffer = {0, 0, 0, 0, {0, 0, 0}};</div>
+<div class="line"><span class="lineno">  956</span>  <a class="code hl_struct" href="structc_j_s_o_n.html">cJSON</a>* <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a> = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno">  957</span> </div>
+<div class="line"><span class="lineno">  958</span>  <span class="comment">/* reset error position */</span></div>
+<div class="line"><span class="lineno">  959</span>  global_error.<a class="code hl_variable" href="structerror.html#ac6bb7f0b44eb1ad3087a0f5c6dae7e9d">json</a> = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno">  960</span>  global_error.<a class="code hl_variable" href="structerror.html#a7a04afe5347934be732ec70a70bd0a28">position</a> = 0;</div>
+<div class="line"><span class="lineno">  961</span> </div>
+<div class="line"><span class="lineno">  962</span>  <span class="keywordflow">if</span> (value == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> || 0 == <a class="code hl_variable" href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a>) {</div>
+<div class="line"><span class="lineno">  963</span>    <span class="keywordflow">goto</span> fail;</div>
+<div class="line"><span class="lineno">  964</span>  }</div>
+<div class="line"><span class="lineno">  965</span> </div>
+<div class="line"><span class="lineno">  966</span>  buffer.<a class="code hl_variable" href="structparse__buffer.html#ae874a7ba021284d19f570a8404480d69">content</a> = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)value;</div>
+<div class="line"><span class="lineno">  967</span>  buffer.<a class="code hl_variable" href="structparse__buffer.html#ae809d5359ac030c60a30a8f0b2294b82">length</a> = <a class="code hl_variable" href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a>;</div>
+<div class="line"><span class="lineno">  968</span>  buffer.<a class="code hl_variable" href="structparse__buffer.html#aadb6d6eb83e646653a1402032e45dcab">offset</a> = 0;</div>
+<div class="line"><span class="lineno">  969</span>  buffer.<a class="code hl_variable" href="structparse__buffer.html#a09dd157515e80841d54c1471d4ee645b">hooks</a> = global_hooks;</div>
+<div class="line"><span class="lineno">  970</span> </div>
+<div class="line"><span class="lineno">  971</span>  <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a> = cJSON_New_Item(&amp;global_hooks);</div>
+<div class="line"><span class="lineno">  972</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a> == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <span class="comment">/* memory fail */</span></div>
+<div class="line"><span class="lineno">  973</span>  {</div>
+<div class="line"><span class="lineno">  974</span>    <span class="keywordflow">goto</span> fail;</div>
+<div class="line"><span class="lineno">  975</span>  }</div>
+<div class="line"><span class="lineno">  976</span> </div>
+<div class="line"><span class="lineno">  977</span>  <span class="keywordflow">if</span> (!parse_value(<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>, buffer_skip_whitespace(skip_utf8_bom(&amp;buffer)))) {</div>
+<div class="line"><span class="lineno">  978</span>    <span class="comment">/* parse failure. ep is set. */</span></div>
+<div class="line"><span class="lineno">  979</span>    <span class="keywordflow">goto</span> fail;</div>
+<div class="line"><span class="lineno">  980</span>  }</div>
+<div class="line"><span class="lineno">  981</span> </div>
+<div class="line"><span class="lineno">  982</span>  <span class="comment">/* if we require null-terminated JSON without appended garbage, skip and then check for a null</span></div>
+<div class="line"><span class="lineno">  983</span><span class="comment">   * terminator */</span></div>
+<div class="line"><span class="lineno">  984</span>  <span class="keywordflow">if</span> (require_null_terminated) {</div>
+<div class="line"><span class="lineno">  985</span>    buffer_skip_whitespace(&amp;buffer);</div>
+<div class="line"><span class="lineno">  986</span>    <span class="keywordflow">if</span> ((buffer.<a class="code hl_variable" href="structparse__buffer.html#aadb6d6eb83e646653a1402032e45dcab">offset</a> &gt;= buffer.<a class="code hl_variable" href="structparse__buffer.html#ae809d5359ac030c60a30a8f0b2294b82">length</a>) || <a class="code hl_define" href="c_j_s_o_n_8c.html#ac538057ef78677344d222b763251af5e">buffer_at_offset</a>(&amp;buffer)[0] != <span class="charliteral">&#39;\0&#39;</span>) {</div>
+<div class="line"><span class="lineno">  987</span>      <span class="keywordflow">goto</span> fail;</div>
+<div class="line"><span class="lineno">  988</span>    }</div>
+<div class="line"><span class="lineno">  989</span>  }</div>
+<div class="line"><span class="lineno">  990</span>  <span class="keywordflow">if</span> (return_parse_end) {</div>
+<div class="line"><span class="lineno">  991</span>    *return_parse_end = (<span class="keyword">const</span> <span class="keywordtype">char</span>*)<a class="code hl_define" href="c_j_s_o_n_8c.html#ac538057ef78677344d222b763251af5e">buffer_at_offset</a>(&amp;buffer);</div>
+<div class="line"><span class="lineno">  992</span>  }</div>
+<div class="line"><span class="lineno">  993</span> </div>
+<div class="line"><span class="lineno">  994</span>  <span class="keywordflow">return</span> <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>;</div>
+<div class="line"><span class="lineno">  995</span> </div>
+<div class="line"><span class="lineno">  996</span>fail:</div>
+<div class="line"><span class="lineno">  997</span>  <span class="keywordflow">if</span> (<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a> != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno">  998</span>    cJSON_Delete(<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>);</div>
+<div class="line"><span class="lineno">  999</span>  }</div>
+<div class="line"><span class="lineno"> 1000</span> </div>
+<div class="line"><span class="lineno"> 1001</span>  <span class="keywordflow">if</span> (value != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno"> 1002</span>    <a class="code hl_struct" href="structerror.html">error</a> local_error;</div>
+<div class="line"><span class="lineno"> 1003</span>    local_error.<a class="code hl_variable" href="structerror.html#ac6bb7f0b44eb1ad3087a0f5c6dae7e9d">json</a> = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)value;</div>
+<div class="line"><span class="lineno"> 1004</span>    local_error.<a class="code hl_variable" href="structerror.html#a7a04afe5347934be732ec70a70bd0a28">position</a> = 0;</div>
+<div class="line"><span class="lineno"> 1005</span> </div>
+<div class="line"><span class="lineno"> 1006</span>    <span class="keywordflow">if</span> (buffer.<a class="code hl_variable" href="structparse__buffer.html#aadb6d6eb83e646653a1402032e45dcab">offset</a> &lt; buffer.<a class="code hl_variable" href="structparse__buffer.html#ae809d5359ac030c60a30a8f0b2294b82">length</a>) {</div>
+<div class="line"><span class="lineno"> 1007</span>      local_error.<a class="code hl_variable" href="structerror.html#a7a04afe5347934be732ec70a70bd0a28">position</a> = buffer.<a class="code hl_variable" href="structparse__buffer.html#aadb6d6eb83e646653a1402032e45dcab">offset</a>;</div>
+<div class="line"><span class="lineno"> 1008</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (buffer.<a class="code hl_variable" href="structparse__buffer.html#ae809d5359ac030c60a30a8f0b2294b82">length</a> &gt; 0) {</div>
+<div class="line"><span class="lineno"> 1009</span>      local_error.<a class="code hl_variable" href="structerror.html#a7a04afe5347934be732ec70a70bd0a28">position</a> = buffer.<a class="code hl_variable" href="structparse__buffer.html#ae809d5359ac030c60a30a8f0b2294b82">length</a> - 1;</div>
+<div class="line"><span class="lineno"> 1010</span>    }</div>
+<div class="line"><span class="lineno"> 1011</span> </div>
+<div class="line"><span class="lineno"> 1012</span>    <span class="keywordflow">if</span> (return_parse_end != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno"> 1013</span>      *return_parse_end = (<span class="keyword">const</span> <span class="keywordtype">char</span>*)local_error.<a class="code hl_variable" href="structerror.html#ac6bb7f0b44eb1ad3087a0f5c6dae7e9d">json</a> + local_error.<a class="code hl_variable" href="structerror.html#a7a04afe5347934be732ec70a70bd0a28">position</a>;</div>
+<div class="line"><span class="lineno"> 1014</span>    }</div>
+<div class="line"><span class="lineno"> 1015</span> </div>
+<div class="line"><span class="lineno"> 1016</span>    global_error = local_error;</div>
+<div class="line"><span class="lineno"> 1017</span>  }</div>
+<div class="line"><span class="lineno"> 1018</span> </div>
+<div class="line"><span class="lineno"> 1019</span>  <span class="keywordflow">return</span> <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 1020</span>}</div>
+<div class="ttc" id="ac_j_s_o_n_8c_html_ac538057ef78677344d222b763251af5e"><div class="ttname"><a href="c_j_s_o_n_8c.html#ac538057ef78677344d222b763251af5e">buffer_at_offset</a></div><div class="ttdeci">#define buffer_at_offset(buffer)</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00272">cJSON.c:272</a></div></div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_a7beaf9b4ef5e4c7254cc3298a3424354"><div class="ttname"><a href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a></div><div class="ttdeci">size_t buffer_length</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00158">cJSON.h:158</a></div></div>
+<div class="ttc" id="astructerror_html"><div class="ttname"><a href="structerror.html">error</a></div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00089">cJSON.c:89</a></div></div>
+<div class="ttc" id="astructerror_html_a7a04afe5347934be732ec70a70bd0a28"><div class="ttname"><a href="structerror.html#a7a04afe5347934be732ec70a70bd0a28">error::position</a></div><div class="ttdeci">size_t position</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00091">cJSON.c:91</a></div></div>
+<div class="ttc" id="astructerror_html_ac6bb7f0b44eb1ad3087a0f5c6dae7e9d"><div class="ttname"><a href="structerror.html#ac6bb7f0b44eb1ad3087a0f5c6dae7e9d">error::json</a></div><div class="ttdeci">const unsigned char * json</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00090">cJSON.c:90</a></div></div>
+<div class="ttc" id="astructparse__buffer_html"><div class="ttname"><a href="structparse__buffer.html">parse_buffer</a></div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00257">cJSON.c:257</a></div></div>
+<div class="ttc" id="astructparse__buffer_html_a09dd157515e80841d54c1471d4ee645b"><div class="ttname"><a href="structparse__buffer.html#a09dd157515e80841d54c1471d4ee645b">parse_buffer::hooks</a></div><div class="ttdeci">internal_hooks hooks</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00262">cJSON.c:262</a></div></div>
+<div class="ttc" id="astructparse__buffer_html_aadb6d6eb83e646653a1402032e45dcab"><div class="ttname"><a href="structparse__buffer.html#aadb6d6eb83e646653a1402032e45dcab">parse_buffer::offset</a></div><div class="ttdeci">size_t offset</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00260">cJSON.c:260</a></div></div>
+<div class="ttc" id="astructparse__buffer_html_ae809d5359ac030c60a30a8f0b2294b82"><div class="ttname"><a href="structparse__buffer.html#ae809d5359ac030c60a30a8f0b2294b82">parse_buffer::length</a></div><div class="ttdeci">size_t length</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00259">cJSON.c:259</a></div></div>
+<div class="ttc" id="astructparse__buffer_html_ae874a7ba021284d19f570a8404480d69"><div class="ttname"><a href="structparse__buffer.html#ae874a7ba021284d19f570a8404480d69">parse_buffer::content</a></div><div class="ttdeci">const unsigned char * content</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00258">cJSON.c:258</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h_a3a24e49a04490273160cdc1f30f10d22_icgraph.png" border="0" usemap="#ac_j_s_o_n_8h_a3a24e49a04490273160cdc1f30f10d22_icgraph" alt=""/></div>
+<map name="ac_j_s_o_n_8h_a3a24e49a04490273160cdc1f30f10d22_icgraph" id="ac_j_s_o_n_8h_a3a24e49a04490273160cdc1f30f10d22_icgraph">
+<area shape="rect" title=" " alt="" coords="377,5,574,32"/>
+<area shape="rect" href="c_j_s_o_n_8c.html#adfabd5d09c2cf0a2f051c47650db6e80" title=" " alt="" coords="171,5,329,32"/>
+<area shape="poly" title=" " alt="" coords="361,21,330,21,330,16,361,16"/>
+<area shape="rect" href="c_j_s_o_n_8c.html#aa2ca313f61c789be20f8a69b651043c3" title=" " alt="" coords="5,5,123,32"/>
+<area shape="poly" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adfabd5d09c2cf0a2f051c47650db6e80" name="adfabd5d09c2cf0a2f051c47650db6e80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfabd5d09c2cf0a2f051c47650db6e80">&#9670;&#160;</a></span>cJSON_ParseWithOpts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_ParseWithOpts </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char **</td>          <td class="paramname"><span class="paramname"><em>return_parse_end</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a></td>          <td class="paramname"><span class="paramname"><em>require_null_terminated</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l00934">934</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  936</span>                                                        {</div>
+<div class="line"><span class="lineno">  937</span>  <span class="keywordtype">size_t</span> <a class="code hl_variable" href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a>;</div>
+<div class="line"><span class="lineno">  938</span> </div>
+<div class="line"><span class="lineno">  939</span>  <span class="keywordflow">if</span> (<a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> == value) {</div>
+<div class="line"><span class="lineno">  940</span>    <span class="keywordflow">return</span> <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno">  941</span>  }</div>
+<div class="line"><span class="lineno">  942</span> </div>
+<div class="line"><span class="lineno">  943</span>  <span class="comment">/* Adding null character size due to require_null_terminated. */</span></div>
+<div class="line"><span class="lineno">  944</span>  <a class="code hl_variable" href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a> = strlen(value) + <span class="keyword">sizeof</span>(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">  945</span> </div>
+<div class="line"><span class="lineno">  946</span>  <span class="keywordflow">return</span> <a class="code hl_function" href="c_j_s_o_n_8c.html#a3a24e49a04490273160cdc1f30f10d22">cJSON_ParseWithLengthOpts</a>(value, <a class="code hl_variable" href="#a7beaf9b4ef5e4c7254cc3298a3424354">buffer_length</a>, return_parse_end, require_null_terminated);</div>
+<div class="line"><span class="lineno">  947</span>}</div>
+<div class="ttc" id="ac_j_s_o_n_8c_html_a3a24e49a04490273160cdc1f30f10d22"><div class="ttname"><a href="c_j_s_o_n_8c.html#a3a24e49a04490273160cdc1f30f10d22">cJSON_ParseWithLengthOpts</a></div><div class="ttdeci">cJSON_ParseWithLengthOpts(const char *value, size_t buffer_length, const char **return_parse_end, cJSON_bool require_null_terminated)</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00951">cJSON.c:951</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_cgraph.png" border="0" usemap="#ac_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_cgraph" alt=""/></div>
+<map name="ac_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_cgraph" id="ac_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,164,32"/>
+<area shape="rect" href="c_j_s_o_n_8c.html#a3a24e49a04490273160cdc1f30f10d22" title=" " alt="" coords="212,5,409,32"/>
+<area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_icgraph.png" border="0" usemap="#ac_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_icgraph" alt=""/></div>
+<map name="ac_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_icgraph" id="ac_j_s_o_n_8h_adfabd5d09c2cf0a2f051c47650db6e80_icgraph">
+<area shape="rect" title=" " alt="" coords="171,5,329,32"/>
+<area shape="rect" href="c_j_s_o_n_8c.html#aa2ca313f61c789be20f8a69b651043c3" title=" " alt="" coords="5,5,123,32"/>
+<area shape="poly" title=" " alt="" coords="155,21,123,21,123,16,155,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5ae150f0e5009534979d4532a411d077" name="a5ae150f0e5009534979d4532a411d077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ae150f0e5009534979d4532a411d077">&#9670;&#160;</a></span>cJSON_PrintPreallocated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_PrintPreallocated </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>item</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>buffer</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int</td>          <td class="paramname"><span class="paramname"><em>length</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a></td>          <td class="paramname"><span class="paramname"><em>format</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01127">1127</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1127</span>                                                                                              {</div>
+<div class="line"><span class="lineno"> 1128</span>  <a class="code hl_struct" href="structprintbuffer.html">printbuffer</a> p = {0, 0, 0, 0, 0, 0, {0, 0, 0}};</div>
+<div class="line"><span class="lineno"> 1129</span> </div>
+<div class="line"><span class="lineno"> 1130</span>  <span class="keywordflow">if</span> ((length &lt; 0) || (buffer == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno"> 1131</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1132</span>  }</div>
+<div class="line"><span class="lineno"> 1133</span> </div>
+<div class="line"><span class="lineno"> 1134</span>  p.<a class="code hl_variable" href="structprintbuffer.html#a70e7ad2e1a45c8db5fba9ad4778bd400">buffer</a> = (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)buffer;</div>
+<div class="line"><span class="lineno"> 1135</span>  p.<a class="code hl_variable" href="structprintbuffer.html#ae809d5359ac030c60a30a8f0b2294b82">length</a> = (size_t)length;</div>
+<div class="line"><span class="lineno"> 1136</span>  p.<a class="code hl_variable" href="structprintbuffer.html#aadb6d6eb83e646653a1402032e45dcab">offset</a> = 0;</div>
+<div class="line"><span class="lineno"> 1137</span>  p.<a class="code hl_variable" href="structprintbuffer.html#adcbf0a5cd38757076cc8809c79eaf66f">noalloc</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1138</span>  p.<a class="code hl_variable" href="structprintbuffer.html#a809c2f4ac401c5813a479f13177496f4">format</a> = format;</div>
+<div class="line"><span class="lineno"> 1139</span>  p.<a class="code hl_variable" href="structprintbuffer.html#a09dd157515e80841d54c1471d4ee645b">hooks</a> = global_hooks;</div>
+<div class="line"><span class="lineno"> 1140</span> </div>
+<div class="line"><span class="lineno"> 1141</span>  <span class="keywordflow">return</span> print_value(<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>, &amp;p);</div>
+<div class="line"><span class="lineno"> 1142</span>}</div>
+<div class="ttc" id="astructprintbuffer_html"><div class="ttname"><a href="structprintbuffer.html">printbuffer</a></div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00377">cJSON.c:377</a></div></div>
+<div class="ttc" id="astructprintbuffer_html_a09dd157515e80841d54c1471d4ee645b"><div class="ttname"><a href="structprintbuffer.html#a09dd157515e80841d54c1471d4ee645b">printbuffer::hooks</a></div><div class="ttdeci">internal_hooks hooks</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00384">cJSON.c:384</a></div></div>
+<div class="ttc" id="astructprintbuffer_html_a70e7ad2e1a45c8db5fba9ad4778bd400"><div class="ttname"><a href="structprintbuffer.html#a70e7ad2e1a45c8db5fba9ad4778bd400">printbuffer::buffer</a></div><div class="ttdeci">unsigned char * buffer</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00378">cJSON.c:378</a></div></div>
+<div class="ttc" id="astructprintbuffer_html_a809c2f4ac401c5813a479f13177496f4"><div class="ttname"><a href="structprintbuffer.html#a809c2f4ac401c5813a479f13177496f4">printbuffer::format</a></div><div class="ttdeci">cJSON_bool format</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00383">cJSON.c:383</a></div></div>
+<div class="ttc" id="astructprintbuffer_html_aadb6d6eb83e646653a1402032e45dcab"><div class="ttname"><a href="structprintbuffer.html#aadb6d6eb83e646653a1402032e45dcab">printbuffer::offset</a></div><div class="ttdeci">size_t offset</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00380">cJSON.c:380</a></div></div>
+<div class="ttc" id="astructprintbuffer_html_adcbf0a5cd38757076cc8809c79eaf66f"><div class="ttname"><a href="structprintbuffer.html#adcbf0a5cd38757076cc8809c79eaf66f">printbuffer::noalloc</a></div><div class="ttdeci">cJSON_bool noalloc</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00382">cJSON.c:382</a></div></div>
+<div class="ttc" id="astructprintbuffer_html_ae809d5359ac030c60a30a8f0b2294b82"><div class="ttname"><a href="structprintbuffer.html#ae809d5359ac030c60a30a8f0b2294b82">printbuffer::length</a></div><div class="ttdeci">size_t length</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8c_source.html#l00379">cJSON.c:379</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acc0bf2ad0de27db33e6471754c8f3ace" name="acc0bf2ad0de27db33e6471754c8f3ace"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc0bf2ad0de27db33e6471754c8f3ace">&#9670;&#160;</a></span>CJSON_PUBLIC() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CJSON_PUBLIC </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd55c37a5af547c3c1ada176e38afbc6" name="abd55c37a5af547c3c1ada176e38afbc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd55c37a5af547c3c1ada176e38afbc6">&#9670;&#160;</a></span>CJSON_PUBLIC() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CJSON_PUBLIC </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad111420010c8684e2acde69bb1ead4f8" name="ad111420010c8684e2acde69bb1ead4f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad111420010c8684e2acde69bb1ead4f8">&#9670;&#160;</a></span>CJSON_PUBLIC() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CJSON_PUBLIC </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l00095">95</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   95</span>                                                  {</div>
+<div class="line"><span class="lineno">   96</span>  <span class="keywordflow">return</span> (<span class="keyword">const</span> <span class="keywordtype">char</span>*)(global_error.<a class="code hl_variable" href="structerror.html#ac6bb7f0b44eb1ad3087a0f5c6dae7e9d">json</a> + global_error.<a class="code hl_variable" href="structerror.html#a7a04afe5347934be732ec70a70bd0a28">position</a>);</div>
+<div class="line"><span class="lineno">   97</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a228b429c345d298fa5b887420337a54c" name="a228b429c345d298fa5b887420337a54c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a228b429c345d298fa5b887420337a54c">&#9670;&#160;</a></span>CJSON_PUBLIC() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CJSON_PUBLIC </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90b701b8a83a4ae2865dba90b7198585" name="a90b701b8a83a4ae2865dba90b7198585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b701b8a83a4ae2865dba90b7198585">&#9670;&#160;</a></span>CJSON_PUBLIC() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CJSON_PUBLIC </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8172bffbb05eec3c761bf0b43484f62d" name="a8172bffbb05eec3c761bf0b43484f62d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8172bffbb05eec3c761bf0b43484f62d">&#9670;&#160;</a></span>CJSON_PUBLIC() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CJSON_PUBLIC </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l02676">2676</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2676</span>                                              {</div>
+<div class="line"><span class="lineno"> 2677</span>  <span class="keywordflow">return</span> global_hooks.<a class="code hl_function" href="structinternal__hooks.html#a4551f822d368a9d8ea4ef0f9063a4e37">allocate</a>(size);</div>
+<div class="line"><span class="lineno"> 2678</span>}</div>
+<div class="ttc" id="astructinternal__hooks_html_a4551f822d368a9d8ea4ef0f9063a4e37"><div class="ttname"><a href="structinternal__hooks.html#a4551f822d368a9d8ea4ef0f9063a4e37">internal_hooks::allocate</a></div><div class="ttdeci">void *CJSON_CDECL * allocate(size_t size)</div></div>
+</div><!-- fragment --><div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="c_j_s_o_n_8h_a8172bffbb05eec3c761bf0b43484f62d_cgraph.png" border="0" usemap="#ac_j_s_o_n_8h_a8172bffbb05eec3c761bf0b43484f62d_cgraph" alt=""/></div>
+<map name="ac_j_s_o_n_8h_a8172bffbb05eec3c761bf0b43484f62d_cgraph" id="ac_j_s_o_n_8h_a8172bffbb05eec3c761bf0b43484f62d_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,123,32"/>
+<area shape="rect" href="structinternal__hooks.html#a4551f822d368a9d8ea4ef0f9063a4e37" title=" " alt="" coords="171,5,329,32"/>
+<area shape="poly" title=" " alt="" coords="123,16,155,16,155,21,123,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5712efac9864c56f805260c5e2a5c01b" name="a5712efac9864c56f805260c5e2a5c01b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5712efac9864c56f805260c5e2a5c01b">&#9670;&#160;</a></span>CJSON_PUBLIC() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CJSON_PUBLIC </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8335f21a2f78d63c854c002f09f96dc" name="ae8335f21a2f78d63c854c002f09f96dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8335f21a2f78d63c854c002f09f96dc">&#9670;&#160;</a></span>cJSON_ReplaceItemInObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_ReplaceItemInObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>string</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>newitem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l02059">2059</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2059</span>                                                                             {</div>
+<div class="line"><span class="lineno"> 2060</span>  <span class="keywordflow">return</span> replace_item_in_object(<span class="keywordtype">object</span>, <span class="keywordtype">string</span>, <a class="code hl_variable" href="#af0a08d1c14f93dc16a29f8912fc1a930">newitem</a>, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 2061</span>}</div>
+<div class="ttc" id="ac_j_s_o_n_8h_html_af0a08d1c14f93dc16a29f8912fc1a930"><div class="ttname"><a href="#af0a08d1c14f93dc16a29f8912fc1a930">newitem</a></div><div class="ttdeci">int cJSON * newitem</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00276">cJSON.h:276</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acbcada89e12f21f1d0f2e296d93130dc" name="acbcada89e12f21f1d0f2e296d93130dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbcada89e12f21f1d0f2e296d93130dc">&#9670;&#160;</a></span>cJSON_ReplaceItemInObjectCaseSensitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_ReplaceItemInObjectCaseSensitive </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>string</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>newitem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l02064">2064</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 2064</span>                                                                                          {</div>
+<div class="line"><span class="lineno"> 2065</span>  <span class="keywordflow">return</span> replace_item_in_object(<span class="keywordtype">object</span>, <span class="keywordtype">string</span>, <a class="code hl_variable" href="#af0a08d1c14f93dc16a29f8912fc1a930">newitem</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno"> 2066</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aef23a5c2b35e0c54fef7b6de54918289" name="aef23a5c2b35e0c54fef7b6de54918289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef23a5c2b35e0c54fef7b6de54918289">&#9670;&#160;</a></span>cJSON_ReplaceItemViaPointer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cJSON_ReplaceItemViaPointer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>parent</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *const</td>          <td class="paramname"><span class="paramname"><em>item</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *</td>          <td class="paramname"><span class="paramname"><em>replacement</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8c_source.html#l01992">1992</a> do arquivo <a class="el" href="c_j_s_o_n_8c_source.html">cJSON.c</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1992</span>                                                                                        {</div>
+<div class="line"><span class="lineno"> 1993</span>  <span class="keywordflow">if</span> ((parent == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) || (replacement == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) || (<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a> == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)) {</div>
+<div class="line"><span class="lineno"> 1994</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1995</span>  }</div>
+<div class="line"><span class="lineno"> 1996</span> </div>
+<div class="line"><span class="lineno"> 1997</span>  <span class="keywordflow">if</span> (replacement == <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>) {</div>
+<div class="line"><span class="lineno"> 1998</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1999</span>  }</div>
+<div class="line"><span class="lineno"> 2000</span> </div>
+<div class="line"><span class="lineno"> 2001</span>  replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a> = <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a>;</div>
+<div class="line"><span class="lineno"> 2002</span>  replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#afb239ebe62815dd62d272600c24d1e1a">prev</a> = <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#afb239ebe62815dd62d272600c24d1e1a">prev</a>;</div>
+<div class="line"><span class="lineno"> 2003</span> </div>
+<div class="line"><span class="lineno"> 2004</span>  <span class="keywordflow">if</span> (replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a> != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno"> 2005</span>    replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a>-&gt;prev = replacement;</div>
+<div class="line"><span class="lineno"> 2006</span>  }</div>
+<div class="line"><span class="lineno"> 2007</span>  <span class="keywordflow">if</span> (parent-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">child</a> == <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>) {</div>
+<div class="line"><span class="lineno"> 2008</span>    <span class="keywordflow">if</span> (parent-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">child</a>-&gt;prev == parent-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">child</a>) {</div>
+<div class="line"><span class="lineno"> 2009</span>      replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#afb239ebe62815dd62d272600c24d1e1a">prev</a> = replacement;</div>
+<div class="line"><span class="lineno"> 2010</span>    }</div>
+<div class="line"><span class="lineno"> 2011</span>    parent-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">child</a> = replacement;</div>
+<div class="line"><span class="lineno"> 2012</span>  } <span class="keywordflow">else</span> { <span class="comment">/*</span></div>
+<div class="line"><span class="lineno"> 2013</span><span class="comment">            * To find the last item in array quickly, we use prev in array.</span></div>
+<div class="line"><span class="lineno"> 2014</span><span class="comment">            * We can&#39;t modify the last item&#39;s next pointer where this item was the parent&#39;s child</span></div>
+<div class="line"><span class="lineno"> 2015</span><span class="comment">            */</span></div>
+<div class="line"><span class="lineno"> 2016</span>    <span class="keywordflow">if</span> (replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#afb239ebe62815dd62d272600c24d1e1a">prev</a> != <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno"> 2017</span>      replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#afb239ebe62815dd62d272600c24d1e1a">prev</a>-&gt;next = replacement;</div>
+<div class="line"><span class="lineno"> 2018</span>    }</div>
+<div class="line"><span class="lineno"> 2019</span>    <span class="keywordflow">if</span> (replacement-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a> == <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
+<div class="line"><span class="lineno"> 2020</span>      parent-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#af3da6753e4916f328721d324d62af50d">child</a>-&gt;prev = replacement;</div>
+<div class="line"><span class="lineno"> 2021</span>    }</div>
+<div class="line"><span class="lineno"> 2022</span>  }</div>
+<div class="line"><span class="lineno"> 2023</span> </div>
+<div class="line"><span class="lineno"> 2024</span>  <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#a91a95ab3a28ac01716663d0bdd7215f9">next</a> = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 2025</span>  <a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>-&gt;<a class="code hl_variable" href="structc_j_s_o_n.html#afb239ebe62815dd62d272600c24d1e1a">prev</a> = <a class="code hl_define" href="bme2__defs_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><span class="lineno"> 2026</span>  cJSON_Delete(<a class="code hl_variable" href="#ac76cea59d438ba893d2f82aabb367d14">item</a>);</div>
+<div class="line"><span class="lineno"> 2027</span> </div>
+<div class="line"><span class="lineno"> 2028</span>  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 2029</span>}</div>
+<div class="ttc" id="astructc_j_s_o_n_html_afb239ebe62815dd62d272600c24d1e1a"><div class="ttname"><a href="structc_j_s_o_n.html#afb239ebe62815dd62d272600c24d1e1a">cJSON::prev</a></div><div class="ttdeci">struct cJSON * prev</div><div class="ttdef"><b>Definição</b> <a href="c_j_s_o_n_8h_source.html#l00111">cJSON.h:111</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variáveis</h2>
+<a id="a7beaf9b4ef5e4c7254cc3298a3424354" name="a7beaf9b4ef5e4c7254cc3298a3424354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7beaf9b4ef5e4c7254cc3298a3424354">&#9670;&#160;</a></span>buffer_length</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t buffer_length</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00158">158</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="ad43c3812e6d13e0518d9f8b8f463ffcf" name="ad43c3812e6d13e0518d9f8b8f463ffcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad43c3812e6d13e0518d9f8b8f463ffcf">&#9670;&#160;</a></span>count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int count</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00242">242</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="aa813b2b7bde1a5a1f528cd9d9aa9ee7d" name="aa813b2b7bde1a5a1f528cd9d9aa9ee7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa813b2b7bde1a5a1f528cd9d9aa9ee7d">&#9670;&#160;</a></span>fmt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a> fmt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00179">179</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a750b5d744c39a06bfb13e6eb010e35d0" name="a750b5d744c39a06bfb13e6eb010e35d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a750b5d744c39a06bfb13e6eb010e35d0">&#9670;&#160;</a></span>index</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int index</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00192">192</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="ac76cea59d438ba893d2f82aabb367d14" name="ac76cea59d438ba893d2f82aabb367d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac76cea59d438ba893d2f82aabb367d14">&#9670;&#160;</a></span>item</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structc_j_s_o_n.html">cJSON</a> *const item</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00248">248</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="acc128f98d9ceca227038c771308eff39" name="acc128f98d9ceca227038c771308eff39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc128f98d9ceca227038c771308eff39">&#9670;&#160;</a></span>name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* const name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00301">301</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="af0a08d1c14f93dc16a29f8912fc1a930" name="af0a08d1c14f93dc16a29f8912fc1a930"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a08d1c14f93dc16a29f8912fc1a930">&#9670;&#160;</a></span>newitem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="structc_j_s_o_n.html">cJSON</a>* newitem</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00276">276</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a01b4671c6b7cc8f831c951c000a37735" name="a01b4671c6b7cc8f831c951c000a37735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01b4671c6b7cc8f831c951c000a37735">&#9670;&#160;</a></span>number</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double number</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00319">319</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="a039dc262c2ae63f95cfe193245f8ee7e" name="a039dc262c2ae63f95cfe193245f8ee7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039dc262c2ae63f95cfe193245f8ee7e">&#9670;&#160;</a></span>prebuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int prebuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00179">179</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="afc8d1c385c6dc37e1c5b640869ce4ab6" name="afc8d1c385c6dc37e1c5b640869ce4ab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8d1c385c6dc37e1c5b640869ce4ab6">&#9670;&#160;</a></span>recurse</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#aea0a1491f73d98b7cc4b8b791c408a4a">cJSON_bool</a> recurse</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00283">283</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="ad4c68ea99a26b0a98ad9a79982960458" name="ad4c68ea99a26b0a98ad9a79982960458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4c68ea99a26b0a98ad9a79982960458">&#9670;&#160;</a></span>string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * string</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00194">194</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="aa770d5dc55a1031ccff9aee4e96acf8f" name="aa770d5dc55a1031ccff9aee4e96acf8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa770d5dc55a1031ccff9aee4e96acf8f">&#9670;&#160;</a></span>valuestring</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* valuestring</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00324">324</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+<a id="aa2a4dae2a14de4093826005f9bdfd3bb" name="aa2a4dae2a14de4093826005f9bdfd3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a4dae2a14de4093826005f9bdfd3bb">&#9670;&#160;</a></span>which</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int which</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definição na linha <a class="el" href="c_j_s_o_n_8h_source.html#l00262">262</a> do arquivo <a class="el" href="c_j_s_o_n_8h_source.html">cJSON.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<map id="i2c_read" name="i2c_read">
+<area shape="rect" id="Node000001" title="Function for reading the sensor&#39;s registers through I2C bus." alt="" coords="5,31,76,57"/>
+<area shape="rect" id="Node000002" href="$structcmd_8h.html#a9c7b76d5266903891c803132d51ccb90" title="Read bytes from a file descriptor." alt="" coords="125,5,171,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,33,109,25,110,30,77,38"/>
+<area shape="rect" id="Node000003" href="$structcmd_8h.html#af2a3ea719b83f672637febdd87c36c36" title="Writes count bytes from buf to the filedescriptor fd." alt="" coords="124,56,172,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="77,50,109,58,108,63,75,55"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="read_val" name="read_val">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,74,57"/>
+<area shape="rect" id="Node000002" href="$adc_8c.html#ab7744892c54a1e0f1c2fd8746f813aa0" title=" " alt="" coords="138,5,194,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,35,122,25,123,30,75,40"/>
+<area shape="rect" id="Node000003" href="$group__spi_comm.html#ga92caafc38b2327a8d2dcdd7d5695fe88" title="Transfers buffer through SPI with determined length." alt="" coords="122,56,210,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="75,48,107,55,106,60,73,53"/>
+</map>

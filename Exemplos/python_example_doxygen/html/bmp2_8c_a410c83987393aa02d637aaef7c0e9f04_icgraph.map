@@ -1,0 +1,5 @@
+<map id="bmp2_set_config" name="bmp2_set_config">
+<area shape="rect" id="Node000001" title="This API writes the data to the ctrl_meas register and config register. It sets the over&#45;sampling mod..." alt="" coords="124,5,243,32"/>
+<area shape="rect" id="Node000002" href="$utils_2_b_m_p280_2common_2common_8c.html#ad8891d2db76c9957ba85df5220de463a" title="Initializes and configures sensor." alt="" coords="5,5,76,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,21,76,21,76,16,108,16"/>
+</map>
