@@ -1,2 +1,0 @@
-adafruit-circuitpython-bme280>=2.6.6
-adafruit-circuitpython-bmp280>=3.2.8
