@@ -1,6 +1,6 @@
 1. Download do Doxygen: https://www.doxygen.nl/download.html 
 
-2. Download do GraphViz:  https://graphviz.org/download/ (opcional, mas recomendado para a criação dos diagramas de função).
+2. Download do GraphViz:  https://graphviz.org/download/ (é opcional, mas fortemente recomendado para a criação dos diagramas de função).
 
 3. Para gerar a documentação, entre no diretório \doxygen\bin (sendo doxygen a pasta do download do software do tópico 1) do terminal, digite (substituindo o diretório local do arquivo doxyfile.txt, desse mesmo repositório do github, em seu computador): doxygen C:\Users\eric.abbade\Downloads\doxyfile.txt
 
