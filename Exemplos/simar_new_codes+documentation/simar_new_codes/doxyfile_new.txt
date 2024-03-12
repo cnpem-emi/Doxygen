@@ -58,7 +58,7 @@ PROJECT_LOGO           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = C:\Users\eric.abbade\Downloads\simar_doc_new
+OUTPUT_DIRECTORY       = C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_doc_new
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create 4096 sub-
 # directories (in 2 levels) under the output directory of each output format and
@@ -864,7 +864,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = C:\Users\eric.abbade\Downloads\simar_new\README.md C:\Users\eric.abbade\Downloads\simar_new\bme280 C:\Users\eric.abbade\Downloads\simar_new\spi C:\Users\eric.abbade\Downloads\simar_new\i2c C:\Users\eric.abbade\Downloads\simar_new\main C:\Users\eric.abbade\Downloads\simar_new\bme280/common C:\Users\eric.abbade\Downloads\simar_new\sht3x C:\Users\eric.abbade\Downloads\simar_new\sht3x/common
+INPUT                  = C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\README.md C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\bme280 C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\spi C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\i2c C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\main C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\bme280/common C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\sht3x C:\Users\eric.abbade\Downloads\Doxygen-master\Doxygen-master\Exemplos\simar_new_codes+documentation\simar_new_codes\sht3x/common
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
