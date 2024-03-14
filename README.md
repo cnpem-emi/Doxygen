@@ -4,7 +4,7 @@ Tutorial resumido do uso do Doxigen (8 eteapas):
 
 2. Download do GraphViz:  https://graphviz.org/download/ (é opcional, mas recomendado para a criação dos diagramas de funções).
 
-3. Para gerar a documentação, entre no diretório \doxygen\bin (sendo doxygen a pasta do software baixado do tópico 1) do terminal, digite: doxygen C:\Users\eric.abbade\Downloads\doxyfile.txt  (substituindo o diretório local do arquivo doxyfile.txt, desse mesmo repositório do github, em seu computador).
+3. No terminal entre no diretório \doxygen\bin (sendo doxygen a pasta do software baixado do tópico 1), digite: doxygen C:\Users\eric.abbade\Downloads\doxyfile.txt  (substituindo o diretório local do arquivo doxyfile.txt, desse mesmo repositório do github, em seu computador).
 
 4. Substitua os arquivos fontes (de entrada) dos códigos que se deseja documentar e o diretório de saída no qual a documentação será usada (encontre no doxyfile.txt: INPUT e OUTPUT_DIRECTORY).
 
