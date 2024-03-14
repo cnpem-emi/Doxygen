@@ -8,7 +8,7 @@ Tutorial resumido do uso do Doxigen (8 eteapas):
 
 4. Substitua os arquivos fontes (de entrada) dos códigos que se deseja documentar e o diretório de saída no qual a documentação será usada (encontre no arquivo: INPUT e OUTPUT_DIRECTORY, no doxyfile.txt).
 
-5. Substitua os diretórios locais do GraphViz para que os diagramas de funções sejam gerados (encontre no arquivo: DIA_PATH e DOT_PATH, no doxyfile.txt).
+5. Substitua os diretórios locais do GraphViz para gerações dos diagramas de funções (encontre no arquivo: DIA_PATH e DOT_PATH, no doxyfile.txt).
 
 6. Substitua os diretórios locais do logo e arquivo .css (doxygen-awesome, desse mesmo repositório do github) caso deseje maior personalização (encontre no arquivo: PROJECT_LOGO e HTML_STYLESHEET, no doxyfile.txt).
 
