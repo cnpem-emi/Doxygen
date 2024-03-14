@@ -4,19 +4,19 @@ Tutorial resumido do uso do Doxigen (9 eteapas):
 
 2. Download do GraphViz:  https://graphviz.org/download/ (é opcional, mas recomendado para a criação dos diagramas de funções).
    
-4. Baixe o doxyfile.txt: https://github.com/cnpem-emi/Doxygen/blob/master/doxyfile.txt  
+3. Baixe o doxyfile.txt: https://github.com/cnpem-emi/Doxygen/blob/master/doxyfile.txt  
 
-5. No terminal entre no diretório \doxygen\bin (sendo doxygen a pasta do software baixado do tópico 1), digite: doxygen C:\Users\eric.abbade\Downloads\doxyfile.txt  (substituindo o diretório local do doxyfile.txt do tópico 3 de seu computador).
+4. No terminal entre no diretório \doxygen\bin (sendo doxygen a pasta do software baixado do tópico 1), digite: doxygen C:\Users\eric.abbade\Downloads\doxyfile.txt  (substituindo o diretório local do doxyfile.txt do tópico 3 de seu computador).
    
-7. Substitua os arquivos fontes (de entrada) dos códigos que se deseja documentar e o diretório de saída no qual a documentação será usada (encontre no doxyfile.txt: INPUT e OUTPUT_DIRECTORY).
+5. Substitua os arquivos fontes (de entrada) dos códigos que se deseja documentar e o diretório de saída no qual a documentação será usada (encontre no doxyfile.txt: INPUT e OUTPUT_DIRECTORY).
 
-8. Substitua os diretórios locais do GraphViz para geração dos diagramas de funções (encontre no doxyfile.txt: DIA_PATH e DOT_PATH).
+6. Substitua os diretórios locais do GraphViz para geração dos diagramas de funções (encontre no doxyfile.txt: DIA_PATH e DOT_PATH).
 
-9. Opcional: Substitua os diretórios locais do logo e arquivo .css (doxygen-awesome, desse mesmo repositório do github), caso deseje maior personalização (encontre no doxyfile.txt: PROJECT_LOGO e HTML_STYLESHEET).
+7. Opcional: substitua os diretórios locais do logo e arquivo .css (doxygen-awesome, desse mesmo repositório do github), caso deseje maior personalização (encontre no doxyfile.txt: PROJECT_LOGO e HTML_STYLESHEET).
 
-10. Edite outras configurações do doxifile.txt conforme suas preferências.
+8. Opcional: edite outras configurações do doxifile.txt conforme suas preferências.
    
-11. Acesse a documentação em html/index no diretório de saída definido por você.
+9. Acesse a documentação em html/index no diretório de saída definido por você.
 
 <br></br>
 Outros tutoriais para que o leitor possa buscar mais formas de adquirir conhecimento sobre esta ferramenta podem ser encontrados abaixo: 
