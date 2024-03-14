@@ -14,10 +14,7 @@ Tutorial resumido do uso do Doxigen (8 eteapas):
 
 7. Edite outras configurações do doxifile.txt conforme suas preferências.
    
-8. Acesse a documentação em html/index no diretório de saída definido por você. 
-
-
-      Outros tutoriais para que o leitor possa buscar mais formas de adquirir conhecimento sobre esta ferramenta podem ser encontrados abaixo: 
+8. Acesse a documentação em html/index no diretório de saída definido por você.       Outros tutoriais para que o leitor possa buscar mais formas de adquirir conhecimento sobre esta ferramenta podem ser encontrados abaixo: 
 - Tutorial, desse mesmo autor, mais detalhado sobre como documentar com o Doxygen:https://cnpemcamp.sharepoint.com/:w:/r/sites/sei/_layouts/15/Doc.aspx?sourcedoc=%7B39891b14-d224-4802-a628-0e8d8322cdab%7D&action=edit&wdPreviousSession=1ec3d986-1ec0-993f-11e9-98b6f0634e50
 - Resumo (próprio site do Doxygen): https://www.doxygen.nl/manual/starting.html  
 - Vídeo tutorial com resumo do processo da geração da documentação: https://www.youtube.com/watch?v=Rl50qI6e7HU  
