@@ -28,7 +28,7 @@ Outros tutoriais para que o leitor possa buscar mais formas de adquirir conhecim
 <br></br>
 Para melhor compreensão do uso do Doxygen, leia os outros dois documentos deste diretório:
  - Relatório Doxygen.pdf - Relatório analisando casos em que o Doxygen deve ser usado, bem como suas vantagens e desvantagens.
- - Tutorial Doxygen.pdf - Tutorial, desse mesmo autor, mais detalhado sobre como documentar com o Doxygen.
+ - Tutorial Doxygen.pdf - Tutorial, deste mesmo autor, mais detalhado sobre como documentar com o Doxygen.
 
 <br></br>
-Por fim, a pasta: Exemplos tem 3 conjuntos de arquivos e suas 3 respectivas documentações para ilustrar o uso do Doxygen. 
+Por fim, a pasta: Exemplos tem 3 conjuntos de arquivos e suas 3 respectivas documentações, para ilustrar o uso do Doxygen. 
