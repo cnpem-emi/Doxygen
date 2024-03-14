@@ -14,7 +14,7 @@ Tutorial resumido do uso do Doxigen (9 eteapas):
 
 7. Opcional: substitua os diretórios locais do logo e arquivo .css (doxygen-awesome, desse mesmo repositório do github), caso deseje maior personalização (encontre no doxyfile.txt: PROJECT_LOGO e HTML_STYLESHEET).
 
-8. Opcional: edite outras configurações do doxifile.txt conforme suas preferências.
+8. Opcional: edite outras configurações do doxyfile.txt conforme suas preferências.
    
 9. Acesse a documentação em html/index no diretório de saída definido por você.
 
