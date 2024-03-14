@@ -12,7 +12,7 @@ Tutorial resumido do uso do Doxigen (9 eteapas):
 
 6. Opcional: substitua os diretórios locais do logo e arquivo .css (doxygen-awesome, desse mesmo repositório do github), caso deseje maior personalização (encontre no doxyfile.txt: PROJECT_LOGO e HTML_STYLESHEET).
 
-7. Opcional: edite outras configurações do doxyfile.txt conforme suas preferências.
+7. Opcional: edite outras configurações do doxyfile.txt, conforme suas preferências.
    
 8. No terminal entre no diretório \doxygen\bin (sendo doxygen a pasta do software baixado do tópico 1), digite: doxygen C:\Users\eric.abbade\Downloads\doxyfile.txt  (substituindo o diretório local do doxyfile.txt do tópico 3 de seu computador).
    
