@@ -6,7 +6,7 @@ Tutorial resumido do uso do Doxygen (9 eteapas):
    
 3. Baixe o doxyfile.txt: https://github.com/cnpem-emi/Doxygen/blob/master/doxyfile.txt.
  
-4. Substitua os arquivos fontes (de entrada) dos códigos que se deseja documentar e o diretório de saída no qual a documentação será usada (encontre no doxyfile.txt: INPUT e OUTPUT_DIRECTORY).
+4. Substitua os arquivos fontes (de entrada) dos códigos quais se desejam documentar e o diretório de saída no qual a documentação será gerada (encontre no doxyfile.txt: INPUT e OUTPUT_DIRECTORY).
 
 5. Substitua os diretórios locais do GraphViz para geração dos diagramas de funções (encontre no doxyfile.txt: DIA_PATH e DOT_PATH).
 
