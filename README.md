@@ -10,7 +10,7 @@ Tutorial resumido do uso do Doxigen (9 eteapas):
 
 5. Substitua os diretórios locais do GraphViz para geração dos diagramas de funções (encontre no doxyfile.txt: DIA_PATH e DOT_PATH).
 
-6. Opcional: substitua os diretórios locais do logo e arquivo .css (doxygen-awesome, desse mesmo repositório do github), caso deseje maior personalização (encontre no doxyfile.txt: PROJECT_LOGO e HTML_STYLESHEET).
+6. Opcional: substitua os diretórios locais do logo e arquivo .css (exemplo de arquivo. css: https://github.com/cnpem-emi/Doxygen/blob/master/doxygen-awesome.css), caso deseje maior personalização (encontre no doxyfile.txt: PROJECT_LOGO e HTML_STYLESHEET).
 
 7. Opcional: edite outras configurações do doxyfile.txt, conforme suas preferências.
    
