@@ -1,4 +1,4 @@
-Tutorial resumido do uso do Doxigen (9 eteapas):
+Tutorial resumido do uso do Doxygen (9 eteapas):
 
 1. Download do Doxygen: https://www.doxygen.nl/download.html 
 
